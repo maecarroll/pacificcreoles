@@ -3,4 +3,4 @@
 ## Languages:
 - Tok Pisin (Papua New Guinea)
 - Pijin (Solomon Islands)
-- Bislama (Vanuatu)
+- Bislama (Vanuatu)z
