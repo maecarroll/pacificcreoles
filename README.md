@@ -2,7 +2,7 @@
 
 This project, a set of NLP related tools for the Pacific Creoles. 
 
-The tools:
+## The tools:
 - POS Tagger
 - Lemmatiser
 - (Universal) Depdency Parser
