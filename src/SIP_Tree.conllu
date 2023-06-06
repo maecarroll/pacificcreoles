@@ -7,20 +7,20 @@
 
 # sent_id = SINM-OTP66-B.eaf.3
 # text = ((here are some students from King George VI school Honiara solomon islands.
-1	(	_	PUNCT	_	_	1	adv	_	_
-2	(	_	PUNCT	_	_	1	adv	_	_
+1	(	_	PUNCT	_	_	6	adv	_	_
+2	(	_	PUNCT	_	_	6	adv	_	_
 3	here	here	NOUN	_	_	6	nmod	_	_
 4	are	are	NOUN	_	_	6	nmod	_	_
 5	some	some	NOUN	_	_	6	nmod	_	_
-6	students	students	NOUN	_	_	1	obl	_	_
+6	students	students	NOUN	_	_	0	root	_	_
 7	from	from	ADP	_	_	9	case	_	_
 8	King	King	PROPN	_	_	9	flat	_	_
 9	George	George	PROPN	_	_	6	nmod	_	_
-10	VI	_	PUNCT	_	_	1	adv	_	_
-11	school	school	NOUN	_	_	1	obl	_	_
-12	Honiara	Honiara	PROPN	_	_	1	obl	_	_
+10	VI	_	PUNCT	_	_	6	adv	_	_
+11	school	school	NOUN	_	_	6	obl	_	_
+12	Honiara	Honiara	PROPN	_	_	6	obl	_	_
 13	solomon	solomon	NOUN	_	_	14	nmod	_	_
-14	islands	islands	NOUN	_	_	1	obl	_	_
+14	islands	islands	NOUN	_	_	6	obl	_	_
 
 # sent_id = SINM-OTP66-B.eaf.4
 # text = ((they going to give you some example of their languages)).
@@ -117,12 +117,12 @@
 # sent_id = SINM-OTP66-B.eaf.29
 # text = yu go wea mi go lo gaden.
 1	yu	yu	PRON	_	_	2	nsubj	_	_
-2	go	go	VERB	_	_	verb_head	_	_	_
+2	go	go	VERB	_	_	0	root	_	_
 3	wea	wea	INTJ	_	_	2	adv	_	_
 4	mi	mi	PRON	_	_	5	nsubj	_	_
-5	go	go	VERB	_	_	verb_head	_	_	_
+5	go	go	VERB	_	_	2	advcl	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
-7	gaden	gaden	NOUN	_	_	4	nmod	_	_
+7	gaden	gaden	NOUN	_	_	5	obl	_	_
 
 # sent_id = SINM-OTP66-B.eaf.30
 # text = (()).
@@ -144,7 +144,7 @@
 
 # sent_id = SINM-OTP66-B.eaf.36
 # text = ((ao lek hei ne lek sa oo`ola)) Kwara`ae.
-1	Kwara	Kwara	PROPN	_	_	1	obl	_	_
+1	Kwara	Kwara	PROPN	_	_	0	root	_	_
 2	`	_	PUNCT	_	_	1	adv	_	_
 3	ae	ae	NOUN	_	_	1	obl	_	_
 
@@ -227,23 +227,23 @@
 
 # sent_id = TD1-P02580-A.eaf.1
 # text = ((Today is the Sunday 16th of November 1980.
-1	(	_	PUNCT	_	_	1	adv	_	_
-2	(	_	PUNCT	_	_	1	adv	_	_
-3	Today	Today	PROPN	_	_	1	obl	_	_
+1	(	_	PUNCT	_	_	3	adv	_	_
+2	(	_	PUNCT	_	_	3	adv	_	_
+3	Today	Today	PROPN	_	_	0	root	_	_
 4	is	is	NOUN	_	_	5	nmod	_	_
-5	the	the	NOUN	_	_	1	obl	_	_
-6	Sunday	Sunday	PROPN	_	_	1	obl	_	_
-7	16th	_	PUNCT	_	_	1	adv	_	_
-8	of	of	NOUN	_	_	1	obl	_	_
-9	November	November	PROPN	_	_	1	obl	_	_
-10	1980	_	PUNCT	_	_	1	adv	_	_
+5	the	the	NOUN	_	_	3	obl	_	_
+6	Sunday	Sunday	PROPN	_	_	3	obl	_	_
+7	16th	_	PUNCT	_	_	3	adv	_	_
+8	of	of	NOUN	_	_	3	obl	_	_
+9	November	November	PROPN	_	_	3	obl	_	_
+10	1980	_	PUNCT	_	_	3	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.2
 # text = ((and i'm in what's the name of this village Anosa`au villlage)).
 
 # sent_id = TD1-P02580-A.eaf.3
 # text = ((and i'm talking to)) nem blo yu Michael Tiufidi Michael Teofedi gud Teofedi.
-1	nem	nem	NOUN	_	_	1	obl	_	_
+1	nem	nem	NOUN	_	_	0	root	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	yu	yu	PRON	_	_	1	nmod	_	_
 4	Michael	Michael	PROPN	_	_	7	flat	_	_
@@ -285,14 +285,14 @@
 11	i	i	PART	_	_	12	aux	_	_
 12	kam	kam	VERB	_	_	14	advcl	_	_
 13	nao	nao	ADV	_	_	12	advmod	_	_
-14	kisim	kisim	VERB	_	_	verb_head	_	_	_
+14	kisim	kisim	VERB	_	_	0	root	_	_
 15	rekrut	rekrut	NOUN	_	_	19	nsubj	_	_
 16	ah	_	<hes>	_	_	14	adv	_	_
 17	ya	ya	INTJ	_	_	14	adv	_	_
 18	i	i	PART	_	_	19	aux	_	_
-19	go	go	VERB	_	_	verb_head	_	_	_
+19	go	go	VERB	_	_	14	advcl	_	_
 20	long	long	ADP	_	_	21	case	_	_
-21	Fiji	Fiji	PROPN	_	_	15	nmod	_	_
+21	Fiji	Fiji	PROPN	_	_	19	obl	_	_
 22	ya	ya	INTJ	_	_	14	adv	_	_
 23	oraet	oraet	ADJ	_	_	14	obl	_	_
 
@@ -318,13 +318,13 @@
 5	i	i	PART	_	_	6	aux	_	_
 6	go	go	VERB	_	_	0	root	_	_
 7	long	long	ADP	_	_	8	case	_	_
-8	Fiji	Fiji	PROPN	_	_	4	nmod	_	_
+8	Fiji	Fiji	PROPN	_	_	6	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.11
 # text = mi no bon yeti oraet en mada blong mi dadi hemi tok abaotim Gani`ofa hemi go long Fiji.
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	no	no	PART	_	_	3	aux	_	_
-3	bon	bon	VERB	_	_	verb_head	_	_	_
+3	bon	bon	VERB	_	_	0	root	_	_
 4	yeti	yeti	NOUN	_	_	3	obl	_	_
 5	oraet	oraet	ADJ	_	_	7	amod	_	_
 6	en	en	NOUN	_	_	7	nmod	_	_
@@ -334,12 +334,12 @@
 10	dadi	dadi	NOUN	_	_	11	nsubj	_	_
 11	hemi	hemi	VERB	_	_	3	advcl	_	_
 12	tok	tok	NOUN	_	_	13	nsubj	_	_
-13	abaotim	abaotim	VERB	_	_	verb_head	_	_	_
+13	abaotim	abaotim	VERB	_	_	3	advcl	_	_
 14	Gani	Gani	PROPN	_	_	13	obj	_	_
 15	`	_	PUNCT	_	_	3	adv	_	_
 16	ofa	ofa	NOUN	_	_	18	nsubj	_	_
-17	hemi	hemi	VERB	_	_	verb_head	_	_	_
-18	go	go	VERB	_	_	verb_head	_	_	_
+17	hemi	hemi	VERB	_	_	3	advcl	_	_
+18	go	go	VERB	_	_	3	advcl	_	_
 19	long	long	ADP	_	_	20	case	_	_
 20	Fiji	Fiji	PROPN	_	_	17	obj	_	_
 
@@ -349,12 +349,12 @@
 2	em	em	PRON	_	_	5	nsubj	_	_
 3	go	go	AUX	_	_	4	aux	_	_
 4	go	go	AUX	_	_	5	aux	_	_
-5	go	go	VERB	_	_	verb_head	_	_	_
+5	go	go	VERB	_	_	0	root	_	_
 6	nao	nao	ADV	_	_	5	advmod	_	_
 7	mi	mi	PRON	_	_	8	nsubj	_	_
-8	bon	bon	VERB	_	_	verb_head	_	_	_
+8	bon	bon	VERB	_	_	5	advcl	_	_
 9	afta	afta	ADP	_	_	10	case	_	_
-10	Gani	Gani	PROPN	_	_	7	nmod	_	_
+10	Gani	Gani	PROPN	_	_	8	obl	_	_
 11	`	_	PUNCT	_	_	5	adv	_	_
 12	ofa	ofa	NOUN	_	_	5	obl	_	_
 13	long	long	ADP	_	_	14	case	_	_
@@ -365,12 +365,12 @@
 # text = ao gogogo kasim distaem oraet i no i don no mi no moa Niofa nao tude dei kal famli blo Gani`ofa  se kamkam aigen tu Malaiata.
 1	ao	ao	NOUN	_	_	2	nmod	_	_
 2	gogogo	gogogo	NOUN	_	_	8	nsubj	_	_
-3	kasim	kasim	VERB	_	_	verb_head	_	_	_
-4	distaem	distaem	VERB	_	_	verb_head	_	_	_
+3	kasim	kasim	VERB	_	_	0	root	_	_
+4	distaem	distaem	VERB	_	_	3	advcl	_	_
 5	oraet	oraet	ADJ	_	_	9	amod	_	_
-6	i	i	PART	_	_	verb_head	aux	_	_
+6	i	i	PART	_	_	3	advcl	_	_
 7	no	no	PART	_	_	4	aux	_	_
-8	i	i	PART	_	_	verb_head	_	_	_
+8	i	i	PART	_	_	3	advcl	_	_
 9	don	don	NOUN	_	_	8	obj	_	_
 10	no	no	PART	_	_	4	aux	_	_
 11	mi	mi	PRON	_	_	3	obl	_	_
@@ -397,12 +397,12 @@
 1	naowan	naowan	NOUN	_	_	4	nmod	_	_
 2	man	man	NOUN	_	_	4	nmod	_	_
 3	dat	dat	NOUN	_	_	4	nmod	_	_
-4	nem	nem	NOUN	_	_	1	obl	_	_
-5	Gani	Gani	PROPN	_	_	1	obl	_	_
-6	`	_	PUNCT	_	_	1	adv	_	_
+4	nem	nem	NOUN	_	_	0	root	_	_
+5	Gani	Gani	PROPN	_	_	4	obl	_	_
+6	`	_	PUNCT	_	_	4	adv	_	_
 7	ofa	ofa	NOUN	_	_	9	nmod	_	_
 8	mae	mae	NOUN	_	_	9	nmod	_	_
-9	agol	agol	NOUN	_	_	1	obl	_	_
+9	agol	agol	NOUN	_	_	4	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.15
 # text = dadi blong mi afta Ganiofa Ganiofa bon foswan.
@@ -439,11 +439,11 @@
 1	hem	hem	PRON	_	_	4	nsubj	_	_
 2	nao	nao	ADV	_	_	4	advmod	_	_
 3	nao	nao	ADV	_	_	4	advmod	_	_
-4	distaem	distaem	VERB	_	_	verb_head	_	_	_
+4	distaem	distaem	VERB	_	_	0	root	_	_
 5	Gani	Gani	PROPN	_	_	4	obj	_	_
 6	`	_	PUNCT	_	_	4	adv	_	_
 7	ofa	ofa	NOUN	_	_	8	nsubj	_	_
-8	i	i	PART	_	_	verb_head	_	_	_
+8	i	i	PART	_	_	4	advcl	_	_
 9	dae	dae	NOUN	_	_	8	obj	_	_
 10	ating	ating	ADV	_	_	13	advmod	_	_
 11	famli	famli	NOUN	_	_	13	nsubj	_	_
@@ -452,11 +452,11 @@
 14	long	long	ADP	_	_	15	case	_	_
 15	Fiji	Fiji	PROPN	_	_	13	obj	_	_
 16	tude	tude	NOUN	_	_	17	nsubj	_	_
-17	distaem	distaem	VERB	_	_	verb_head	_	_	_
+17	distaem	distaem	VERB	_	_	4	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.18
 # text = hem nao hem nao hem nao <cough>.
-1	hem	hem	PRON	_	_	1	obl	_	_
+1	hem	hem	PRON	_	_	0	root	_	_
 2	nao	nao	ADV	_	_	1	advmod	_	_
 3	hem	hem	PRON	_	_	1	obl	_	_
 4	nao	nao	ADV	_	_	1	advmod	_	_
@@ -467,28 +467,28 @@
 # text = tasol yu save disala wanfala man mi paenim aotim nem prong em hemi go long Mosbi.
 1	tasol	tasol	NOUN	_	_	3	obl	_	_
 2	yu	yu	PRON	_	_	3	nsubj	_	_
-3	save	save	VERB	_	_	verb_head	_	_	_
+3	save	save	VERB	_	_	0	root	_	_
 4	disala	disala	NOUN	_	_	3	obl	_	_
 5	wanfala	wan	ADJ	_	_	6	amod	_	_
 6	man	man	NOUN	_	_	3	obl	_	_
 7	mi	mi	PRON	_	_	9	nsubj	_	_
-8	paenim	paenim	VERB	_	_	verb_head	_	_	_
-9	aotim	aotim	VERB	_	_	verb_head	_	_	_
+8	paenim	paenim	VERB	_	_	3	advcl	_	_
+9	aotim	aotim	VERB	_	_	3	advcl	_	_
 10	nem	nem	NOUN	_	_	11	nmod	_	_
 11	prong	prong	NOUN	_	_	9	obj	_	_
 12	em	em	PRON	_	_	14	nsubj	_	_
-13	hemi	hemi	VERB	_	_	verb_head	_	_	_
-14	go	go	VERB	_	_	verb_head	_	_	_
+13	hemi	hemi	VERB	_	_	3	advcl	_	_
+14	go	go	VERB	_	_	3	advcl	_	_
 15	long	long	ADP	_	_	16	case	_	_
 16	Mosbi	Mosbi	NOUN	_	_	13	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.20
 # text = nem prong em Jimi Kalogwaasu.
 1	nem	nem	NOUN	_	_	2	nmod	_	_
-2	prong	prong	NOUN	_	_	1	obl	_	_
-3	em	em	PRON	_	_	1	obl	_	_
-4	Jimi	Jimi	PROPN	_	_	1	adv	_	_
-5	Kalogwaasu	Kalogwaasu	PROPN	_	_	1	obl	_	_
+2	prong	prong	NOUN	_	_	0	root	_	_
+3	em	em	PRON	_	_	2	obl	_	_
+4	Jimi	Jimi	PROPN	_	_	2	adv	_	_
+5	Kalogwaasu	Kalogwaasu	PROPN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.21
 # text = ((oh i don't know you don't know)).
@@ -502,9 +502,9 @@
 # sent_id = TD1-P02580-A.eaf.23
 # text = disfala man Sam Luluata ((oh i don't know too)).
 1	disfala	dis	ADJ	_	_	2	amod	_	_
-2	man	man	NOUN	_	_	1	obl	_	_
-3	Sam	Sam	PROPN	_	_	1	adv	_	_
-4	Luluata	Luluata	PROPN	_	_	1	obl	_	_
+2	man	man	NOUN	_	_	0	root	_	_
+3	Sam	Sam	PROPN	_	_	2	adv	_	_
+4	Luluata	Luluata	PROPN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.24
 # text = ((or Johnny Fata  Futaramo I don't know don't know)).
@@ -521,15 +521,15 @@
 # sent_id = TD1-P02580-A.eaf.28
 # text = Joni Kwalimanu hem man blong Malaita.
 1	Joni	Joni	PROPN	_	_	2	flat	_	_
-2	Kwalimanu	Kwalimanu	PROPN	_	_	1	obl	_	_
+2	Kwalimanu	Kwalimanu	PROPN	_	_	0	root	_	_
 3	hem	hem	PRON	_	_	4	nmod:pos	_	_
-4	man	man	NOUN	_	_	1	obl	_	_
+4	man	man	NOUN	_	_	2	obl	_	_
 5	blong	blong	ADP	_	_	6	case	_	_
 6	Malaita	Malaita	PROPN	_	_	4	nmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.29
 # text = Man blong Malaita o ae don no tu plis.
-1	Man	Man	PROPN	_	_	1	obl	_	_
+1	Man	Man	PROPN	_	_	0	root	_	_
 2	blong	blong	ADP	_	_	3	case	_	_
 3	Malaita	Malaita	PROPN	_	_	1	nmod	_	_
 4	o	o	NOUN	_	_	6	nmod	_	_
@@ -541,7 +541,7 @@
 
 # sent_id = TD1-P02580-A.eaf.30
 # text = eh George Fandaukura ae don no tu aha.
-1	eh	eh	NOUN	_	_	1	obl	_	_
+1	eh	eh	NOUN	_	_	0	root	_	_
 2	George	George	PROPN	_	_	3	flat	_	_
 3	Fandaukura	Fandaukura	PROPN	_	_	1	obl	_	_
 4	ae	ae	NOUN	_	_	5	nmod	_	_
@@ -553,9 +553,9 @@
 # sent_id = TD1-P02580-A.eaf.31
 # text = Joe Mararosa ae don no.
 1	Joe	Joe	PROPN	_	_	2	flat	_	_
-2	Mararosa	Mararosa	PROPN	_	_	1	obl	_	_
+2	Mararosa	Mararosa	PROPN	_	_	0	root	_	_
 3	ae	ae	NOUN	_	_	4	nmod	_	_
-4	don	don	NOUN	_	_	1	obl	_	_
+4	don	don	NOUN	_	_	2	obl	_	_
 5	no	no	PART	_	_	1	aux	_	_
 
 # sent_id = TD1-P02580-A.eaf.32
@@ -595,7 +595,7 @@
 
 # sent_id = TD1-P02580-A.eaf.36
 # text = sore tumas bikoos oketa ae kol da nem .
-1	sore	sore	NOUN	_	_	1	obl	_	_
+1	sore	sore	NOUN	_	_	0	root	_	_
 2	tumas	tumas	ADV	_	_	1	advmod	_	_
 3	bikoos	bikoos	NOUN	_	_	8	nmod	_	_
 4	oketa	oketa	NOUN	_	_	8	nmod	_	_
@@ -607,20 +607,20 @@
 # sent_id = TD1-P02580-A.eaf.37
 # text = ae don no evri nem bata evri wan blong Malaita bat ae no ae don no.
 1	ae	ae	NOUN	_	_	2	nmod	_	_
-2	don	don	NOUN	_	_	1	obl	_	_
+2	don	don	NOUN	_	_	0	root	_	_
 3	no	no	PART	_	_	1	aux	_	_
 4	evri	evri	NUM	_	_	6	nummod	_	_
 5	nem	nem	NOUN	_	_	6	nmod	_	_
-6	bata	bata	NOUN	_	_	1	obl	_	_
+6	bata	bata	NOUN	_	_	2	obl	_	_
 7	evri	evri	NUM	_	_	12	nummod	_	_
 8	wan	wan	NUM	_	_	12	nummod	_	_
 9	blong	blong	ADP	_	_	10	case	_	_
 10	Malaita	Malaita	PROPN	_	_	6	nmod	_	_
 11	bat	bat	NOUN	_	_	12	nmod	_	_
-12	ae	ae	NOUN	_	_	1	obl	_	_
+12	ae	ae	NOUN	_	_	2	obl	_	_
 13	no	no	PART	_	_	1	aux	_	_
 14	ae	ae	NOUN	_	_	15	nmod	_	_
-15	don	don	NOUN	_	_	1	obl	_	_
+15	don	don	NOUN	_	_	2	obl	_	_
 16	no	no	PART	_	_	1	aux	_	_
 
 # sent_id = TD1-P02580-A.eaf.38
@@ -650,12 +650,12 @@
 1	bata	bata	NOUN	_	_	4	obl	_	_
 2	yu	yu	PRON	_	_	4	nsubj	_	_
 3	no	no	PART	_	_	4	aux	_	_
-4	save	save	VERB	_	_	verb_head	_	_	_
+4	save	save	VERB	_	_	0	root	_	_
 5	ol	ol	NUM	_	_	7	nummod	_	_
 6	disfala	dis	ADJ	_	_	7	amod	_	_
 7	man	man	NOUN	_	_	4	obl	_	_
 8	mi	mi	PRON	_	_	9	nsubj	_	_
-9	ridim	ridim	VERB	_	_	verb_head	_	_	_
+9	ridim	ridim	VERB	_	_	4	advcl	_	_
 10	m	m	NOUN	_	_	9	obj	_	_
 11	nao	nao	ADV	_	_	9	advmod	_	_
 12	ya	ya	INTJ	_	_	4	adv	_	_
@@ -670,18 +670,18 @@
 # sent_id = TD1-P02580-A.eaf.42
 # text = nao Time hem olman belong Adagege ah.
 1	nao	nao	ADV	_	_	1	advmod	_	_
-2	Time	Time	PROPN	_	_	1	obl	_	_
+2	Time	Time	PROPN	_	_	0	root	_	_
 3	hem	hem	PRON	_	_	4	nmod:pos	_	_
-4	olman	olman	NOUN	_	_	1	obl	_	_
+4	olman	olman	NOUN	_	_	2	obl	_	_
 5	belong	belong	ADP	_	_	6	case	_	_
 6	Adagege	Adagege	PROPN	_	_	4	nmod	_	_
-7	ah	_	<hes>	_	_	1	adv	_	_
+7	ah	_	<hes>	_	_	2	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.43
 # text = mmm hemi ting.
 1	mmm	mmm	NOUN	_	_	3	nsubj	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
-3	ting	ting	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
+3	ting	ting	VERB	_	_	2	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.44
 # text = disfala Jimmy Kalogaasu hemi man blong Gwaikafo bifo.
@@ -706,8 +706,8 @@
 # text = Deme Kalagasu Deme kalakwasu.
 1	Deme	Deme	PROPN	_	_	3	flat	_	_
 2	Kalagasu	Kalagasu	PROPN	_	_	3	flat	_	_
-3	Deme	Deme	PROPN	_	_	1	obl	_	_
-4	kalakwasu	kalakwasu	NOUN	_	_	1	obl	_	_
+3	Deme	Deme	PROPN	_	_	0	root	_	_
+4	kalakwasu	kalakwasu	NOUN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.47
 # text = (()).
@@ -731,11 +731,11 @@
 # text = his nem is Deme Kala Kalagwasu ya.
 1	his	his	NOUN	_	_	3	nmod	_	_
 2	nem	nem	NOUN	_	_	3	nmod	_	_
-3	is	is	NOUN	_	_	1	obl	_	_
+3	is	is	NOUN	_	_	0	root	_	_
 4	Deme	Deme	PROPN	_	_	6	flat	_	_
 5	Kala	Kala	PROPN	_	_	6	flat	_	_
-6	Kalagwasu	Kalagwasu	PROPN	_	_	1	obl	_	_
-7	ya	ya	INTJ	_	_	1	adv	_	_
+6	Kalagwasu	Kalagwasu	PROPN	_	_	3	obl	_	_
+7	ya	ya	INTJ	_	_	3	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.52
 # text = ((the man who names after him after this a Deme Kala Kalagwasu)) ye.
@@ -744,14 +744,14 @@
 # sent_id = TD1-P02580-A.eaf.53
 # text = mi ting disfala Kalagwasu maet hem nao i go fastaem longo Fiji anada Kalagwasu maeti.
 1	mi	mi	PRON	_	_	2	nsubj	_	_
-2	ting	ting	VERB	_	_	verb_head	_	_	_
+2	ting	ting	VERB	_	_	0	root	_	_
 3	disfala	dis	ADJ	_	_	11	amod	_	_
 4	Kalagwasu	Kalagwasu	PROPN	_	_	2	obl	_	_
 5	maet	maet	ADV	_	_	2	advmod	_	_
 6	hem	hem	PRON	_	_	9	nsubj	_	_
 7	nao	nao	ADV	_	_	9	advmod	_	_
 8	i	i	PART	_	_	9	aux	_	_
-9	go	go	VERB	_	_	verb_head	_	_	_
+9	go	go	VERB	_	_	2	advcl	_	_
 10	fastaem	fastaem	ADJ	_	_	11	amod	_	_
 11	longo	longo	NOUN	_	_	2	obl	_	_
 12	Fiji	Fiji	PROPN	_	_	2	obl	_	_
@@ -765,10 +765,10 @@
 2	wan	wan	NUM	_	_	5	nummod	_	_
 3	maet	maet	ADV	_	_	1	advmod	_	_
 4	sa	sa	NOUN	_	_	5	nmod	_	_
-5	nem	nem	NOUN	_	_	1	obl	_	_
+5	nem	nem	NOUN	_	_	0	root	_	_
 6	blong	blong	ADP	_	_	7	case	_	_
 7	hem	hem	PRON	_	_	8	nmod:pos	_	_
-8	yia	yia	NOUN	_	_	1	obl	_	_
+8	yia	yia	NOUN	_	_	5	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.55
 # text = mi no no bata mi minim becos sem nem Kalagwasu ehe a man lo hia nao blong Gwaikafo nao.
@@ -822,7 +822,7 @@
 18	Kalagwasu	Kalagwasu	PROPN	_	_	19	nsubj	_	_
 19	go	go	VERB	_	_	0	root	_	_
 20	long	long	ADP	_	_	21	case	_	_
-21	fiji	fiji	NOUN	_	_	18	nmod	_	_
+21	fiji	fiji	NOUN	_	_	19	obl	_	_
 22	maet	maet	ADV	_	_	19	advmod	_	_
 23	narawan	narawan	ADJ	_	_	26	amod	_	_
 24	hem	hem	PRON	_	_	25	nmod:pos	_	_
@@ -844,7 +844,7 @@
 10	i	i	PART	_	_	11	aux	_	_
 11	go	go	VERB	_	_	5	advcl	_	_
 12	long	long	ADP	_	_	13	case	_	_
-13	Fiji	Fiji	PROPN	_	_	5	obl	_	_
+13	Fiji	Fiji	PROPN	_	_	11	obl	_	_
 14	na	na	NOUN	_	_	16	nmod	_	_
 15	nomoa	nomoa	NOUN	_	_	16	nmod	_	_
 16	na	na	NOUN	_	_	5	obl	_	_
@@ -853,15 +853,15 @@
 # text = mi no save yu no save bikos mi bon long siosi nao aah.
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	no	no	PART	_	_	3	aux	_	_
-3	save	save	VERB	_	_	verb_head	_	_	_
+3	save	save	VERB	_	_	0	root	_	_
 4	yu	yu	PRON	_	_	6	nsubj	_	_
 5	no	no	PART	_	_	6	aux	_	_
-6	save	save	VERB	_	_	verb_head	_	_	_
+6	save	save	VERB	_	_	3	advcl	_	_
 7	bikos	bikos	CCONJ	_	_	3	adv	_	_
 8	mi	mi	PRON	_	_	9	nsubj	_	_
-9	bon	bon	VERB	_	_	verb_head	_	_	_
+9	bon	bon	VERB	_	_	3	advcl	_	_
 10	long	long	ADP	_	_	11	case	_	_
-11	siosi	siosi	NOUN	_	_	8	nmod	_	_
+11	siosi	siosi	NOUN	_	_	9	obl	_	_
 12	nao	nao	ADV	_	_	9	advmod	_	_
 13	aah	aah	NOUN	_	_	3	obl	_	_
 
@@ -886,7 +886,7 @@
 17	man	man	NOUN	_	_	18	nsubj	_	_
 18	kam	kam	VERB	_	_	0	root	_	_
 19	from	from	ADP	_	_	20	case	_	_
-20	bus	bus	NOUN	_	_	17	nmod	_	_
+20	bus	bus	NOUN	_	_	18	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.61
 # text = (()).
@@ -894,16 +894,16 @@
 # sent_id = TD1-P02580-A.eaf.62
 # text = from Gwaikafo nao en hia Aikafo Aokafo ena Gwaikofo sem beles.
 1	from	from	ADP	_	_	2	case	_	_
-2	Gwaikafo	Gwaikafo	PROPN	_	_	1	obl	_	_
+2	Gwaikafo	Gwaikafo	PROPN	_	_	0	root	_	_
 3	nao	nao	ADV	_	_	1	advmod	_	_
 4	en	en	NOUN	_	_	5	nmod	_	_
-5	hia	hia	NOUN	_	_	1	obl	_	_
+5	hia	hia	NOUN	_	_	2	obl	_	_
 6	Aikafo	Aikafo	PROPN	_	_	7	flat	_	_
-7	Aokafo	Aokafo	PROPN	_	_	1	obl	_	_
-8	ena	ena	NOUN	_	_	1	obl	_	_
-9	Gwaikofo	Gwaikofo	PROPN	_	_	1	obl	_	_
+7	Aokafo	Aokafo	PROPN	_	_	2	obl	_	_
+8	ena	ena	NOUN	_	_	2	obl	_	_
+9	Gwaikofo	Gwaikofo	PROPN	_	_	2	obl	_	_
 10	sem	sem	ADJ	_	_	11	amod	_	_
-11	beles	beles	NOUN	_	_	1	obl	_	_
+11	beles	beles	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.63
 # text = Time Kalagwasu yes bata hemi (( but his real name is Dime Dime Dime oh yeah good)).
@@ -917,9 +917,9 @@
 # text = Deme Kalagwasu Kalagwasu ya raet.
 1	Deme	Deme	PROPN	_	_	3	flat	_	_
 2	Kalagwasu	Kalagwasu	PROPN	_	_	3	flat	_	_
-3	Kalagwasu	Kalagwasu	PROPN	_	_	1	obl	_	_
-4	ya	ya	INTJ	_	_	1	adv	_	_
-5	raet	raet	NOUN	_	_	1	obl	_	_
+3	Kalagwasu	Kalagwasu	PROPN	_	_	0	root	_	_
+4	ya	ya	INTJ	_	_	3	adv	_	_
+5	raet	raet	NOUN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.65
 # text = (()).
@@ -932,37 +932,37 @@
 
 # sent_id = TD1-P02580-A.eaf.68
 # text = satem fastaem yu satem finis.
-1	satem	satem	VERB	_	_	verb_head	_	_	_
+1	satem	satem	VERB	_	_	0	root	_	_
 2	fastaem	fastaem	ADJ	_	_	1	adv	_	_
 3	yu	yu	PRON	_	_	4	nsubj	_	_
-4	satem	satem	VERB	_	_	verb_head	_	_	_
+4	satem	satem	VERB	_	_	1	advcl	_	_
 5	finis	finis	AUX	_	_	5	aux	_	_
 
 # sent_id = TD1-P02580-A.eaf.69
 # text = aya yumi ting ting fastaem yes ting ting.
 1	aya	aya	NOUN	_	_	3	obl	_	_
 2	yumi	yumi	PRON	_	_	4	nsubj	_	_
-3	ting	ting	VERB	_	_	verb_head	_	_	_
-4	ting	ting	VERB	_	_	verb_head	_	_	_
+3	ting	ting	VERB	_	_	0	root	_	_
+4	ting	ting	VERB	_	_	3	advcl	_	_
 5	fastaem	fastaem	ADJ	_	_	8	nsubj	_	_
 6	yes	yes	INTJ	_	_	3	adv	_	_
-7	ting	ting	VERB	_	_	verb_head	_	_	_
-8	ting	ting	VERB	_	_	verb_head	_	_	_
+7	ting	ting	VERB	_	_	3	advcl	_	_
+8	ting	ting	VERB	_	_	3	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.70
 # text = (()).
 
 # sent_id = TD1-P02580-A.eaf.71
 # text = olosem wanem oli kalem Jofiti Tiofidi hemi kalem go lo wanem.
-1	olosem	olosem	VERB	_	_	verb_head	_	_	_
+1	olosem	olosem	VERB	_	_	0	root	_	_
 2	wanem	wanem	INTJ	_	_	1	adv	_	_
 3	oli	oli	PART	_	_	4	aux	_	_
-4	kalem	kalem	VERB	_	_	verb_head	_	_	_
+4	kalem	kalem	VERB	_	_	1	advcl	_	_
 5	Jofiti	Jofiti	PROPN	_	_	6	flat	_	_
 6	Tiofidi	Tiofidi	PROPN	_	_	9	nsubj	_	_
-7	hemi	hemi	VERB	_	_	verb_head	_	_	_
-8	kalem	kalem	VERB	_	_	verb_head	_	_	_
-9	go	go	VERB	_	_	verb_head	_	_	_
+7	hemi	hemi	VERB	_	_	1	advcl	_	_
+8	kalem	kalem	VERB	_	_	1	advcl	_	_
+9	go	go	VERB	_	_	1	advcl	_	_
 10	lo	lo	ADP	_	_	1	adv	_	_
 11	wanem	wanem	INTJ	_	_	1	adv	_	_
 
@@ -1000,11 +1000,11 @@
 # sent_id = TD1-P02580-A.eaf.75
 # text = na hemi dae kam lo Fidi nao.
 1	na	na	NOUN	_	_	2	nsubj	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
 3	dae	dae	NOUN	_	_	4	nsubj	_	_
-4	kam	kam	VERB	_	_	verb_head	_	_	_
+4	kam	kam	VERB	_	_	2	advcl	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
-6	Fidi	Fidi	PROPN	_	_	3	nmod	_	_
+6	Fidi	Fidi	PROPN	_	_	4	obl	_	_
 7	nao	nao	ADV	_	_	4	advmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.76
@@ -1013,29 +1013,29 @@
 2	wen	wen	NOUN	_	_	4	nmod	_	_
 3	fada	fada	NOUN	_	_	4	nmod	_	_
 4	bloTiofiti	bloTiofiti	NOUN	_	_	5	nsubj	_	_
-5	bonem	bonem	VERB	_	_	verb_head	_	_	_
+5	bonem	bonem	VERB	_	_	0	root	_	_
 6	Tiofiti	Tiofiti	PROPN	_	_	9	nsubj	_	_
 7	nao	nao	ADV	_	_	5	advmod	_	_
 8	i	i	PART	_	_	9	aux	_	_
-9	kolem	kolem	VERB	_	_	verb_head	_	_	_
+9	kolem	kolem	VERB	_	_	5	advcl	_	_
 10	disfala	dis	ADJ	_	_	11	amod	_	_
 11	boe	boe	NOUN	_	_	9	obj	_	_
 12	Tiofiti	Tiofiti	PROPN	_	_	5	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.77
 # text = a bata barava nem blo Tiofidi bifo Gweramoa.
-1	a	_	<hes>	_	_	1	adv	_	_
-2	bata	bata	NOUN	_	_	1	obl	_	_
+1	a	_	<hes>	_	_	2	adv	_	_
+2	bata	bata	NOUN	_	_	0	root	_	_
 3	barava	barava	ADJ	_	_	4	amod	_	_
-4	nem	nem	NOUN	_	_	1	obl	_	_
+4	nem	nem	NOUN	_	_	2	obl	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
 6	Tiofidi	Tiofidi	PROPN	_	_	4	nmod	_	_
 7	bifo	bifo	ADV	_	_	1	advmod	_	_
-8	Gweramoa	Gweramoa	PROPN	_	_	1	obl	_	_
+8	Gweramoa	Gweramoa	PROPN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.78
 # text = hem nao barava nem bloTiofidi.
-1	hem	hem	PRON	_	_	1	obl	_	_
+1	hem	hem	PRON	_	_	0	root	_	_
 2	nao	nao	ADV	_	_	1	advmod	_	_
 3	barava	barava	ADJ	_	_	5	amod	_	_
 4	nem	nem	NOUN	_	_	5	nmod	_	_
@@ -1047,7 +1047,7 @@
 2	bikos	bikos	CCONJ	_	_	5	adv	_	_
 3	Tiofiti	Tiofiti	PROPN	_	_	5	obl	_	_
 4	dei	dei	NOUN	_	_	5	nsubj	_	_
-5	kalem	kalem	VERB	_	_	verb_head	_	_	_
+5	kalem	kalem	VERB	_	_	0	root	_	_
 6	long	long	ADP	_	_	12	mark	_	_
 7	sem	sem	ADJ	_	_	9	amod	_	_
 8	man	man	NOUN	_	_	9	nmod	_	_
@@ -1056,9 +1056,9 @@
 11	wea	wea	INTJ	_	_	5	adv	_	_
 12	hemi	hemi	VERB	_	_	5	advcl	_	_
 13	dae	dae	NOUN	_	_	14	nsubj	_	_
-14	kam	kam	VERB	_	_	verb_head	_	_	_
+14	kam	kam	VERB	_	_	5	advcl	_	_
 15	long	long	ADP	_	_	16	case	_	_
-16	longo	longo	NOUN	_	_	13	nmod	_	_
+16	longo	longo	NOUN	_	_	14	obl	_	_
 17	Fidi	Fidi	PROPN	_	_	5	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.80
@@ -1084,8 +1084,8 @@
 # text = na behaen hemi bonem wanpala san blong hem o hemi brada blong hem.
 1	na	na	NOUN	_	_	2	nmod	_	_
 2	behaen	behaen	NOUN	_	_	4	nsubj	_	_
-3	hemi	hemi	VERB	_	_	verb_head	_	_	_
-4	bonem	bonem	VERB	_	_	verb_head	_	_	_
+3	hemi	hemi	VERB	_	_	0	root	_	_
+4	bonem	bonem	VERB	_	_	3	advcl	_	_
 5	wanpala	wanpala	NOUN	_	_	6	nmod	_	_
 6	san	san	NOUN	_	_	4	obj	_	_
 7	blong	blong	ADP	_	_	10	mark	_	_
@@ -1100,7 +1100,7 @@
 # text = na oli kolem em Kalagwasu tu  mmm nada Kalagwasu wea hemi dae hia.
 1	na	na	NOUN	_	_	3	nsubj	_	_
 2	oli	oli	PART	_	_	3	aux	_	_
-3	kolem	kolem	VERB	_	_	verb_head	_	_	_
+3	kolem	kolem	VERB	_	_	0	root	_	_
 4	em	em	PRON	_	_	3	obj	_	_
 5	Kalagwasu	Kalagwasu	PROPN	_	_	3	obl	_	_
 6	tu	tu	NUM	_	_	8	nummod	_	_
@@ -1108,29 +1108,29 @@
 8	nada	nada	NOUN	_	_	3	obl	_	_
 9	Kalagwasu	Kalagwasu	PROPN	_	_	11	nsubj	_	_
 10	wea	wea	INTJ	_	_	3	adv	_	_
-11	hemi	hemi	VERB	_	_	verb_head	_	_	_
+11	hemi	hemi	VERB	_	_	3	advcl	_	_
 12	dae	dae	NOUN	_	_	13	nmod	_	_
 13	hia	hia	NOUN	_	_	11	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.84
 # text = hemi bon long barata blong Kalagwasu wea hem go long Fidi.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	bon	bon	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	bon	bon	VERB	_	_	1	advcl	_	_
 3	long	long	ADP	_	_	4	case	_	_
 4	barata	barata	NOUN	_	_	1	obj	_	_
 5	blong	blong	ADP	_	_	9	mark	_	_
-6	Kalagwasu	Kalagwasu	PROPN	_	_	4	nmod	_	_
+6	Kalagwasu	Kalagwasu	PROPN	_	_	1	obl	_	_
 7	wea	wea	INTJ	_	_	1	adv	_	_
 8	hem	hem	PRON	_	_	9	nsubj	_	_
 9	go	go	VERB	_	_	1	advcl	_	_
 10	long	long	ADP	_	_	11	case	_	_
-11	Fidi	Fidi	PROPN	_	_	8	nmod	_	_
+11	Fidi	Fidi	PROPN	_	_	9	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.85
 # text = so hemi kolem san blong hem long Kalagwasu hemi dae hia long longo Gwaikafo.
 1	so	so	CCONJ	_	_	2	adv	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
-3	kolem	kolem	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
+3	kolem	kolem	VERB	_	_	2	advcl	_	_
 4	san	san	NOUN	_	_	3	obj	_	_
 5	blong	blong	ADP	_	_	6	case	_	_
 6	hem	hem	PRON	_	_	4	nmod	_	_
@@ -1149,11 +1149,11 @@
 2	dat	dat	NOUN	_	_	5	obl	_	_
 3	Kalagwasu	Kalagwasu	PROPN	_	_	5	obl	_	_
 4	di	di	NOUN	_	_	5	nsubj	_	_
-5	fas	fas	VERB	_	_	verb_head	_	_	_
+5	fas	fas	VERB	_	_	0	root	_	_
 6	man	man	NOUN	_	_	9	nsubj	_	_
 7	hu	hu	INTJ	_	_	5	adv	_	_
 8	wea	wea	INTJ	_	_	5	adv	_	_
-9	go	go	VERB	_	_	verb_head	_	_	_
+9	go	go	VERB	_	_	5	advcl	_	_
 10	tu	tu	NUM	_	_	5	obl	_	_
 11	Fidi	Fidi	PROPN	_	_	5	obl	_	_
 
@@ -1183,7 +1183,7 @@
 5	no	no	PART	_	_	6	aux	_	_
 6	save	save	VERB	_	_	0	root	_	_
 7	long	long	ADP	_	_	8	case	_	_
-8	nem	nem	NOUN	_	_	4	nmod	_	_
+8	nem	nem	NOUN	_	_	6	obl	_	_
 9	blong	blong	ADP	_	_	10	case	_	_
 10	hem	hem	PRON	_	_	11	nmod:pos	_	_
 11	gud	gud	ADJ	_	_	6	obl	_	_
@@ -1193,7 +1193,7 @@
 
 # sent_id = TD1-P02580-A.eaf.90
 # text = na mifala nao tru  rilijin blong hem.
-1	na	na	NOUN	_	_	1	obl	_	_
+1	na	na	NOUN	_	_	0	root	_	_
 2	mifala	mifala	PRON	_	_	1	obl	_	_
 3	nao	nao	ADV	_	_	1	advmod	_	_
 4	tru	tru	ADJ	_	_	5	amod	_	_
@@ -1227,24 +1227,24 @@
 # sent_id = TD1-P02580-A.eaf.94
 # text = en fot mi Alick Ofataloa mi tok.
 1	en	en	NOUN	_	_	2	nmod	_	_
-2	fot	fot	NOUN	_	_	1	obl	_	_
-3	mi	mi	PRON	_	_	1	obl	_	_
+2	fot	fot	NOUN	_	_	0	root	_	_
+3	mi	mi	PRON	_	_	2	obl	_	_
 4	Alick	Alick	PROPN	_	_	5	flat	_	_
-5	Ofataloa	Ofataloa	PROPN	_	_	1	obl	_	_
+5	Ofataloa	Ofataloa	PROPN	_	_	2	obl	_	_
 6	mi	mi	PRON	_	_	7	nmod:pos	_	_
-7	tok	tok	NOUN	_	_	1	obl	_	_
+7	tok	tok	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.95
 # text = na your name nem blong yu Alick Alick Ofataloa.
 1	na	na	NOUN	_	_	4	nmod	_	_
 2	your	your	NOUN	_	_	4	nmod	_	_
 3	name	name	NOUN	_	_	4	nmod	_	_
-4	nem	nem	NOUN	_	_	1	obl	_	_
+4	nem	nem	NOUN	_	_	0	root	_	_
 5	blong	blong	ADP	_	_	6	case	_	_
 6	yu	yu	PRON	_	_	4	nmod	_	_
-7	Alick	Alick	PROPN	_	_	1	adv	_	_
-8	Alick	Alick	PROPN	_	_	1	adv	_	_
-9	Ofataloa	Ofataloa	PROPN	_	_	1	obl	_	_
+7	Alick	Alick	PROPN	_	_	4	adv	_	_
+8	Alick	Alick	PROPN	_	_	4	adv	_	_
+9	Ofataloa	Ofataloa	PROPN	_	_	4	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.96
 # text = ALICK OFATALOA.
@@ -1263,12 +1263,12 @@
 # sent_id = TD1-P02580-A.eaf.98
 # text = meke faef `Ege ana Saloe Saloe.
 1	meke	meke	NOUN	_	_	2	nmod	_	_
-2	faef	faef	NOUN	_	_	1	obl	_	_
-3	`	_	PUNCT	_	_	1	adv	_	_
-4	Ege	Ege	PROPN	_	_	1	obl	_	_
-5	ana	ana	NOUN	_	_	1	obl	_	_
-6	Saloe	Saloe	PROPN	_	_	1	obl	_	_
-7	Saloe	Saloe	PROPN	_	_	1	obl	_	_
+2	faef	faef	NOUN	_	_	0	root	_	_
+3	`	_	PUNCT	_	_	2	adv	_	_
+4	Ege	Ege	PROPN	_	_	2	obl	_	_
+5	ana	ana	NOUN	_	_	2	obl	_	_
+6	Saloe	Saloe	PROPN	_	_	2	obl	_	_
+7	Saloe	Saloe	PROPN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.99
 # text = faef man wea mifala i stop dat taem afta des bon behaen disfala Kalagwasu hemi gon.
@@ -1277,16 +1277,16 @@
 3	wea	wea	INTJ	_	_	6	adv	_	_
 4	mifala	mifala	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
-6	stop	stop	VERB	_	_	verb_head	_	_	_
+6	stop	stop	VERB	_	_	0	root	_	_
 7	dat	dat	NOUN	_	_	8	nmod	_	_
 8	taem	taem	NOUN	_	_	6	obl	_	_
 9	afta	afta	ADP	_	_	10	case	_	_
 10	des	des	NOUN	_	_	11	nsubj	_	_
-11	bon	bon	VERB	_	_	verb_head	_	_	_
+11	bon	bon	VERB	_	_	6	advcl	_	_
 12	behaen	behaen	NOUN	_	_	6	obl	_	_
 13	disfala	dis	ADJ	_	_	16	amod	_	_
 14	Kalagwasu	Kalagwasu	PROPN	_	_	15	nsubj	_	_
-15	hemi	hemi	VERB	_	_	verb_head	_	_	_
+15	hemi	hemi	VERB	_	_	6	advcl	_	_
 16	gon	gon	NOUN	_	_	15	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.100
@@ -1305,10 +1305,10 @@
 12	Mosbi	Mosbi	NOUN	_	_	13	nmod	_	_
 13	o	o	NOUN	_	_	15	nsubj	_	_
 14	i	i	PART	_	_	15	aux	_	_
-15	go	go	VERB	_	_	verb_head	_	_	_
+15	go	go	VERB	_	_	0	root	_	_
 16	long	long	ADP	_	_	17	case	_	_
 17	Fji	Fji	PROPN	_	_	18	nsubj	_	_
-18	pastaem	pastaem	VERB	_	_	verb_head	_	_	_
+18	pastaem	pastaem	VERB	_	_	15	advcl	_	_
 19	hem	hem	PRON	_	_	18	obj	_	_
 20	nem	nem	NOUN	_	_	15	obl	_	_
 21	blong	blong	ADP	_	_	22	case	_	_
@@ -1359,8 +1359,8 @@
 # sent_id = TD1-P02580-A.eaf.107
 # text = na hemi bonem hamas fala pikinini.
 1	na	na	NOUN	_	_	3	nsubj	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
-3	bonem	bonem	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
+3	bonem	bonem	VERB	_	_	2	advcl	_	_
 4	hamas	hamas	INTJ	_	_	2	adv	_	_
 5	fala	fala	NOUN	_	_	6	nmod	_	_
 6	pikinini	pikinini	NOUN	_	_	3	obj	_	_
@@ -1377,24 +1377,24 @@
 # sent_id = TD1-P02580-A.eaf.111
 # text = ((first is Ifuramoa)) man o meri man.
 1	man	man	NOUN	_	_	2	nmod	_	_
-2	o	o	NOUN	_	_	1	obl	_	_
-3	meri	meri	INTJ	_	_	1	adv	_	_
-4	man	man	NOUN	_	_	1	obl	_	_
+2	o	o	NOUN	_	_	0	root	_	_
+3	meri	meri	INTJ	_	_	2	adv	_	_
+4	man	man	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.112
 # text = nem plong en gen plis IFURAMOA o ya.
 1	nem	nem	NOUN	_	_	4	nmod	_	_
 2	plong	plong	NOUN	_	_	4	nmod	_	_
 3	en	en	NOUN	_	_	4	nmod	_	_
-4	gen	gen	NOUN	_	_	1	obl	_	_
-5	plis	plis	INTJ	_	_	1	adv	_	_
-6	IFURAMOA	_	PUNCT	_	_	1	adv	_	_
-7	o	o	NOUN	_	_	1	obl	_	_
-8	ya	ya	INTJ	_	_	1	adv	_	_
+4	gen	gen	NOUN	_	_	0	root	_	_
+5	plis	plis	INTJ	_	_	4	adv	_	_
+6	IFURAMOA	_	PUNCT	_	_	4	adv	_	_
+7	o	o	NOUN	_	_	4	obl	_	_
+8	ya	ya	INTJ	_	_	4	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.113
 # text = namba tu namba tu moa hem nao Kalagwasu Kalagwasu.
-1	namba	namba	NOUN	_	_	1	obl	_	_
+1	namba	namba	NOUN	_	_	0	root	_	_
 2	tu	tu	NUM	_	_	3	nummod	_	_
 3	namba	namba	NOUN	_	_	1	obl	_	_
 4	tu	tu	NUM	_	_	5	nummod	_	_
@@ -1415,12 +1415,12 @@
 
 # sent_id = TD1-P02580-A.eaf.115
 # text = LAUGWARO ya Laugwaro Gwaro mmm  Laugwaro.
-1	LAUGWARO	_	PUNCT	_	_	1	adv	_	_
-2	ya	ya	INTJ	_	_	1	adv	_	_
+1	LAUGWARO	_	PUNCT	_	_	4	adv	_	_
+2	ya	ya	INTJ	_	_	4	adv	_	_
 3	Laugwaro	Laugwaro	PROPN	_	_	4	flat	_	_
-4	Gwaro	Gwaro	PROPN	_	_	1	obl	_	_
-5	mmm	mmm	NOUN	_	_	1	obl	_	_
-6	Laugwaro	Laugwaro	PROPN	_	_	1	obl	_	_
+4	Gwaro	Gwaro	PROPN	_	_	0	root	_	_
+5	mmm	mmm	NOUN	_	_	4	obl	_	_
+6	Laugwaro	Laugwaro	PROPN	_	_	4	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.116
 # text = tri foo eere eere EERI.
@@ -1432,7 +1432,7 @@
 
 # sent_id = TD1-P02580-A.eaf.117
 # text = W EERI Eeri ya man man.
-1	W	W	PROPN	_	_	1	obl	_	_
+1	W	W	PROPN	_	_	0	root	_	_
 2	EERI	_	PUNCT	_	_	1	adv	_	_
 3	Eeri	Eeri	PROPN	_	_	1	obl	_	_
 4	ya	ya	INTJ	_	_	1	adv	_	_
@@ -1468,9 +1468,9 @@
 2	ya	ya	INTJ	_	_	5	adv	_	_
 3	namba	namba	NOUN	_	_	4	nmod	_	_
 4	six	six	NOUN	_	_	7	nsubj	_	_
-5	finis	finis	VERB	_	_	verb_head	_	_	_
+5	finis	finis	VERB	_	_	0	root	_	_
 6	nao	nao	ADV	_	_	5	advmod	_	_
-7	finis	finis	VERB	_	_	verb_head	_	_	_
+7	finis	finis	VERB	_	_	5	advcl	_	_
 8	nao	nao	ADV	_	_	7	advmod	_	_
 9	gud	gud	ADJ	_	_	5	obl	_	_
 
@@ -1481,25 +1481,25 @@
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	go	go	VERB	_	_	0	root	_	_
 5	long	long	ADP	_	_	6	case	_	_
-6	Fiji	Fiji	PROPN	_	_	3	nmod	_	_
+6	Fiji	Fiji	PROPN	_	_	4	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.124
 # text = emi save yu save em a taem  hemi go long Fiji em i bipala finis o liklik tasol fotin fiftin yea o sixtin saming.
 1	emi	emi	NOUN	_	_	2	nsubj	_	_
-2	save	save	VERB	_	_	verb_head	_	_	_
+2	save	save	VERB	_	_	0	root	_	_
 3	yu	yu	PRON	_	_	4	nsubj	_	_
-4	save	save	VERB	_	_	verb_head	_	_	_
+4	save	save	VERB	_	_	2	advcl	_	_
 5	em	em	PRON	_	_	2	obl	_	_
 6	a	_	<hes>	_	_	2	adv	_	_
 7	taem	taem	NOUN	_	_	9	nsubj	_	_
-8	hemi	hemi	VERB	_	_	verb_head	_	_	_
-9	go	go	VERB	_	_	verb_head	_	_	_
+8	hemi	hemi	VERB	_	_	2	advcl	_	_
+9	go	go	VERB	_	_	2	advcl	_	_
 10	long	long	ADP	_	_	13	mark	_	_
 11	Fiji	Fiji	PROPN	_	_	8	obj	_	_
 12	em	em	PRON	_	_	13	nsubj	_	_
 13	i	i	PART	_	_	2	advcl	_	_
 14	bipala	bipala	NOUN	_	_	15	nsubj	_	_
-15	finis	finis	VERB	_	_	verb_head	_	_	_
+15	finis	finis	VERB	_	_	2	advcl	_	_
 16	o	o	NOUN	_	_	19	nmod	_	_
 17	liklik	liklik	NOUN	_	_	19	nmod	_	_
 18	tasol	tasol	NOUN	_	_	19	nmod	_	_
@@ -1530,9 +1530,9 @@
 # sent_id = TD1-P02580-A.eaf.128
 # text = u save long nem blo bout bout i kam kisim hem yu save nem belong hem.
 1	u	u	NOUN	_	_	2	nsubj	_	_
-2	save	save	VERB	_	_	verb_head	_	_	_
+2	save	save	VERB	_	_	0	root	_	_
 3	long	long	ADP	_	_	4	case	_	_
-4	nem	nem	NOUN	_	_	1	nmod	_	_
+4	nem	nem	NOUN	_	_	2	obl	_	_
 5	blo	blo	ADP	_	_	10	mark	_	_
 6	bout	bout	NOUN	_	_	7	nmod	_	_
 7	bout	bout	NOUN	_	_	10	nsubj	_	_
@@ -1541,7 +1541,7 @@
 10	kisim	kisim	VERB	_	_	2	advcl	_	_
 11	hem	hem	PRON	_	_	10	obj	_	_
 12	yu	yu	PRON	_	_	13	nsubj	_	_
-13	save	save	VERB	_	_	verb_head	_	_	_
+13	save	save	VERB	_	_	2	advcl	_	_
 14	nem	nem	NOUN	_	_	2	obl	_	_
 15	belong	belong	ADP	_	_	16	case	_	_
 16	hem	hem	PRON	_	_	14	nmod	_	_
@@ -1555,9 +1555,9 @@
 # text = mifala no save long nem blong sibi na ya yufala no save nem blo sip ah mifala no save nem blo sip nao gud.
 1	mifala	mifala	PRON	_	_	3	nsubj	_	_
 2	no	no	PART	_	_	3	aux	_	_
-3	save	save	VERB	_	_	verb_head	_	_	_
+3	save	save	VERB	_	_	0	root	_	_
 4	long	long	ADP	_	_	5	case	_	_
-5	nem	nem	NOUN	_	_	1	nmod	_	_
+5	nem	nem	NOUN	_	_	3	obl	_	_
 6	blong	blong	ADP	_	_	12	mark	_	_
 7	sibi	sibi	NOUN	_	_	8	nmod	_	_
 8	na	na	NOUN	_	_	3	obl	_	_
@@ -1571,7 +1571,7 @@
 16	ah	_	<hes>	_	_	3	adv	_	_
 17	mifala	mifala	PRON	_	_	19	nsubj	_	_
 18	no	no	PART	_	_	19	aux	_	_
-19	save	save	VERB	_	_	verb_head	_	_	_
+19	save	save	VERB	_	_	3	advcl	_	_
 20	nem	nem	NOUN	_	_	3	obl	_	_
 21	blo	blo	ADP	_	_	22	case	_	_
 22	sip	sip	NOUN	_	_	20	nmod	_	_
@@ -1592,24 +1592,24 @@
 1	did	did	NOUN	_	_	4	obl	_	_
 2	Kwalawasua	Kwalawasua	PROPN	_	_	4	obl	_	_
 3	em	em	PRON	_	_	4	nsubj	_	_
-4	kisim	kisim	VERB	_	_	verb_head	_	_	_
+4	kisim	kisim	VERB	_	_	0	root	_	_
 5	hem	hem	PRON	_	_	6	nsubj	_	_
-6	go	go	VERB	_	_	verb_head	_	_	_
+6	go	go	VERB	_	_	4	advcl	_	_
 7	daon	daon	ADV	_	_	6	advmod	_	_
 8	lo	lo	ADP	_	_	11	case	_	_
 9	bout	bout	NOUN	_	_	11	nmod	_	_
 10	o	o	NOUN	_	_	11	nmod	_	_
 11	nogatmifala	nogatmifala	NOUN	_	_	13	nsubj	_	_
 12	no	no	PART	_	_	13	aux	_	_
-13	save	save	VERB	_	_	verb_head	_	_	_
+13	save	save	VERB	_	_	4	advcl	_	_
 14	tu	tu	NUM	_	_	18	nummod	_	_
 15	maet	maet	ADV	_	_	13	advmod	_	_
 16	hem	hem	PRON	_	_	17	nsubj	_	_
-17	tekem	tekem	VERB	_	_	verb_head	_	_	_
+17	tekem	tekem	VERB	_	_	4	advcl	_	_
 18	me	me	NOUN	_	_	17	obj	_	_
 19	mifala	mifala	PRON	_	_	21	nsubj	_	_
 20	no	no	PART	_	_	21	aux	_	_
-21	save	save	VERB	_	_	verb_head	_	_	_
+21	save	save	VERB	_	_	4	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.135
 # text = <laugh> na.
@@ -1623,8 +1623,8 @@
 1	ating	ating	ADV	_	_	4	advmod	_	_
 2	hem	hem	PRON	_	_	3	nmod:pos	_	_
 3	na	na	NOUN	_	_	5	nsubj	_	_
-4	hemi	hemi	VERB	_	_	verb_head	_	_	_
-5	tekem	tekem	VERB	_	_	verb_head	_	_	_
+4	hemi	hemi	VERB	_	_	0	root	_	_
+5	tekem	tekem	VERB	_	_	4	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.138
 # text = Kwaisulia fata blong hem nao save tekem ban from disaet lo distrik ya hemi nao save tekem rekot ya rekrut from hia i go ah aha en hemi go oraet .
@@ -1641,22 +1641,22 @@
 11	lo	lo	ADP	_	_	12	case	_	_
 12	distrik	distrik	NOUN	_	_	17	nsubj	_	_
 13	ya	ya	INTJ	_	_	14	adv	_	_
-14	hemi	hemi	VERB	_	_	verb_head	_	_	_
+14	hemi	hemi	VERB	_	_	0	root	_	_
 15	nao	nao	ADV	_	_	14	advmod	_	_
 16	save	save	AUX	_	_	17	aux	_	_
-17	tekem	tekem	VERB	_	_	verb_head	_	_	_
+17	tekem	tekem	VERB	_	_	14	advcl	_	_
 18	rekot	rekot	NOUN	_	_	17	obj	_	_
 19	ya	ya	INTJ	_	_	14	adv	_	_
 20	rekrut	rekrut	NOUN	_	_	14	obl	_	_
 21	from	from	ADP	_	_	22	case	_	_
 22	hia	hia	NOUN	_	_	24	nsubj	_	_
 23	i	i	PART	_	_	24	aux	_	_
-24	go	go	VERB	_	_	verb_head	_	_	_
+24	go	go	VERB	_	_	14	advcl	_	_
 25	ah	_	<hes>	_	_	14	adv	_	_
 26	aha	aha	NOUN	_	_	27	nmod	_	_
 27	en	en	NOUN	_	_	29	nsubj	_	_
-28	hemi	hemi	VERB	_	_	verb_head	_	_	_
-29	go	go	VERB	_	_	verb_head	_	_	_
+28	hemi	hemi	VERB	_	_	14	advcl	_	_
+29	go	go	VERB	_	_	14	advcl	_	_
 30	oraet	oraet	ADJ	_	_	28	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.139
@@ -1710,11 +1710,11 @@
 # text = oraet hem kam daon nao i maritim meri.
 1	oraet	oraet	ADJ	_	_	3	adv	_	_
 2	hem	hem	PRON	_	_	7	nsubj	_	_
-3	kam	kam	VERB	_	_	verb_head	_	_	_
+3	kam	kam	VERB	_	_	0	root	_	_
 4	daon	daon	ADV	_	_	3	advmod	_	_
 5	nao	nao	ADV	_	_	3	advmod	_	_
 6	i	i	PART	_	_	7	aux	_	_
-7	maritim	maritim	VERB	_	_	verb_head	_	_	_
+7	maritim	maritim	VERB	_	_	3	advcl	_	_
 8	meri	meri	INTJ	_	_	3	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.143
@@ -1779,7 +1779,7 @@
 3	yu	yu	PRON	_	_	4	nsubj	_	_
 4	kam	kam	VERB	_	_	0	root	_	_
 5	long	long	ADP	_	_	6	case	_	_
-6	namba	namba	NOUN	_	_	3	nmod	_	_
+6	namba	namba	NOUN	_	_	4	obl	_	_
 7	yu	yu	PRON	_	_	8	nmod:pos	_	_
 8	namba	namba	NOUN	_	_	4	obl	_	_
 9	wan	wan	NUM	_	_	10	nummod	_	_
@@ -1826,8 +1826,8 @@
 11	olketa	olketa	NOUN	_	_	14	obl	_	_
 12	yumi	yumi	PRON	_	_	15	nsubj	_	_
 13	no	no	PART	_	_	14	aux	_	_
-14	ting	ting	VERB	_	_	verb_head	_	_	_
-15	abaotim	abaotim	VERB	_	_	verb_head	_	_	_
+14	ting	ting	VERB	_	_	0	root	_	_
+15	abaotim	abaotim	VERB	_	_	14	advcl	_	_
 16	nao	nao	ADV	_	_	15	advmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.159
@@ -1853,20 +1853,20 @@
 4	Salaiman	Salaiman	PROPN	_	_	7	flat	_	_
 5	Betuel	Betuel	PROPN	_	_	7	flat	_	_
 6	Manu	Manu	PROPN	_	_	7	flat	_	_
-7	Salaimanu	Salaimanu	PROPN	_	_	1	obl	_	_
-8	ya	ya	INTJ	_	_	1	adv	_	_
-9	boe	boe	NOUN	_	_	1	obl	_	_
-10	gud	gud	ADJ	_	_	1	obl	_	_
+7	Salaimanu	Salaimanu	PROPN	_	_	0	root	_	_
+8	ya	ya	INTJ	_	_	7	adv	_	_
+9	boe	boe	NOUN	_	_	7	obl	_	_
+10	gud	gud	ADJ	_	_	7	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.163
 # text = nao tasol Alik.
 1	nao	nao	ADV	_	_	1	advmod	_	_
-2	tasol	tasol	NOUN	_	_	1	obl	_	_
-3	Alik	Alik	PROPN	_	_	1	obl	_	_
+2	tasol	tasol	NOUN	_	_	0	root	_	_
+3	Alik	Alik	PROPN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.164
 # text = Alik fada blo yu husat  fada blo mi Lokaa.
-1	Alik	Alik	PROPN	_	_	1	obl	_	_
+1	Alik	Alik	PROPN	_	_	0	root	_	_
 2	fada	fada	NOUN	_	_	1	obl	_	_
 3	blo	blo	ADP	_	_	4	case	_	_
 4	yu	yu	PRON	_	_	5	nmod:pos	_	_
@@ -1879,17 +1879,17 @@
 # sent_id = TD1-P02580-A.eaf.165
 # text = Lokaa hemi hemi pikinini belong Logwaru.
 1	Lokaa	Lokaa	PROPN	_	_	3	nsubj	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
-3	hemi	hemi	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
+3	hemi	hemi	VERB	_	_	2	advcl	_	_
 4	pikinini	pikinini	NOUN	_	_	3	obj	_	_
 5	belong	belong	ADP	_	_	6	case	_	_
 6	Logwaru	Logwaru	PROPN	_	_	4	nmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.166
 # text = hemi hemi hemi lin blo Logwaru kam hemi lelebet long taem bifo hem.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
-3	hemi	hemi	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	hemi	hemi	VERB	_	_	1	advcl	_	_
+3	hemi	hemi	VERB	_	_	1	advcl	_	_
 4	lin	lin	NOUN	_	_	3	obj	_	_
 5	blo	blo	ADP	_	_	8	mark	_	_
 6	Logwaru	Logwaru	PROPN	_	_	8	nsubj	_	_
@@ -1904,7 +1904,7 @@
 # sent_id = TD1-P02580-A.eaf.167
 # text = bata hemi a lin blongo Logwaoru hem nao ya i kam daon i kam daon.
 1	bata	bata	NOUN	_	_	2	nsubj	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
 3	a	_	<hes>	_	_	2	adv	_	_
 4	lin	lin	NOUN	_	_	5	nmod	_	_
 5	blongo	blongo	NOUN	_	_	2	obj	_	_
@@ -1913,10 +1913,10 @@
 8	nao	nao	ADV	_	_	11	advmod	_	_
 9	ya	ya	INTJ	_	_	2	adv	_	_
 10	i	i	PART	_	_	11	aux	_	_
-11	kam	kam	VERB	_	_	verb_head	_	_	_
+11	kam	kam	VERB	_	_	2	advcl	_	_
 12	daon	daon	ADV	_	_	11	advmod	_	_
 13	i	i	PART	_	_	14	aux	_	_
-14	kam	kam	VERB	_	_	verb_head	_	_	_
+14	kam	kam	VERB	_	_	2	advcl	_	_
 15	daon	daon	ADV	_	_	14	advmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.168
@@ -1964,13 +1964,13 @@
 # sent_id = TD1-P02580-A.eaf.172
 # text = i bonem Lokaa hem man ah Lokaa i man.
 1	i	i	PART	_	_	2	aux	_	_
-2	bonem	bonem	VERB	_	_	verb_head	_	_	_
+2	bonem	bonem	VERB	_	_	0	root	_	_
 3	Lokaa	Lokaa	PROPN	_	_	2	obj	_	_
 4	hem	hem	PRON	_	_	5	nmod:pos	_	_
 5	man	man	NOUN	_	_	2	obl	_	_
 6	ah	_	<hes>	_	_	2	adv	_	_
 7	Lokaa	Lokaa	PROPN	_	_	8	nsubj	_	_
-8	i	i	PART	_	_	verb_head	_	_	_
+8	i	i	PART	_	_	2	advcl	_	_
 9	man	man	NOUN	_	_	8	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.173
@@ -1995,7 +1995,7 @@
 
 # sent_id = TD1-P02580-A.eaf.176
 # text = bone Alick  Ofotoloa e Ofataloa hmm.
-1	bone	bone	NOUN	_	_	1	obl	_	_
+1	bone	bone	NOUN	_	_	0	root	_	_
 2	Alick	Alick	PROPN	_	_	3	flat	_	_
 3	Ofotoloa	Ofotoloa	PROPN	_	_	1	obl	_	_
 4	e	e	NOUN	_	_	1	obl	_	_
@@ -2066,9 +2066,9 @@
 # sent_id = TD1-P02580-A.eaf.181
 # text = wan boe tu gel.
 1	wan	wan	NUM	_	_	2	nummod	_	_
-2	boe	boe	NOUN	_	_	1	obl	_	_
+2	boe	boe	NOUN	_	_	0	root	_	_
 3	tu	tu	NUM	_	_	4	nummod	_	_
-4	gel	gel	NOUN	_	_	1	obl	_	_
+4	gel	gel	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.182
 # text = fest wan yu kam ap fastaem mi kam ap fastaem.
@@ -2076,11 +2076,11 @@
 2	wan	wan	NUM	_	_	5	obl	_	_
 3	yu	yu	PRON	_	_	5	nsubj	_	_
 4	kam	kam	AUX	_	_	5	aux	_	_
-5	ap	ap	VERB	_	_	verb_head	_	_	_
+5	ap	ap	VERB	_	_	0	root	_	_
 6	fastaem	fastaem	ADJ	_	_	5	obl	_	_
 7	mi	mi	PRON	_	_	9	nsubj	_	_
 8	kam	kam	AUX	_	_	9	aux	_	_
-9	ap	ap	VERB	_	_	verb_head	_	_	_
+9	ap	ap	VERB	_	_	5	advcl	_	_
 10	fastaem	fastaem	ADJ	_	_	5	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.183
@@ -2095,14 +2095,14 @@
 # sent_id = TD1-P02580-A.eaf.184
 # text = mi bonem tufala wan nao ya Lokaatu mi futum longo nem blongo fada blo mi mi kolem lo Lokaa tu Lokaa namba tu Lokaa namba tu mhmm.
 1	mi	mi	PRON	_	_	2	nsubj	_	_
-2	bonem	bonem	VERB	_	_	verb_head	_	_	_
+2	bonem	bonem	VERB	_	_	0	root	_	_
 3	tufala	tufala	NUM	_	_	13	nummod	_	_
 4	wan	wan	NUM	_	_	13	nummod	_	_
 5	nao	nao	ADV	_	_	2	advmod	_	_
 6	ya	ya	INTJ	_	_	2	adv	_	_
 7	Lokaatu	Lokaatu	PROPN	_	_	2	obj	_	_
 8	mi	mi	PRON	_	_	9	nsubj	_	_
-9	futum	futum	VERB	_	_	verb_head	_	_	_
+9	futum	futum	VERB	_	_	2	advcl	_	_
 10	longo	longo	NOUN	_	_	13	nmod	_	_
 11	nem	nem	NOUN	_	_	13	nmod	_	_
 12	blongo	blongo	NOUN	_	_	13	nmod	_	_
@@ -2188,12 +2188,12 @@
 2	long	long	ADP	_	_	5	case	_	_
 3	mounten	mounten	NOUN	_	_	5	nmod	_	_
 4	mmm	mmm	NOUN	_	_	5	nmod	_	_
-5	kostu	kostu	NOUN	_	_	1	obl	_	_
+5	kostu	kostu	NOUN	_	_	0	root	_	_
 6	long	long	ADP	_	_	7	case	_	_
 7	Usasi	Usasi	PROPN	_	_	5	nmod	_	_
-8	pasis	pasis	NOUN	_	_	1	obl	_	_
-9	yes	yes	INTJ	_	_	1	adv	_	_
-10	mmm	mmm	NOUN	_	_	1	obl	_	_
+8	pasis	pasis	NOUN	_	_	5	obl	_	_
+9	yes	yes	INTJ	_	_	5	adv	_	_
+10	mmm	mmm	NOUN	_	_	5	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.191
 # text = na disfala riva hemi daon hem Safa Sasava Sasava.
@@ -2222,7 +2222,7 @@
 
 # sent_id = TD1-P02580-A.eaf.193
 # text = san blong hem san blo hem ya noma hem ya.
-1	san	san	NOUN	_	_	1	obl	_	_
+1	san	san	NOUN	_	_	0	root	_	_
 2	blong	blong	ADP	_	_	3	case	_	_
 3	hem	hem	PRON	_	_	4	nmod:pos	_	_
 4	san	san	NOUN	_	_	1	obl	_	_
@@ -2245,15 +2245,15 @@
 8	sikini	sikini	NOUN	_	_	6	obj	_	_
 9	blong	blong	ADP	_	_	10	case	_	_
 10	hem	hem	PRON	_	_	11	nsubj	_	_
-11	i	i	PART	_	_	verb_head	_	_	_
+11	i	i	PART	_	_	0	root	_	_
 12	blak	blak	ADJ	_	_	16	amod	_	_
 13	olsem	olsem	ADV	_	_	18	advmod	_	_
 14	yu	yu	PRON	_	_	11	obj	_	_
 15	bata	bata	NOUN	_	_	16	nmod	_	_
 16	fes	fes	NOUN	_	_	11	obl	_	_
 17	hem	hem	PRON	_	_	19	nsubj	_	_
-18	luk	luk	VERB	_	_	verb_head	_	_	_
-19	osem	osem	VERB	_	_	verb_head	_	_	_
+18	luk	luk	VERB	_	_	11	advcl	_	_
+19	osem	osem	VERB	_	_	11	advcl	_	_
 20	Alick	Alick	PROPN	_	_	19	obj	_	_
 21	tuya	tuya	NOUN	_	_	11	obl	_	_
 
@@ -2300,7 +2300,7 @@
 3	nao	nao	ADV	_	_	6	advmod	_	_
 4	babae	babae	INTJ	_	_	6	adv	_	_
 5	mi	mi	PRON	_	_	6	nsubj	_	_
-6	kisim	kisim	VERB	_	_	verb_head	_	_	_
+6	kisim	kisim	VERB	_	_	0	root	_	_
 7	piksa	piksa	NOUN	_	_	9	nmod	_	_
 8	bro	bro	NOUN	_	_	9	nmod	_	_
 9	yupala	yupala	NOUN	_	_	6	obj	_	_
@@ -2310,7 +2310,7 @@
 13	lo	lo	ADP	_	_	15	case	_	_
 14	wanem	wanem	INTJ	_	_	6	adv	_	_
 15	yupara	yupara	NOUN	_	_	16	nsubj	_	_
-16	olosem	olosem	VERB	_	_	verb_head	_	_	_
+16	olosem	olosem	VERB	_	_	6	advcl	_	_
 17	ating	ating	ADV	_	_	16	advmod	_	_
 18	famili	famili	NOUN	_	_	16	obj	_	_
 19	blong	blong	ADP	_	_	21	case	_	_
@@ -2321,7 +2321,7 @@
 
 # sent_id = TD1-P02580-A.eaf.198
 # text = yufala olsem brata o kasin brada blong hem ya yes.
-1	yufala	yufala	PRON	_	_	1	obl	_	_
+1	yufala	yufala	PRON	_	_	0	root	_	_
 2	olsem	olsem	ADV	_	_	1	advmod	_	_
 3	brata	brata	NOUN	_	_	6	nmod	_	_
 4	o	o	NOUN	_	_	6	nmod	_	_
@@ -2336,9 +2336,9 @@
 # text = ating bae hemi laek lukim yuapa tu yes oraet.
 1	ating	ating	ADV	_	_	3	advmod	_	_
 2	bae	bae	ADV	_	_	3	advmod	_	_
-3	hemi	hemi	VERB	_	_	verb_head	_	_	_
-4	laek	laek	VERB	_	_	verb_head	_	_	_
-5	lukim	lukim	VERB	_	_	verb_head	_	_	_
+3	hemi	hemi	VERB	_	_	0	root	_	_
+4	laek	laek	VERB	_	_	3	advcl	_	_
+5	lukim	lukim	VERB	_	_	3	advcl	_	_
 6	yuapa	yuapa	NOUN	_	_	5	obj	_	_
 7	tu	tu	NUM	_	_	3	obl	_	_
 8	yes	yes	INTJ	_	_	3	adv	_	_
@@ -2348,31 +2348,31 @@
 # text = taem mi skulim hem hemi ken salem leta i kam lo yupala o samting olosem ya yes.
 1	taem	taem	NOUN	_	_	3	obl	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
-3	skulim	skulim	VERB	_	_	verb_head	_	_	_
+3	skulim	skulim	VERB	_	_	0	root	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
-5	hemi	hemi	VERB	_	_	verb_head	_	_	_
+5	hemi	hemi	VERB	_	_	3	advcl	_	_
 6	ken	ken	NOUN	_	_	7	nsubj	_	_
-7	salem	salem	VERB	_	_	verb_head	_	_	_
+7	salem	salem	VERB	_	_	3	advcl	_	_
 8	leta	leta	NOUN	_	_	10	nsubj	_	_
 9	i	i	PART	_	_	10	aux	_	_
-10	kam	kam	VERB	_	_	verb_head	_	_	_
+10	kam	kam	VERB	_	_	3	advcl	_	_
 11	lo	lo	ADP	_	_	14	case	_	_
 12	yupala	yupala	NOUN	_	_	14	nmod	_	_
 13	o	o	NOUN	_	_	14	nmod	_	_
 14	samting	samting	NOUN	_	_	15	nsubj	_	_
-15	olosem	olosem	VERB	_	_	verb_head	_	_	_
+15	olosem	olosem	VERB	_	_	3	advcl	_	_
 16	ya	ya	INTJ	_	_	3	adv	_	_
 17	yes	yes	INTJ	_	_	3	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.201
 # text = yupara givim a givim Mobete yu givim adres blong yupara ya sapso mi laek salem leta kam lo yu na tu Ofotaloa so Alex leta tu Mista Alex Ofotaloa.
 1	yupara	yupara	NOUN	_	_	4	nsubj	_	_
-2	givim	givim	VERB	_	_	verb_head	_	_	_
+2	givim	givim	VERB	_	_	0	root	_	_
 3	a	_	<hes>	_	_	2	adv	_	_
-4	givim	givim	VERB	_	_	verb_head	_	_	_
+4	givim	givim	VERB	_	_	2	advcl	_	_
 5	Mobete	Mobete	PROPN	_	_	4	obj	_	_
 6	yu	yu	PRON	_	_	7	nsubj	_	_
-7	givim	givim	VERB	_	_	verb_head	_	_	_
+7	givim	givim	VERB	_	_	2	advcl	_	_
 8	adres	adres	NOUN	_	_	7	obj	_	_
 9	blong	blong	ADP	_	_	14	mark	_	_
 10	yupara	yupara	NOUN	_	_	8	nmod	_	_
@@ -2380,9 +2380,9 @@
 12	sapso	sapso	NOUN	_	_	2	obl	_	_
 13	mi	mi	PRON	_	_	15	nsubj	_	_
 14	laek	laek	VERB	_	_	2	advcl	_	_
-15	salem	salem	VERB	_	_	verb_head	_	_	_
+15	salem	salem	VERB	_	_	2	advcl	_	_
 16	leta	leta	NOUN	_	_	17	nsubj	_	_
-17	kam	kam	VERB	_	_	verb_head	_	_	_
+17	kam	kam	VERB	_	_	2	advcl	_	_
 18	lo	lo	ADP	_	_	19	case	_	_
 19	yu	yu	PRON	_	_	20	nmod:pos	_	_
 20	na	na	NOUN	_	_	2	obl	_	_
@@ -2417,12 +2417,12 @@
 
 # sent_id = TD1-P02580-A.eaf.204
 # text = kalem nem blong vilij putim long (()) nem blong hem Anosa`au Anosa`au.
-1	kalem	kalem	VERB	_	_	verb_head	_	_	_
+1	kalem	kalem	VERB	_	_	0	root	_	_
 2	nem	nem	NOUN	_	_	1	obj	_	_
 3	blong	blong	ADP	_	_	5	mark	_	_
 4	vilij	vilij	NOUN	_	_	6	nsubj	_	_
 5	putim	putim	VERB	_	_	1	advcl	_	_
-6	longnem	longnem	VERB	_	_	verb_head	_	_	_
+6	longnem	longnem	VERB	_	_	1	advcl	_	_
 7	blong	blong	ADP	_	_	8	case	_	_
 8	hem	hem	PRON	_	_	6	obj	_	_
 9	Anosa	Anosa	PROPN	_	_	1	obl	_	_
@@ -2435,56 +2435,56 @@
 # sent_id = TD1-P02580-A.eaf.205
 # text = C/- Anosa`au Anosa`au vilij Sa`au vilij Sa`au vilij.
 1	C/-	C/-	PROPN	_	_	2	flat	_	_
-2	Anosa	Anosa	PROPN	_	_	1	obl	_	_
-3	`	_	PUNCT	_	_	1	adv	_	_
-4	au	au	NOUN	_	_	1	obl	_	_
-5	Anosa	Anosa	PROPN	_	_	1	obl	_	_
-6	`	_	PUNCT	_	_	1	adv	_	_
+2	Anosa	Anosa	PROPN	_	_	0	root	_	_
+3	`	_	PUNCT	_	_	2	adv	_	_
+4	au	au	NOUN	_	_	2	obl	_	_
+5	Anosa	Anosa	PROPN	_	_	2	obl	_	_
+6	`	_	PUNCT	_	_	2	adv	_	_
 7	au	au	NOUN	_	_	8	nmod	_	_
-8	vilij	vilij	NOUN	_	_	1	obl	_	_
-9	Sa	Sa	PROPN	_	_	1	obl	_	_
-10	`	_	PUNCT	_	_	1	adv	_	_
+8	vilij	vilij	NOUN	_	_	2	obl	_	_
+9	Sa	Sa	PROPN	_	_	2	obl	_	_
+10	`	_	PUNCT	_	_	2	adv	_	_
 11	au	au	NOUN	_	_	12	nmod	_	_
-12	vilij	vilij	NOUN	_	_	1	obl	_	_
-13	Sa	Sa	PROPN	_	_	1	obl	_	_
-14	`	_	PUNCT	_	_	1	adv	_	_
+12	vilij	vilij	NOUN	_	_	2	obl	_	_
+13	Sa	Sa	PROPN	_	_	2	obl	_	_
+14	`	_	PUNCT	_	_	2	adv	_	_
 15	au	au	NOUN	_	_	16	nmod	_	_
-16	vilij	vilij	NOUN	_	_	1	obl	_	_
+16	vilij	vilij	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.206
 # text = Fia Gounatolo postal Agency Fia Gounatolo Fiao Gaunaolo Gounatolo postal agency mmm.
 1	Fia	Fia	PROPN	_	_	2	flat	_	_
-2	Gounatolo	Gounatolo	PROPN	_	_	1	obl	_	_
-3	postal	postal	NOUN	_	_	1	obl	_	_
+2	Gounatolo	Gounatolo	PROPN	_	_	0	root	_	_
+3	postal	postal	NOUN	_	_	2	obl	_	_
 4	Agency	Agency	PROPN	_	_	9	flat	_	_
 5	Fia	Fia	PROPN	_	_	9	flat	_	_
 6	Gounatolo	Gounatolo	PROPN	_	_	9	flat	_	_
 7	Fiao	Fiao	PROPN	_	_	9	flat	_	_
 8	Gaunaolo	Gaunaolo	PROPN	_	_	9	flat	_	_
-9	Gounatolo	Gounatolo	PROPN	_	_	1	obl	_	_
+9	Gounatolo	Gounatolo	PROPN	_	_	2	obl	_	_
 10	postal	postal	NOUN	_	_	12	nmod	_	_
 11	agency	agency	NOUN	_	_	12	nmod	_	_
-12	mmm	mmm	NOUN	_	_	1	obl	_	_
+12	mmm	mmm	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.207
 # text = a east province no a North Malaita Baegu District Malaita Province  Solomon Islands.
-1	a	_	<hes>	_	_	1	adv	_	_
+1	a	_	<hes>	_	_	3	adv	_	_
 2	east	east	NOUN	_	_	3	nmod	_	_
-3	province	province	NOUN	_	_	1	obl	_	_
+3	province	province	NOUN	_	_	0	root	_	_
 4	no	no	PART	_	_	1	aux	_	_
-5	a	_	<hes>	_	_	1	adv	_	_
-6	North	North	PROPN	_	_	1	adv	_	_
-7	Malaita	Malaita	PROPN	_	_	1	adv	_	_
-8	Baegu	Baegu	PROPN	_	_	1	adv	_	_
-9	District	District	PROPN	_	_	1	adv	_	_
-10	Malaita	Malaita	PROPN	_	_	1	adv	_	_
-11	Province	Province	PROPN	_	_	1	adv	_	_
-12	Solomon	Solomon	PROPN	_	_	1	adv	_	_
-13	Islands	Islands	PROPN	_	_	1	obl	_	_
+5	a	_	<hes>	_	_	3	adv	_	_
+6	North	North	PROPN	_	_	3	adv	_	_
+7	Malaita	Malaita	PROPN	_	_	3	adv	_	_
+8	Baegu	Baegu	PROPN	_	_	3	adv	_	_
+9	District	District	PROPN	_	_	3	adv	_	_
+10	Malaita	Malaita	PROPN	_	_	3	adv	_	_
+11	Province	Province	PROPN	_	_	3	adv	_	_
+12	Solomon	Solomon	PROPN	_	_	3	adv	_	_
+13	Islands	Islands	PROPN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.208
 # text = Disfala man ya hem long wanfala ples ya ( languaga).
-1	Disfala	Disfala	PROPN	_	_	1	obl	_	_
+1	Disfala	Disfala	PROPN	_	_	0	root	_	_
 2	man	man	NOUN	_	_	1	obl	_	_
 3	ya	ya	INTJ	_	_	1	adv	_	_
 4	hem	hem	PRON	_	_	1	obl	_	_
@@ -2524,12 +2524,12 @@
 2	the	the	NOUN	_	_	4	nmod	_	_
 3	first	first	NOUN	_	_	4	nmod	_	_
 4	one	one	NOUN	_	_	5	nsubj	_	_
-5	was	was	VERB	_	_	verb_head	_	_	_
+5	was	was	VERB	_	_	0	root	_	_
 6	on	on	NOUN	_	_	9	nmod	_	_
 7	the	the	NOUN	_	_	9	nmod	_	_
 8	left	left	NOUN	_	_	9	nmod	_	_
 9	hand	hand	NOUN	_	_	10	nsubj	_	_
-10	was	was	VERB	_	_	verb_head	_	_	_
+10	was	was	VERB	_	_	5	advcl	_	_
 11	Joe	Joe	PROPN	_	_	5	adv	_	_
 12	Tiofiti	Tiofiti	PROPN	_	_	5	obl	_	_
 
@@ -2542,7 +2542,7 @@
 
 # sent_id = TD1-P02580-A.eaf.217
 # text = and Lab is emi brada blong e brada blong yu o yea brada blong Alex oraet mi san blong mi.
-1	and	and	NOUN	_	_	1	obl	_	_
+1	and	and	NOUN	_	_	0	root	_	_
 2	Lab	Lab	PROPN	_	_	1	obl	_	_
 3	is	is	NOUN	_	_	5	nmod	_	_
 4	emi	emi	NOUN	_	_	5	nmod	_	_
@@ -2566,11 +2566,11 @@
 # sent_id = TD1-P02580-A.eaf.218
 # text = o san blong yu ya oraet.
 1	o	o	NOUN	_	_	2	nmod	_	_
-2	san	san	NOUN	_	_	1	obl	_	_
+2	san	san	NOUN	_	_	0	root	_	_
 3	blong	blong	ADP	_	_	4	case	_	_
 4	yu	yu	PRON	_	_	2	nmod	_	_
-5	ya	ya	INTJ	_	_	1	adv	_	_
-6	oraet	oraet	ADJ	_	_	1	obl	_	_
+5	ya	ya	INTJ	_	_	2	adv	_	_
+6	oraet	oraet	ADJ	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.219
 # text = en namba longo raet han saet em ya em tufala ya Lokaa.
@@ -2579,31 +2579,31 @@
 3	longo	longo	NOUN	_	_	6	nmod	_	_
 4	raet	raet	NOUN	_	_	6	nmod	_	_
 5	han	han	NOUN	_	_	6	nmod	_	_
-6	saet	saet	NOUN	_	_	1	obl	_	_
-7	em	em	PRON	_	_	1	obl	_	_
-8	ya	ya	INTJ	_	_	1	adv	_	_
+6	saet	saet	NOUN	_	_	0	root	_	_
+7	em	em	PRON	_	_	6	obl	_	_
+8	ya	ya	INTJ	_	_	6	adv	_	_
 9	em	em	PRON	_	_	10	nmod:pos	_	_
-10	tufala	tufala	NUM	_	_	1	obl	_	_
-11	ya	ya	INTJ	_	_	1	adv	_	_
-12	Lokaa	Lokaa	PROPN	_	_	1	obl	_	_
+10	tufala	tufala	NUM	_	_	6	obl	_	_
+11	ya	ya	INTJ	_	_	6	adv	_	_
+12	Lokaa	Lokaa	PROPN	_	_	6	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.220
 # text = ((Lokaa is on the right hand side and he's)) em san blo yu mmm san blo Alex gud.
 1	em	em	PRON	_	_	2	nmod:pos	_	_
-2	san	san	NOUN	_	_	1	obl	_	_
+2	san	san	NOUN	_	_	0	root	_	_
 3	blo	blo	ADP	_	_	4	case	_	_
 4	yu	yu	PRON	_	_	5	nmod:pos	_	_
 5	mmm	mmm	NOUN	_	_	6	nmod	_	_
-6	san	san	NOUN	_	_	1	obl	_	_
+6	san	san	NOUN	_	_	2	obl	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
 8	Alex	Alex	PROPN	_	_	6	nmod	_	_
-9	gud	gud	ADJ	_	_	1	obl	_	_
+9	gud	gud	ADJ	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.221
 # text = ((and the other one was)) Bethuel Salaimanu san blo Tiofidi.
 1	Bethuel	Bethuel	PROPN	_	_	2	flat	_	_
-2	Salaimanu	Salaimanu	PROPN	_	_	1	obl	_	_
-3	san	san	NOUN	_	_	1	obl	_	_
+2	Salaimanu	Salaimanu	PROPN	_	_	0	root	_	_
+3	san	san	NOUN	_	_	2	obl	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
 5	Tiofidi	Tiofidi	PROPN	_	_	3	nmod	_	_
 
@@ -2612,18 +2612,18 @@
 1	Bethuel	Bethuel	PROPN	_	_	4	flat	_	_
 2	Salaimanu	Salaimanu	PROPN	_	_	4	flat	_	_
 3	Beduel	Beduel	PROPN	_	_	4	flat	_	_
-4	Bethuel	Bethuel	PROPN	_	_	1	obl	_	_
-5	ya	ya	INTJ	_	_	1	adv	_	_
-6	BETHUEL	_	PUNCT	_	_	1	adv	_	_
+4	Bethuel	Bethuel	PROPN	_	_	0	root	_	_
+5	ya	ya	INTJ	_	_	4	adv	_	_
+6	BETHUEL	_	PUNCT	_	_	4	adv	_	_
 7	Bethuel	Bethuel	PROPN	_	_	8	flat	_	_
-8	Salaimanu	Salaimanu	PROPN	_	_	1	obl	_	_
-9	san	san	NOUN	_	_	1	obl	_	_
+8	Salaimanu	Salaimanu	PROPN	_	_	4	obl	_	_
+9	san	san	NOUN	_	_	4	obl	_	_
 10	blo	blo	ADP	_	_	11	case	_	_
 11	Tiofidi	Tiofidi	PROPN	_	_	9	nmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.223
 # text = ((that's ahhm)) san blong Defiti Defiti Defiti Tiofiji san.
-1	san	san	NOUN	_	_	1	obl	_	_
+1	san	san	NOUN	_	_	0	root	_	_
 2	blong	blong	ADP	_	_	6	case	_	_
 3	Defiti	Defiti	PROPN	_	_	6	flat	_	_
 4	Defiti	Defiti	PROPN	_	_	6	flat	_	_
@@ -2639,7 +2639,7 @@
 4	silip	silip	INTJ	_	_	5	adv	_	_
 5	kam	kam	VERB	_	_	0	root	_	_
 6	long	long	ADP	_	_	7	case	_	_
-7	Fidi	Fidi	PROPN	_	_	3	nmod	_	_
+7	Fidi	Fidi	PROPN	_	_	5	obl	_	_
 8	ya	ya	INTJ	_	_	5	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.225
@@ -2654,30 +2654,30 @@
 # text = Baegu Baegu Lau language ya yu saet fo mi.
 1	Baegu	Baegu	PROPN	_	_	3	flat	_	_
 2	Baegu	Baegu	PROPN	_	_	3	flat	_	_
-3	Lau	Lau	PROPN	_	_	1	obl	_	_
-4	language	language	NOUN	_	_	1	obl	_	_
-5	ya	ya	INTJ	_	_	1	adv	_	_
+3	Lau	Lau	PROPN	_	_	0	root	_	_
+4	language	language	NOUN	_	_	3	obl	_	_
+5	ya	ya	INTJ	_	_	3	adv	_	_
 6	yu	yu	PRON	_	_	7	nmod:pos	_	_
 7	saet	saet	NOUN	_	_	8	nmod	_	_
-8	fo	fo	NOUN	_	_	1	obl	_	_
-9	mi	mi	PRON	_	_	1	obl	_	_
+8	fo	fo	NOUN	_	_	3	obl	_	_
+9	mi	mi	PRON	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.228
 # text = ah kolom nem blong language blo yu.
-1	ah	_	<hes>	_	_	1	adv	_	_
+1	ah	_	<hes>	_	_	3	adv	_	_
 2	kolom	kolom	NOUN	_	_	3	nmod	_	_
-3	nem	nem	NOUN	_	_	1	obl	_	_
+3	nem	nem	NOUN	_	_	0	root	_	_
 4	blong	blong	ADP	_	_	5	case	_	_
 5	language	language	NOUN	_	_	3	nmod	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
-7	yu	yu	PRON	_	_	1	obl	_	_
+7	yu	yu	PRON	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.229
 # text = long Baegu lanus gud.
 1	long	long	ADP	_	_	2	case	_	_
-2	Baegu	Baegu	PROPN	_	_	1	obl	_	_
-3	lanus	lanus	NOUN	_	_	1	obl	_	_
-4	gud	gud	ADJ	_	_	1	obl	_	_
+2	Baegu	Baegu	PROPN	_	_	0	root	_	_
+3	lanus	lanus	NOUN	_	_	2	obl	_	_
+4	gud	gud	ADJ	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.230
 # text = hem klosap a sem Lau ya sem kolsap klosap long Lau gut.
@@ -2697,11 +2697,11 @@
 # sent_id = TD1-P02580-A.eaf.231
 # text = yu save em a i gat stori long disla Kalagwasu i go long Queensland pastaem o i em bae em kam baek na hem go gen lo Fiji o.
 1	yu	yu	PRON	_	_	2	nsubj	_	_
-2	save	save	VERB	_	_	verb_head	_	_	_
+2	save	save	VERB	_	_	0	root	_	_
 3	em	em	PRON	_	_	6	nsubj	_	_
 4	a	_	<hes>	_	_	2	adv	_	_
 5	i	i	PART	_	_	6	aux	_	_
-6	gat	gat	VERB	_	_	verb_head	_	_	_
+6	gat	gat	VERB	_	_	2	advcl	_	_
 7	stori	stori	NOUN	_	_	2	obl	_	_
 8	long	long	ADP	_	_	12	mark	_	_
 9	disla	disla	NOUN	_	_	7	nmod	_	_
@@ -2710,17 +2710,17 @@
 12	go	go	VERB	_	_	2	advcl	_	_
 13	long	long	ADP	_	_	14	case	_	_
 14	Queensland	Queensland	PROPN	_	_	15	nsubj	_	_
-15	pastaem	pastaem	VERB	_	_	verb_head	_	_	_
+15	pastaem	pastaem	VERB	_	_	2	advcl	_	_
 16	o	o	NOUN	_	_	17	nsubj	_	_
-17	i	i	PART	_	_	verb_head	_	_	_
+17	i	i	PART	_	_	2	advcl	_	_
 18	em	em	PRON	_	_	17	obj	_	_
 19	bae	bae	ADV	_	_	21	advmod	_	_
 20	em	em	PRON	_	_	21	nsubj	_	_
-21	kam	kam	VERB	_	_	verb_head	_	_	_
+21	kam	kam	VERB	_	_	2	advcl	_	_
 22	baek	baek	NOUN	_	_	23	nmod	_	_
 23	na	na	NOUN	_	_	2	obl	_	_
 24	hem	hem	PRON	_	_	25	nsubj	_	_
-25	go	go	VERB	_	_	verb_head	_	_	_
+25	go	go	VERB	_	_	2	advcl	_	_
 26	gen	gen	NOUN	_	_	2	obl	_	_
 27	lo	lo	ADP	_	_	28	case	_	_
 28	Fiji	Fiji	PROPN	_	_	26	nmod	_	_
@@ -2738,12 +2738,12 @@
 
 # sent_id = TD1-P02580-A.eaf.234
 # text = kasim queensland na mifala no save na aha.
-1	kasim	kasim	VERB	_	_	verb_head	_	_	_
+1	kasim	kasim	VERB	_	_	0	root	_	_
 2	queensland	queensland	NOUN	_	_	3	nmod	_	_
 3	na	na	NOUN	_	_	1	obj	_	_
 4	mifala	mifala	PRON	_	_	6	nsubj	_	_
 5	no	no	PART	_	_	6	aux	_	_
-6	save	save	VERB	_	_	verb_head	_	_	_
+6	save	save	VERB	_	_	1	advcl	_	_
 7	na	na	NOUN	_	_	8	nmod	_	_
 8	aha	aha	NOUN	_	_	1	obl	_	_
 
@@ -2751,7 +2751,7 @@
 # text = hem jus go to Fiji he sed Fiji nao barata taem fas taem hem go Fiji nao mhmm.
 1	hem	hem	PRON	_	_	2	nmod:pos	_	_
 2	jus	jus	NOUN	_	_	3	nsubj	_	_
-3	go	go	VERB	_	_	verb_head	_	_	_
+3	go	go	VERB	_	_	0	root	_	_
 4	to	to	NOUN	_	_	3	obl	_	_
 5	Fiji	Fiji	PROPN	_	_	3	obl	_	_
 6	he	he	NOUN	_	_	7	nmod	_	_
@@ -2760,10 +2760,10 @@
 9	nao	nao	ADV	_	_	12	advmod	_	_
 10	barata	barata	NOUN	_	_	11	nmod	_	_
 11	taem	taem	NOUN	_	_	12	nsubj	_	_
-12	fas	fas	VERB	_	_	verb_head	_	_	_
+12	fas	fas	VERB	_	_	3	advcl	_	_
 13	taem	taem	NOUN	_	_	3	obl	_	_
 14	hem	hem	PRON	_	_	15	nsubj	_	_
-15	go	go	VERB	_	_	verb_head	_	_	_
+15	go	go	VERB	_	_	3	advcl	_	_
 16	Fiji	Fiji	PROPN	_	_	3	obl	_	_
 17	nao	nao	ADV	_	_	15	advmod	_	_
 18	mhmm	mhmm	NOUN	_	_	3	obl	_	_
@@ -2774,13 +2774,13 @@
 2	long	long	ADP	_	_	4	mark	_	_
 3	Fidi	Fidi	PROPN	_	_	5	nsubj	_	_
 4	hemi	hemi	VERB	_	_	5	advcl	_	_
-5	save	save	VERB	_	_	verb_head	_	_	_
+5	save	save	VERB	_	_	0	root	_	_
 6	long	long	ADP	_	_	9	case	_	_
 7	tok	tok	NOUN	_	_	9	nmod	_	_
 8	pisin	pisin	NOUN	_	_	9	nmod	_	_
 9	befo	befo	NOUN	_	_	11	nsubj	_	_
-10	hemi	hemi	VERB	_	_	verb_head	_	_	_
-11	go	go	VERB	_	_	verb_head	_	_	_
+10	hemi	hemi	VERB	_	_	5	advcl	_	_
+11	go	go	VERB	_	_	5	advcl	_	_
 12	nomoa	nomoa	NOUN	_	_	13	nmod	_	_
 13	nomoa	nomoa	NOUN	_	_	10	obj	_	_
 14	no	no	PART	_	_	11	aux	_	_
@@ -2790,14 +2790,14 @@
 # sent_id = TD1-P02580-A.eaf.237
 # text = no ani Englis aha nating Englis dat taem aha.
 1	no	no	PART	_	_	1	aux	_	_
-2	ani	ani	NOUN	_	_	1	obl	_	_
-3	Englis	Englis	PROPN	_	_	1	obl	_	_
-4	aha	aha	NOUN	_	_	1	obl	_	_
+2	ani	ani	NOUN	_	_	0	root	_	_
+3	Englis	Englis	PROPN	_	_	2	obl	_	_
+4	aha	aha	NOUN	_	_	2	obl	_	_
 5	nating	nating	ADV	_	_	1	advmod	_	_
-6	Englis	Englis	PROPN	_	_	1	obl	_	_
+6	Englis	Englis	PROPN	_	_	2	obl	_	_
 7	dat	dat	NOUN	_	_	9	nmod	_	_
 8	taem	taem	NOUN	_	_	9	nmod	_	_
-9	aha	aha	NOUN	_	_	1	obl	_	_
+9	aha	aha	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.238
 # text = (()).
@@ -2805,13 +2805,13 @@
 # sent_id = TD1-P02580-A.eaf.239
 # text = dei statim wanfala English olsem babae mi go ko ko ko ko.
 1	dei	dei	NOUN	_	_	2	nsubj	_	_
-2	statim	statim	VERB	_	_	verb_head	_	_	_
+2	statim	statim	VERB	_	_	0	root	_	_
 3	wanfala	wan	ADJ	_	_	12	amod	_	_
 4	English	English	PROPN	_	_	2	obj	_	_
 5	olsem	olsem	ADV	_	_	2	advmod	_	_
 6	babae	babae	INTJ	_	_	2	adv	_	_
 7	mi	mi	PRON	_	_	8	nsubj	_	_
-8	go	go	VERB	_	_	verb_head	_	_	_
+8	go	go	VERB	_	_	2	advcl	_	_
 9	ko	ko	NOUN	_	_	12	nmod	_	_
 10	ko	ko	NOUN	_	_	12	nmod	_	_
 11	ko	ko	NOUN	_	_	12	nmod	_	_
@@ -2819,7 +2819,7 @@
 
 # sent_id = TD1-P02580-A.eaf.240
 # text = hem olsem noma wanem ((they call in the olden days a a Three Kaidia's English)).
-1	hem	hem	PRON	_	_	1	obl	_	_
+1	hem	hem	PRON	_	_	0	root	_	_
 2	olsem	olsem	ADV	_	_	1	advmod	_	_
 3	noma	noma	NOUN	_	_	1	obl	_	_
 4	wanem	wanem	INTJ	_	_	1	adv	_	_
@@ -2829,17 +2829,17 @@
 
 # sent_id = TD1-P02580-A.eaf.242
 # text = dei se tufala wod.
-1	dei	dei	NOUN	_	_	1	obl	_	_
+1	dei	dei	NOUN	_	_	0	root	_	_
 2	se	se	SCONJ	_	_	1	adv	_	_
 3	tufala	tufala	NUM	_	_	4	nummod	_	_
 4	wod	wod	NOUN	_	_	1	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.243
 # text = go goo <laugh> mi yu finis nao.
-1	go	go	VERB	_	_	verb_head	_	_	_
+1	go	go	VERB	_	_	0	root	_	_
 2	goomi	goomi	NOUN	_	_	1	obl	_	_
 3	yu	yu	PRON	_	_	4	nsubj	_	_
-4	finis	finis	VERB	_	_	verb_head	_	_	_
+4	finis	finis	VERB	_	_	1	advcl	_	_
 5	nao	nao	ADV	_	_	4	advmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.244
@@ -2886,17 +2886,17 @@
 11	Mosbi	Mosbi	NOUN	_	_	9	nmod	_	_
 12	mi	mi	PRON	_	_	13	nmod:pos	_	_
 13	ken	ken	NOUN	_	_	14	nsubj	_	_
-14	opim	opim	VERB	_	_	verb_head	_	_	_
+14	opim	opim	VERB	_	_	0	root	_	_
 15	na	na	NOUN	_	_	14	obj	_	_
 16	mi	mi	PRON	_	_	17	nmod:pos	_	_
 17	ken	ken	NOUN	_	_	18	nsubj	_	_
-18	harim	harim	VERB	_	_	verb_head	_	_	_
+18	harim	harim	VERB	_	_	14	advcl	_	_
 19	mmm	mmm	NOUN	_	_	18	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.249
 # text = yu tokim hem yu tok sapos yu tok long pijin hemi no save long langus nao.
 1	yu	yu	PRON	_	_	2	nsubj	_	_
-2	tokim	tokim	VERB	_	_	verb_head	_	_	_
+2	tokim	tokim	VERB	_	_	0	root	_	_
 3	hem	hem	PRON	_	_	2	obj	_	_
 4	yu	yu	PRON	_	_	5	nmod:pos	_	_
 5	tok	tok	NOUN	_	_	2	obl	_	_
@@ -2907,7 +2907,7 @@
 10	pijin	pijin	NOUN	_	_	13	nsubj	_	_
 11	hemi	hemi	VERB	_	_	2	advcl	_	_
 12	no	no	PART	_	_	13	aux	_	_
-13	save	save	VERB	_	_	verb_head	_	_	_
+13	save	save	VERB	_	_	2	advcl	_	_
 14	long	long	ADP	_	_	15	case	_	_
 15	langus	langus	NOUN	_	_	11	obj	_	_
 16	nao	nao	ADV	_	_	13	advmod	_	_
@@ -2916,9 +2916,9 @@
 # text = hem no save long langus yu tok sapos i gat long pijin hemi i oraet.
 1	hem	hem	PRON	_	_	3	nsubj	_	_
 2	no	no	PART	_	_	3	aux	_	_
-3	save	save	VERB	_	_	verb_head	_	_	_
+3	save	save	VERB	_	_	0	root	_	_
 4	long	long	ADP	_	_	10	mark	_	_
-5	langus	langus	NOUN	_	_	1	nmod	_	_
+5	langus	langus	NOUN	_	_	3	obl	_	_
 6	yu	yu	PRON	_	_	7	nmod:pos	_	_
 7	tok	tok	NOUN	_	_	10	nsubj	_	_
 8	sapos	sapos	ADV	_	_	10	advmod	_	_
@@ -2926,22 +2926,22 @@
 10	gat	gat	VERB	_	_	3	advcl	_	_
 11	long	long	ADP	_	_	12	case	_	_
 12	pijin	pijin	NOUN	_	_	14	nsubj	_	_
-13	hemi	hemi	VERB	_	_	verb_head	_	_	_
-14	i	i	PART	_	_	verb_head	_	_	_
+13	hemi	hemi	VERB	_	_	3	advcl	_	_
+14	i	i	PART	_	_	3	advcl	_	_
 15	oraet	oraet	ADJ	_	_	14	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.251
 # text = sapos bilis Kalagwasu sapos yu tru man from Gwaikafo ya.
 1	sapos	sapos	ADV	_	_	1	advmod	_	_
-2	bilis	bilis	NOUN	_	_	1	obl	_	_
-3	Kalagwasu	Kalagwasu	PROPN	_	_	1	obl	_	_
+2	bilis	bilis	NOUN	_	_	0	root	_	_
+3	Kalagwasu	Kalagwasu	PROPN	_	_	2	obl	_	_
 4	sapos	sapos	ADV	_	_	1	advmod	_	_
 5	yu	yu	PRON	_	_	6	nmod:pos	_	_
 6	tru	tru	ADJ	_	_	7	amod	_	_
-7	man	man	NOUN	_	_	1	obl	_	_
+7	man	man	NOUN	_	_	2	obl	_	_
 8	from	from	ADP	_	_	9	case	_	_
 9	Gwaikafo	Gwaikafo	PROPN	_	_	7	nmod	_	_
-10	ya	ya	INTJ	_	_	1	adv	_	_
+10	ya	ya	INTJ	_	_	2	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.252
 # text = wael yu kam samtaem en si mifala en mifala want tu si yu fes tu.
@@ -3043,17 +3043,17 @@
 # text = oli kam rekrutim hem hemi go long Fiji.
 1	oli	oli	PART	_	_	2	aux	_	_
 2	kam	kam	AUX	_	_	3	aux	_	_
-3	rekrutim	rekrutim	VERB	_	_	verb_head	_	_	_
+3	rekrutim	rekrutim	VERB	_	_	0	root	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
-5	hemi	hemi	VERB	_	_	verb_head	_	_	_
-6	go	go	VERB	_	_	verb_head	_	_	_
+5	hemi	hemi	VERB	_	_	3	advcl	_	_
+6	go	go	VERB	_	_	3	advcl	_	_
 7	long	long	ADP	_	_	8	case	_	_
 8	Fiji	Fiji	PROPN	_	_	5	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.266
 # text = na i wok long Fiji na behaen Magrege emi kirap i go long Mosbi na emi pulim sampala boi i go long Mosbi tu.
 1	na	na	NOUN	_	_	2	nsubj	_	_
-2	i	i	PART	_	_	verb_head	_	_	_
+2	i	i	PART	_	_	0	root	_	_
 3	wok	wok	NOUN	_	_	2	obj	_	_
 4	long	long	ADP	_	_	10	mark	_	_
 5	Fiji	Fiji	PROPN	_	_	3	nmod	_	_
@@ -3063,18 +3063,18 @@
 9	emi	emi	NOUN	_	_	12	nsubj	_	_
 10	kirap	kirap	VERB	_	_	2	advcl	_	_
 11	i	i	PART	_	_	12	aux	_	_
-12	go	go	VERB	_	_	verb_head	_	_	_
+12	go	go	VERB	_	_	2	advcl	_	_
 13	long	long	ADP	_	_	16	case	_	_
 14	Mosbi	Mosbi	NOUN	_	_	16	nmod	_	_
 15	na	na	NOUN	_	_	16	nmod	_	_
 16	emi	emi	NOUN	_	_	17	nsubj	_	_
-17	pulim	pulim	VERB	_	_	verb_head	_	_	_
+17	pulim	pulim	VERB	_	_	2	advcl	_	_
 18	sampala	sampala	NOUN	_	_	19	nmod	_	_
 19	boi	boi	NOUN	_	_	21	nsubj	_	_
 20	i	i	PART	_	_	21	aux	_	_
-21	go	go	VERB	_	_	verb_head	_	_	_
+21	go	go	VERB	_	_	2	advcl	_	_
 22	long	long	ADP	_	_	23	case	_	_
-23	Mosbi	Mosbi	NOUN	_	_	19	nmod	_	_
+23	Mosbi	Mosbi	NOUN	_	_	21	obl	_	_
 24	tu	tu	NUM	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.267
@@ -3092,13 +3092,13 @@
 # text = na mi laek harem yu save long disfala nem blong wanpala wanpala o nogat.
 1	na	na	NOUN	_	_	3	obl	_	_
 2	mi	mi	PRON	_	_	4	nsubj	_	_
-3	laek	laek	VERB	_	_	verb_head	_	_	_
-4	harem	harem	VERB	_	_	verb_head	_	_	_
+3	laek	laek	VERB	_	_	0	root	_	_
+4	harem	harem	VERB	_	_	3	advcl	_	_
 5	yu	yu	PRON	_	_	6	nsubj	_	_
-6	save	save	VERB	_	_	verb_head	_	_	_
+6	save	save	VERB	_	_	3	advcl	_	_
 7	long	long	ADP	_	_	9	case	_	_
 8	disfala	dis	ADJ	_	_	9	amod	_	_
-9	nem	nem	NOUN	_	_	5	nmod	_	_
+9	nem	nem	NOUN	_	_	6	obl	_	_
 10	blong	blong	ADP	_	_	13	case	_	_
 11	wanpala	wanpala	NOUN	_	_	13	nmod	_	_
 12	wanpala	wanpala	NOUN	_	_	13	nmod	_	_
@@ -3109,10 +3109,10 @@
 # text = a mi kolem na yu harim.
 1	a	_	<hes>	_	_	3	adv	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
-3	kolem	kolem	VERB	_	_	verb_head	_	_	_
+3	kolem	kolem	VERB	_	_	0	root	_	_
 4	na	na	NOUN	_	_	3	obj	_	_
 5	yu	yu	PRON	_	_	6	nsubj	_	_
-6	harim	harim	VERB	_	_	verb_head	_	_	_
+6	harim	harim	VERB	_	_	3	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.270
 # text = wanpela oli kolem Ogofi.
@@ -3134,7 +3134,7 @@
 # sent_id = TD1-P02580-A.eaf.273
 # text = yu save long dispala sampala man i stap longo ples ya em gat nem olsem noma nomo.
 1	yu	yu	PRON	_	_	2	nsubj	_	_
-2	save	save	VERB	_	_	verb_head	_	_	_
+2	save	save	VERB	_	_	0	root	_	_
 3	long	long	ADP	_	_	8	mark	_	_
 4	dispala	dispala	NOUN	_	_	6	nmod	_	_
 5	sampala	sampala	NOUN	_	_	6	nmod	_	_
@@ -3145,7 +3145,7 @@
 10	ples	ples	NOUN	_	_	2	obl	_	_
 11	ya	ya	INTJ	_	_	2	adv	_	_
 12	em	em	PRON	_	_	13	nsubj	_	_
-13	gat	gat	VERB	_	_	verb_head	_	_	_
+13	gat	gat	VERB	_	_	2	advcl	_	_
 14	nem	nem	NOUN	_	_	2	obl	_	_
 15	olsem	olsem	ADV	_	_	13	advmod	_	_
 16	noma	noma	NOUN	_	_	2	obl	_	_
@@ -3186,8 +3186,8 @@
 
 # sent_id = TD1-P02580-A.eaf.282
 # text = hemi save Kwalemanu.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	save	save	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	save	save	VERB	_	_	1	advcl	_	_
 3	Kwalemanu	Kwalemanu	PROPN	_	_	1	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.283
@@ -3202,7 +3202,7 @@
 
 # sent_id = TD1-P02580-A.eaf.286
 # text = Kwalemanu hem man blong wea long Masu.
-1	Kwalemanu	Kwalemanu	PROPN	_	_	1	obl	_	_
+1	Kwalemanu	Kwalemanu	PROPN	_	_	0	root	_	_
 2	hem	hem	PRON	_	_	3	nmod:pos	_	_
 3	man	man	NOUN	_	_	1	obl	_	_
 4	blong	blong	ADP	_	_	7	case	_	_
@@ -3243,7 +3243,7 @@
 
 # sent_id = TD1-P02580-A.eaf.291
 # text = na Davanikura.
-1	na	na	NOUN	_	_	1	obl	_	_
+1	na	na	NOUN	_	_	0	root	_	_
 2	Davanikura	Davanikura	PROPN	_	_	1	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.292
@@ -3260,7 +3260,7 @@
 10	no	no	PART	_	_	11	aux	_	_
 11	save	save	VERB	_	_	7	advcl	_	_
 12	long	long	ADP	_	_	13	case	_	_
-13	em	em	PRON	_	_	7	obl	_	_
+13	em	em	PRON	_	_	11	obl	_	_
 14	ya	ya	INTJ	_	_	7	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.293
@@ -3268,8 +3268,8 @@
 1	o	o	NOUN	_	_	4	obl	_	_
 2	ating	ating	ADV	_	_	4	advmod	_	_
 3	e	e	NOUN	_	_	5	nsubj	_	_
-4	pronaoncim	pronaoncim	VERB	_	_	verb_head	_	_	_
-5	osem	osem	VERB	_	_	verb_head	_	_	_
+4	pronaoncim	pronaoncim	VERB	_	_	0	root	_	_
+5	osem	osem	VERB	_	_	4	advcl	_	_
 6	tu	tu	NUM	_	_	5	obj	_	_
 7	Taa	Taa	PROPN	_	_	4	adv	_	_
 8	Taananikura	Taananikura	PROPN	_	_	4	obl	_	_
@@ -3298,7 +3298,7 @@
 
 # sent_id = TD1-P02580-A.eaf.297
 # text = Irobaea o Irobaea Irobaea Irobaea.
-1	Irobaea	Irobaea	PROPN	_	_	1	obl	_	_
+1	Irobaea	Irobaea	PROPN	_	_	0	root	_	_
 2	o	o	NOUN	_	_	1	obl	_	_
 3	Irobaea	Irobaea	PROPN	_	_	1	obl	_	_
 4	Irobaea	Irobaea	PROPN	_	_	1	obl	_	_
@@ -3306,7 +3306,7 @@
 
 # sent_id = TD1-P02580-A.eaf.298
 # text = Irobaea em blo wea .
-1	Irobaea	Irobaea	PROPN	_	_	1	obl	_	_
+1	Irobaea	Irobaea	PROPN	_	_	0	root	_	_
 2	em	em	PRON	_	_	1	obl	_	_
 3	blo	blo	ADP	_	_	1	adv	_	_
 4	wea	wea	INTJ	_	_	1	adv	_	_
@@ -3326,7 +3326,7 @@
 
 # sent_id = TD1-P02580-A.eaf.302
 # text = Halafou vilij ha.
-1	Halafou	Halafou	PROPN	_	_	1	obl	_	_
+1	Halafou	Halafou	PROPN	_	_	0	root	_	_
 2	vilij	vilij	NOUN	_	_	3	nmod	_	_
 3	ha	ha	NOUN	_	_	1	obl	_	_
 
@@ -3350,8 +3350,8 @@
 # sent_id = TD1-P02580-A.eaf.306
 # text = noma hemi save bata long taem nao mi no save tu ya.
 1	noma	noma	NOUN	_	_	3	nsubj	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
-3	save	save	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
+3	save	save	VERB	_	_	2	advcl	_	_
 4	bata	bata	NOUN	_	_	2	obj	_	_
 5	long	long	ADP	_	_	10	mark	_	_
 6	taem	taem	NOUN	_	_	4	nmod	_	_
@@ -3371,8 +3371,8 @@
 # sent_id = TD1-P02580-A.eaf.309
 # text = ok letem go fastaem  ((just put a Salafou there Salafou village or Irobaea)).
 1	ok	ok	NOUN	_	_	3	nsubj	_	_
-2	letem	letem	VERB	_	_	verb_head	_	_	_
-3	go	go	VERB	_	_	verb_head	_	_	_
+2	letem	letem	VERB	_	_	0	root	_	_
+3	go	go	VERB	_	_	2	advcl	_	_
 4	fastaem	fastaem	ADJ	_	_	2	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.310
@@ -3413,9 +3413,9 @@
 2	nao	nao	ADV	_	_	5	advmod	_	_
 3	wan	wan	NUM	_	_	4	nummod	_	_
 4	of	of	NOUN	_	_	5	nsubj	_	_
-5	dem	dem	VERB	_	_	verb_head	_	_	_
+5	dem	dem	VERB	_	_	0	root	_	_
 6	dei	dei	NOUN	_	_	7	nsubj	_	_
-7	kolem	kolem	VERB	_	_	verb_head	_	_	_
+7	kolem	kolem	VERB	_	_	5	advcl	_	_
 8	teiba	teiba	NOUN	_	_	7	obj	_	_
 
 # sent_id = TD1-P02580-A.eaf.319
@@ -3428,14 +3428,14 @@
 3	nao	nao	ADV	_	_	6	advmod	_	_
 4	ating	ating	ADV	_	_	6	advmod	_	_
 5	na	na	NOUN	_	_	7	nsubj	_	_
-6	hemi	hemi	VERB	_	_	verb_head	_	_	_
-7	save	save	VERB	_	_	verb_head	_	_	_
+6	hemi	hemi	VERB	_	_	0	root	_	_
+7	save	save	VERB	_	_	6	advcl	_	_
 8	hem	hem	PRON	_	_	6	obj	_	_
 9	rekrut	rekrut	NOUN	_	_	11	nsubj	_	_
 10	i	i	PART	_	_	11	aux	_	_
-11	go	go	VERB	_	_	verb_head	_	_	_
+11	go	go	VERB	_	_	6	advcl	_	_
 12	long	long	ADP	_	_	13	case	_	_
-13	Fiji	Fiji	PROPN	_	_	9	nmod	_	_
+13	Fiji	Fiji	PROPN	_	_	11	obl	_	_
 14	ya	ya	INTJ	_	_	6	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.321
@@ -3444,7 +3444,7 @@
 2	hem	hem	PRON	_	_	3	nsubj	_	_
 3	go	go	VERB	_	_	0	root	_	_
 4	long	long	ADP	_	_	5	case	_	_
-5	taem	taem	NOUN	_	_	2	nmod	_	_
+5	taem	taem	NOUN	_	_	3	obl	_	_
 6	long	long	ADP	_	_	7	case	_	_
 7	Fidi	Fidi	PROPN	_	_	3	obl	_	_
 8	long	long	ADP	_	_	9	case	_	_
@@ -3453,13 +3453,13 @@
 
 # sent_id = TD1-P02580-A.eaf.322
 # text = hemi kam baek gen no hemi hemi dae wea long Fidi long Fiji ya.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	kam	kam	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	kam	kam	VERB	_	_	1	advcl	_	_
 3	baek	baek	NOUN	_	_	4	nmod	_	_
 4	gen	gen	NOUN	_	_	7	nsubj	_	_
 5	no	no	PART	_	_	6	aux	_	_
-6	hemi	hemi	VERB	_	_	verb_head	_	_	_
-7	hemi	hemi	VERB	_	_	verb_head	_	_	_
+6	hemi	hemi	VERB	_	_	1	advcl	_	_
+7	hemi	hemi	VERB	_	_	1	advcl	_	_
 8	dae	dae	NOUN	_	_	7	obj	_	_
 9	wea	wea	INTJ	_	_	1	adv	_	_
 10	long	long	ADP	_	_	11	case	_	_
@@ -3477,14 +3477,14 @@
 # text = em yu ting a sapos mi kolim tokim hemi go long Mosbi tu hemi dae long Mosbi.
 1	em	em	PRON	_	_	3	obl	_	_
 2	yu	yu	PRON	_	_	3	nsubj	_	_
-3	ting	ting	VERB	_	_	verb_head	_	_	_
+3	ting	ting	VERB	_	_	0	root	_	_
 4	a	_	<hes>	_	_	3	adv	_	_
 5	sapos	sapos	ADV	_	_	3	advmod	_	_
 6	mi	mi	PRON	_	_	10	nsubj	_	_
-7	kolim	kolim	VERB	_	_	verb_head	_	_	_
-8	tokim	tokim	VERB	_	_	verb_head	_	_	_
-9	hemi	hemi	VERB	_	_	verb_head	_	_	_
-10	go	go	VERB	_	_	verb_head	_	_	_
+7	kolim	kolim	VERB	_	_	3	advcl	_	_
+8	tokim	tokim	VERB	_	_	3	advcl	_	_
+9	hemi	hemi	VERB	_	_	3	advcl	_	_
+10	go	go	VERB	_	_	3	advcl	_	_
 11	long	long	ADP	_	_	14	mark	_	_
 12	Mosbi	Mosbi	NOUN	_	_	14	nsubj	_	_
 13	tu	tu	NUM	_	_	15	nummod	_	_
@@ -3495,12 +3495,12 @@
 
 # sent_id = TD1-P02580-A.eaf.325
 # text = hemi no save yu no save ay ya.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
 2	no	no	PART	_	_	3	aux	_	_
-3	save	save	VERB	_	_	verb_head	_	_	_
+3	save	save	VERB	_	_	1	advcl	_	_
 4	yu	yu	PRON	_	_	6	nsubj	_	_
 5	no	no	PART	_	_	6	aux	_	_
-6	save	save	VERB	_	_	verb_head	_	_	_
+6	save	save	VERB	_	_	1	advcl	_	_
 7	ay	ay	NOUN	_	_	1	obl	_	_
 8	ya	ya	INTJ	_	_	1	adv	_	_
 
@@ -3512,7 +3512,7 @@
 1	bata	bata	NOUN	_	_	2	nsubj	_	_
 2	kam	kam	VERB	_	_	0	root	_	_
 3	from	from	ADP	_	_	4	case	_	_
-4	Fiji	Fiji	PROPN	_	_	1	nmod	_	_
+4	Fiji	Fiji	PROPN	_	_	2	obl	_	_
 5	tu	tu	NUM	_	_	9	nummod	_	_
 6	Pot	Pot	PROPN	_	_	2	obl	_	_
 7	Mosbi	Mosbi	NOUN	_	_	9	nmod	_	_
@@ -3524,10 +3524,10 @@
 1	oli	oli	PART	_	_	3	aux	_	_
 2	no	no	PART	_	_	3	aux	_	_
 3	save	save	AUX	_	_	4	aux	_	_
-4	salem	salem	VERB	_	_	verb_head	_	_	_
+4	salem	salem	VERB	_	_	0	root	_	_
 5	leta	leta	NOUN	_	_	7	nsubj	_	_
 6	i	i	PART	_	_	7	aux	_	_
-7	kam	kam	VERB	_	_	verb_head	_	_	_
+7	kam	kam	VERB	_	_	4	advcl	_	_
 8	ah	_	<hes>	_	_	4	adv	_	_
 9	baek	baek	NOUN	_	_	4	obl	_	_
 10	nomo	nomo	ADV	_	_	7	advmod	_	_
@@ -3545,7 +3545,7 @@
 3	save	save	VERB	_	_	0	root	_	_
 4	lo	lo	ADP	_	_	6	case	_	_
 5	wanem	wanem	INTJ	_	_	3	adv	_	_
-6	bout	bout	NOUN	_	_	2	nmod	_	_
+6	bout	bout	NOUN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.331
 # text = hemi rekrut blong em i go.
@@ -3567,11 +3567,11 @@
 # text = becos hem bon yet taem sip go.
 1	becos	becos	NOUN	_	_	3	obl	_	_
 2	hem	hem	PRON	_	_	3	nsubj	_	_
-3	bon	bon	VERB	_	_	verb_head	_	_	_
+3	bon	bon	VERB	_	_	0	root	_	_
 4	yet	yet	AUX	_	_	7	aux	_	_
 5	taem	taem	NOUN	_	_	6	nmod	_	_
 6	sip	sip	NOUN	_	_	7	nsubj	_	_
-7	go	go	VERB	_	_	verb_head	_	_	_
+7	go	go	VERB	_	_	3	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.335
 # text = ya tasol mi mi laek paenim aot hemi gat stori famli blong em hemi save long bout o nogat.
@@ -3579,17 +3579,17 @@
 2	tasol	tasol	NOUN	_	_	5	obl	_	_
 3	mi	mi	PRON	_	_	5	obl	_	_
 4	mi	mi	PRON	_	_	9	nsubj	_	_
-5	laek	laek	VERB	_	_	verb_head	_	_	_
-6	paenim	paenim	VERB	_	_	verb_head	_	_	_
-7	aot	aot	VERB	_	_	verb_head	_	_	_
-8	hemi	hemi	VERB	_	_	verb_head	_	_	_
-9	gat	gat	VERB	_	_	verb_head	_	_	_
+5	laek	laek	VERB	_	_	0	root	_	_
+6	paenim	paenim	VERB	_	_	5	advcl	_	_
+7	aot	aot	VERB	_	_	5	advcl	_	_
+8	hemi	hemi	VERB	_	_	5	advcl	_	_
+9	gat	gat	VERB	_	_	5	advcl	_	_
 10	stori	stori	NOUN	_	_	11	nmod	_	_
 11	famli	famli	NOUN	_	_	8	obj	_	_
 12	blong	blong	ADP	_	_	14	mark	_	_
 13	em	em	PRON	_	_	15	nsubj	_	_
 14	hemi	hemi	VERB	_	_	5	advcl	_	_
-15	save	save	VERB	_	_	verb_head	_	_	_
+15	save	save	VERB	_	_	5	advcl	_	_
 16	long	long	ADP	_	_	18	case	_	_
 17	bout	bout	NOUN	_	_	18	nmod	_	_
 18	o	o	NOUN	_	_	14	obj	_	_
@@ -3618,7 +3618,7 @@
 
 # sent_id = TD1-P02580-A.eaf.343
 # text = na Raetki.
-1	na	na	NOUN	_	_	1	obl	_	_
+1	na	na	NOUN	_	_	0	root	_	_
 2	Raetki	Raetki	PROPN	_	_	1	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.344
@@ -3648,21 +3648,21 @@
 # text = dis disala man Luluota.
 1	dis	dis	NOUN	_	_	3	nmod	_	_
 2	disala	disala	NOUN	_	_	3	nmod	_	_
-3	man	man	NOUN	_	_	1	obl	_	_
-4	Luluota	Luluota	PROPN	_	_	1	obl	_	_
+3	man	man	NOUN	_	_	0	root	_	_
+4	Luluota	Luluota	PROPN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.351
 # text = hemi go long Quesland pastem na em go long Fiji gen o.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	go	go	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	go	go	VERB	_	_	1	advcl	_	_
 3	long	long	ADP	_	_	5	mark	_	_
 4	Quesland	Quesland	PROPN	_	_	5	nsubj	_	_
 5	pastem	pastem	VERB	_	_	1	advcl	_	_
 6	na	na	NOUN	_	_	5	obj	_	_
 7	em	em	PRON	_	_	8	nsubj	_	_
-8	go	go	VERB	_	_	verb_head	_	_	_
+8	go	go	VERB	_	_	1	advcl	_	_
 9	long	long	ADP	_	_	10	case	_	_
-10	Fiji	Fiji	PROPN	_	_	7	nmod	_	_
+10	Fiji	Fiji	PROPN	_	_	8	obl	_	_
 11	gen	gen	NOUN	_	_	12	nmod	_	_
 12	o	o	NOUN	_	_	1	obl	_	_
 
@@ -3679,18 +3679,18 @@
 2	taem	taem	NOUN	_	_	3	nmod	_	_
 3	emi	emi	NOUN	_	_	5	nsubj	_	_
 4	go	go	AUX	_	_	5	aux	_	_
-5	hemi	hemi	VERB	_	_	verb_head	_	_	_
+5	hemi	hemi	VERB	_	_	0	root	_	_
 6	young	young	NOUN	_	_	11	nmod	_	_
 7	pala	pala	NOUN	_	_	11	nmod	_	_
 8	o	o	NOUN	_	_	11	nmod	_	_
 9	bipala	bipala	NOUN	_	_	11	nmod	_	_
 10	pinis	pinis	NOUN	_	_	11	nmod	_	_
 11	emi	emi	NOUN	_	_	12	nsubj	_	_
-12	maritim	maritim	VERB	_	_	verb_head	_	_	_
+12	maritim	maritim	VERB	_	_	5	advcl	_	_
 13	meri	meri	INTJ	_	_	5	adv	_	_
 14	na	na	NOUN	_	_	15	nmod	_	_
 15	emi	emi	NOUN	_	_	16	nsubj	_	_
-16	go	go	VERB	_	_	verb_head	_	_	_
+16	go	go	VERB	_	_	5	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.355
 # text = (()).
@@ -3738,16 +3738,16 @@
 3	dae	dae	NOUN	_	_	4	nmod	_	_
 4	gafman	gafman	NOUN	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
-6	salem	salem	VERB	_	_	verb_head	_	_	_
+6	salem	salem	VERB	_	_	0	root	_	_
 7	tok	tok	NOUN	_	_	9	nsubj	_	_
 8	i	i	PART	_	_	9	aux	_	_
-9	kam	kam	VERB	_	_	verb_head	_	_	_
+9	kam	kam	VERB	_	_	6	advcl	_	_
 10	baek	baek	NOUN	_	_	11	nmod	_	_
 11	na	na	NOUN	_	_	12	nsubj	_	_
-12	i	i	PART	_	_	verb_head	_	_	_
+12	i	i	PART	_	_	6	advcl	_	_
 13	tok	tok	NOUN	_	_	14	nmod	_	_
 14	o	o	NOUN	_	_	15	nsubj	_	_
-15	sori	sori	VERB	_	_	verb_head	_	_	_
+15	sori	sori	VERB	_	_	6	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.364
 # text = a man belong famli blo yu i dae pinis nao em samting blo hem i kam baek.
@@ -3771,7 +3771,7 @@
 
 # sent_id = TD1-P02580-A.eaf.365
 # text = noma hem se no nogat.
-1	noma	noma	NOUN	_	_	1	obl	_	_
+1	noma	noma	NOUN	_	_	0	root	_	_
 2	hem	hem	PRON	_	_	1	obl	_	_
 3	se	se	SCONJ	_	_	1	adv	_	_
 4	no	no	PART	_	_	1	aux	_	_
@@ -3794,32 +3794,32 @@
 1	ating	ating	ADV	_	_	4	advmod	_	_
 2	Fiji	Fiji	PROPN	_	_	4	obl	_	_
 3	noma	noma	NOUN	_	_	4	nsubj	_	_
-4	givim	givim	VERB	_	_	verb_head	_	_	_
+4	givim	givim	VERB	_	_	0	root	_	_
 5	waea	waea	NOUN	_	_	6	nsubj	_	_
-6	kam	kam	VERB	_	_	verb_head	_	_	_
+6	kam	kam	VERB	_	_	4	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.368
 # text = se o hem diae nao ya.
-1	se	se	SCONJ	_	_	1	adv	_	_
-2	o	o	NOUN	_	_	1	obl	_	_
+1	se	se	SCONJ	_	_	2	adv	_	_
+2	o	o	NOUN	_	_	0	root	_	_
 3	hem	hem	PRON	_	_	4	nmod:pos	_	_
-4	diae	diae	NOUN	_	_	1	obl	_	_
+4	diae	diae	NOUN	_	_	2	obl	_	_
 5	nao	nao	ADV	_	_	1	advmod	_	_
-6	ya	ya	INTJ	_	_	1	adv	_	_
+6	ya	ya	INTJ	_	_	2	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.369
 # text = nao oketa hem dae lo Fiji ya bata wea hem dae long Mosbi aha.
 1	nao	nao	ADV	_	_	1	advmod	_	_
-2	oketa	oketa	NOUN	_	_	1	obl	_	_
+2	oketa	oketa	NOUN	_	_	0	root	_	_
 3	hem	hem	PRON	_	_	4	nmod:pos	_	_
-4	dae	dae	NOUN	_	_	1	obl	_	_
+4	dae	dae	NOUN	_	_	2	obl	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	Fiji	Fiji	PROPN	_	_	4	nmod	_	_
-7	ya	ya	INTJ	_	_	1	adv	_	_
-8	bata	bata	NOUN	_	_	1	obl	_	_
-9	wea	wea	INTJ	_	_	1	adv	_	_
+7	ya	ya	INTJ	_	_	2	adv	_	_
+8	bata	bata	NOUN	_	_	2	obl	_	_
+9	wea	wea	INTJ	_	_	2	adv	_	_
 10	hem	hem	PRON	_	_	11	nmod:pos	_	_
-11	dae	dae	NOUN	_	_	1	obl	_	_
+11	dae	dae	NOUN	_	_	2	obl	_	_
 12	long	long	ADP	_	_	14	case	_	_
 13	Mosbi	Mosbi	NOUN	_	_	14	nmod	_	_
 14	aha	aha	NOUN	_	_	11	nmod	_	_
@@ -3865,13 +3865,13 @@
 
 # sent_id = TD1-P02580-A.eaf.378
 # text = hemi stap long map yu nap pinim hem ya.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	stap	stap	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	stap	stap	VERB	_	_	1	advcl	_	_
 3	long	long	ADP	_	_	4	mark	_	_
 4	map	map	VERB	_	_	1	advcl	_	_
 5	yu	yu	PRON	_	_	7	nsubj	_	_
-6	nap	nap	VERB	_	_	verb_head	_	_	_
-7	pinim	pinim	VERB	_	_	verb_head	_	_	_
+6	nap	nap	VERB	_	_	1	advcl	_	_
+7	pinim	pinim	VERB	_	_	1	advcl	_	_
 8	hem	hem	PRON	_	_	7	obj	_	_
 9	ya	ya	INTJ	_	_	1	adv	_	_
 
@@ -3908,7 +3908,7 @@
 
 # sent_id = TD1-P02580-A.eaf.386
 # text = Urudaua hem klostu long hia ya.
-1	Urudaua	Urudaua	PROPN	_	_	1	obl	_	_
+1	Urudaua	Urudaua	PROPN	_	_	0	root	_	_
 2	hem	hem	PRON	_	_	3	nmod:pos	_	_
 3	klostu	klostu	NOUN	_	_	1	obl	_	_
 4	long	long	ADP	_	_	5	case	_	_
@@ -3917,7 +3917,7 @@
 
 # sent_id = TD1-P02580-A.eaf.387
 # text = o hem antap tru antap ada saed ada saed.
-1	o	o	NOUN	_	_	1	obl	_	_
+1	o	o	NOUN	_	_	0	root	_	_
 2	hem	hem	PRON	_	_	1	obl	_	_
 3	antap	antap	ADV	_	_	1	advmod	_	_
 4	tru	tru	ADJ	_	_	9	amod	_	_
@@ -3932,7 +3932,7 @@
 
 # sent_id = TD1-P02580-A.eaf.389
 # text = o ya aha ((you know the montain you see on the window  aha and you look through)).
-1	o	o	NOUN	_	_	1	obl	_	_
+1	o	o	NOUN	_	_	0	root	_	_
 2	ya	ya	INTJ	_	_	1	adv	_	_
 3	aha	aha	NOUN	_	_	1	obl	_	_
 
@@ -3941,7 +3941,7 @@
 
 # sent_id = TD1-P02580-A.eaf.391
 # text = Langane en Urudaua nao.
-1	Langane	Langane	PROPN	_	_	1	obl	_	_
+1	Langane	Langane	PROPN	_	_	0	root	_	_
 2	en	en	NOUN	_	_	1	obl	_	_
 3	Urudaua	Urudaua	PROPN	_	_	1	obl	_	_
 4	nao	nao	ADV	_	_	1	advmod	_	_
@@ -3960,37 +3960,37 @@
 
 # sent_id = TD1-P02580-A.eaf.393
 # text = hemi kam daon klostu lo roti ya o hemi stap wea o oli dae pinis.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	kam	kam	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	kam	kam	VERB	_	_	1	advcl	_	_
 3	daon	daon	ADV	_	_	2	advmod	_	_
 4	klostu	klostu	NOUN	_	_	1	obj	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	roti	roti	NOUN	_	_	4	nmod	_	_
 7	ya	ya	INTJ	_	_	1	adv	_	_
 8	o	o	NOUN	_	_	10	nsubj	_	_
-9	hemi	hemi	VERB	_	_	verb_head	_	_	_
-10	stap	stap	VERB	_	_	verb_head	_	_	_
+9	hemi	hemi	VERB	_	_	1	advcl	_	_
+10	stap	stap	VERB	_	_	1	advcl	_	_
 11	wea	wea	INTJ	_	_	1	adv	_	_
 12	o	o	NOUN	_	_	13	nsubj	_	_
-13	oli	oli	PART	_	_	verb_head	_	_	_
+13	oli	oli	PART	_	_	1	advcl	_	_
 14	dae	dae	NOUN	_	_	15	nmod	_	_
 15	pinis	pinis	NOUN	_	_	1	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.394
 # text = man blong disfala .
-1	man	man	NOUN	_	_	1	obl	_	_
+1	man	man	NOUN	_	_	0	root	_	_
 2	blong	blong	ADP	_	_	1	adv	_	_
 3	disfala	dis	ADJ	_	_	1	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.395
 # text = olpala vilij Urudaua wanfala hem wanpala aha.
 1	olpala	olpala	NOUN	_	_	2	nmod	_	_
-2	vilij	vilij	NOUN	_	_	1	obl	_	_
-3	Urudaua	Urudaua	PROPN	_	_	1	obl	_	_
+2	vilij	vilij	NOUN	_	_	0	root	_	_
+3	Urudaua	Urudaua	PROPN	_	_	2	obl	_	_
 4	wanfala	wan	ADJ	_	_	7	amod	_	_
 5	hem	hem	PRON	_	_	6	nmod:pos	_	_
 6	wanpala	wanpala	NOUN	_	_	7	nmod	_	_
-7	aha	aha	NOUN	_	_	1	obl	_	_
+7	aha	aha	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.396
 # text = (()).
@@ -4018,7 +4018,7 @@
 
 # sent_id = TD1-P02580-A.eaf.402
 # text = Aiaofia aha Aiaofia gud.
-1	Aiaofia	Aiaofia	PROPN	_	_	1	obl	_	_
+1	Aiaofia	Aiaofia	PROPN	_	_	0	root	_	_
 2	aha	aha	NOUN	_	_	1	obl	_	_
 3	Aiaofia	Aiaofia	PROPN	_	_	1	obl	_	_
 4	gud	gud	ADJ	_	_	1	obl	_	_
@@ -4062,7 +4062,7 @@
 
 # sent_id = TD1-P02580-A.eaf.411
 # text = rekrut long Arasi Urasi pasis.
-1	rekrut	rekrut	NOUN	_	_	1	obl	_	_
+1	rekrut	rekrut	NOUN	_	_	0	root	_	_
 2	long	long	ADP	_	_	4	case	_	_
 3	Arasi	Arasi	PROPN	_	_	4	flat	_	_
 4	Urasi	Urasi	PROPN	_	_	1	nmod	_	_
@@ -4094,50 +4094,50 @@
 
 # sent_id = TD1-P02580-A.eaf.416
 # text = i oraet mi laek askem yu gen nao.
-1	i	i	PART	_	_	verb_head	_	_	_
+1	i	i	PART	_	_	0	root	_	_
 2	oraet	oraet	ADJ	_	_	7	amod	_	_
 3	mi	mi	PRON	_	_	5	nsubj	_	_
-4	laek	laek	VERB	_	_	verb_head	_	_	_
-5	askem	askem	VERB	_	_	verb_head	_	_	_
+4	laek	laek	VERB	_	_	1	advcl	_	_
+5	askem	askem	VERB	_	_	1	advcl	_	_
 6	yu	yu	PRON	_	_	5	obj	_	_
 7	gen	gen	NOUN	_	_	1	obl	_	_
 8	nao	nao	ADV	_	_	5	advmod	_	_
 
 # sent_id = TD1-P02580-A.eaf.417
 # text = na yu Samani.
-1	na	na	NOUN	_	_	1	obl	_	_
+1	na	na	NOUN	_	_	0	root	_	_
 2	yu	yu	PRON	_	_	1	obl	_	_
 3	Samani	Samani	PROPN	_	_	1	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.418
 # text = na papa blong u Iniga.
 1	na	na	NOUN	_	_	2	nmod	_	_
-2	papa	papa	NOUN	_	_	1	obl	_	_
+2	papa	papa	NOUN	_	_	0	root	_	_
 3	blong	blong	ADP	_	_	4	case	_	_
 4	u	u	NOUN	_	_	2	nmod	_	_
-5	Iniga	Iniga	PROPN	_	_	1	obl	_	_
+5	Iniga	Iniga	PROPN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.419
 # text = em barata brong Sam Liuluota ya.
 1	em	em	PRON	_	_	2	nmod:pos	_	_
 2	barata	barata	NOUN	_	_	3	nmod	_	_
-3	brong	brong	NOUN	_	_	1	obl	_	_
+3	brong	brong	NOUN	_	_	0	root	_	_
 4	Sam	Sam	PROPN	_	_	5	flat	_	_
-5	Liuluota	Liuluota	PROPN	_	_	1	obl	_	_
-6	ya	ya	INTJ	_	_	1	adv	_	_
+5	Liuluota	Liuluota	PROPN	_	_	3	obl	_	_
+6	ya	ya	INTJ	_	_	3	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.420
 # text = tupara papa blong en Baa hem stret hem stret gud.
 1	tupara	tupara	NOUN	_	_	2	nmod	_	_
-2	papa	papa	NOUN	_	_	1	obl	_	_
+2	papa	papa	NOUN	_	_	0	root	_	_
 3	blong	blong	ADP	_	_	4	case	_	_
 4	en	en	NOUN	_	_	2	nmod	_	_
-5	Baa	Baa	PROPN	_	_	1	obl	_	_
+5	Baa	Baa	PROPN	_	_	2	obl	_	_
 6	hem	hem	PRON	_	_	7	nmod:pos	_	_
-7	stret	stret	ADJ	_	_	1	obl	_	_
+7	stret	stret	ADJ	_	_	2	obl	_	_
 8	hem	hem	PRON	_	_	9	nmod:pos	_	_
-9	stret	stret	ADJ	_	_	1	obl	_	_
-10	gud	gud	ADJ	_	_	1	obl	_	_
+9	stret	stret	ADJ	_	_	2	obl	_	_
+10	gud	gud	ADJ	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.421
 # text = na yu am papa brong yu taem Sam i go long Fiji o Sami go pastaem na behaen yu kamap.
@@ -4150,9 +4150,9 @@
 7	taem	taem	NOUN	_	_	10	obl	_	_
 8	Sam	Sam	PROPN	_	_	10	nsubj	_	_
 9	i	i	PART	_	_	10	aux	_	_
-10	go	go	VERB	_	_	verb_head	_	_	_
+10	go	go	VERB	_	_	0	root	_	_
 11	long	long	ADP	_	_	16	mark	_	_
-12	Fiji	Fiji	PROPN	_	_	8	nmod	_	_
+12	Fiji	Fiji	PROPN	_	_	10	obl	_	_
 13	o	o	NOUN	_	_	10	obl	_	_
 14	Sami	Sami	PROPN	_	_	16	nsubj	_	_
 15	go	go	AUX	_	_	16	aux	_	_
@@ -4160,7 +4160,7 @@
 17	na	na	NOUN	_	_	18	nmod	_	_
 18	behaen	behaen	NOUN	_	_	16	obj	_	_
 19	yu	yu	PRON	_	_	20	nsubj	_	_
-20	kamap	kam	VERB	_	_	verb_head	_	_	_
+20	kamap	kam	VERB	_	_	10	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.422
 # text = (()).
@@ -4168,22 +4168,22 @@
 # sent_id = TD1-P02580-A.eaf.423
 # text = hi bon afta bon afta aha.
 1	hi	hi	NOUN	_	_	4	nsubj	_	_
-2	bon	bon	VERB	_	_	verb_head	_	_	_
+2	bon	bon	VERB	_	_	0	root	_	_
 3	afta	afta	ADP	_	_	6	case	_	_
-4	bon	bon	VERB	_	_	verb_head	_	_	_
+4	bon	bon	VERB	_	_	2	advcl	_	_
 5	afta	afta	ADP	_	_	6	case	_	_
-6	aha	aha	NOUN	_	_	1	nmod	_	_
+6	aha	aha	NOUN	_	_	4	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.424
 # text = Sam i go pastaem na hemi ya bon oraet gud.
 1	Sam	Sam	PROPN	_	_	4	nsubj	_	_
 2	i	i	PART	_	_	3	aux	_	_
 3	go	go	AUX	_	_	4	aux	_	_
-4	pastaem	pastaem	VERB	_	_	verb_head	_	_	_
+4	pastaem	pastaem	VERB	_	_	0	root	_	_
 5	na	na	NOUN	_	_	8	nsubj	_	_
-6	hemi	hemi	VERB	_	_	verb_head	_	_	_
+6	hemi	hemi	VERB	_	_	4	advcl	_	_
 7	ya	ya	INTJ	_	_	4	adv	_	_
-8	bon	bon	VERB	_	_	verb_head	_	_	_
+8	bon	bon	VERB	_	_	4	advcl	_	_
 9	oraet	oraet	ADJ	_	_	6	obj	_	_
 10	gud	gud	ADJ	_	_	4	obl	_	_
 
@@ -4197,10 +4197,10 @@
 # text = nem brong hen Rimanu Riman Rimanu.
 1	nem	nem	NOUN	_	_	3	nmod	_	_
 2	brong	brong	NOUN	_	_	3	nmod	_	_
-3	hen	hen	NOUN	_	_	1	obl	_	_
-4	Rimanu	Rimanu	PROPN	_	_	1	adv	_	_
-5	Riman	Riman	PROPN	_	_	1	adv	_	_
-6	Rimanu	Rimanu	PROPN	_	_	1	obl	_	_
+3	hen	hen	NOUN	_	_	0	root	_	_
+4	Rimanu	Rimanu	PROPN	_	_	3	adv	_	_
+5	Riman	Riman	PROPN	_	_	3	adv	_	_
+6	Rimanu	Rimanu	PROPN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.428
 # text = en nem brong dadi blong hen.
@@ -4220,7 +4220,7 @@
 # text = hem i gat hamas yea nao taem masta Bel dae pinis yu gat hamas yea.
 1	hem	hem	PRON	_	_	3	nsubj	_	_
 2	i	i	PART	_	_	3	aux	_	_
-3	gat	gat	VERB	_	_	verb_head	_	_	_
+3	gat	gat	VERB	_	_	0	root	_	_
 4	hamas	hamas	INTJ	_	_	3	adv	_	_
 5	yea	yea	NOUN	_	_	3	obl	_	_
 6	nao	nao	ADV	_	_	3	advmod	_	_
@@ -4230,7 +4230,7 @@
 10	dae	dae	NOUN	_	_	11	nmod	_	_
 11	pinis	pinis	NOUN	_	_	3	obl	_	_
 12	yu	yu	PRON	_	_	13	nsubj	_	_
-13	gat	gat	VERB	_	_	verb_head	_	_	_
+13	gat	gat	VERB	_	_	3	advcl	_	_
 14	hamas	hamas	INTJ	_	_	3	adv	_	_
 15	yea	yea	NOUN	_	_	3	obl	_	_
 
@@ -4242,20 +4242,20 @@
 1	yu	yu	PRON	_	_	2	nmod:pos	_	_
 2	liklik	liklik	NOUN	_	_	4	nmod	_	_
 3	yet	yet	NOUN	_	_	4	nmod	_	_
-4	o	o	NOUN	_	_	1	obl	_	_
+4	o	o	NOUN	_	_	0	root	_	_
 5	yu	yu	PRON	_	_	6	nmod:pos	_	_
-6	bipala	bipala	NOUN	_	_	1	obl	_	_
+6	bipala	bipala	NOUN	_	_	4	obl	_	_
 7	olsem	olsem	ADV	_	_	1	advmod	_	_
-8	o.	o.	NOUN	_	_	1	obl	_	_
-9	mi	mi	PRON	_	_	1	obl	_	_
+8	o.	o.	NOUN	_	_	4	obl	_	_
+9	mi	mi	PRON	_	_	4	obl	_	_
 10	olsem	olsem	ADV	_	_	1	advmod	_	_
-11	man	man	NOUN	_	_	1	obl	_	_
-12	ya	ya	INTJ	_	_	1	adv	_	_
+11	man	man	NOUN	_	_	4	obl	_	_
+12	ya	ya	INTJ	_	_	4	adv	_	_
 13	nao	nao	ADV	_	_	1	advmod	_	_
-14	em	em	PRON	_	_	1	obl	_	_
+14	em	em	PRON	_	_	4	obl	_	_
 15	olsem	olsem	ADV	_	_	1	advmod	_	_
-16	man	man	NOUN	_	_	1	obl	_	_
-17	ya	ya	INTJ	_	_	1	adv	_	_
+16	man	man	NOUN	_	_	4	obl	_	_
+17	ya	ya	INTJ	_	_	4	adv	_	_
 18	klosap	klosap	ADP	_	_	21	case	_	_
 19	long	long	ADP	_	_	21	case	_	_
 20	naetin	naetin	NOUN	_	_	21	nmod	_	_
@@ -4267,11 +4267,11 @@
 2	yeas	yeas	NOUN	_	_	5	nsubj	_	_
 3	so	so	CCONJ	_	_	5	adv	_	_
 4	ya	ya	INTJ	_	_	5	adv	_	_
-5	abaot	abaot	VERB	_	_	verb_head	_	_	_
+5	abaot	abaot	VERB	_	_	0	root	_	_
 6	naetin	naetin	NOUN	_	_	8	nmod	_	_
 7	tweti	tweti	NOUN	_	_	8	nmod	_	_
 8	samting	samting	NOUN	_	_	9	nsubj	_	_
-9	osem	osem	VERB	_	_	verb_head	_	_	_
+9	osem	osem	VERB	_	_	5	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.434
 # text = a hemi man blong Whiteston ha.
@@ -4357,11 +4357,11 @@
 # text = tu difren laen tu difren laens yes.
 1	tu	tu	NUM	_	_	3	nummod	_	_
 2	difren	difren	NOUN	_	_	3	nmod	_	_
-3	laen	laen	NOUN	_	_	1	obl	_	_
+3	laen	laen	NOUN	_	_	0	root	_	_
 4	tu	tu	NUM	_	_	6	nummod	_	_
 5	difren	difren	NOUN	_	_	6	nmod	_	_
-6	laens	laens	NOUN	_	_	1	obl	_	_
-7	yes	yes	INTJ	_	_	1	adv	_	_
+6	laens	laens	NOUN	_	_	3	obl	_	_
+7	yes	yes	INTJ	_	_	3	adv	_	_
 
 # sent_id = TD1-P02580-A.eaf.451
 # text = ((but thy know how our father yeah his father and mother has join the operation service and none of us has known yeah)).
@@ -4403,22 +4403,22 @@
 # sent_id = TD1-P02580-A.eaf.460
 # text = yu kam klostu sidaon.
 1	yu	yu	PRON	_	_	2	nsubj	_	_
-2	kam	kam	VERB	_	_	verb_head	_	_	_
+2	kam	kam	VERB	_	_	0	root	_	_
 3	klostu	klostu	NOUN	_	_	4	nsubj	_	_
-4	sidaon	sidaon	VERB	_	_	verb_head	_	_	_
+4	sidaon	sidaon	VERB	_	_	2	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.461
 # text = (()).
 
 # sent_id = TD1-P02580-A.eaf.462
 # text = sidaon sidaon am moa beta  yu sidaon na yu ken toktok.
-1	sidaon	sidaon	VERB	_	_	verb_head	_	_	_
-2	sidaon	sidaon	VERB	_	_	verb_head	_	_	_
+1	sidaon	sidaon	VERB	_	_	0	root	_	_
+2	sidaon	sidaon	VERB	_	_	1	advcl	_	_
 3	am	am	NOUN	_	_	5	nmod	_	_
 4	moa	moa	NOUN	_	_	5	nmod	_	_
 5	beta	beta	NOUN	_	_	1	obl	_	_
 6	yu	yu	PRON	_	_	7	nsubj	_	_
-7	sidaon	sidaon	VERB	_	_	verb_head	_	_	_
+7	sidaon	sidaon	VERB	_	_	1	advcl	_	_
 8	na	na	NOUN	_	_	1	obl	_	_
 9	yu	yu	PRON	_	_	10	nmod:pos	_	_
 10	ken	ken	NOUN	_	_	11	nmod	_	_
@@ -4430,12 +4430,12 @@
 2	disfala	dis	ADJ	_	_	3	amod	_	_
 3	man	man	NOUN	_	_	5	obl	_	_
 4	yu	yu	PRON	_	_	5	nsubj	_	_
-5	ting	ting	VERB	_	_	verb_head	_	_	_
+5	ting	ting	VERB	_	_	0	root	_	_
 6	wanem	wanem	INTJ	_	_	5	adv	_	_
 7	Futi	Futi	PROPN	_	_	8	flat	_	_
 8	Futaramo	Futaramo	PROPN	_	_	5	obl	_	_
 9	yu	yu	PRON	_	_	10	nsubj	_	_
-10	ting	ting	VERB	_	_	verb_head	_	_	_
+10	ting	ting	VERB	_	_	5	advcl	_	_
 11	hem	hem	PRON	_	_	12	nmod:pos	_	_
 12	brada	brada	NOUN	_	_	5	obl	_	_
 13	blong	blong	ADP	_	_	14	case	_	_
@@ -4449,15 +4449,15 @@
 # text = o tambu boro yu.
 1	o	o	NOUN	_	_	3	nmod	_	_
 2	tambu	tambu	NOUN	_	_	3	nmod	_	_
-3	boro	boro	NOUN	_	_	1	obl	_	_
-4	yu	yu	PRON	_	_	1	obl	_	_
+3	boro	boro	NOUN	_	_	0	root	_	_
+4	yu	yu	PRON	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.466
 # text = (()).
 
 # sent_id = TD1-P02580-A.eaf.467
 # text = gandfada yu tok long tok pijin olsem tambu blong mi mhmm.
-1	gandfada	gandfada	NOUN	_	_	1	obl	_	_
+1	gandfada	gandfada	NOUN	_	_	0	root	_	_
 2	yu	yu	PRON	_	_	3	nmod:pos	_	_
 3	tok	tok	NOUN	_	_	1	obl	_	_
 4	long	long	ADP	_	_	6	case	_	_
@@ -4471,7 +4471,7 @@
 
 # sent_id = TD1-P02580-A.eaf.468
 # text = na yu stori long disfala Futaramo Futaramo Niunagao.
-1	na	na	NOUN	_	_	1	obl	_	_
+1	na	na	NOUN	_	_	0	root	_	_
 2	yu	yu	PRON	_	_	3	nmod:pos	_	_
 3	stori	stori	NOUN	_	_	1	obl	_	_
 4	long	long	ADP	_	_	8	case	_	_
@@ -4489,8 +4489,8 @@
 
 # sent_id = TD1-P02580-A.eaf.470
 # text = hemi go long Fidi nao ya.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	go	go	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	go	go	VERB	_	_	1	advcl	_	_
 3	long	long	ADP	_	_	4	case	_	_
 4	Fidi	Fidi	PROPN	_	_	1	obj	_	_
 5	nao	nao	ADV	_	_	2	advmod	_	_
@@ -4499,9 +4499,9 @@
 # sent_id = TD1-P02580-A.eaf.471
 # text = Futaramo Niunagao mmm Niunagao.
 1	Futaramo	Futaramo	PROPN	_	_	2	flat	_	_
-2	Niunagao	Niunagao	PROPN	_	_	1	obl	_	_
-3	mmm	mmm	NOUN	_	_	1	obl	_	_
-4	Niunagao	Niunagao	PROPN	_	_	1	obl	_	_
+2	Niunagao	Niunagao	PROPN	_	_	0	root	_	_
+3	mmm	mmm	NOUN	_	_	2	obl	_	_
+4	Niunagao	Niunagao	PROPN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.472
 # text = em na emi yu yu save long wanem bout hemi go.
@@ -4510,12 +4510,12 @@
 3	emi	emi	NOUN	_	_	6	obl	_	_
 4	yu	yu	PRON	_	_	6	obl	_	_
 5	yu	yu	PRON	_	_	6	nsubj	_	_
-6	save	save	VERB	_	_	verb_head	_	_	_
+6	save	save	VERB	_	_	0	root	_	_
 7	long	long	ADP	_	_	10	mark	_	_
 8	wanem	wanem	INTJ	_	_	6	adv	_	_
 9	bout	bout	NOUN	_	_	11	nsubj	_	_
 10	hemi	hemi	VERB	_	_	6	advcl	_	_
-11	go	go	VERB	_	_	verb_head	_	_	_
+11	go	go	VERB	_	_	6	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.473
 # text = nomoa nomo lo wanem ples i waka long em.
@@ -4532,16 +4532,16 @@
 # sent_id = TD1-P02580-A.eaf.474
 # text = taem hemi go  Fidi noma mifala no safe bles hemi go waka nao ena mhmm en hu ena go.
 1	taem	taem	NOUN	_	_	3	nsubj	_	_
-2	hemi	hemi	VERB	_	_	verb_head	_	_	_
-3	go	go	VERB	_	_	verb_head	_	_	_
+2	hemi	hemi	VERB	_	_	0	root	_	_
+3	go	go	VERB	_	_	2	advcl	_	_
 4	Fidi	Fidi	PROPN	_	_	2	obj	_	_
 5	noma	noma	NOUN	_	_	2	obl	_	_
 6	mifala	mifala	PRON	_	_	2	obl	_	_
 7	no	no	PART	_	_	10	aux	_	_
 8	safe	safe	NOUN	_	_	9	nmod	_	_
 9	bles	bles	NOUN	_	_	11	nsubj	_	_
-10	hemi	hemi	VERB	_	_	verb_head	_	_	_
-11	go	go	VERB	_	_	verb_head	_	_	_
+10	hemi	hemi	VERB	_	_	2	advcl	_	_
+11	go	go	VERB	_	_	2	advcl	_	_
 12	waka	waka	NOUN	_	_	10	obj	_	_
 13	nao	nao	ADV	_	_	11	advmod	_	_
 14	ena	ena	NOUN	_	_	16	nmod	_	_
@@ -4549,7 +4549,7 @@
 16	en	en	NOUN	_	_	2	obl	_	_
 17	hu	hu	INTJ	_	_	2	adv	_	_
 18	ena	ena	NOUN	_	_	19	nsubj	_	_
-19	go	go	VERB	_	_	verb_head	_	_	_
+19	go	go	VERB	_	_	2	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.475
 # text = igat tufala Futaromo i go o wanfala tasol wan fala nomo wanfala tasol.
@@ -4576,8 +4576,8 @@
 # text = aha na hemi kam baek gen o nomoa nomoa nao hem no kam baek.
 1	aha	aha	NOUN	_	_	2	nmod	_	_
 2	na	na	NOUN	_	_	4	nsubj	_	_
-3	hemi	hemi	VERB	_	_	verb_head	_	_	_
-4	kam	kam	VERB	_	_	verb_head	_	_	_
+3	hemi	hemi	VERB	_	_	0	root	_	_
+4	kam	kam	VERB	_	_	3	advcl	_	_
 5	baek	baek	NOUN	_	_	9	nmod	_	_
 6	gen	gen	NOUN	_	_	9	nmod	_	_
 7	o	o	NOUN	_	_	9	nmod	_	_
@@ -4586,30 +4586,30 @@
 10	nao	nao	ADV	_	_	13	advmod	_	_
 11	hem	hem	PRON	_	_	13	nsubj	_	_
 12	no	no	PART	_	_	13	aux	_	_
-13	kam	kam	VERB	_	_	verb_head	_	_	_
+13	kam	kam	VERB	_	_	3	advcl	_	_
 14	baek	baek	NOUN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.478
 # text = gafman i selem tok i kam baek na i tok sore tumas hemi dae lo Fiji na i salem oketa samting blong em i kam baek o nogat nogat nao nomo.
 1	gafman	gafman	NOUN	_	_	3	nsubj	_	_
 2	i	i	PART	_	_	3	aux	_	_
-3	selem	selem	VERB	_	_	verb_head	_	_	_
+3	selem	selem	VERB	_	_	0	root	_	_
 4	tok	tok	NOUN	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
-6	kam	kam	VERB	_	_	verb_head	_	_	_
+6	kam	kam	VERB	_	_	3	advcl	_	_
 7	baek	baek	NOUN	_	_	8	nmod	_	_
 8	na	na	NOUN	_	_	9	nsubj	_	_
-9	i	i	PART	_	_	verb_head	_	_	_
+9	i	i	PART	_	_	3	advcl	_	_
 10	tok	tok	NOUN	_	_	11	nmod	_	_
 11	sore	sore	NOUN	_	_	13	nsubj	_	_
 12	tumas	tumas	ADV	_	_	13	advmod	_	_
-13	hemi	hemi	VERB	_	_	verb_head	_	_	_
+13	hemi	hemi	VERB	_	_	3	advcl	_	_
 14	dae	dae	NOUN	_	_	13	obj	_	_
 15	lo	lo	ADP	_	_	16	case	_	_
 16	Fiji	Fiji	PROPN	_	_	14	nmod	_	_
 17	na	na	NOUN	_	_	19	nsubj	_	_
 18	i	i	PART	_	_	19	aux	_	_
-19	salem	salem	VERB	_	_	verb_head	_	_	_
+19	salem	salem	VERB	_	_	3	advcl	_	_
 20	oketa	oketa	NOUN	_	_	21	nmod	_	_
 21	samting	samting	NOUN	_	_	19	obj	_	_
 22	blong	blong	ADP	_	_	25	mark	_	_
@@ -4707,7 +4707,7 @@
 
 # sent_id = TD1-P02580-A.eaf.495
 # text = mhmm hem man ya man Oiramo Oiramo.
-1	mhmm	mhmm	NOUN	_	_	1	obl	_	_
+1	mhmm	mhmm	NOUN	_	_	0	root	_	_
 2	hem	hem	PRON	_	_	3	nmod:pos	_	_
 3	man	man	NOUN	_	_	1	obl	_	_
 4	ya	ya	INTJ	_	_	1	adv	_	_
@@ -4718,12 +4718,12 @@
 # sent_id = TD1-P02580-A.eaf.496
 # text = Oiramo Osomani a Lamasi Lamasi gel woman.
 1	Oiramo	Oiramo	PROPN	_	_	2	flat	_	_
-2	Osomani	Osomani	PROPN	_	_	1	obl	_	_
-3	a	_	<hes>	_	_	1	adv	_	_
+2	Osomani	Osomani	PROPN	_	_	0	root	_	_
+3	a	_	<hes>	_	_	2	adv	_	_
 4	Lamasi	Lamasi	PROPN	_	_	5	flat	_	_
-5	Lamasi	Lamasi	PROPN	_	_	1	obl	_	_
+5	Lamasi	Lamasi	PROPN	_	_	2	obl	_	_
 6	gel	gel	NOUN	_	_	7	nmod	_	_
-7	woman	woman	NOUN	_	_	1	obl	_	_
+7	woman	woman	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.497
 # text = mhmm gel.
@@ -4763,17 +4763,17 @@
 
 # sent_id = TD1-P02580-A.eaf.502
 # text = hu sat namba tu.
-1	hu	hu	INTJ	_	_	1	adv	_	_
+1	hu	hu	INTJ	_	_	3	adv	_	_
 2	sat	sat	NOUN	_	_	3	nmod	_	_
-3	namba	namba	NOUN	_	_	1	obl	_	_
-4	tu	tu	NUM	_	_	1	obl	_	_
+3	namba	namba	NOUN	_	_	0	root	_	_
+4	tu	tu	NUM	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.503
 # text = (()).
 
 # sent_id = TD1-P02580-A.eaf.504
 # text = Taemaoa secon namba tu secon namba tri Oiramo.
-1	Taemaoa	Taemaoa	PROPN	_	_	1	obl	_	_
+1	Taemaoa	Taemaoa	PROPN	_	_	0	root	_	_
 2	secon	secon	NOUN	_	_	3	nmod	_	_
 3	namba	namba	NOUN	_	_	1	obl	_	_
 4	tu	tu	NUM	_	_	7	nummod	_	_
@@ -4785,11 +4785,11 @@
 # sent_id = TD1-P02580-A.eaf.505
 # text = namba tri Lamasi fo Lamasi gud.
 1	namba	namba	NOUN	_	_	2	nmod	_	_
-2	tri	tri	NOUN	_	_	1	obl	_	_
-3	Lamasi	Lamasi	PROPN	_	_	1	obl	_	_
-4	fo	fo	NOUN	_	_	1	obl	_	_
-5	Lamasi	Lamasi	PROPN	_	_	1	obl	_	_
-6	gud	gud	ADJ	_	_	1	obl	_	_
+2	tri	tri	NOUN	_	_	0	root	_	_
+3	Lamasi	Lamasi	PROPN	_	_	2	obl	_	_
+4	fo	fo	NOUN	_	_	2	obl	_	_
+5	Lamasi	Lamasi	PROPN	_	_	2	obl	_	_
+6	gud	gud	ADJ	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.506
 # text = na yu kolem nem blo yu plis a Fulaga Fulaga.
@@ -4821,9 +4821,9 @@
 # text = papa fada boro yu Rimana.
 1	papa	papa	NOUN	_	_	3	nmod	_	_
 2	fada	fada	NOUN	_	_	3	nmod	_	_
-3	boro	boro	NOUN	_	_	1	obl	_	_
-4	yu	yu	PRON	_	_	1	obl	_	_
-5	Rimana	Rimana	PROPN	_	_	1	obl	_	_
+3	boro	boro	NOUN	_	_	0	root	_	_
+4	yu	yu	PRON	_	_	3	obl	_	_
+5	Rimana	Rimana	PROPN	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.509
 # text = hem papa blong yu ya yes ((that's his father there good)).
@@ -4858,12 +4858,12 @@
 # sent_id = TD1-P02580-A.eaf.513
 # text = wo i pinis na yu emi bonim yu o.
 1	wo	wo	NOUN	_	_	2	nsubj	_	_
-2	i	i	PART	_	_	verb_head	_	_	_
+2	i	i	PART	_	_	0	root	_	_
 3	pinis	pinis	NOUN	_	_	4	nmod	_	_
 4	na	na	NOUN	_	_	2	obj	_	_
 5	yu	yu	PRON	_	_	6	nmod:pos	_	_
 6	emi	emi	NOUN	_	_	7	nsubj	_	_
-7	bonim	bonim	VERB	_	_	verb_head	_	_	_
+7	bonim	bonim	VERB	_	_	2	advcl	_	_
 8	yu	yu	PRON	_	_	7	obj	_	_
 9	o	o	NOUN	_	_	2	obl	_	_
 
@@ -4892,12 +4892,12 @@
 # sent_id = TD1-P02580-A.eaf.517
 # text = gud na yu marit ya yes mhmm.
 1	gud	gud	ADJ	_	_	2	amod	_	_
-2	na	na	NOUN	_	_	1	obl	_	_
+2	na	na	NOUN	_	_	0	root	_	_
 3	yu	yu	PRON	_	_	4	nmod:pos	_	_
-4	marit	marit	NOUN	_	_	1	obl	_	_
-5	ya	ya	INTJ	_	_	1	adv	_	_
-6	yes	yes	INTJ	_	_	1	adv	_	_
-7	mhmm	mhmm	NOUN	_	_	1	obl	_	_
+4	marit	marit	NOUN	_	_	2	obl	_	_
+5	ya	ya	INTJ	_	_	2	adv	_	_
+6	yes	yes	INTJ	_	_	2	adv	_	_
+7	mhmm	mhmm	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.518
 # text = na diafala lin hem kam daon lo yu tu disfala Futuramo yes hemi kam daon lo we lo husat.
@@ -4923,12 +4923,12 @@
 
 # sent_id = TD1-P02580-A.eaf.519
 # text = hemi kam daon from Oiramo hemi.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
-2	kam	kam	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
+2	kam	kam	VERB	_	_	1	advcl	_	_
 3	daon	daon	ADV	_	_	2	advmod	_	_
 4	from	from	ADP	_	_	5	case	_	_
 5	Oiramo	Oiramo	PROPN	_	_	6	nsubj	_	_
-6	hemi	hemi	VERB	_	_	verb_head	_	_	_
+6	hemi	hemi	VERB	_	_	1	advcl	_	_
 
 # sent_id = TD1-P02580-A.eaf.520
 # text = (()).
@@ -4943,14 +4943,14 @@
 # text = two boys one a Futaramo an oketa en anada wan.
 1	two	two	NOUN	_	_	3	nmod	_	_
 2	boys	boys	NOUN	_	_	3	nmod	_	_
-3	one	one	NOUN	_	_	1	obl	_	_
-4	a	_	<hes>	_	_	1	adv	_	_
-5	Futaramo	Futaramo	PROPN	_	_	1	obl	_	_
+3	one	one	NOUN	_	_	0	root	_	_
+4	a	_	<hes>	_	_	3	adv	_	_
+5	Futaramo	Futaramo	PROPN	_	_	3	obl	_	_
 6	an	an	NOUN	_	_	9	nmod	_	_
 7	oketa	oketa	NOUN	_	_	9	nmod	_	_
 8	en	en	NOUN	_	_	9	nmod	_	_
-9	anada	anada	NOUN	_	_	1	obl	_	_
-10	wan	wan	NUM	_	_	1	obl	_	_
+9	anada	anada	NOUN	_	_	3	obl	_	_
+10	wan	wan	NUM	_	_	3	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.524
 # text = ol man ya hem bon from hu?
@@ -5010,17 +5010,17 @@
 # sent_id = TD1-P02580-A.eaf.531
 # text = Otomaelana Otomaelanas yes oaret na.
 1	Otomaelana	Otomaelana	PROPN	_	_	2	flat	_	_
-2	Otomaelanas	Otomaelanas	PROPN	_	_	1	obl	_	_
-3	yes	yes	INTJ	_	_	1	adv	_	_
+2	Otomaelanas	Otomaelanas	PROPN	_	_	0	root	_	_
+3	yes	yes	INTJ	_	_	2	adv	_	_
 4	oaret	oaret	NOUN	_	_	5	nmod	_	_
-5	na	na	NOUN	_	_	1	obl	_	_
+5	na	na	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P02580-A.eaf.532
 # text = (()).
 
 # sent_id = TD1-P02580-A.eaf.533
 # text = em hem tu hem tu em nem blong hem husat Rimanu.
-1	em	em	PRON	_	_	1	obl	_	_
+1	em	em	PRON	_	_	0	root	_	_
 2	hem	hem	PRON	_	_	3	nmod:pos	_	_
 3	tu	tu	NUM	_	_	7	nummod	_	_
 4	hem	hem	PRON	_	_	5	nmod:pos	_	_
@@ -5044,10 +5044,10 @@
 1	tasol	tasol	NOUN	_	_	4	obl	_	_
 2	mi	mi	PRON	_	_	4	nsubj	_	_
 3	no	no	PART	_	_	4	aux	_	_
-4	raetim	raetim	VERB	_	_	verb_head	_	_	_
+4	raetim	raetim	VERB	_	_	0	root	_	_
 5	em	em	PRON	_	_	7	nsubj	_	_
 6	kam	kam	AUX	_	_	7	aux	_	_
-7	hemi	hemi	VERB	_	_	verb_head	_	_	_
+7	hemi	hemi	VERB	_	_	4	advcl	_	_
 8	wanfala	wan	ADJ	_	_	9	amod	_	_
 9	pikini	pikini	NOUN	_	_	7	obj	_	_
 10	blong	blong	ADP	_	_	11	case	_	_
@@ -5055,7 +5055,7 @@
 
 # sent_id = TD1-P02580-A.eaf.537
 # text = Rimanu maka nia tei Rimaenu Rimanu hem nao dadi hem nao Rimanu dadi blong Otomaelana.
-1	Rimanu	Rimanu	PROPN	_	_	1	obl	_	_
+1	Rimanu	Rimanu	PROPN	_	_	0	root	_	_
 2	maka	maka	NOUN	_	_	4	nmod	_	_
 3	nia	nia	NOUN	_	_	4	nmod	_	_
 4	tei	tei	NOUN	_	_	1	obl	_	_
@@ -5077,14 +5077,14 @@
 2	tasol	tasol	NOUN	_	_	5	obl	_	_
 3	mi	mi	PRON	_	_	5	nsubj	_	_
 4	no	no	PART	_	_	5	aux	_	_
-5	raetim	raetim	VERB	_	_	verb_head	_	_	_
+5	raetim	raetim	VERB	_	_	0	root	_	_
 6	emi	emi	NOUN	_	_	5	obj	_	_
 7	no	no	PART	_	_	10	aux	_	_
 8	bifo	bifo	ADV	_	_	10	advmod	_	_
 9	mi	mi	PRON	_	_	12	nsubj	_	_
-10	askem	askem	VERB	_	_	verb_head	_	_	_
+10	askem	askem	VERB	_	_	5	advcl	_	_
 11	i	i	PART	_	_	12	aux	_	_
-12	gat	gat	VERB	_	_	verb_head	_	_	_
+12	gat	gat	VERB	_	_	5	advcl	_	_
 13	hamas	hamas	INTJ	_	_	5	adv	_	_
 14	noma	noma	NOUN	_	_	10	obj	_	_
 15	hem	hem	PRON	_	_	5	obl	_	_
@@ -5095,8 +5095,8 @@
 # text = oraet Otomaelana hemu kam daoni.
 1	oraet	oraet	ADJ	_	_	5	amod	_	_
 2	Otomaelana	Otomaelana	PROPN	_	_	4	nsubj	_	_
-3	hemu	hemu	VERB	_	_	verb_head	_	_	_
-4	kam	kam	VERB	_	_	verb_head	_	_	_
+3	hemu	hemu	VERB	_	_	0	root	_	_
+4	kam	kam	VERB	_	_	3	advcl	_	_
 5	daoni	daoni	NOUN	_	_	3	obj	_	_
 
 # sent_id = TD1-P134-A.eaf.1
@@ -5127,16 +5127,16 @@
 # text = oraet displa stori blong tupla meri nem blo tupla Asa na Elu.
 1	oraet	oraet	ADJ	_	_	3	amod	_	_
 2	displa	displa	NOUN	_	_	3	nmod	_	_
-3	stori	stori	NOUN	_	_	1	obl	_	_
+3	stori	stori	NOUN	_	_	0	root	_	_
 4	blong	blong	ADP	_	_	5	case	_	_
 5	tupla	tupla	NOUN	_	_	3	nmod	_	_
-6	meri	meri	INTJ	_	_	1	adv	_	_
-7	nem	nem	NOUN	_	_	1	obl	_	_
+6	meri	meri	INTJ	_	_	3	adv	_	_
+7	nem	nem	NOUN	_	_	3	obl	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
 9	tupla	tupla	NOUN	_	_	7	nmod	_	_
-10	Asa	Asa	PROPN	_	_	1	obl	_	_
-11	na	na	NOUN	_	_	1	obl	_	_
-12	Elu	Elu	PROPN	_	_	1	obl	_	_
+10	Asa	Asa	PROPN	_	_	3	obl	_	_
+11	na	na	NOUN	_	_	3	obl	_	_
+12	Elu	Elu	PROPN	_	_	3	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.10
 # text = tupla stap lo wanpla ples.
@@ -5144,31 +5144,31 @@
 2	stap	stap	VERB	_	_	0	root	_	_
 3	lo	lo	ADP	_	_	5	case	_	_
 4	wanpla	wanpla	NOUN	_	_	5	nmod	_	_
-5	ples	ples	NOUN	_	_	1	nmod	_	_
+5	ples	ples	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.11
 # text = oraet disa ples nem blong en Puian.
 1	oraet	oraet	ADJ	_	_	4	amod	_	_
 2	disa	disa	NOUN	_	_	4	nmod	_	_
 3	ples	ples	NOUN	_	_	4	nmod	_	_
-4	nem	nem	NOUN	_	_	1	obl	_	_
+4	nem	nem	NOUN	_	_	0	root	_	_
 5	blong	blong	ADP	_	_	6	case	_	_
 6	en	en	NOUN	_	_	4	nmod	_	_
-7	Puian	Puian	PROPN	_	_	1	obl	_	_
+7	Puian	Puian	PROPN	_	_	4	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.12
 # text = taem tupla i stap na tupla yet i tok mitupla i bombom long wara.
 1	taem	taem	NOUN	_	_	2	nmod	_	_
 2	tupla	tupla	NOUN	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
-4	stap	stap	VERB	_	_	verb_head	_	_	_
+4	stap	stap	VERB	_	_	0	root	_	_
 5	na	na	NOUN	_	_	7	nmod	_	_
 6	tupla	tupla	NOUN	_	_	7	nmod	_	_
 7	yet	yet	NOUN	_	_	8	nsubj	_	_
-8	i	i	PART	_	_	verb_head	_	_	_
+8	i	i	PART	_	_	4	advcl	_	_
 9	tok	tok	NOUN	_	_	10	nmod	_	_
 10	mitupla	mitupla	NOUN	_	_	11	nsubj	_	_
-11	i	i	PART	_	_	verb_head	_	_	_
+11	i	i	PART	_	_	4	advcl	_	_
 12	bombom	bombom	NOUN	_	_	11	obj	_	_
 13	long	long	ADP	_	_	14	case	_	_
 14	wara	wara	NOUN	_	_	12	nmod	_	_
@@ -5206,19 +5206,19 @@
 3	tupla	tupla	NOUN	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	go	go	AUX	_	_	6	aux	_	_
-6	stap	stap	VERB	_	_	verb_head	_	_	_
+6	stap	stap	VERB	_	_	0	root	_	_
 7	lo	lo	ADP	_	_	9	case	_	_
 8	wara	wara	NOUN	_	_	9	nmod	_	_
 9	tupla	tupla	NOUN	_	_	10	nsubj	_	_
-10	tingim	tingim	VERB	_	_	verb_head	_	_	_
+10	tingim	tingim	VERB	_	_	6	advcl	_	_
 11	tupla	tupla	NOUN	_	_	12	nmod	_	_
 12	wanpla	wanpla	NOUN	_	_	14	nsubj	_	_
 13	i	i	PART	_	_	14	aux	_	_
-14	go	go	VERB	_	_	verb_head	_	_	_
+14	go	go	VERB	_	_	6	advcl	_	_
 15	lo	lo	ADP	_	_	18	case	_	_
 16	narapla	narapla	NOUN	_	_	18	nmod	_	_
 17	wara	wara	NOUN	_	_	18	nmod	_	_
-18	nem	nem	NOUN	_	_	12	nmod	_	_
+18	nem	nem	NOUN	_	_	14	obl	_	_
 19	blong	blong	ADP	_	_	20	case	_	_
 20	en	en	NOUN	_	_	6	obl	_	_
 21	Wurei	Wurei	PROPN	_	_	6	obl	_	_
@@ -5233,7 +5233,7 @@
 6	wara	wara	NOUN	_	_	9	nmod	_	_
 7	narapla	narapla	NOUN	_	_	9	nmod	_	_
 8	wara	wara	NOUN	_	_	9	nmod	_	_
-9	nem	nem	NOUN	_	_	2	nmod	_	_
+9	nem	nem	NOUN	_	_	4	obl	_	_
 10	blong	blong	ADP	_	_	11	case	_	_
 11	en	en	NOUN	_	_	4	obl	_	_
 12	Tiniwi	Tiniwi	PROPN	_	_	4	obl	_	_
@@ -5243,19 +5243,19 @@
 1	taem	taem	NOUN	_	_	2	nmod	_	_
 2	tupla	tupla	NOUN	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
-4	go	go	VERB	_	_	verb_head	_	_	_
+4	go	go	VERB	_	_	0	root	_	_
 5	oaret	oaret	NOUN	_	_	4	obl	_	_
 6	Asa	Asa	PROPN	_	_	8	nsubj	_	_
 7	i	i	PART	_	_	8	aux	_	_
-8	go	go	VERB	_	_	verb_head	_	_	_
+8	go	go	VERB	_	_	4	advcl	_	_
 9	lo	lo	ADP	_	_	10	case	_	_
-10	Tiniwi	Tiniwi	PROPN	_	_	6	nmod	_	_
+10	Tiniwi	Tiniwi	PROPN	_	_	8	obl	_	_
 11	na	na	NOUN	_	_	4	obl	_	_
 12	Elu	Elu	PROPN	_	_	14	nsubj	_	_
 13	i	i	PART	_	_	14	aux	_	_
-14	go	go	VERB	_	_	verb_head	_	_	_
+14	go	go	VERB	_	_	4	advcl	_	_
 15	lo	lo	ADP	_	_	16	case	_	_
-16	Wurei	Wurei	PROPN	_	_	12	nmod	_	_
+16	Wurei	Wurei	PROPN	_	_	14	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.18
 # text = oraet taem tupla i go narafla i no save lo narafla.
@@ -5263,22 +5263,22 @@
 2	taem	taem	NOUN	_	_	3	nmod	_	_
 3	tupla	tupla	NOUN	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
-5	go	go	VERB	_	_	verb_head	_	_	_
+5	go	go	VERB	_	_	0	root	_	_
 6	narafla	narafla	NOUN	_	_	9	nsubj	_	_
 7	i	i	PART	_	_	9	aux	_	_
 8	no	no	PART	_	_	9	aux	_	_
-9	save	save	VERB	_	_	verb_head	_	_	_
+9	save	save	VERB	_	_	5	advcl	_	_
 10	lo	lo	ADP	_	_	11	case	_	_
-11	narafla	narafla	NOUN	_	_	6	nmod	_	_
+11	narafla	narafla	NOUN	_	_	9	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.19
 # text = oraet Asa i go i paenim wanpla pikinini blong Masolae.
 1	oraet	oraet	ADJ	_	_	8	amod	_	_
 2	Asa	Asa	PROPN	_	_	6	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
-4	go	go	VERB	_	_	verb_head	_	_	_
+4	go	go	VERB	_	_	0	root	_	_
 5	i	i	PART	_	_	6	aux	_	_
-6	paenim	paenim	VERB	_	_	verb_head	_	_	_
+6	paenim	paenim	VERB	_	_	4	advcl	_	_
 7	wanpla	wanpla	NOUN	_	_	8	nmod	_	_
 8	pikinini	pikinini	NOUN	_	_	6	obj	_	_
 9	blong	blong	ADP	_	_	10	case	_	_
@@ -5286,12 +5286,12 @@
 
 # sent_id = TD1-P134-A.eaf.20
 # text = hemi bigpla Masolae tasol i tanem em long lo liklik pikinini na i sidaon lo ston na i wok lo karai osem liklik pikinini oli karem niufla.
-1	hemi	hemi	VERB	_	_	verb_head	_	_	_
+1	hemi	hemi	VERB	_	_	0	root	_	_
 2	bigpla	bigpla	NOUN	_	_	1	obj	_	_
 3	Masolae	Masolae	PROPN	_	_	1	obl	_	_
 4	tasol	tasol	NOUN	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
-6	tanem	tanem	VERB	_	_	verb_head	_	_	_
+6	tanem	tanem	VERB	_	_	1	advcl	_	_
 7	em	em	PRON	_	_	6	obj	_	_
 8	long	long	ADP	_	_	14	mark	_	_
 9	lo	lo	ADP	_	_	12	case	_	_
@@ -5303,15 +5303,15 @@
 15	lo	lo	ADP	_	_	17	case	_	_
 16	ston	ston	NOUN	_	_	17	nmod	_	_
 17	na	na	NOUN	_	_	18	nsubj	_	_
-18	i	i	PART	_	_	verb_head	_	_	_
+18	i	i	PART	_	_	1	advcl	_	_
 19	wok	wok	NOUN	_	_	18	obj	_	_
 20	lo	lo	ADP	_	_	21	case	_	_
 21	karai	karai	NOUN	_	_	22	nsubj	_	_
-22	osem	osem	VERB	_	_	verb_head	_	_	_
+22	osem	osem	VERB	_	_	1	advcl	_	_
 23	liklik	liklik	NOUN	_	_	24	nmod	_	_
 24	pikinini	pikinini	NOUN	_	_	26	nsubj	_	_
 25	oli	oli	PART	_	_	26	aux	_	_
-26	karem	karem	VERB	_	_	verb_head	_	_	_
+26	karem	karem	VERB	_	_	1	advcl	_	_
 27	niufla	niufla	NOUN	_	_	26	obj	_	_
 
 # sent_id = TD1-P134-A.eaf.21
@@ -5320,9 +5320,9 @@
 2	taem	taem	NOUN	_	_	5	obl	_	_
 3	Asa	Asa	PROPN	_	_	7	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
-5	go	go	VERB	_	_	verb_head	_	_	_
+5	go	go	VERB	_	_	0	root	_	_
 6	i	i	PART	_	_	7	aux	_	_
-7	lukim	lukim	VERB	_	_	verb_head	_	_	_
+7	lukim	lukim	VERB	_	_	5	advcl	_	_
 8	displa	displa	NOUN	_	_	9	nmod	_	_
 9	pikinini	pikinini	NOUN	_	_	7	obj	_	_
 
@@ -5348,12 +5348,12 @@
 # text = en mi kam from wanfala ples olketa kalem Malaita.
 1	en	en	NOUN	_	_	3	obl	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
-3	kam	kam	VERB	_	_	verb_head	_	_	_
+3	kam	kam	VERB	_	_	0	root	_	_
 4	from	from	ADP	_	_	7	case	_	_
 5	wanfala	wan	ADJ	_	_	7	amod	_	_
 6	ples	ples	NOUN	_	_	7	nmod	_	_
 7	olketa	olketa	NOUN	_	_	8	nsubj	_	_
-8	kalem	kalem	VERB	_	_	verb_head	_	_	_
+8	kalem	kalem	VERB	_	_	3	advcl	_	_
 9	Malaita	Malaita	PROPN	_	_	8	obj	_	_
 
 # sent_id = TD1-P134-A.eaf.25
@@ -5368,7 +5368,7 @@
 # sent_id = TD1-P134-A.eaf.26
 # text = mi garem seven fala pipol a. boe na mi garem seven fala pikini nao lo famli blong mi.
 1	mi	mi	PRON	_	_	2	nsubj	_	_
-2	garem	garem	VERB	_	_	verb_head	_	_	_
+2	garem	garem	VERB	_	_	0	root	_	_
 3	seven	seven	NOUN	_	_	8	nmod	_	_
 4	fala	fala	NOUN	_	_	8	nmod	_	_
 5	pipol	pipol	NOUN	_	_	8	nmod	_	_
@@ -5376,7 +5376,7 @@
 7	boe	boe	NOUN	_	_	8	nmod	_	_
 8	na	na	NOUN	_	_	2	obj	_	_
 9	mi	mi	PRON	_	_	10	nsubj	_	_
-10	garem	garem	VERB	_	_	verb_head	_	_	_
+10	garem	garem	VERB	_	_	2	advcl	_	_
 11	seven	seven	NOUN	_	_	13	nmod	_	_
 12	fala	fala	NOUN	_	_	13	nmod	_	_
 13	pikini	pikini	NOUN	_	_	10	obj	_	_
@@ -5390,9 +5390,9 @@
 # text = fofala boe en trifala mere .
 1	fofala	fofala	NOUN	_	_	3	nmod	_	_
 2	boe	boe	NOUN	_	_	3	nmod	_	_
-3	en	en	NOUN	_	_	1	obl	_	_
+3	en	en	NOUN	_	_	0	root	_	_
 4	trifala	trifala	NUM	_	_	5	nummod	_	_
-5	mere	mere	NOUN	_	_	1	obl	_	_
+5	mere	mere	NOUN	_	_	3	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.28
 # text = a mi mi mek tri boe long insaed famli ya.
@@ -5425,7 +5425,7 @@
 
 # sent_id = TD1-P134-A.eaf.30
 # text = na wanfala woman moa hem marit.
-1	na	na	NOUN	_	_	1	obl	_	_
+1	na	na	NOUN	_	_	0	root	_	_
 2	wanfala	wan	ADJ	_	_	4	amod	_	_
 3	woman	woman	NOUN	_	_	4	nmod	_	_
 4	moa	moa	NOUN	_	_	1	obl	_	_
@@ -5438,9 +5438,9 @@
 2	long	long	ADP	_	_	5	case	_	_
 3	skul	skul	NOUN	_	_	5	nmod	_	_
 4	yet	yet	NOUN	_	_	5	nmod	_	_
-5	en	en	NOUN	_	_	1	obl	_	_
-6	wanfala	wan	ADJ	_	_	1	obl	_	_
-7	hem	hem	PRON	_	_	1	obl	_	_
+5	en	en	NOUN	_	_	0	root	_	_
+6	wanfala	wan	ADJ	_	_	5	obl	_	_
+7	hem	hem	PRON	_	_	5	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.32
 # text = ((text numba 3 New Hebridian Pijin)).
@@ -5475,13 +5475,13 @@
 4	longo	longo	NOUN	_	_	5	nmod	_	_
 5	kava	kava	NOUN	_	_	8	nsubj	_	_
 6	ya	ya	INTJ	_	_	7	adv	_	_
-7	hemi	hemi	VERB	_	_	verb_head	_	_	_
-8	talem	talem	VERB	_	_	verb_head	_	_	_
+7	hemi	hemi	VERB	_	_	0	root	_	_
+8	talem	talem	VERB	_	_	7	advcl	_	_
 9	olsem	olsem	ADV	_	_	8	advmod	_	_
 
 # sent_id = TD1-P134-A.eaf.36
 # text = sei wan dei.
-1	sei	sei	NOUN	_	_	1	obl	_	_
+1	sei	sei	NOUN	_	_	0	root	_	_
 2	wan	wan	NUM	_	_	3	nummod	_	_
 3	dei	dei	NOUN	_	_	1	obl	_	_
 
@@ -5522,22 +5522,22 @@
 # sent_id = TD1-P134-A.eaf.41
 # text = na jif blo ol tri ya nem blong hem kokonas.
 1	na	na	NOUN	_	_	2	nmod	_	_
-2	jif	jif	NOUN	_	_	1	obl	_	_
+2	jif	jif	NOUN	_	_	0	root	_	_
 3	blo	blo	ADP	_	_	5	case	_	_
 4	ol	ol	NUM	_	_	5	nummod	_	_
 5	tri	tri	NOUN	_	_	2	nmod	_	_
-6	ya	ya	INTJ	_	_	1	adv	_	_
-7	nem	nem	NOUN	_	_	1	obl	_	_
+6	ya	ya	INTJ	_	_	2	adv	_	_
+7	nem	nem	NOUN	_	_	2	obl	_	_
 8	blong	blong	ADP	_	_	9	case	_	_
 9	hem	hem	PRON	_	_	10	nmod:pos	_	_
-10	kokonas	kokonas	NOUN	_	_	1	obl	_	_
+10	kokonas	kokonas	NOUN	_	_	2	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.42
 # text = taem oli miting stap.
 1	taem	taem	NOUN	_	_	2	nsubj	_	_
-2	oli	oli	PART	_	_	verb_head	_	_	_
+2	oli	oli	PART	_	_	0	root	_	_
 3	miting	miting	NOUN	_	_	4	nsubj	_	_
-4	stap	stap	VERB	_	_	verb_head	_	_	_
+4	stap	stap	VERB	_	_	2	advcl	_	_
 
 # sent_id = TD1-P134-A.eaf.43
 # text = oli stap stori gen. wan animol nem blong em rat.
@@ -5561,10 +5561,10 @@
 # text = longo ol ting ting blong em.
 1	longo	longo	NOUN	_	_	3	obl	_	_
 2	ol	ol	NUM	_	_	4	nsubj	_	_
-3	ting	ting	VERB	_	_	verb_head	_	_	_
-4	ting	ting	VERB	_	_	verb_head	_	_	_
+3	ting	ting	VERB	_	_	0	root	_	_
+4	ting	ting	VERB	_	_	3	advcl	_	_
 5	blong	blong	ADP	_	_	6	case	_	_
-6	em	em	PRON	_	_	2	nmod	_	_
+6	em	em	PRON	_	_	4	obl	_	_
 
 # sent_id = TD1-P134-A.eaf.46
 # text = wantem nao.
