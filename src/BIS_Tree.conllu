@@ -1,13 +1,13 @@
 # sent_id = BIS_20230405_01_education.eaf.1
 # text = ah yumi stap tedei lo moning wetem ah .
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	yumi	yumi	PRON	_	_	3	nsubj	_	_
 3	stap	stap	VERB	_	_	0	root	_	_
-4	tedei	tedei	NOUN	_	_	3	obl	_	_
+4	tedei	tedei	NOUN	_	_	3	adv	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	moning	moning	NOUN	_	_	4	nmod	_	_
 7	wetem	wetem	ADP	_	_	3	adv	_	_
-8	ah	_	<hes>	_	_	3	adv	_	_
+8	ah	_	<hes>	_	_	3	dep	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.2
 # text = Devita Dole .
@@ -22,7 +22,7 @@
 
 # sent_id = BIS_20230405_01_education.eaf.4
 # text = tedei yumi stap lo USP .
-1	tedei	tedei	NOUN	_	_	3	obl	_	_
+1	tedei	tedei	NOUN	_	_	3	adv	_	_
 2	yumi	yumi	PRON	_	_	3	nsubj	_	_
 3	stap	stap	VERB	_	_	0	root	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
@@ -30,20 +30,20 @@
 
 # sent_id = BIS_20230405_01_education.eaf.5
 # text = ah lo  ah namba  faef eprel tu taosen twenti tri .
-1	ah	_	<hes>	_	_	6	adv	_	_
+1	ah	_	<hes>	_	_	6	dep	_	_
 2	lo	lo	ADP	_	_	6	case	_	_
-3	ah	_	<hes>	_	_	6	adv	_	_
+3	ah	_	<hes>	_	_	6	dep	_	_
 4	namba	namba	NOUN	_	_	6	nmod	_	_
 5	faef	faef	NOUN	_	_	6	nmod	_	_
 6	eprel	eprel	NOUN	_	_	0	root	_	_
 7	tu	tu	NUM	_	_	10	nummod	_	_
 8	taosen	taosen	NUM	_	_	10	nummod	_	_
 9	twenti	twenti	NOUN	_	_	10	nmod	_	_
-10	tri	tri	NOUN	_	_	6	obl	_	_
+10	tri	tri	NOUN	_	_	6	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.6
 # text = nem blo mi hem i ricki taleo .
-1	nem	nem	NOUN	_	_	5	obl	_	_
+1	nem	nem	NOUN	_	_	5	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	mi	mi	PRON	_	_	1	nmod	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
@@ -67,11 +67,11 @@
 
 # sent_id = BIS_20230405_01_education.eaf.9
 # text = ah ok yes mi nem blo mi hem i Devita Dule .
-1	ah	_	<hes>	_	_	9	adv	_	_
-2	ok	ok	NOUN	_	_	9	obl	_	_
+1	ah	_	<hes>	_	_	9	dep	_	_
+2	ok	ok	NOUN	_	_	9	adv	_	_
 3	yes	yes	INTJ	_	_	9	adv	_	_
 4	mi	mi	PRON	_	_	5	nmod:pos	_	_
-5	nem	nem	NOUN	_	_	9	obl	_	_
+5	nem	nem	NOUN	_	_	9	adv	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
 7	mi	mi	PRON	_	_	5	nmod	_	_
 8	hem	hem	PRON	_	_	9	nsubj	_	_
@@ -85,7 +85,7 @@
 2	blo	blo	ADP	_	_	3	case	_	_
 3	pentikos	pentikos	NOUN	_	_	1	nmod	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
-5	not	not	NOUN	_	_	1	obl	_	_
+5	not	not	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.11
 # text = lo vilij blo lamoru .
@@ -99,7 +99,7 @@
 1	mi	mi	PRON	_	_	0	root	_	_
 2	bin	bin	PART	_	_	1	aux	_	_
 3	stat	stat	NOUN	_	_	4	nmod	_	_
-4	skul	skul	NOUN	_	_	1	obl	_	_
+4	skul	skul	NOUN	_	_	1	adv	_	_
 5	lo	lo	ADP	_	_	1	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.13
@@ -111,7 +111,7 @@
 
 # sent_id = BIS_20230405_01_education.eaf.14
 # text = lingi hem i lo lingi praemeri skul .
-1	lingi	lingi	NOUN	_	_	3	obl	_	_
+1	lingi	lingi	NOUN	_	_	3	adv	_	_
 2	hem	hem	PRON	_	_	3	nsubj	_	_
 3	i	i	PART	_	_	0	root	_	_
 4	lo	lo	ADP	_	_	7	case	_	_
@@ -123,8 +123,8 @@
 # text = sins lo tu taosen .
 1	sins	sins	NOUN	_	_	0	root	_	_
 2	lo	lo	ADP	_	_	1	adv	_	_
-3	tu	tu	NUM	_	_	1	obl	_	_
-4	taosen	taosen	NUM	_	_	1	obl	_	_
+3	tu	tu	NUM	_	_	1	adv	_	_
+4	taosen	taosen	NUM	_	_	1	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.16
 # text = tu taosen wan to tu taosen fotin .
@@ -134,12 +134,12 @@
 4	to	to	NOUN	_	_	0	root	_	_
 5	tu	tu	NUM	_	_	7	nummod	_	_
 6	taosen	taosen	NUM	_	_	7	nummod	_	_
-7	fotin	fotin	NOUN	_	_	4	obl	_	_
+7	fotin	fotin	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.17
 # text = lo taem mi mekem yia naen afta mi .
 1	lo	lo	ADP	_	_	2	case	_	_
-2	taem	taem	NOUN	_	_	4	obl	_	_
+2	taem	taem	NOUN	_	_	4	adv	_	_
 3	mi	mi	PRON	_	_	4	nsubj	_	_
 4	mekem	mekem	VERB	_	_	0	root	_	_
 5	yia	yia	NOUN	_	_	6	nmod	_	_
@@ -170,12 +170,12 @@
 # text = mifala go sta lo skul  wetem ol frens blo mi .
 1	mifala	mifala	PRON	_	_	2	nsubj	_	_
 2	go	go	VERB	_	_	0	root	_	_
-3	sta	sta	NOUN	_	_	2	obl	_	_
+3	sta	sta	NOUN	_	_	2	adv	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
 5	skul	skul	NOUN	_	_	3	nmod	_	_
 6	wetem	wetem	ADP	_	_	8	case	_	_
 7	ol	ol	NUM	_	_	8	nummod	_	_
-8	frens	frens	NOUN	_	_	2	obl	_	_
+8	frens	frens	NOUN	_	_	2	adv	_	_
 9	blo	blo	ADP	_	_	10	case	_	_
 10	mi	mi	PRON	_	_	8	nmod	_	_
 
@@ -205,7 +205,7 @@
 # sent_id = BIS_20230405_01_education.eaf.24
 # text = afta mi lo skul yia mi lanem fulap samting lo saed blo spot .
 1	afta	afta	ADP	_	_	2	case	_	_
-2	mi	mi	PRON	_	_	7	obl	_	_
+2	mi	mi	PRON	_	_	7	adv	_	_
 3	lo	lo	ADP	_	_	5	case	_	_
 4	skul	skul	NOUN	_	_	5	nmod	_	_
 5	yia	yia	NOUN	_	_	2	nmod	_	_
@@ -216,7 +216,7 @@
 10	lo	lo	ADP	_	_	11	case	_	_
 11	saed	saed	NOUN	_	_	9	nmod	_	_
 12	blo	blo	ADP	_	_	13	case	_	_
-13	spot	spot	NOUN	_	_	7	obl	_	_
+13	spot	spot	NOUN	_	_	7	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.25
 # text = skul wok wete ol skul met blo mi .
@@ -225,7 +225,7 @@
 3	wete	wete	NOUN	_	_	0	root	_	_
 4	ol	ol	NUM	_	_	6	nummod	_	_
 5	skul	skul	NOUN	_	_	6	nmod	_	_
-6	met	met	NOUN	_	_	3	obl	_	_
+6	met	met	NOUN	_	_	3	adv	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
 8	mi	mi	PRON	_	_	6	nmod	_	_
 
@@ -233,7 +233,7 @@
 # text = wete ol tija .
 1	wete	wete	NOUN	_	_	0	root	_	_
 2	ol	ol	NUM	_	_	3	nummod	_	_
-3	tija	tija	NOUN	_	_	1	obl	_	_
+3	tija	tija	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.27
 # text = mi lanem se mi sta lo skul mi faenem fulap fren .
@@ -241,7 +241,7 @@
 2	lanem	lanem	VERB	_	_	0	root	_	_
 3	se	se	SCONJ	_	_	9	mark	_	_
 4	mi	mi	PRON	_	_	2	obj	_	_
-5	sta	sta	NOUN	_	_	2	obl	_	_
+5	sta	sta	NOUN	_	_	2	adv	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
 7	skul	skul	NOUN	_	_	5	nmod	_	_
 8	mi	mi	PRON	_	_	9	nsubj	_	_
@@ -261,7 +261,7 @@
 2	wok	wok	NOUN	_	_	0	root	_	_
 3	tugeta	tugeta	PRON	_	_	4	nmod:pos	_	_
 4	skul	skul	NOUN	_	_	5	nmod	_	_
-5	wok	wok	NOUN	_	_	2	obl	_	_
+5	wok	wok	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.30
 # text = afta lo tu taosen tu taosen .
@@ -303,7 +303,7 @@
 12	lo	lo	ADP	_	_	13	case	_	_
 13	matevulu	matevulu	NOUN	_	_	11	obl	_	_
 14	mifala	mifala	PRON	_	_	15	nmod:pos	_	_
-15	skul	skul	NOUN	_	_	11	obl	_	_
+15	skul	skul	NOUN	_	_	11	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.34
 # text = hem i fes taem blo mi we mi go lo santo .
@@ -322,7 +322,7 @@
 # sent_id = BIS_20230405_01_education.eaf.35
 # text = mi sta lo aelan mi neva travelaot lo vila lo pot vila .
 1	mi	mi	PRON	_	_	2	nmod:pos	_	_
-2	sta	sta	NOUN	_	_	7	obl	_	_
+2	sta	sta	NOUN	_	_	7	adv	_	_
 3	lo	lo	ADP	_	_	4	case	_	_
 4	aelan	aelan	NOUN	_	_	2	nmod	_	_
 5	mi	mi	PRON	_	_	7	nsubj	_	_
@@ -332,16 +332,16 @@
 9	vila	vila	NOUN	_	_	7	obl	_	_
 10	lo	lo	ADP	_	_	12	case	_	_
 11	pot	pot	NOUN	_	_	12	nmod	_	_
-12	vila	vila	NOUN	_	_	7	obl	_	_
+12	vila	vila	NOUN	_	_	7	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.36
 # text = santo be fes taem ya na mi jes sta go lo santo .
-1	santo	santo	NOUN	_	_	10	obl	_	_
+1	santo	santo	NOUN	_	_	10	adv	_	_
 2	be	be	CCONJ	_	_	10	adv	_	_
 3	fes	fes	NOUN	_	_	4	nmod	_	_
-4	taem	taem	NOUN	_	_	10	obl	_	_
+4	taem	taem	NOUN	_	_	10	adv	_	_
 5	ya	ya	INTJ	_	_	10	adv	_	_
-6	na	na	NOUN	_	_	10	obl	_	_
+6	na	na	NOUN	_	_	10	adv	_	_
 7	mi	mi	PRON	_	_	8	nmod:pos	_	_
 8	jes	jes	NOUN	_	_	9	nmod	_	_
 9	sta	sta	NOUN	_	_	10	nsubj	_	_
@@ -356,7 +356,7 @@
 3	lo	lo	ADP	_	_	4	case	_	_
 4	santo	santo	NOUN	_	_	2	obl	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
-6	matevulu	matevulu	NOUN	_	_	2	obl	_	_
+6	matevulu	matevulu	NOUN	_	_	2	adv	_	_
 7	mi	mi	PRON	_	_	8	nsubj	_	_
 8	faenem	faenem	VERB	_	_	2	advcl	_	_
 9	fulap	fulap	ADJ	_	_	10	amod	_	_
@@ -386,7 +386,7 @@
 # text = mifala go sta lo matevullu .
 1	mifala	mifala	PRON	_	_	2	nsubj	_	_
 2	go	go	VERB	_	_	0	root	_	_
-3	sta	sta	NOUN	_	_	2	obl	_	_
+3	sta	sta	NOUN	_	_	2	adv	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
 5	matevullu	matevullu	NOUN	_	_	3	nmod	_	_
 
@@ -395,7 +395,7 @@
 1	mi	mi	PRON	_	_	2	nsubj	_	_
 2	mekem	mekem	VERB	_	_	0	root	_	_
 3	yia	yia	NOUN	_	_	2	obj	_	_
-4	tetin	tetin	NUM	_	_	2	obl	_	_
+4	tetin	tetin	NUM	_	_	2	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.41
 # text = finis mi faenem se skul .
@@ -419,11 +419,11 @@
 # sent_id = BIS_20230405_01_education.eaf.43
 # text = spos yu no skul yu sta nomo lo haos bae yu no save travel olsem tedei we mi m i . so lo taem ya mi sta nomo lo nasaret .
 1	spos	spos	NOUN	_	_	0	root	_	_
-2	yu	yu	PRON	_	_	1	obl	_	_
+2	yu	yu	PRON	_	_	1	adv	_	_
 3	no	no	PART	_	_	13	aux	_	_
-4	skul	skul	NOUN	_	_	1	obl	_	_
+4	skul	skul	NOUN	_	_	1	adv	_	_
 5	yu	yu	PRON	_	_	6	nmod:pos	_	_
-6	sta	sta	NOUN	_	_	1	obl	_	_
+6	sta	sta	NOUN	_	_	1	adv	_	_
 7	nomo	nomo	ADV	_	_	13	advmod	_	_
 8	lo	lo	ADP	_	_	9	case	_	_
 9	haos	haos	NOUN	_	_	6	nmod	_	_
@@ -431,9 +431,9 @@
 11	yu	yu	PRON	_	_	13	nsubj	_	_
 12	no	no	PART	_	_	13	aux	_	_
 13	save	save	VERB	_	_	1	obl	_	_
-14	travel	travel	NOUN	_	_	1	obl	_	_
+14	travel	travel	NOUN	_	_	1	adv	_	_
 15	olsem	olsem	ADV	_	_	13	advmod	_	_
-16	tedei	tedei	NOUN	_	_	1	obl	_	_
+16	tedei	tedei	NOUN	_	_	1	adv	_	_
 17	we	we	SCONJ	_	_	1	adv	_	_
 18	mi	mi	PRON	_	_	19	nmod:pos	_	_
 19	m	m	NOUN	_	_	20	nsubj	_	_
@@ -444,7 +444,7 @@
 24	taem	taem	NOUN	_	_	20	obj	_	_
 25	ya	ya	INTJ	_	_	1	adv	_	_
 26	mi	mi	PRON	_	_	27	nmod:pos	_	_
-27	sta	sta	NOUN	_	_	1	obl	_	_
+27	sta	sta	NOUN	_	_	1	adv	_	_
 28	nomo	nomo	ADV	_	_	13	advmod	_	_
 29	lo	lo	ADP	_	_	30	case	_	_
 30	nasaret	nasaret	NOUN	_	_	27	nmod	_	_
@@ -452,7 +452,7 @@
 # sent_id = BIS_20230405_01_education.eaf.44
 # text = mi skul be mi pas i go lo .
 1	mi	mi	PRON	_	_	2	nmod:pos	_	_
-2	skul	skul	NOUN	_	_	5	obl	_	_
+2	skul	skul	NOUN	_	_	5	adv	_	_
 3	be	be	CCONJ	_	_	5	adv	_	_
 4	mi	mi	PRON	_	_	7	nsubj	_	_
 5	pas	pas	VERB	_	_	0	root	_	_
@@ -463,7 +463,7 @@
 # sent_id = BIS_20230405_01_education.eaf.45
 # text = saot pentikos lo ranwadi afta  lem mi go lo santo .
 1	saot	saot	VERB	_	_	0	root	_	_
-2	pentikos	pentikos	NOUN	_	_	1	obl	_	_
+2	pentikos	pentikos	NOUN	_	_	1	adv	_	_
 3	lo	lo	ADP	_	_	4	case	_	_
 4	ranwadi	ranwadi	NOUN	_	_	6	nsubj	_	_
 5	afta	afta	ADP	_	_	7	case	_	_
@@ -487,22 +487,22 @@
 
 # sent_id = BIS_20230405_01_education.eaf.48
 # text = yia tetin hae skul i finis nao mifla .
-1	yia	yia	NOUN	_	_	6	obl	_	_
+1	yia	yia	NOUN	_	_	6	adv	_	_
 2	tetin	tetin	NUM	_	_	4	nummod	_	_
 3	hae	hae	NOUN	_	_	4	nmod	_	_
 4	skul	skul	NOUN	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	finis	finis	VERB	_	_	0	root	_	_
 7	nao	nao	ADV	_	_	6	advmod	_	_
-8	mifla	mifla	NOUN	_	_	6	obl	_	_
+8	mifla	mifla	NOUN	_	_	6	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.49
 # text = kam bae mifla meke USP nao .
 1	kam	kam	VERB	_	_	0	root	_	_
 2	bae	bae	ADV	_	_	1	advmod	_	_
 3	mifla	mifla	NOUN	_	_	4	nmod	_	_
-4	meke	meke	NOUN	_	_	1	obl	_	_
-5	USP	USP	PROPN	_	_	1	obl	_	_
+4	meke	meke	NOUN	_	_	1	adv	_	_
+5	USP	USP	PROPN	_	_	1	adv	_	_
 6	nao	nao	ADV	_	_	1	advmod	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.50
@@ -510,7 +510,7 @@
 1	afta	afta	ADP	_	_	2	case	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	go	go	VERB	_	_	0	root	_	_
-4	bak	bak	NOUN	_	_	3	obl	_	_
+4	bak	bak	NOUN	_	_	3	adv	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	aelan	aelan	NOUN	_	_	4	nmod	_	_
 7	mi	mi	PRON	_	_	8	nmod:pos	_	_
@@ -526,13 +526,13 @@
 5	ol	ol	NUM	_	_	6	nummod	_	_
 6	fren	fren	NOUN	_	_	3	nmod	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
-8	me	me	NOUN	_	_	3	obl	_	_
+8	me	me	NOUN	_	_	3	adv	_	_
 9	se	se	SCONJ	_	_	3	adv	_	_
-10	eh	eh	NOUN	_	_	3	obl	_	_
+10	eh	eh	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.52
 # text = skul hem ya i gud gogo .
-1	skul	skul	NOUN	_	_	4	obl	_	_
+1	skul	skul	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	ya	ya	INTJ	_	_	4	adv	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -541,9 +541,9 @@
 
 # sent_id = BIS_20230405_01_education.eaf.53
 # text = spos yu sta nomo bae yu no faenem ol fren .
-1	spos	spos	NOUN	_	_	8	obl	_	_
+1	spos	spos	NOUN	_	_	8	adv	_	_
 2	yu	yu	PRON	_	_	3	nmod:pos	_	_
-3	sta	sta	NOUN	_	_	8	obl	_	_
+3	sta	sta	NOUN	_	_	8	adv	_	_
 4	nomo	nomo	ADV	_	_	8	advmod	_	_
 5	bae	bae	ADV	_	_	8	advmod	_	_
 6	yu	yu	PRON	_	_	8	nsubj	_	_
@@ -554,7 +554,7 @@
 
 # sent_id = BIS_20230405_01_education.eaf.54
 # text = spos yu travel aot .
-1	spos	spos	NOUN	_	_	4	obl	_	_
+1	spos	spos	NOUN	_	_	4	adv	_	_
 2	yu	yu	PRON	_	_	3	nmod:pos	_	_
 3	travel	travel	NOUN	_	_	4	nsubj	_	_
 4	aot	aot	VERB	_	_	0	root	_	_
@@ -562,7 +562,7 @@
 # sent_id = BIS_20230405_01_education.eaf.55
 # text = yu skul bae yu faenem fulap fren bae yu faenem ol .
 1	yu	yu	PRON	_	_	2	nmod:pos	_	_
-2	skul	skul	NOUN	_	_	5	obl	_	_
+2	skul	skul	NOUN	_	_	5	adv	_	_
 3	bae	bae	ADV	_	_	5	advmod	_	_
 4	yu	yu	PRON	_	_	5	nsubj	_	_
 5	faenem	faenem	VERB	_	_	0	root	_	_
@@ -583,7 +583,7 @@
 1	afta	afta	ADP	_	_	2	case	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	go	go	VERB	_	_	0	root	_	_
-4	bak	bak	NOUN	_	_	3	obl	_	_
+4	bak	bak	NOUN	_	_	3	adv	_	_
 5	lo	lo	ADP	_	_	7	case	_	_
 6	aelan	aelan	NOUN	_	_	7	nmod	_	_
 7	mifla	mifla	NOUN	_	_	8	nsubj	_	_
@@ -630,7 +630,7 @@
 7	eapot	eapot	NOUN	_	_	5	obl	_	_
 8	lo	lo	ADP	_	_	10	case	_	_
 9	sara	sara	NOUN	_	_	10	nmod	_	_
-10	transit	transit	NOUN	_	_	5	obl	_	_
+10	transit	transit	NOUN	_	_	5	adv	_	_
 11	lo	lo	ADP	_	_	12	case	_	_
 12	santo	santo	NOUN	_	_	13	nsubj	_	_
 13	kam	kam	VERB	_	_	5	advcl	_	_
@@ -639,7 +639,7 @@
 # text = kam kase taon lo eapot ya .
 1	kam	kam	VERB	_	_	0	root	_	_
 2	kase	kase	NOUN	_	_	3	nmod	_	_
-3	taon	taon	NOUN	_	_	1	obl	_	_
+3	taon	taon	NOUN	_	_	1	adv	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
 5	eapot	eapot	NOUN	_	_	3	nmod	_	_
 6	ya	ya	INTJ	_	_	1	adv	_	_
@@ -662,12 +662,12 @@
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	no	no	PART	_	_	3	aux	_	_
 3	save	save	VERB	_	_	0	root	_	_
-4	ples	ples	NOUN	_	_	3	obl	_	_
+4	ples	ples	NOUN	_	_	3	adv	_	_
 5	mi	mi	PRON	_	_	7	nsubj	_	_
 6	no	no	PART	_	_	7	aux	_	_
 7	save	save	VERB	_	_	3	advcl	_	_
 8	wan	wan	NUM	_	_	9	nummod	_	_
-9	man	man	NOUN	_	_	3	obl	_	_
+9	man	man	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.66
 # text = mi kam sta tap nomo .
@@ -695,7 +695,7 @@
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	kam	kam	VERB	_	_	0	root	_	_
 4	fes	fes	NOUN	_	_	5	nmod	_	_
-5	dei	dei	NOUN	_	_	3	obl	_	_
+5	dei	dei	NOUN	_	_	3	adv	_	_
 6	blo	blo	ADP	_	_	11	mark	_	_
 7	wik	wik	NOUN	_	_	5	nmod	_	_
 8	lo	lo	ADP	_	_	10	case	_	_
@@ -706,7 +706,7 @@
 13	lo	lo	ADP	_	_	14	case	_	_
 14	skul	skul	NOUN	_	_	11	obl	_	_
 15	lo	lo	ADP	_	_	16	case	_	_
-16	USP	USP	PROPN	_	_	3	obl	_	_
+16	USP	USP	PROPN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.69
 # text = mifla rejista finis .
@@ -724,7 +724,7 @@
 6	fren	fren	NOUN	_	_	7	nmod	_	_
 7	imsaed	imsaed	NOUN	_	_	3	nmod	_	_
 8	lo	lo	ADP	_	_	9	case	_	_
-9	skul	skul	NOUN	_	_	3	obl	_	_
+9	skul	skul	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.71
 # text = faenem ol frens kam .
@@ -744,15 +744,15 @@
 
 # sent_id = BIS_20230405_01_education.eaf.73
 # text = evridei mifala faene laef olsem  lo saed blo skul hem i . mifla fil sem blo go askem ol tija olsem mifla jes sta kam .
-1	evridei	evridei	NOUN	_	_	18	obl	_	_
+1	evridei	evridei	NOUN	_	_	18	adv	_	_
 2	mifala	mifala	PRON	_	_	3	nmod:pos	_	_
-3	faene	faene	NOUN	_	_	18	obl	_	_
+3	faene	faene	NOUN	_	_	18	adv	_	_
 4	laef	laef	ADJ	_	_	7	amod	_	_
 5	olsem	olsem	ADV	_	_	17	advmod	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
 7	saed	saed	NOUN	_	_	3	nmod	_	_
 8	blo	blo	ADP	_	_	11	mark	_	_
-9	skul	skul	NOUN	_	_	18	obl	_	_
+9	skul	skul	NOUN	_	_	18	adv	_	_
 10	hem	hem	PRON	_	_	11	nsubj	_	_
 11	i	i	PART	_	_	18	advcl	_	_
 12	.	_	PUNCT	_	_	18	adv	_	_
@@ -777,7 +777,7 @@
 # sent_id = BIS_20230405_01_education.eaf.75
 # text = lo saed blo  skul wok blo mifala miffala mekem tugeta .
 1	lo	lo	ADP	_	_	2	case	_	_
-2	saed	saed	NOUN	_	_	9	obl	_	_
+2	saed	saed	NOUN	_	_	9	adv	_	_
 3	blo	blo	ADP	_	_	5	case	_	_
 4	skul	skul	NOUN	_	_	5	nmod	_	_
 5	wok	wok	NOUN	_	_	2	nmod	_	_
@@ -789,7 +789,7 @@
 
 # sent_id = BIS_20230405_01_education.eaf.76
 # text = kaen ya mifla go tugeta mekem wok .
-1	kaen	kaen	NOUN	_	_	4	obl	_	_
+1	kaen	kaen	NOUN	_	_	4	adv	_	_
 2	ya	ya	INTJ	_	_	4	adv	_	_
 3	mifla	mifla	NOUN	_	_	4	nsubj	_	_
 4	go	go	VERB	_	_	0	root	_	_
@@ -807,7 +807,7 @@
 1	taem	taem	NOUN	_	_	0	root	_	_
 2	we	we	SCONJ	_	_	1	adv	_	_
 3	mi	mi	PRON	_	_	4	nmod:pos	_	_
-4	sta	sta	NOUN	_	_	1	obl	_	_
+4	sta	sta	NOUN	_	_	1	adv	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	USP	USP	PROPN	_	_	4	nmod	_	_
 7	ya	ya	INTJ	_	_	1	adv	_	_
@@ -829,7 +829,7 @@
 3	fan	fan	NOUN	_	_	2	obj	_	_
 4	wetem	wetem	ADP	_	_	6	case	_	_
 5	ol	ol	NUM	_	_	6	nummod	_	_
-6	tija	tija	NOUN	_	_	2	obl	_	_
+6	tija	tija	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.81
 # text = mi kam lo ples ya faenem laef i had .
@@ -872,7 +872,7 @@
 
 # sent_id = BIS_20230405_01_education.eaf.84
 # text = evrisamting hem i gat .
-1	evrisamting	evrisamting	NOUN	_	_	4	obl	_	_
+1	evrisamting	evrisamting	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	gat	gat	VERB	_	_	0	root	_	_
@@ -912,7 +912,7 @@
 9	yumi	yumi	PRON	_	_	10	nmod:pos	_	_
 10	skul	skul	NOUN	_	_	0	root	_	_
 11	mi	mi	PRON	_	_	12	nmod:pos	_	_
-12	manej	manej	NOUN	_	_	10	obl	_	_
+12	manej	manej	NOUN	_	_	10	adv	_	_
 13	blo	blo	ADP	_	_	10	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.88
@@ -928,7 +928,7 @@
 # text = mekem se ah  yu mas folem evrisamtiong .
 1	mekem	mekem	VERB	_	_	0	root	_	_
 2	se	se	SCONJ	_	_	6	mark	_	_
-3	ah	_	<hes>	_	_	1	adv	_	_
+3	ah	_	<hes>	_	_	1	dep	_	_
 4	yu	yu	PRON	_	_	6	nsubj	_	_
 5	mas	mas	AUX	_	_	6	aux	_	_
 6	folem	folem	VERB	_	_	1	advcl	_	_
@@ -938,7 +938,7 @@
 # text = afta mifala sta lo skul bakegen na mifla mitim ol fren  mifla mekem wok  ol asaenmen .
 1	afta	afta	ADP	_	_	2	case	_	_
 2	mifala	mifala	PRON	_	_	3	nmod:pos	_	_
-3	sta	sta	NOUN	_	_	9	obl	_	_
+3	sta	sta	NOUN	_	_	9	adv	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
 5	skul	skul	NOUN	_	_	3	nmod	_	_
 6	bakegen	bakegen	ADV	_	_	9	advmod	_	_
@@ -951,13 +951,13 @@
 13	mekem	mekem	VERB	_	_	9	advcl	_	_
 14	wok	wok	NOUN	_	_	13	obj	_	_
 15	ol	ol	NUM	_	_	16	nummod	_	_
-16	asaenmen	asaenmen	NOUN	_	_	9	obl	_	_
+16	asaenmen	asaenmen	NOUN	_	_	9	adv	_	_
 
 # sent_id = BIS_20230405_01_education.eaf.92
 # text = mifla had wok wetem ol wok ya gogo  sabmit gobak .
-1	mifla	mifla	NOUN	_	_	10	obl	_	_
+1	mifla	mifla	NOUN	_	_	10	adv	_	_
 2	had	had	ADJ	_	_	3	amod	_	_
-3	wok	wok	NOUN	_	_	10	obl	_	_
+3	wok	wok	NOUN	_	_	10	adv	_	_
 4	wetem	wetem	ADP	_	_	6	case	_	_
 5	ol	ol	NUM	_	_	6	nummod	_	_
 6	wok	wok	NOUN	_	_	3	nmod	_	_
@@ -974,8 +974,8 @@
 # text = Hem ya Kesti Kalespi.
 1	Hem	Hem	PROPN	_	_	0	root	_	_
 2	ya	ya	INTJ	_	_	1	adv	_	_
-3	Kesti	Kesti	PROPN	_	_	1	obl	_	_
-4	Kalespi	Kalespi	PROPN	_	_	1	obl	_	_
+3	Kesti	Kesti	PROPN	_	_	1	adv	_	_
+4	Kalespi	Kalespi	PROPN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.3
 # text = mi sidaon wetem Henriks Taleo.
@@ -987,7 +987,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.4
 # text = Lonng iuniveseti blong saot pasifik.
-1	Lonng	Lonng	PROPN	_	_	4	obl	_	_
+1	Lonng	Lonng	PROPN	_	_	4	adv	_	_
 2	iuniveseti	iuniveseti	NOUN	_	_	4	nsubj	_	_
 3	blong	blong	ADP	_	_	5	case	_	_
 4	saot	saot	VERB	_	_	0	root	_	_
@@ -1005,19 +1005,19 @@
 1	long	long	ADP	_	_	3	case	_	_
 2	namba	namba	NOUN	_	_	3	nmod	_	_
 3	fo	fo	NOUN	_	_	0	root	_	_
-4	Eprel	Eprel	PROPN	_	_	3	obl	_	_
+4	Eprel	Eprel	PROPN	_	_	3	adv	_	_
 5	tu	tu	NUM	_	_	8	nummod	_	_
 6	taosen	taosen	NUM	_	_	8	nummod	_	_
 7	twenti	twenti	NOUN	_	_	8	nmod	_	_
-8	tri	tri	NOUN	_	_	3	obl	_	_
+8	tri	tri	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.7
 # text = Riki yu save stroian smol long .
-1	Riki	Riki	PROPN	_	_	3	obl	_	_
+1	Riki	Riki	PROPN	_	_	3	adv	_	_
 2	yu	yu	PRON	_	_	3	nsubj	_	_
 3	save	save	VERB	_	_	0	root	_	_
-4	stroian	stroian	NOUN	_	_	3	obl	_	_
-5	smol	smol	ADJ	_	_	3	obl	_	_
+4	stroian	stroian	NOUN	_	_	3	adv	_	_
+5	smol	smol	ADJ	_	_	3	adv	_	_
 6	long	long	ADP	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.8
@@ -1029,25 +1029,25 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.9
 # text = ah tankyu tumas Kristy.
-1	ah	_	<hes>	_	_	2	adv	_	_
+1	ah	_	<hes>	_	_	2	dep	_	_
 2	tankyu	tankyu	NOUN	_	_	0	root	_	_
 3	tumas	tumas	ADV	_	_	1	advmod	_	_
-4	Kristy	Kristy	PROPN	_	_	2	obl	_	_
+4	Kristy	Kristy	PROPN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.10
 # text = ok mi .
 1	ok	ok	NOUN	_	_	0	root	_	_
-2	mi	mi	PRON	_	_	1	obl	_	_
+2	mi	mi	PRON	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.11
 # text = mi gat wan mi mi wan ah .
 1	mi	mi	PRON	_	_	2	nsubj	_	_
 2	gat	gat	VERB	_	_	0	root	_	_
 3	wan	wan	NUM	_	_	2	adv	_	_
-4	mi	mi	PRON	_	_	2	obl	_	_
+4	mi	mi	PRON	_	_	2	adv	_	_
 5	mi	mi	PRON	_	_	6	nmod:pos	_	_
 6	wan	wan	NUM	_	_	2	adv	_	_
-7	ah	_	<hes>	_	_	2	adv	_	_
+7	ah	_	<hes>	_	_	2	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.12
 # text = man we mi gat plante intres .
@@ -1055,8 +1055,8 @@
 2	we	we	SCONJ	_	_	1	adv	_	_
 3	mi	mi	PRON	_	_	4	nsubj	_	_
 4	gat	gat	VERB	_	_	1	obl	_	_
-5	plante	plante	NUM	_	_	1	obl	_	_
-6	intres	intres	ADJ	_	_	1	obl	_	_
+5	plante	plante	NUM	_	_	1	adv	_	_
+6	intres	intres	ADJ	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.13
 # text = lo lanwis .
@@ -1077,27 +1077,27 @@
 # text = mi save toktok plante lanwis lelepet.
 1	mi	mi	PRON	_	_	2	nsubj	_	_
 2	save	save	VERB	_	_	0	root	_	_
-3	toktok	toktok	NOUN	_	_	2	obl	_	_
+3	toktok	toktok	NOUN	_	_	2	adv	_	_
 4	plante	plante	NUM	_	_	6	nummod	_	_
 5	lanwis	lanwis	NOUN	_	_	6	nmod	_	_
-6	lelepet	lelepet	NOUN	_	_	2	obl	_	_
+6	lelepet	lelepet	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.16
 # text = mi save toktok lanwis blo .
 1	mi	mi	PRON	_	_	2	nsubj	_	_
 2	save	save	VERB	_	_	0	root	_	_
 3	toktok	toktok	NOUN	_	_	4	nmod	_	_
-4	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+4	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 5	blo	blo	ADP	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.17
 # text = mama blo mi mi save toktok lo .
-1	mama	mama	NOUN	_	_	5	obl	_	_
+1	mama	mama	NOUN	_	_	5	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	mi	mi	PRON	_	_	1	nmod	_	_
 4	mi	mi	PRON	_	_	5	nsubj	_	_
 5	save	save	VERB	_	_	0	root	_	_
-6	toktok	toktok	NOUN	_	_	5	obl	_	_
+6	toktok	toktok	NOUN	_	_	5	adv	_	_
 7	lo	lo	ADP	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.18
@@ -1106,13 +1106,13 @@
 2	blo	blo	ADP	_	_	3	case	_	_
 3	papa	papa	NOUN	_	_	1	nmod	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
-5	mi	mi	PRON	_	_	1	obl	_	_
+5	mi	mi	PRON	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.19
 # text = mi save ah .
 1	mi	mi	PRON	_	_	2	nsubj	_	_
 2	save	save	VERB	_	_	0	root	_	_
-3	ah	_	<hes>	_	_	2	adv	_	_
+3	ah	_	<hes>	_	_	2	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.20
 # text = toktok lo sam lanwis blo efate .
@@ -1121,14 +1121,14 @@
 3	sam	sam	NOUN	_	_	4	nmod	_	_
 4	lanwis	lanwis	NOUN	_	_	1	nmod	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
-6	efate	efate	NOUN	_	_	1	obl	_	_
+6	efate	efate	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.21
 # text = lo aelan  we mi mi kamaot lo hem .
 1	lo	lo	ADP	_	_	2	case	_	_
 2	aelan	aelan	NOUN	_	_	0	root	_	_
 3	we	we	SCONJ	_	_	2	adv	_	_
-4	mi	mi	PRON	_	_	2	obl	_	_
+4	mi	mi	PRON	_	_	2	adv	_	_
 5	mi	mi	PRON	_	_	6	nsubj	_	_
 6	kamaot	kam	VERB	_	_	2	obl	_	_
 7	lo	lo	ADP	_	_	8	case	_	_
@@ -1136,7 +1136,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.22
 # text = ah mo mi save harem save plante lanwis lo vanuatu .
-1	ah	_	<hes>	_	_	5	adv	_	_
+1	ah	_	<hes>	_	_	5	dep	_	_
 2	mo	mo	CCONJ	_	_	5	adv	_	_
 3	mi	mi	PRON	_	_	6	nsubj	_	_
 4	save	save	AUX	_	_	5	aux	_	_
@@ -1153,7 +1153,7 @@
 2	mi	mi	PRON	_	_	4	nsubj	_	_
 3	bin	bin	AUX	_	_	4	aux	_	_
 4	go	go	VERB	_	_	0	root	_	_
-5	skul	skul	NOUN	_	_	4	obl	_	_
+5	skul	skul	NOUN	_	_	4	adv	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
 7	fiji	fiji	NOUN	_	_	5	nmod	_	_
 
@@ -1173,7 +1173,7 @@
 12	tu	tu	NUM	_	_	15	nummod	_	_
 13	mi	mi	PRON	_	_	14	nsubj	_	_
 14	save	save	VERB	_	_	8	advcl	_	_
-15	toktok	toktok	NOUN	_	_	8	obl	_	_
+15	toktok	toktok	NOUN	_	_	8	adv	_	_
 16	lo	lo	ADP	_	_	17	case	_	_
 17	hem	hem	PRON	_	_	15	nmod	_	_
 
@@ -1182,11 +1182,11 @@
 1	afta	afta	ADP	_	_	2	case	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	save	save	VERB	_	_	0	root	_	_
-4	toktok	toktok	NOUN	_	_	3	obl	_	_
+4	toktok	toktok	NOUN	_	_	3	adv	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	lanwis	lanwis	NOUN	_	_	4	nmod	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
-8	inglis	inglis	NOUN	_	_	3	obl	_	_
+8	inglis	inglis	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.26
 # text = mo smol franis .
@@ -1197,8 +1197,8 @@
 # sent_id = BIS_20230404_3_languages.eaf.27
 # text = wetem ah bislama tu mi toktok lem .
 1	wetem	wetem	ADP	_	_	3	case	_	_
-2	ah	_	<hes>	_	_	7	adv	_	_
-3	bislama	bislama	NOUN	_	_	7	obl	_	_
+2	ah	_	<hes>	_	_	7	dep	_	_
+3	bislama	bislama	NOUN	_	_	7	adv	_	_
 4	tu	tu	NUM	_	_	6	nummod	_	_
 5	mi	mi	PRON	_	_	6	nmod:pos	_	_
 6	toktok	toktok	NOUN	_	_	7	nsubj	_	_
@@ -1206,7 +1206,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.28
 # text = ah mi faenem se lanwis hem i . hem i wan ah  samting we yumi ol man yumi mas tingting strong long hem from hem i aedentiti blo yumi .
-1	ah	_	<hes>	_	_	17	adv	_	_
+1	ah	_	<hes>	_	_	17	dep	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	faenem	faenem	VERB	_	_	17	obl	_	_
 4	se	se	SCONJ	_	_	17	adv	_	_
@@ -1217,7 +1217,7 @@
 9	hem	hem	PRON	_	_	10	nsubj	_	_
 10	i	i	PART	_	_	17	obl	_	_
 11	wan	wan	NUM	_	_	13	nummod	_	_
-12	ah	_	<hes>	_	_	17	adv	_	_
+12	ah	_	<hes>	_	_	17	dep	_	_
 13	samting	samting	NOUN	_	_	10	obj	_	_
 14	we	we	SCONJ	_	_	17	adv	_	_
 15	yumi	yumi	PRON	_	_	16	nmod:pos	_	_
@@ -1241,25 +1241,25 @@
 1	sapos	sapos	ADV	_	_	1	advmod	_	_
 2	yu	yu	PRON	_	_	0	root	_	_
 3	nogat	nogat	INTJ	_	_	2	adv	_	_
-4	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+4	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.30
 # text = yu nogat wan aedentiti.
 1	yu	yu	PRON	_	_	0	root	_	_
 2	nogat	nogat	INTJ	_	_	1	adv	_	_
 3	wan	wan	NUM	_	_	4	nummod	_	_
-4	aedentiti	aedentiti	NOUN	_	_	1	obl	_	_
+4	aedentiti	aedentiti	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.31
 # text = from lanwis nao hem i givim yu aedentiti blo yu .
 1	from	from	ADP	_	_	2	case	_	_
-2	lanwis	lanwis	NOUN	_	_	6	obl	_	_
+2	lanwis	lanwis	NOUN	_	_	6	adv	_	_
 3	nao	nao	ADV	_	_	6	advmod	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	givim	givim	VERB	_	_	0	root	_	_
 7	yu	yu	PRON	_	_	6	obj	_	_
-8	aedentiti	aedentiti	NOUN	_	_	6	obl	_	_
+8	aedentiti	aedentiti	NOUN	_	_	6	adv	_	_
 9	blo	blo	ADP	_	_	10	case	_	_
 10	yu	yu	PRON	_	_	8	nmod	_	_
 
@@ -1285,7 +1285,7 @@
 2	samting	samting	NOUN	_	_	0	root	_	_
 3	we	we	SCONJ	_	_	2	adv	_	_
 4	yu	yu	PRON	_	_	5	nmod:pos	_	_
-5	liv	liv	NOUN	_	_	2	obl	_	_
+5	liv	liv	NOUN	_	_	2	adv	_	_
 6	wetem	wetem	ADP	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.35
@@ -1300,14 +1300,14 @@
 8	evri	evri	NUM	_	_	9	nummod	_	_
 9	dei	dei	NOUN	_	_	0	root	_	_
 10	lo	lo	ADP	_	_	13	case	_	_
-11	laef	laef	ADJ	_	_	9	obl	_	_
+11	laef	laef	ADJ	_	_	9	adv	_	_
 12	blo	blo	ADP	_	_	13	case	_	_
 13	yu	yu	PRON	_	_	11	nmod	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.36
 # text = so ah vanuatu hem i wan kaontri we hem i ga t ah plante .
 1	so	so	CCONJ	_	_	3	adv	_	_
-2	ah	_	<hes>	_	_	3	adv	_	_
+2	ah	_	<hes>	_	_	3	dep	_	_
 3	vanuatu	vanuatu	NOUN	_	_	0	root	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
 5	i	i	PART	_	_	3	obl	_	_
@@ -1318,8 +1318,8 @@
 10	i	i	PART	_	_	3	obl	_	_
 11	ga	ga	NOUN	_	_	12	nmod	_	_
 12	t	t	NOUN	_	_	10	obj	_	_
-13	ah	_	<hes>	_	_	3	adv	_	_
-14	plante	plante	NUM	_	_	3	obl	_	_
+13	ah	_	<hes>	_	_	3	dep	_	_
+14	plante	plante	NUM	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.37
 # text = lanwis lelepet hem i we hem i gud tumas .
@@ -1352,7 +1352,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.39
 # text = aah stat lo tores kasem anaejom yu faenem se i gat plante difren lanwis .
 1	aah	aah	NOUN	_	_	2	nmod	_	_
-2	stat	stat	NOUN	_	_	5	obl	_	_
+2	stat	stat	NOUN	_	_	5	adv	_	_
 3	lo	lo	ADP	_	_	4	case	_	_
 4	tores	tores	NOUN	_	_	5	nsubj	_	_
 5	kasem	kasem	VERB	_	_	0	root	_	_
@@ -1371,11 +1371,11 @@
 1	aahm	aahm	NOUN	_	_	0	root	_	_
 2	ating	ating	ADV	_	_	14	advmod	_	_
 3	totel	totel	NOUN	_	_	4	nmod	_	_
-4	namba	namba	NOUN	_	_	1	obl	_	_
+4	namba	namba	NOUN	_	_	1	adv	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
 6	lanwis	lanwis	NOUN	_	_	4	nmod	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
-8	vanuatu	vanuatu	NOUN	_	_	1	obl	_	_
+8	vanuatu	vanuatu	NOUN	_	_	1	adv	_	_
 9	we	we	SCONJ	_	_	1	adv	_	_
 10	ol	ol	NUM	_	_	11	nummod	_	_
 11	lingwis	lingwis	NOUN	_	_	12	nsubj	_	_
@@ -1434,7 +1434,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.43
 # text = sam mo lanwis i stap .
-1	sam	sam	NOUN	_	_	5	obl	_	_
+1	sam	sam	NOUN	_	_	5	adv	_	_
 2	mo	mo	CCONJ	_	_	5	adv	_	_
 3	lanwis	lanwis	NOUN	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
@@ -1446,7 +1446,7 @@
 2	lanwis	lanwis	NOUN	_	_	3	nsubj	_	_
 3	hemi	hemi	VERB	_	_	0	root	_	_
 4	wan	wan	NUM	_	_	3	obj	_	_
-5	ah	_	<hes>	_	_	3	adv	_	_
+5	ah	_	<hes>	_	_	3	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.45
 # text = wan tul we yumi yusum blo yumi komiuniket.
@@ -1457,12 +1457,12 @@
 5	yusum	yusum	VERB	_	_	2	obl	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
 7	yumi	yumi	PRON	_	_	5	obj	_	_
-8	komiuniket	komiuniket	NOUN	_	_	2	obl	_	_
+8	komiuniket	komiuniket	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.46
 # text = yumi ah serem tingting lo .
 1	yumi	yumi	PRON	_	_	4	nsubj	_	_
-2	ah	_	<hes>	_	_	3	adv	_	_
+2	ah	_	<hes>	_	_	3	dep	_	_
 3	serem	serem	VERB	_	_	0	root	_	_
 4	tingting	tingting	VERB	_	_	3	advcl	_	_
 5	lo	lo	ADP	_	_	3	adv	_	_
@@ -1471,8 +1471,8 @@
 # text = ol difren ah ples we yumi liv lem insaed .
 1	ol	ol	NUM	_	_	2	nummod	_	_
 2	difren	difren	NOUN	_	_	0	root	_	_
-3	ah	_	<hes>	_	_	2	adv	_	_
-4	ples	ples	NOUN	_	_	2	obl	_	_
+3	ah	_	<hes>	_	_	2	dep	_	_
+4	ples	ples	NOUN	_	_	2	adv	_	_
 5	we	we	SCONJ	_	_	2	adv	_	_
 6	yumi	yumi	PRON	_	_	7	nmod:pos	_	_
 7	liv	liv	NOUN	_	_	8	nsubj	_	_
@@ -1483,7 +1483,7 @@
 # text = lo wan komiuniti lo insaed lo jej i gat.
 1	lo	lo	ADP	_	_	3	case	_	_
 2	wan	wan	NUM	_	_	3	nummod	_	_
-3	komiuniti	komiuniti	NOUN	_	_	9	obl	_	_
+3	komiuniti	komiuniti	NOUN	_	_	9	adv	_	_
 4	lo	lo	ADP	_	_	7	case	_	_
 5	insaed	insaed	ADP	_	_	7	case	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
@@ -1501,7 +1501,7 @@
 # text = i gat lanwis blo ol mama i gat .
 1	i	i	PART	_	_	2	aux	_	_
 2	gat	gat	VERB	_	_	0	root	_	_
-3	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+3	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 4	blo	blo	ADP	_	_	8	mark	_	_
 5	ol	ol	NUM	_	_	6	nummod	_	_
 6	mama	mama	NOUN	_	_	8	nsubj	_	_
@@ -1510,13 +1510,13 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.51
 # text = lanwis blo ol papa i gat  lanwis blo ol pikinini.
-1	lanwis	lanwis	NOUN	_	_	6	obl	_	_
+1	lanwis	lanwis	NOUN	_	_	6	adv	_	_
 2	blo	blo	ADP	_	_	4	case	_	_
 3	ol	ol	NUM	_	_	4	nummod	_	_
 4	papa	papa	NOUN	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	gat	gat	VERB	_	_	0	root	_	_
-7	lanwis	lanwis	NOUN	_	_	6	obl	_	_
+7	lanwis	lanwis	NOUN	_	_	6	adv	_	_
 8	blo	blo	ADP	_	_	10	case	_	_
 9	ol	ol	NUM	_	_	10	nummod	_	_
 10	pikinini	pikinini	NOUN	_	_	7	nmod	_	_
@@ -1528,17 +1528,17 @@
 3	fulap	fulap	ADJ	_	_	6	amod	_	_
 4	difren	difren	NOUN	_	_	6	nmod	_	_
 5	kaen	kaen	NOUN	_	_	6	nmod	_	_
-6	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+6	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.53
 # text = ah mi mi bin mi bin ah  gat intres blo mi  stadi lo lanwis .
-1	ah	_	<hes>	_	_	8	adv	_	_
-2	mi	mi	PRON	_	_	8	obl	_	_
-3	mi	mi	PRON	_	_	8	obl	_	_
+1	ah	_	<hes>	_	_	8	dep	_	_
+2	mi	mi	PRON	_	_	8	adv	_	_
+3	mi	mi	PRON	_	_	8	adv	_	_
 4	bin	bin	PART	_	_	8	aux	_	_
 5	mi	mi	PRON	_	_	8	nsubj	_	_
 6	bin	bin	PART	_	_	8	aux	_	_
-7	ah	_	<hes>	_	_	8	adv	_	_
+7	ah	_	<hes>	_	_	8	dep	_	_
 8	gat	gat	VERB	_	_	0	root	_	_
 9	intres	intres	ADJ	_	_	14	amod	_	_
 10	blo	blo	ADP	_	_	12	mark	_	_
@@ -1574,7 +1574,7 @@
 4	ol	ol	NUM	_	_	7	nummod	_	_
 5	difren	difren	NOUN	_	_	7	nmod	_	_
 6	kaen	kaen	NOUN	_	_	7	nmod	_	_
-7	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+7	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 8	insaed	insaed	ADP	_	_	10	case	_	_
 9	lo	lo	ADP	_	_	10	case	_	_
 10	pasifik	pasifik	NOUN	_	_	7	nmod	_	_
@@ -1582,7 +1582,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.57
 # text = so mi mi faenem i inresting tumas.
 1	so	so	CCONJ	_	_	4	adv	_	_
-2	mi	mi	PRON	_	_	4	obl	_	_
+2	mi	mi	PRON	_	_	4	adv	_	_
 3	mi	mi	PRON	_	_	5	nsubj	_	_
 4	faenem	faenem	VERB	_	_	0	root	_	_
 5	i	i	PART	_	_	4	advcl	_	_
@@ -1594,15 +1594,15 @@
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	bin	bin	AUX	_	_	3	aux	_	_
 3	go	go	VERB	_	_	0	root	_	_
-4	skul	skul	NOUN	_	_	3	obl	_	_
+4	skul	skul	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.59
 # text = mi wok lo wan ah .
 1	mi	mi	PRON	_	_	2	nmod:pos	_	_
 2	wok	wok	NOUN	_	_	0	root	_	_
 3	lo	lo	ADP	_	_	2	adv	_	_
-4	wan	wan	NUM	_	_	2	obl	_	_
-5	ah	_	<hes>	_	_	2	adv	_	_
+4	wan	wan	NUM	_	_	2	adv	_	_
+5	ah	_	<hes>	_	_	2	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.60
 # text = oganaesesen we hem i . mekem ol translesen lo .
@@ -1622,17 +1622,17 @@
 2	blo	blo	ADP	_	_	3	case	_	_
 3	baebol	baebol	NOUN	_	_	1	nmod	_	_
 4	so	so	CCONJ	_	_	1	adv	_	_
-5	ah	_	<hes>	_	_	1	adv	_	_
+5	ah	_	<hes>	_	_	1	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.62
 # text = ah mi bin wok kolosap fo yia wetem  oganaesesen ya blo .
-1	ah	_	<hes>	_	_	5	adv	_	_
-2	mi	mi	PRON	_	_	5	obl	_	_
+1	ah	_	<hes>	_	_	5	dep	_	_
+2	mi	mi	PRON	_	_	5	adv	_	_
 3	bin	bin	PART	_	_	5	aux	_	_
 4	wok	wok	NOUN	_	_	5	nsubj	_	_
 5	kolosap	kolosap	VERB	_	_	0	root	_	_
 6	fo	fo	NOUN	_	_	7	nmod	_	_
-7	yia	yia	NOUN	_	_	5	obl	_	_
+7	yia	yia	NOUN	_	_	5	adv	_	_
 8	wetem	wetem	ADP	_	_	9	case	_	_
 9	oganaesesen	oganaesesen	NOUN	_	_	7	nmod	_	_
 10	ya	ya	INTJ	_	_	5	adv	_	_
@@ -1664,7 +1664,7 @@
 4	lo	lo	ADP	_	_	5	case	_	_
 5	lanwis	lanwis	NOUN	_	_	3	obl	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
-7	olgeta	olgeta	PRON	_	_	3	obl	_	_
+7	olgeta	olgeta	PRON	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.67
 # text = from i gat plante  ah  pipol blo yumi oli ridim inglis .
@@ -1672,7 +1672,7 @@
 2	i	i	PART	_	_	3	aux	_	_
 3	gat	gat	VERB	_	_	0	root	_	_
 4	plante	plante	NUM	_	_	6	nummod	_	_
-5	ah	_	<hes>	_	_	3	adv	_	_
+5	ah	_	<hes>	_	_	3	dep	_	_
 6	pipol	pipol	NOUN	_	_	3	obl	_	_
 7	blo	blo	ADP	_	_	10	mark	_	_
 8	yumi	yumi	PRON	_	_	10	nsubj	_	_
@@ -1697,12 +1697,12 @@
 13	ol	ol	NUM	_	_	14	nummod	_	_
 14	toktok	toktok	NOUN	_	_	11	nmod	_	_
 15	blo	blo	ADP	_	_	16	case	_	_
-16	inglis	inglis	NOUN	_	_	5	obl	_	_
+16	inglis	inglis	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.69
 # text = be taem yumi tranletem baebol i go lo lanwis blo olgeta .
 1	be	be	CCONJ	_	_	4	adv	_	_
-2	taem	taem	NOUN	_	_	4	obl	_	_
+2	taem	taem	NOUN	_	_	4	adv	_	_
 3	yumi	yumi	PRON	_	_	4	nsubj	_	_
 4	tranletem	tranletem	VERB	_	_	0	root	_	_
 5	baebol	baebol	NOUN	_	_	7	nsubj	_	_
@@ -1711,7 +1711,7 @@
 8	lo	lo	ADP	_	_	9	case	_	_
 9	lanwis	lanwis	NOUN	_	_	7	obl	_	_
 10	blo	blo	ADP	_	_	11	case	_	_
-11	olgeta	olgeta	PRON	_	_	4	obl	_	_
+11	olgeta	olgeta	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.70
 # text = taem oli save ridim lanwis blo olgeta .
@@ -1736,7 +1736,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.72
 # text = inglis from inglis hem i no lanwis .
-1	inglis	inglis	NOUN	_	_	5	obl	_	_
+1	inglis	inglis	NOUN	_	_	5	adv	_	_
 2	from	from	ADP	_	_	3	case	_	_
 3	inglis	inglis	NOUN	_	_	1	nmod	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
@@ -1777,7 +1777,7 @@
 2	yusum	yusum	VERB	_	_	0	root	_	_
 3	blo	blo	ADP	_	_	4	case	_	_
 4	yumi	yumi	PRON	_	_	2	obj	_	_
-5	komiuniket	komiuniket	NOUN	_	_	2	obl	_	_
+5	komiuniket	komiuniket	NOUN	_	_	2	adv	_	_
 6	lo	lo	ADP	_	_	9	case	_	_
 7	wan	wan	NUM	_	_	9	nummod	_	_
 8	intanasonal	intanasonal	NOUN	_	_	9	nmod	_	_
@@ -1792,7 +1792,7 @@
 4	be	be	CCONJ	_	_	2	adv	_	_
 5	lanwis	lanwis	NOUN	_	_	2	obj	_	_
 6	be	be	CCONJ	_	_	2	adv	_	_
-7	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+7	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
 9	ples	ples	NOUN	_	_	7	nmod	_	_
 
@@ -1826,7 +1826,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.77
 # text = kalja blo yu hem i kamaot lo ples ya nao olsem .
-1	kalja	kalja	NOUN	_	_	6	obl	_	_
+1	kalja	kalja	NOUN	_	_	6	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	yu	yu	PRON	_	_	1	nmod	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
@@ -1851,27 +1851,27 @@
 # text = nogat lanwis yu nogat aedentiti sapos  yu nogat wan aedentiti yu nogat  wan kalja .
 1	nogat	nogat	INTJ	_	_	2	adv	_	_
 2	lanwis	lanwis	NOUN	_	_	0	root	_	_
-3	yu	yu	PRON	_	_	2	obl	_	_
+3	yu	yu	PRON	_	_	2	adv	_	_
 4	nogat	nogat	INTJ	_	_	2	adv	_	_
-5	aedentiti	aedentiti	NOUN	_	_	2	obl	_	_
+5	aedentiti	aedentiti	NOUN	_	_	2	adv	_	_
 6	sapos	sapos	ADV	_	_	1	advmod	_	_
-7	yu	yu	PRON	_	_	2	obl	_	_
+7	yu	yu	PRON	_	_	2	adv	_	_
 8	nogat	nogat	INTJ	_	_	2	adv	_	_
 9	wan	wan	NUM	_	_	10	nummod	_	_
-10	aedentiti	aedentiti	NOUN	_	_	2	obl	_	_
-11	yu	yu	PRON	_	_	2	obl	_	_
+10	aedentiti	aedentiti	NOUN	_	_	2	adv	_	_
+11	yu	yu	PRON	_	_	2	adv	_	_
 12	nogat	nogat	INTJ	_	_	2	adv	_	_
 13	wan	wan	NUM	_	_	14	nummod	_	_
-14	kalja	kalja	NOUN	_	_	2	obl	_	_
+14	kalja	kalja	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.80
 # text = so yu yu olsem wan ah .
 1	so	so	CCONJ	_	_	2	adv	_	_
 2	yu	yu	PRON	_	_	0	root	_	_
-3	yu	yu	PRON	_	_	2	obl	_	_
+3	yu	yu	PRON	_	_	2	adv	_	_
 4	olsem	olsem	ADV	_	_	1	advmod	_	_
 5	wan	wan	NUM	_	_	2	adv	_	_
-6	ah	_	<hes>	_	_	2	adv	_	_
+6	ah	_	<hes>	_	_	2	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.81
 # text = sip we i stap lo wan osen .
@@ -1906,7 +1906,7 @@
 6	hem	hem	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	3	obl	_	_
 8	.	_	PUNCT	_	_	3	adv	_	_
-9	a	_	<hes>	_	_	3	adv	_	_
+9	a	_	<hes>	_	_	3	dep	_	_
 10	lanwis	lanwis	NOUN	_	_	7	obj	_	_
 11	hem	hem	PRON	_	_	12	nsubj	_	_
 12	i	i	PART	_	_	3	obl	_	_
@@ -1917,7 +1917,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.84
 # text = lo mi hem i wan tul blo mi yusum .
 1	lo	lo	ADP	_	_	2	case	_	_
-2	mi	mi	PRON	_	_	4	obl	_	_
+2	mi	mi	PRON	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	wan	wan	NUM	_	_	6	nummod	_	_
@@ -1941,7 +1941,7 @@
 1	sapos	sapos	ADV	_	_	1	advmod	_	_
 2	mi	mi	PRON	_	_	0	root	_	_
 3	nogat	nogat	INTJ	_	_	2	adv	_	_
-4	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+4	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.87
 # text = mi no save.
@@ -1951,24 +1951,24 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.88
 # text = o mi nogat lanwis o sapos mi no save wan lanwis .
-1	o	o	NOUN	_	_	9	obl	_	_
-2	mi	mi	PRON	_	_	9	obl	_	_
+1	o	o	NOUN	_	_	9	adv	_	_
+2	mi	mi	PRON	_	_	9	adv	_	_
 3	nogat	nogat	INTJ	_	_	9	adv	_	_
 4	lanwis	lanwis	NOUN	_	_	5	nmod	_	_
-5	o	o	NOUN	_	_	9	obl	_	_
+5	o	o	NOUN	_	_	9	adv	_	_
 6	sapos	sapos	ADV	_	_	9	advmod	_	_
 7	mi	mi	PRON	_	_	9	nsubj	_	_
 8	no	no	PART	_	_	9	aux	_	_
 9	save	save	VERB	_	_	0	root	_	_
 10	wan	wan	NUM	_	_	11	nummod	_	_
-11	lanwis	lanwis	NOUN	_	_	9	obl	_	_
+11	lanwis	lanwis	NOUN	_	_	9	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.89
 # text = mi no save komiuniket wetem wan man .
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	no	no	PART	_	_	3	aux	_	_
 3	save	save	VERB	_	_	0	root	_	_
-4	komiuniket	komiuniket	NOUN	_	_	3	obl	_	_
+4	komiuniket	komiuniket	NOUN	_	_	3	adv	_	_
 5	wetem	wetem	ADP	_	_	7	case	_	_
 6	wan	wan	NUM	_	_	7	nummod	_	_
 7	man	man	NOUN	_	_	4	nmod	_	_
@@ -1989,22 +1989,22 @@
 # text = yumi ol man yumi gat ol lanwis blo yumi .
 1	yumi	yumi	PRON	_	_	2	nmod:pos	_	_
 2	ol	ol	NUM	_	_	3	nummod	_	_
-3	man	man	NOUN	_	_	5	obl	_	_
+3	man	man	NOUN	_	_	5	adv	_	_
 4	yumi	yumi	PRON	_	_	5	nsubj	_	_
 5	gat	gat	VERB	_	_	0	root	_	_
 6	ol	ol	NUM	_	_	7	nummod	_	_
-7	lanwis	lanwis	NOUN	_	_	5	obl	_	_
+7	lanwis	lanwis	NOUN	_	_	5	adv	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
 9	yumi	yumi	PRON	_	_	7	nmod	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.92
 # text = o neja hem i gat lanwis blo hem .
 1	o	o	NOUN	_	_	2	nmod	_	_
-2	neja	neja	NOUN	_	_	5	obl	_	_
+2	neja	neja	NOUN	_	_	5	adv	_	_
 3	hem	hem	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	gat	gat	VERB	_	_	0	root	_	_
-6	lanwis	lanwis	NOUN	_	_	5	obl	_	_
+6	lanwis	lanwis	NOUN	_	_	5	adv	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
 8	hem	hem	PRON	_	_	6	nmod	_	_
 
@@ -2014,7 +2014,7 @@
 2	pijin	pijin	NOUN	_	_	4	nsubj	_	_
 3	oli	oli	PART	_	_	4	aux	_	_
 4	gat	gat	VERB	_	_	0	root	_	_
-5	lanwis	lanwis	NOUN	_	_	4	obl	_	_
+5	lanwis	lanwis	NOUN	_	_	4	adv	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
 7	olgeta	olgeta	PRON	_	_	5	nmod	_	_
 
@@ -2024,7 +2024,7 @@
 2	animol	animol	NOUN	_	_	4	nsubj	_	_
 3	oli	oli	PART	_	_	4	aux	_	_
 4	gat	gat	VERB	_	_	0	root	_	_
-5	lanwis	lanwis	NOUN	_	_	4	obl	_	_
+5	lanwis	lanwis	NOUN	_	_	4	adv	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
 7	olgeta	olgeta	PRON	_	_	5	nmod	_	_
 
@@ -2033,11 +2033,11 @@
 1	be	be	CCONJ	_	_	10	adv	_	_
 2	yumi	yumi	PRON	_	_	3	nmod:pos	_	_
 3	ol	ol	NUM	_	_	4	nummod	_	_
-4	man	man	NOUN	_	_	10	obl	_	_
+4	man	man	NOUN	_	_	10	adv	_	_
 5	nao	nao	ADV	_	_	10	advmod	_	_
-6	lanwis	lanwis	NOUN	_	_	10	obl	_	_
+6	lanwis	lanwis	NOUN	_	_	10	adv	_	_
 7	,	_	PUNCT	_	_	10	adv	_	_
-8	yumi	yumi	PRON	_	_	10	obl	_	_
+8	yumi	yumi	PRON	_	_	10	adv	_	_
 9	yumi	yumi	PRON	_	_	10	nsubj	_	_
 10	givim	givim	VERB	_	_	0	root	_	_
 11	olsem	olsem	ADV	_	_	10	advmod	_	_
@@ -2047,7 +2047,7 @@
 15	hem	hem	PRON	_	_	17	nsubj	_	_
 16	i	i	PART	_	_	17	aux	_	_
 17	gat	gat	VERB	_	_	10	advcl	_	_
-18	paoa	paoa	NOUN	_	_	10	obl	_	_
+18	paoa	paoa	NOUN	_	_	10	adv	_	_
 19	lo	lo	ADP	_	_	20	case	_	_
 20	hem	hem	PRON	_	_	18	nmod	_	_
 
@@ -2056,13 +2056,13 @@
 1	taem	taem	NOUN	_	_	0	root	_	_
 2	we	we	SCONJ	_	_	1	adv	_	_
 3	yumi	yumi	PRON	_	_	4	nmod:pos	_	_
-4	toktok	toktok	NOUN	_	_	1	obl	_	_
+4	toktok	toktok	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.97
 # text = i gat samting hem i hapen .
 1	i	i	PART	_	_	2	aux	_	_
 2	gat	gat	VERB	_	_	0	root	_	_
-3	samting	samting	NOUN	_	_	2	obl	_	_
+3	samting	samting	NOUN	_	_	2	adv	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	hapen	hapen	VERB	_	_	2	advcl	_	_
@@ -2092,7 +2092,7 @@
 21	tumas	tumas	ADV	_	_	20	advmod	_	_
 22	mi	mi	PRON	_	_	23	nsubj	_	_
 23	gat	gat	VERB	_	_	4	obl	_	_
-24	intres	intres	ADJ	_	_	4	obl	_	_
+24	intres	intres	ADJ	_	_	4	adv	_	_
 25	lo	lo	ADP	_	_	26	case	_	_
 26	hem	hem	PRON	_	_	28	nsubj	_	_
 27	blo	blo	ADP	_	_	4	adv	_	_
@@ -2104,7 +2104,7 @@
 2	samting	samting	NOUN	_	_	3	nmod	_	_
 3	taem	taem	NOUN	_	_	0	root	_	_
 4	we	we	SCONJ	_	_	3	adv	_	_
-5	mi	mi	PRON	_	_	3	obl	_	_
+5	mi	mi	PRON	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.100
 # text = lanem lanwis blo wan difren ples .
@@ -2142,7 +2142,7 @@
 7	pipol	pipol	NOUN	_	_	9	nsubj	_	_
 8	we	we	SCONJ	_	_	4	adv	_	_
 9	oli	oli	PART	_	_	4	obl	_	_
-10	toktok	toktok	NOUN	_	_	4	obl	_	_
+10	toktok	toktok	NOUN	_	_	4	adv	_	_
 11	lo	lo	ADP	_	_	13	case	_	_
 12	kaen	kaen	NOUN	_	_	13	nmod	_	_
 13	lanwis	lanwis	NOUN	_	_	10	nmod	_	_
@@ -2160,15 +2160,15 @@
 8	yumi	yumi	PRON	_	_	9	nmod:pos	_	_
 9	ol	ol	NUM	_	_	11	nummod	_	_
 10	man	man	NOUN	_	_	11	nmod	_	_
-11	vanuatu	vanuatu	NOUN	_	_	5	obl	_	_
-12	yumi	yumi	PRON	_	_	5	obl	_	_
-13	yumi	yumi	PRON	_	_	5	obl	_	_
+11	vanuatu	vanuatu	NOUN	_	_	5	adv	_	_
+12	yumi	yumi	PRON	_	_	5	adv	_	_
+13	yumi	yumi	PRON	_	_	5	adv	_	_
 14	mas	mas	AUX	_	_	5	aux	_	_
-15	ah	_	<hes>	_	_	5	adv	_	_
-16	glad	glad	NOUN	_	_	5	obl	_	_
-17	yumi	yumi	PRON	_	_	5	obl	_	_
+15	ah	_	<hes>	_	_	5	dep	_	_
+16	glad	glad	NOUN	_	_	5	adv	_	_
+17	yumi	yumi	PRON	_	_	5	adv	_	_
 18	mas	mas	AUX	_	_	5	aux	_	_
-19	hapi	hapi	ADJ	_	_	5	obl	_	_
+19	hapi	hapi	ADJ	_	_	5	adv	_	_
 20	se	se	SCONJ	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.105
@@ -2176,16 +2176,16 @@
 1	yumi	yumi	PRON	_	_	0	root	_	_
 2	yumi	yumi	PRON	_	_	3	nmod:pos	_	_
 3	wan	wan	NUM	_	_	4	nummod	_	_
-4	kaontri	kaontri	NOUN	_	_	1	obl	_	_
+4	kaontri	kaontri	NOUN	_	_	1	adv	_	_
 5	we	we	SCONJ	_	_	1	adv	_	_
-6	yumi	yumi	PRON	_	_	1	obl	_	_
+6	yumi	yumi	PRON	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.106
 # text = gat difren kaen lanwis we .
 1	gat	gat	VERB	_	_	0	root	_	_
 2	difren	difren	NOUN	_	_	4	nmod	_	_
 3	kaen	kaen	NOUN	_	_	4	nmod	_	_
-4	lanwis	lanwis	NOUN	_	_	1	obl	_	_
+4	lanwis	lanwis	NOUN	_	_	1	adv	_	_
 5	we	we	SCONJ	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.107
@@ -2215,8 +2215,8 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.109
 # text = ah yumi yumi stap wetem ol aelan kaotri olsem PNG  ah solomon .
-1	ah	_	<hes>	_	_	4	adv	_	_
-2	yumi	yumi	PRON	_	_	4	obl	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
+2	yumi	yumi	PRON	_	_	4	adv	_	_
 3	yumi	yumi	PRON	_	_	4	nsubj	_	_
 4	stap	stap	VERB	_	_	0	root	_	_
 5	wetem	wetem	ADP	_	_	8	case	_	_
@@ -2225,21 +2225,21 @@
 8	kaotri	kaotri	NOUN	_	_	4	obl	_	_
 9	olsem	olsem	ADV	_	_	4	advmod	_	_
 10	PNG	_	PUNCT	_	_	4	adv	_	_
-11	ah	_	<hes>	_	_	4	adv	_	_
-12	solomon	solomon	NOUN	_	_	4	obl	_	_
+11	ah	_	<hes>	_	_	4	dep	_	_
+12	solomon	solomon	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.110
 # text = ah niu kaledonia ah sam lo olkaontri we ol difren .
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	niu	niu	ADJ	_	_	3	amod	_	_
 3	kaledonia	kaledonia	NOUN	_	_	0	root	_	_
-4	ah	_	<hes>	_	_	3	adv	_	_
-5	sam	sam	NOUN	_	_	3	obl	_	_
+4	ah	_	<hes>	_	_	3	dep	_	_
+5	sam	sam	NOUN	_	_	3	adv	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
 7	olkaontri	olkaontri	NOUN	_	_	5	nmod	_	_
 8	we	we	SCONJ	_	_	3	adv	_	_
 9	ol	ol	NUM	_	_	10	nummod	_	_
-10	difren	difren	NOUN	_	_	3	obl	_	_
+10	difren	difren	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.111
 # text = lanwis we oli stap lo hem .
@@ -2264,8 +2264,8 @@
 10	mi	mi	PRON	_	_	0	root	_	_
 11	mi	mi	PRON	_	_	12	nsubj	_	_
 12	gat	gat	VERB	_	_	10	obl	_	_
-13	plante	plante	NUM	_	_	10	obl	_	_
-14	intres	intres	ADJ	_	_	10	obl	_	_
+13	plante	plante	NUM	_	_	10	adv	_	_
+14	intres	intres	ADJ	_	_	10	adv	_	_
 15	lo	lo	ADP	_	_	16	case	_	_
 16	hem	hem	PRON	_	_	18	nsubj	_	_
 17	i	i	PART	_	_	18	aux	_	_
@@ -2293,18 +2293,18 @@
 # text = blo mi ah kam wan tre ti trena blo .
 1	blo	blo	ADP	_	_	2	case	_	_
 2	mi	mi	PRON	_	_	4	nsubj	_	_
-3	ah	_	<hes>	_	_	4	adv	_	_
+3	ah	_	<hes>	_	_	4	dep	_	_
 4	kam	kam	VERB	_	_	0	root	_	_
 5	wan	wan	NUM	_	_	8	nummod	_	_
 6	tre	tre	NOUN	_	_	8	nmod	_	_
 7	ti	ti	NOUN	_	_	8	nmod	_	_
-8	trena	trena	NOUN	_	_	4	obl	_	_
+8	trena	trena	NOUN	_	_	4	adv	_	_
 9	blo	blo	ADP	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.116
 # text = ol tija blo mi save trenem sam tija blo oli .
 1	ol	ol	NUM	_	_	2	nummod	_	_
-2	tija	tija	NOUN	_	_	10	obl	_	_
+2	tija	tija	NOUN	_	_	10	adv	_	_
 3	blo	blo	ADP	_	_	6	mark	_	_
 4	mi	mi	PRON	_	_	6	nsubj	_	_
 5	save	save	AUX	_	_	6	aux	_	_
@@ -2333,7 +2333,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.119
 # text = lanwis blo olgeta blo oli save  tijim ol pikinini .
-1	lanwis	lanwis	NOUN	_	_	7	obl	_	_
+1	lanwis	lanwis	NOUN	_	_	7	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	olgeta	olgeta	PRON	_	_	7	nsubj	_	_
 4	blo	blo	ADP	_	_	9	case	_	_
@@ -2346,7 +2346,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.120
 # text = lo kinti wetem klas wan blo oli lanem lanwis blo olgeta so .
 1	lo	lo	ADP	_	_	2	case	_	_
-2	kinti	kinti	NOUN	_	_	8	obl	_	_
+2	kinti	kinti	NOUN	_	_	8	adv	_	_
 3	wetem	wetem	ADP	_	_	4	case	_	_
 4	klas	klas	NOUN	_	_	8	nsubj	_	_
 5	wan	wan	NUM	_	_	9	nummod	_	_
@@ -2355,7 +2355,7 @@
 8	lanem	lanem	VERB	_	_	0	root	_	_
 9	lanwis	lanwis	NOUN	_	_	8	obj	_	_
 10	blo	blo	ADP	_	_	11	case	_	_
-11	olgeta	olgeta	PRON	_	_	8	obl	_	_
+11	olgeta	olgeta	PRON	_	_	8	adv	_	_
 12	so	so	CCONJ	_	_	8	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.121
@@ -2370,19 +2370,19 @@
 8	gat	gat	VERB	_	_	2	advcl	_	_
 9	ol	ol	NUM	_	_	11	nummod	_	_
 10	difren	difren	NOUN	_	_	11	nmod	_	_
-11	kaen	kaen	NOUN	_	_	2	obl	_	_
-12	ah	_	<hes>	_	_	2	adv	_	_
+11	kaen	kaen	NOUN	_	_	2	adv	_	_
+12	ah	_	<hes>	_	_	2	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.122
 # text = ah venakula skul we .
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	venakula	venakula	NOUN	_	_	3	nmod	_	_
 3	skul	skul	NOUN	_	_	0	root	_	_
 4	we	we	SCONJ	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.123
 # text = gavman hem i stap traem bakegen blo hem i . introdiusum lanwis i go insaed lo ol skul blo mekem .
-1	gavman	gavman	NOUN	_	_	5	obl	_	_
+1	gavman	gavman	NOUN	_	_	5	adv	_	_
 2	hem	hem	PRON	_	_	5	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	stap	stap	AUX	_	_	5	aux	_	_
@@ -2411,13 +2411,13 @@
 4	pikinini	pikinini	NOUN	_	_	5	nsubj	_	_
 5	oli	oli	PART	_	_	0	root	_	_
 6	stat	stat	NOUN	_	_	7	nmod	_	_
-7	skul	skul	NOUN	_	_	5	obl	_	_
+7	skul	skul	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.125
 # text = lo fes lanwis blo olgeta oli stat  blo lanem ol samting lo fes lanwis  blo olgeta.
 1	lo	lo	ADP	_	_	3	case	_	_
 2	fes	fes	NOUN	_	_	3	nmod	_	_
-3	lanwis	lanwis	NOUN	_	_	9	obl	_	_
+3	lanwis	lanwis	NOUN	_	_	9	adv	_	_
 4	blo	blo	ADP	_	_	6	mark	_	_
 5	olgeta	olgeta	PRON	_	_	6	nsubj	_	_
 6	oli	oli	PART	_	_	9	advcl	_	_
@@ -2428,7 +2428,7 @@
 11	samting	samting	NOUN	_	_	9	obj	_	_
 12	lo	lo	ADP	_	_	14	case	_	_
 13	fes	fes	NOUN	_	_	14	nmod	_	_
-14	lanwis	lanwis	NOUN	_	_	9	obl	_	_
+14	lanwis	lanwis	NOUN	_	_	9	adv	_	_
 15	blo	blo	ADP	_	_	16	case	_	_
 16	olgeta	olgeta	PRON	_	_	14	nmod	_	_
 
@@ -2456,7 +2456,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.127
 # text = taem pikinini hem i wan bebe hem i . bon  fes lanwis blo hem hem i stap .
 1	taem	taem	NOUN	_	_	2	nmod	_	_
-2	pikinini	pikinini	NOUN	_	_	4	obl	_	_
+2	pikinini	pikinini	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	wan	wan	NUM	_	_	6	nummod	_	_
@@ -2493,16 +2493,16 @@
 7	hem	hem	PRON	_	_	5	nmod	_	_
 8	lo	lo	ADP	_	_	10	case	_	_
 9	mama	mama	NOUN	_	_	10	nmod	_	_
-10	blem	blem	NOUN	_	_	3	obl	_	_
+10	blem	blem	NOUN	_	_	3	adv	_	_
 11	afta	afta	ADP	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.130
 # text = taem hem i kam bigwan hem i lanem.
-1	taem	taem	NOUN	_	_	4	obl	_	_
+1	taem	taem	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	kam	kam	VERB	_	_	0	root	_	_
-5	bigwan	bigwan	ADJ	_	_	4	obl	_	_
+5	bigwan	bigwan	ADJ	_	_	4	adv	_	_
 6	hem	hem	PRON	_	_	8	nsubj	_	_
 7	i	i	PART	_	_	8	aux	_	_
 8	lanem	lanem	VERB	_	_	4	advcl	_	_
@@ -2522,9 +2522,9 @@
 2	brata	brata	NOUN	_	_	0	root	_	_
 3	mo	mo	CCONJ	_	_	2	adv	_	_
 4	sista	sista	NOUN	_	_	5	nmod	_	_
-5	o	o	NOUN	_	_	2	obl	_	_
+5	o	o	NOUN	_	_	2	adv	_	_
 6	ol	ol	NUM	_	_	7	nummod	_	_
-7	famli	famli	NOUN	_	_	2	obl	_	_
+7	famli	famli	NOUN	_	_	2	adv	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
 9	hem	hem	PRON	_	_	7	nmod	_	_
 
@@ -2567,7 +2567,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.136
 # text = taem pikinini hem i stat blo lan lo fes lanwis blo hem .
 1	taem	taem	NOUN	_	_	2	nmod	_	_
-2	pikinini	pikinini	NOUN	_	_	4	obl	_	_
+2	pikinini	pikinini	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	stat	stat	NOUN	_	_	7	nsubj	_	_
@@ -2577,7 +2577,7 @@
 9	fes	fes	NOUN	_	_	10	nmod	_	_
 10	lanwis	lanwis	NOUN	_	_	7	obl	_	_
 11	blo	blo	ADP	_	_	12	case	_	_
-12	hem	hem	PRON	_	_	4	obl	_	_
+12	hem	hem	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.137
 # text = hem i save lanem plante samting mo mo .
@@ -2624,7 +2624,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.139
 # text = hem ya nao olsem  mi faenem se mi gat intres tumas lo hem .
-1	hem	hem	PRON	_	_	6	obl	_	_
+1	hem	hem	PRON	_	_	6	adv	_	_
 2	ya	ya	INTJ	_	_	6	adv	_	_
 3	nao	nao	ADV	_	_	6	advmod	_	_
 4	olsem	olsem	ADV	_	_	6	advmod	_	_
@@ -2644,11 +2644,11 @@
 2	hem	hem	PRON	_	_	0	root	_	_
 3	ya	ya	INTJ	_	_	2	adv	_	_
 4	nao	nao	ADV	_	_	1	advmod	_	_
-5	mi	mi	PRON	_	_	2	obl	_	_
-6	mi	mi	PRON	_	_	2	obl	_	_
+5	mi	mi	PRON	_	_	2	adv	_	_
+6	mi	mi	PRON	_	_	2	adv	_	_
 7	bin	bin	PART	_	_	1	aux	_	_
-8	ah	_	<hes>	_	_	2	adv	_	_
-9	wok	wok	NOUN	_	_	2	obl	_	_
+8	ah	_	<hes>	_	_	2	dep	_	_
+9	wok	wok	NOUN	_	_	2	adv	_	_
 10	raon	raon	ADJ	_	_	12	amod	_	_
 11	lo	lo	ADP	_	_	12	case	_	_
 12	vanuatu	vanuatu	NOUN	_	_	9	nmod	_	_
@@ -2674,7 +2674,7 @@
 # text = wetem SIL  ah sama institiut of linguistiks .
 1	wetem	wetem	ADP	_	_	7	case	_	_
 2	SIL	_	PUNCT	_	_	7	adv	_	_
-3	ah	_	<hes>	_	_	7	adv	_	_
+3	ah	_	<hes>	_	_	7	dep	_	_
 4	sama	sama	NOUN	_	_	7	nmod	_	_
 5	institiut	institiut	NOUN	_	_	7	nmod	_	_
 6	of	of	NOUN	_	_	7	nmod	_	_
@@ -2682,17 +2682,17 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.144
 # text = ah mifala i bin ah  wok olsem ol litresi ah supavaesa .
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	mifala	mifala	PRON	_	_	3	nsubj	_	_
 3	i	i	PART	_	_	0	root	_	_
 4	bin	bin	PART	_	_	1	aux	_	_
-5	ah	_	<hes>	_	_	3	adv	_	_
+5	ah	_	<hes>	_	_	3	dep	_	_
 6	wok	wok	NOUN	_	_	3	obj	_	_
 7	olsem	olsem	ADV	_	_	1	advmod	_	_
 8	ol	ol	NUM	_	_	9	nummod	_	_
-9	litresi	litresi	NOUN	_	_	3	obl	_	_
-10	ah	_	<hes>	_	_	3	adv	_	_
-11	supavaesa	supavaesa	NOUN	_	_	3	obl	_	_
+9	litresi	litresi	NOUN	_	_	3	adv	_	_
+10	ah	_	<hes>	_	_	3	dep	_	_
+11	supavaesa	supavaesa	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.145
 # text = mi bin supavaesem sam frem blo mi we .
@@ -2712,7 +2712,7 @@
 3	bin	bin	AUX	_	_	4	aux	_	_
 4	go	go	AUX	_	_	5	aux	_	_
 5	tren	tren	VERB	_	_	0	root	_	_
-6	tugeta	tugeta	PRON	_	_	5	obl	_	_
+6	tugeta	tugeta	PRON	_	_	5	adv	_	_
 7	blo	blo	ADP	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.147
@@ -2781,23 +2781,23 @@
 2	oli	oli	PART	_	_	3	aux	_	_
 3	sapotem	sapotem	VERB	_	_	0	root	_	_
 4	bae	bae	ADV	_	_	3	advmod	_	_
-5	ah	_	<hes>	_	_	3	adv	_	_
+5	ah	_	<hes>	_	_	3	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.154
 # text = ah mifala i givim lo gavman blo gavman .
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	mifala	mifala	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	givim	givim	VERB	_	_	0	root	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	gavman	gavman	NOUN	_	_	4	obj	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
-8	gavman	gavman	NOUN	_	_	4	obl	_	_
+8	gavman	gavman	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.155
 # text = blo gavman hem i lukluk lem afta hem i save talem se yes mi wantem .
 1	blo	blo	ADP	_	_	5	mark	_	_
-2	gavman	gavman	NOUN	_	_	6	obl	_	_
+2	gavman	gavman	NOUN	_	_	6	adv	_	_
 3	hem	hem	PRON	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	lukluk	lukluk	VERB	_	_	6	advcl	_	_
@@ -2814,7 +2814,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.156
 # text = samting ya hem i . tingting ya hem i stap insaed lo .
-1	samting	samting	NOUN	_	_	4	obl	_	_
+1	samting	samting	NOUN	_	_	4	adv	_	_
 2	ya	ya	INTJ	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -2833,12 +2833,12 @@
 2	blo	blo	ADP	_	_	3	case	_	_
 3	edukesen	edukesen	NOUN	_	_	1	obj	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
-5	vanuatu	vanuatu	NOUN	_	_	1	obl	_	_
+5	vanuatu	vanuatu	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.158
 # text = be ahm long taem gavman hem i no bin luk save .
 1	be	be	CCONJ	_	_	11	adv	_	_
-2	ahm	ahm	NOUN	_	_	11	obl	_	_
+2	ahm	ahm	NOUN	_	_	11	adv	_	_
 3	long	long	ADP	_	_	10	mark	_	_
 4	taem	taem	NOUN	_	_	5	nmod	_	_
 5	gavman	gavman	NOUN	_	_	2	nmod	_	_
@@ -2872,7 +2872,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.161
 # text = se inglis wetem franis i mas stap oltaem olsem .
 1	se	se	SCONJ	_	_	7	adv	_	_
-2	inglis	inglis	NOUN	_	_	7	obl	_	_
+2	inglis	inglis	NOUN	_	_	7	adv	_	_
 3	wetem	wetem	ADP	_	_	4	case	_	_
 4	franis	franis	NOUN	_	_	7	nsubj	_	_
 5	i	i	PART	_	_	7	aux	_	_
@@ -2894,7 +2894,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.164
 # text = ah afta i gat wan narafala tingting bakegen we .
-1	ah	_	<hes>	_	_	1	adv	_	_
+1	ah	_	<hes>	_	_	1	dep	_	_
 2	afta	afta	ADP	_	_	1	adv	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	gat	gat	VERB	_	_	1	obl	_	_
@@ -2935,7 +2935,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.168
 # text = mo bislama hem i . kam olsem wan fes lanwis lo plante pikinini blo yumi  naoia.
 1	mo	mo	CCONJ	_	_	4	adv	_	_
-2	bislama	bislama	NOUN	_	_	4	obl	_	_
+2	bislama	bislama	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	.	_	PUNCT	_	_	4	adv	_	_
@@ -2948,14 +2948,14 @@
 12	plante	plante	NUM	_	_	13	nummod	_	_
 13	pikinini	pikinini	NOUN	_	_	10	nmod	_	_
 14	blo	blo	ADP	_	_	15	case	_	_
-15	yumi	yumi	PRON	_	_	4	obl	_	_
+15	yumi	yumi	PRON	_	_	4	adv	_	_
 16	naoia	naoia	ADV	_	_	6	advmod	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.169
 # text = plante pikinini mamai mo dadi oli .
 1	plante	plante	NUM	_	_	3	nummod	_	_
 2	pikinini	pikinini	NOUN	_	_	3	nmod	_	_
-3	mamai	mamai	NOUN	_	_	6	obl	_	_
+3	mamai	mamai	NOUN	_	_	6	adv	_	_
 4	mo	mo	CCONJ	_	_	6	adv	_	_
 5	dadi	dadi	NOUN	_	_	6	nsubj	_	_
 6	oli	oli	PART	_	_	0	root	_	_
@@ -2978,14 +2978,14 @@
 7	blo	blo	ADP	_	_	8	case	_	_
 8	toktokt	toktokt	NOUN	_	_	6	nmod	_	_
 9	lo	lo	ADP	_	_	10	case	_	_
-10	hem	hem	PRON	_	_	2	obl	_	_
+10	hem	hem	PRON	_	_	2	adv	_	_
 11	lo	lo	ADP	_	_	12	case	_	_
 12	haos	haos	NOUN	_	_	10	nmod	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.172
 # text = afta pikinini hem i nomo save wan narafala lanwis  .
 1	afta	afta	ADP	_	_	2	case	_	_
-2	pikinini	pikinini	NOUN	_	_	4	obl	_	_
+2	pikinini	pikinini	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	nomo	nomo	ADV	_	_	6	advmod	_	_
@@ -2997,12 +2997,12 @@
 # sent_id = BIS_20230404_3_languages.eaf.173
 # text = be bislama hem i kam fes lanwis blo hem .
 1	be	be	CCONJ	_	_	5	adv	_	_
-2	bislama	bislama	NOUN	_	_	5	obl	_	_
+2	bislama	bislama	NOUN	_	_	5	adv	_	_
 3	hem	hem	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	kam	kam	VERB	_	_	0	root	_	_
 6	fes	fes	NOUN	_	_	7	nmod	_	_
-7	lanwis	lanwis	NOUN	_	_	5	obl	_	_
+7	lanwis	lanwis	NOUN	_	_	5	adv	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
 9	hem	hem	PRON	_	_	7	nmod	_	_
 
@@ -3019,7 +3019,7 @@
 9	wanem	wanem	INTJ	_	_	4	adv	_	_
 10	lo	lo	ADP	_	_	11	case	_	_
 11	bislama	bislama	NOUN	_	_	8	obj	_	_
-12	yumi	yumi	PRON	_	_	4	obl	_	_
+12	yumi	yumi	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.175
 # text = sakemaot .
@@ -3036,7 +3036,7 @@
 # text = o yumi toktok lo hem nomo .
 1	o	o	NOUN	_	_	0	root	_	_
 2	yumi	yumi	PRON	_	_	3	nmod:pos	_	_
-3	toktok	toktok	NOUN	_	_	1	obl	_	_
+3	toktok	toktok	NOUN	_	_	1	adv	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
 5	hem	hem	PRON	_	_	3	nmod	_	_
 6	nomo	nomo	ADV	_	_	1	advmod	_	_
@@ -3061,7 +3061,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.180
 # text = mi bin pat blo divelopem wan diksinari .
-1	mi	mi	PRON	_	_	5	obl	_	_
+1	mi	mi	PRON	_	_	5	adv	_	_
 2	bin	bin	PART	_	_	5	aux	_	_
 3	pat	pat	NOUN	_	_	5	nsubj	_	_
 4	blo	blo	ADP	_	_	7	case	_	_
@@ -3072,18 +3072,18 @@
 # sent_id = BIS_20230404_3_languages.eaf.181
 # text = blo ah ol skul stat lo klas wan ah kinti kasem klas wan.
 1	blo	blo	ADP	_	_	5	case	_	_
-2	ah	_	<hes>	_	_	11	adv	_	_
+2	ah	_	<hes>	_	_	11	dep	_	_
 3	ol	ol	NUM	_	_	5	nummod	_	_
 4	skul	skul	NOUN	_	_	5	nmod	_	_
-5	stat	stat	NOUN	_	_	11	obl	_	_
+5	stat	stat	NOUN	_	_	11	adv	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
 7	klas	klas	NOUN	_	_	5	nmod	_	_
 8	wan	wan	NUM	_	_	10	nummod	_	_
-9	ah	_	<hes>	_	_	11	adv	_	_
+9	ah	_	<hes>	_	_	11	dep	_	_
 10	kinti	kinti	NOUN	_	_	11	nsubj	_	_
 11	kasem	kasem	VERB	_	_	0	root	_	_
 12	klas	klas	NOUN	_	_	11	obj	_	_
-13	wan	wan	NUM	_	_	11	obl	_	_
+13	wan	wan	NUM	_	_	11	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.182
 # text = afta i gat blo klas tu kasem .
@@ -3117,7 +3117,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.186
 # text = ah i gat plante tingting i stap yet plante.
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	i	i	PART	_	_	3	aux	_	_
 3	gat	gat	VERB	_	_	0	root	_	_
 4	plante	plante	NUM	_	_	8	nummod	_	_
@@ -3125,7 +3125,7 @@
 6	i	i	PART	_	_	7	aux	_	_
 7	stap	stap	VERB	_	_	3	advcl	_	_
 8	yet	yet	AUX	_	_	7	aux	_	_
-9	plante	plante	NUM	_	_	3	obl	_	_
+9	plante	plante	NUM	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.187
 # text = toktok i stap we.
@@ -3139,7 +3139,7 @@
 1	ino	ino	NOUN	_	_	2	nsubj	_	_
 2	kam	kam	VERB	_	_	0	root	_	_
 3	stret	stret	ADJ	_	_	4	amod	_	_
-4	yet	yet	NOUN	_	_	2	obl	_	_
+4	yet	yet	NOUN	_	_	2	adv	_	_
 5	se	se	SCONJ	_	_	2	adv	_	_
 6	bae	bae	ADV	_	_	2	advmod	_	_
 
@@ -3183,7 +3183,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.193
 # text = bae inglis mo franis nomo be i no .
 1	bae	bae	ADV	_	_	1	advmod	_	_
-2	inglis	inglis	NOUN	_	_	7	obl	_	_
+2	inglis	inglis	NOUN	_	_	7	adv	_	_
 3	mo	mo	CCONJ	_	_	7	adv	_	_
 4	franis	franis	NOUN	_	_	7	nsubj	_	_
 5	nomo	nomo	ADV	_	_	1	advmod	_	_
@@ -3201,7 +3201,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.195
 # text = ah lokol lanwis blo yu .
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	lokol	lokol	ADJ	_	_	3	amod	_	_
 3	lanwis	lanwis	NOUN	_	_	0	root	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
@@ -3229,7 +3229,7 @@
 3	hemi	hemi	VERB	_	_	0	root	_	_
 4	had	had	ADJ	_	_	5	amod	_	_
 5	lelepet	lelepet	NOUN	_	_	3	obj	_	_
-6	ah	_	<hes>	_	_	3	adv	_	_
+6	ah	_	<hes>	_	_	3	dep	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.198
 # text = from plante man oli laekem blo toktok inglis mo franis  .
@@ -3242,7 +3242,7 @@
 7	toktok	toktok	NOUN	_	_	8	nmod	_	_
 8	inglis	inglis	NOUN	_	_	5	obj	_	_
 9	mo	mo	CCONJ	_	_	5	adv	_	_
-10	franis	franis	NOUN	_	_	5	obl	_	_
+10	franis	franis	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.199
 # text = afta oli nomo wantem toktok lo lanwis blo olgeta i mekem .
@@ -3252,7 +3252,7 @@
 4	wantem	wantem	VERB	_	_	2	advcl	_	_
 5	toktok	toktok	NOUN	_	_	4	obj	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
-7	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+7	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 8	blo	blo	ADP	_	_	11	mark	_	_
 9	olgeta	olgeta	PRON	_	_	11	nsubj	_	_
 10	i	i	PART	_	_	11	aux	_	_
@@ -3279,7 +3279,7 @@
 # text = inomo gat lanwis blo vanuatu blo .
 1	inomo	inomo	NOUN	_	_	2	nsubj	_	_
 2	gat	gat	VERB	_	_	0	root	_	_
-3	lanwis	lanwis	NOUN	_	_	2	obl	_	_
+3	lanwis	lanwis	NOUN	_	_	2	adv	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
 5	vanuatu	vanuatu	NOUN	_	_	3	nmod	_	_
 6	blo	blo	ADP	_	_	2	adv	_	_
@@ -3301,16 +3301,16 @@
 # sent_id = BIS_20230404_3_languages.eaf.204
 # text = wan hanred tetin lanwis ya bae  yumi gat ah les ten wan hanred i stap .
 1	wan	wan	NUM	_	_	2	nummod	_	_
-2	hanred	hanred	NOUN	_	_	8	obl	_	_
+2	hanred	hanred	NOUN	_	_	8	adv	_	_
 3	tetin	tetin	NUM	_	_	4	nummod	_	_
-4	lanwis	lanwis	NOUN	_	_	8	obl	_	_
+4	lanwis	lanwis	NOUN	_	_	8	adv	_	_
 5	ya	ya	INTJ	_	_	8	adv	_	_
 6	bae	bae	ADV	_	_	8	advmod	_	_
 7	yumi	yumi	PRON	_	_	8	nsubj	_	_
 8	gat	gat	VERB	_	_	0	root	_	_
-9	ah	_	<hes>	_	_	8	adv	_	_
+9	ah	_	<hes>	_	_	8	dep	_	_
 10	les	les	NOUN	_	_	11	nmod	_	_
-11	ten	ten	NOUN	_	_	8	obl	_	_
+11	ten	ten	NOUN	_	_	8	adv	_	_
 12	wan	wan	NUM	_	_	13	nummod	_	_
 13	hanred	hanred	NOUN	_	_	15	nsubj	_	_
 14	i	i	PART	_	_	15	aux	_	_
@@ -3328,15 +3328,15 @@
 8	impoten	impoten	ADJ	_	_	9	amod	_	_
 9	samting	samting	NOUN	_	_	6	obj	_	_
 10	we	we	SCONJ	_	_	2	adv	_	_
-11	yumi	yumi	PRON	_	_	2	obl	_	_
+11	yumi	yumi	PRON	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.206
 # text = mas ah save se hem ya nao olsem mi talem hem i. aedentiti blo yumi .
 1	mas	mas	AUX	_	_	3	aux	_	_
-2	ah	_	<hes>	_	_	3	adv	_	_
+2	ah	_	<hes>	_	_	3	dep	_	_
 3	save	save	VERB	_	_	0	root	_	_
 4	se	se	SCONJ	_	_	10	mark	_	_
-5	hem	hem	PRON	_	_	3	obl	_	_
+5	hem	hem	PRON	_	_	3	adv	_	_
 6	ya	ya	INTJ	_	_	3	adv	_	_
 7	nao	nao	ADV	_	_	10	advmod	_	_
 8	olsem	olsem	ADV	_	_	10	advmod	_	_
@@ -3344,7 +3344,7 @@
 10	talem	talem	VERB	_	_	3	advcl	_	_
 11	hem	hem	PRON	_	_	10	obj	_	_
 12	i.	i.	NOUN	_	_	13	nmod	_	_
-13	aedentiti	aedentiti	NOUN	_	_	3	obl	_	_
+13	aedentiti	aedentiti	NOUN	_	_	3	adv	_	_
 14	blo	blo	ADP	_	_	15	case	_	_
 15	yumi	yumi	PRON	_	_	13	nmod	_	_
 
@@ -3366,7 +3366,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.209
 # text = hem nao hem i holem yu yu stap sapos .
-1	hem	hem	PRON	_	_	5	obl	_	_
+1	hem	hem	PRON	_	_	5	adv	_	_
 2	nao	nao	ADV	_	_	5	advmod	_	_
 3	hem	hem	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
@@ -3380,14 +3380,14 @@
 # text = yu nogat lanwis .
 1	yu	yu	PRON	_	_	0	root	_	_
 2	nogat	nogat	INTJ	_	_	1	adv	_	_
-3	lanwis	lanwis	NOUN	_	_	1	obl	_	_
+3	lanwis	lanwis	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.211
 # text = bae yu neva savaef lo wan ples  bae yu neva save liv longtaem lo wan ples from .
 1	bae	bae	ADV	_	_	11	advmod	_	_
-2	yu	yu	PRON	_	_	11	obl	_	_
+2	yu	yu	PRON	_	_	11	adv	_	_
 3	neva	neva	ADV	_	_	11	advmod	_	_
-4	savaef	savaef	NOUN	_	_	11	obl	_	_
+4	savaef	savaef	NOUN	_	_	11	adv	_	_
 5	lo	lo	ADP	_	_	7	case	_	_
 6	wan	wan	NUM	_	_	7	nummod	_	_
 7	ples	ples	NOUN	_	_	4	nmod	_	_
@@ -3395,7 +3395,7 @@
 9	yu	yu	PRON	_	_	11	nsubj	_	_
 10	neva	neva	ADV	_	_	11	advmod	_	_
 11	save	save	VERB	_	_	0	root	_	_
-12	liv	liv	NOUN	_	_	11	obl	_	_
+12	liv	liv	NOUN	_	_	11	adv	_	_
 13	longtaem	longtaem	ADV	_	_	11	advmod	_	_
 14	lo	lo	ADP	_	_	16	case	_	_
 15	wan	wan	NUM	_	_	16	nummod	_	_
@@ -3404,14 +3404,14 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.212
 # text = lanwis ya nao hem i holem taet yu .
-1	lanwis	lanwis	NOUN	_	_	6	obl	_	_
+1	lanwis	lanwis	NOUN	_	_	6	adv	_	_
 2	ya	ya	INTJ	_	_	6	adv	_	_
 3	nao	nao	ADV	_	_	6	advmod	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	holem	holem	VERB	_	_	0	root	_	_
 7	taet	taet	ADJ	_	_	6	obj	_	_
-8	yu	yu	PRON	_	_	6	obl	_	_
+8	yu	yu	PRON	_	_	6	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.213
 # text = ating ahm .
@@ -3429,7 +3429,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.215
 # text = ah naoia .
-1	ah	_	<hes>	_	_	1	adv	_	_
+1	ah	_	<hes>	_	_	1	dep	_	_
 2	naoia	naoia	ADV	_	_	1	advmod	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.216
@@ -3438,7 +3438,7 @@
 2	ol	ol	NUM	_	_	4	nummod	_	_
 3	man	man	NOUN	_	_	4	nmod	_	_
 4	vanuatu	vanuatu	NOUN	_	_	0	root	_	_
-5	yumi	yumi	PRON	_	_	4	obl	_	_
+5	yumi	yumi	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.217
 # text = mas traen blo yumi .
@@ -3449,7 +3449,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.218
 # text = ah lukluk bakegen lo  blo mekem se plante lanwis  blo yumi we oli staap blo ded yumi mas  raetem aot yumi .
-1	ah	_	<hes>	_	_	1	adv	_	_
+1	ah	_	<hes>	_	_	1	dep	_	_
 2	lukluk	lukluk	VERB	_	_	1	obl	_	_
 3	bakegen	bakegen	ADV	_	_	2	advmod	_	_
 4	lo	lo	ADP	_	_	9	case	_	_
@@ -3473,9 +3473,9 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.219
 # text = yumi mas toktok lo hem yumi mas rikotem .
-1	yumi	yumi	PRON	_	_	8	obl	_	_
+1	yumi	yumi	PRON	_	_	8	adv	_	_
 2	mas	mas	AUX	_	_	8	aux	_	_
-3	toktok	toktok	NOUN	_	_	8	obl	_	_
+3	toktok	toktok	NOUN	_	_	8	adv	_	_
 4	lo	lo	ADP	_	_	5	case	_	_
 5	hem	hem	PRON	_	_	3	nmod	_	_
 6	yumi	yumi	PRON	_	_	8	nsubj	_	_
@@ -3526,7 +3526,7 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.223
 # text = ah ol samting we oli katem lo wud .
-1	ah	_	<hes>	_	_	1	adv	_	_
+1	ah	_	<hes>	_	_	1	dep	_	_
 2	ol	ol	NUM	_	_	3	nummod	_	_
 3	samting	samting	NOUN	_	_	6	nsubj	_	_
 4	we	we	SCONJ	_	_	1	adv	_	_
@@ -3574,15 +3574,15 @@
 
 # sent_id = BIS_20230404_3_languages.eaf.226
 # text = ah ol difren kaen ah ah samting we yumi yumi gat lo vanuatu .
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	ol	ol	NUM	_	_	4	nummod	_	_
 3	difren	difren	NOUN	_	_	4	nmod	_	_
 4	kaen	kaen	NOUN	_	_	0	root	_	_
-5	ah	_	<hes>	_	_	4	adv	_	_
-6	ah	_	<hes>	_	_	4	adv	_	_
-7	samting	samting	NOUN	_	_	4	obl	_	_
+5	ah	_	<hes>	_	_	4	dep	_	_
+6	ah	_	<hes>	_	_	4	dep	_	_
+7	samting	samting	NOUN	_	_	4	adv	_	_
 8	we	we	SCONJ	_	_	4	adv	_	_
-9	yumi	yumi	PRON	_	_	4	obl	_	_
+9	yumi	yumi	PRON	_	_	4	adv	_	_
 10	yumi	yumi	PRON	_	_	11	nsubj	_	_
 11	gat	gat	VERB	_	_	4	obl	_	_
 12	lo	lo	ADP	_	_	13	case	_	_
@@ -3615,7 +3615,7 @@
 23	narafala	narafalaf	ADJ	_	_	24	amod	_	_
 24	kaontri	kaontri	NOUN	_	_	20	obj	_	_
 25	lo	lo	ADP	_	_	26	case	_	_
-26	wol	wol	NOUN	_	_	2	obl	_	_
+26	wol	wol	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.228
 # text = so yumi mas .
@@ -3630,7 +3630,7 @@
 3	yumi	yumi	PRON	_	_	4	nmod:pos	_	_
 4	ol	ol	NUM	_	_	6	nummod	_	_
 5	man	man	NOUN	_	_	6	nmod	_	_
-6	vanuatu	vanuatu	NOUN	_	_	1	obl	_	_
+6	vanuatu	vanuatu	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.230
 # text = mo yumi gat ol lanwis blo yumi we  yumi stap toktok lo hem .
@@ -3644,7 +3644,7 @@
 8	we	we	SCONJ	_	_	5	adv	_	_
 9	yumi	yumi	PRON	_	_	10	nsubj	_	_
 10	stap	stap	VERB	_	_	5	obl	_	_
-11	toktok	toktok	NOUN	_	_	5	obl	_	_
+11	toktok	toktok	NOUN	_	_	5	adv	_	_
 12	lo	lo	ADP	_	_	13	case	_	_
 13	hem	hem	PRON	_	_	11	nmod	_	_
 
@@ -3658,7 +3658,7 @@
 # sent_id = BIS_20230404_3_languages.eaf.232
 # text = tank yu tumas .
 1	tank	tank	NOUN	_	_	0	root	_	_
-2	yu	yu	PRON	_	_	1	obl	_	_
+2	yu	yu	PRON	_	_	1	adv	_	_
 3	tumas	tumas	ADV	_	_	1	advmod	_	_
 
 # sent_id = BIS_20230404_3_languages.eaf.233
@@ -3676,34 +3676,34 @@
 1	Ricky	Ricky	PROPN	_	_	2	nsubj	_	_
 2	inap	inap	VERB	_	_	0	root	_	_
 3	yu	yu	PRON	_	_	4	nmod:pos	_	_
-4	stori	stori	NOUN	_	_	2	obl	_	_
+4	stori	stori	NOUN	_	_	2	adv	_	_
 5	long	long	ADP	_	_	7	case	_	_
 6	saeklon	saeklon	NOUN	_	_	7	nmod	_	_
 7	ekspirience	ekspirience	NOUN	_	_	4	nmod	_	_
 8	blong	blong	ADP	_	_	9	case	_	_
-9	yu	yu	PRON	_	_	2	obl	_	_
+9	yu	yu	PRON	_	_	2	adv	_	_
 10	lo	lo	ADP	_	_	13	case	_	_
 11	dispela	dispela	NOUN	_	_	13	nmod	_	_
 12	yia	yia	NOUN	_	_	13	nmod	_	_
 13	tank	tank	NOUN	_	_	9	nmod	_	_
-14	yu	yu	PRON	_	_	2	obl	_	_
+14	yu	yu	PRON	_	_	2	adv	_	_
 15	tumas	tumas	ADV	_	_	2	advmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.2
 # text = Ok tank yu <hes> mi mi laekem blo mi stori smol lo ekspirience blo mi lo tufala saeklon we i jes stap pas.
 1	Ok	Ok	PROPN	_	_	0	root	_	_
-2	tank	tank	NOUN	_	_	1	obl	_	_
-3	yumi	yumi	PRON	_	_	1	obl	_	_
+2	tank	tank	NOUN	_	_	1	adv	_	_
+3	yumi	yumi	PRON	_	_	1	adv	_	_
 4	mi	mi	PRON	_	_	5	nsubj	_	_
 5	laekem	laekem	VERB	_	_	1	obl	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
 7	mi	mi	PRON	_	_	5	obj	_	_
-8	stori	stori	NOUN	_	_	1	obl	_	_
+8	stori	stori	NOUN	_	_	1	adv	_	_
 9	smol	smol	ADJ	_	_	11	amod	_	_
 10	lo	lo	ADP	_	_	11	case	_	_
 11	ekspirience	ekspirience	NOUN	_	_	8	nmod	_	_
 12	blo	blo	ADP	_	_	13	case	_	_
-13	mi	mi	PRON	_	_	1	obl	_	_
+13	mi	mi	PRON	_	_	1	adv	_	_
 14	lo	lo	ADP	_	_	16	case	_	_
 15	tufala	tufala	NUM	_	_	16	nummod	_	_
 16	saeklon	saeklon	NOUN	_	_	18	nsubj	_	_
@@ -3722,7 +3722,7 @@
 5	tu	tu	NUM	_	_	8	nummod	_	_
 6	taosen	taosen	NUM	_	_	8	nummod	_	_
 7	twenti	twenti	NOUN	_	_	8	nmod	_	_
-8	tri	tri	NOUN	_	_	2	obl	_	_
+8	tri	tri	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.4
 # text = <hes> yes mifala i stap lo haos mi jes kam bak from wan <hes> spel lo aelan blo woman blo mi.
@@ -3735,22 +3735,22 @@
 7	mi	mi	PRON	_	_	8	nmod:pos	_	_
 8	jes	jes	NOUN	_	_	9	nsubj	_	_
 9	kam	kam	VERB	_	_	4	advcl	_	_
-10	bak	bak	NOUN	_	_	4	obl	_	_
+10	bak	bak	NOUN	_	_	4	adv	_	_
 11	from	from	ADP	_	_	12	case	_	_
 12	wanspel	wanspel	NOUN	_	_	10	nmod	_	_
 13	lo	lo	ADP	_	_	14	case	_	_
-14	aelan	aelan	NOUN	_	_	4	obl	_	_
+14	aelan	aelan	NOUN	_	_	4	adv	_	_
 15	blo	blo	ADP	_	_	16	case	_	_
 16	woman	woman	NOUN	_	_	14	nmod	_	_
 17	blo	blo	ADP	_	_	18	case	_	_
-18	mi	mi	PRON	_	_	4	obl	_	_
+18	mi	mi	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.5
 # text = <hes> mifala i no redi gud mifala i kam stap  lo haos afta mi harem nius.
-1	mifala	mifala	PRON	_	_	9	obl	_	_
+1	mifala	mifala	PRON	_	_	9	adv	_	_
 2	i	i	PART	_	_	8	aux	_	_
 3	no	no	PART	_	_	8	aux	_	_
-4	redi	redi	NOUN	_	_	9	obl	_	_
+4	redi	redi	NOUN	_	_	9	adv	_	_
 5	gud	gud	ADJ	_	_	11	amod	_	_
 6	mifala	mifala	PRON	_	_	9	nsubj	_	_
 7	i	i	PART	_	_	8	aux	_	_
@@ -3783,9 +3783,9 @@
 16	tingting	tingting	VERB	_	_	4	advcl	_	_
 17	nating	nating	AUX	_	_	16	aux	_	_
 18	nomo	nomo	ADV	_	_	16	advmod	_	_
-19	mi	mi	PRON	_	_	4	obl	_	_
+19	mi	mi	PRON	_	_	4	adv	_	_
 20	se	se	SCONJ	_	_	4	adv	_	_
-21	eh	eh	NOUN	_	_	4	obl	_	_
+21	eh	eh	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.7
 # text = hem ya bae smol nomo ya bae i no bigwan.
@@ -3806,12 +3806,12 @@
 2	mifala	mifala	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	stap	stap	VERB	_	_	0	root	_	_
-5	mi	mi	PRON	_	_	4	obl	_	_
+5	mi	mi	PRON	_	_	4	adv	_	_
 6	no	no	PART	_	_	9	aux	_	_
 7	mi	mi	PRON	_	_	9	nsubj	_	_
 8	no	no	PART	_	_	9	aux	_	_
 9	save	save	VERB	_	_	4	advcl	_	_
-10	nem	nem	NOUN	_	_	4	obl	_	_
+10	nem	nem	NOUN	_	_	4	adv	_	_
 11	blo	blo	ADP	_	_	13	case	_	_
 12	tufala	tufala	NUM	_	_	13	nummod	_	_
 13	saeklon	saeklon	NOUN	_	_	10	nmod	_	_
@@ -3855,9 +3855,9 @@
 12	oh	oh	NOUN	_	_	15	nmod	_	_
 13	nem	nem	NOUN	_	_	15	nmod	_	_
 14	blem	blem	NOUN	_	_	15	nmod	_	_
-15	saeklon	saeklon	NOUN	_	_	3	obl	_	_
-16	Judy	Judy	PROPN	_	_	3	obl	_	_
-17	ino	ino	NOUN	_	_	3	obl	_	_
+15	saeklon	saeklon	NOUN	_	_	3	adv	_	_
+16	Judy	Judy	PROPN	_	_	3	adv	_	_
+17	ino	ino	NOUN	_	_	3	adv	_	_
 18	long	long	ADP	_	_	21	mark	_	_
 19	taem	taem	NOUN	_	_	20	nmod	_	_
 20	ren	ren	NOUN	_	_	21	nsubj	_	_
@@ -3883,7 +3883,7 @@
 3	ya	ya	INTJ	_	_	2	adv	_	_
 4	wan	wan	NUM	_	_	6	nummod	_	_
 5	smol	smol	ADJ	_	_	6	amod	_	_
-6	win	win	NOUN	_	_	2	obl	_	_
+6	win	win	NOUN	_	_	2	adv	_	_
 7	nomo	nomo	ADV	_	_	1	advmod	_	_
 8	ya	ya	INTJ	_	_	2	adv	_	_
 
@@ -3893,8 +3893,8 @@
 2	staplo	staplo	NOUN	_	_	3	nmod	_	_
 3	dei	dei	NOUN	_	_	0	root	_	_
 4	we	we	SCONJ	_	_	3	adv	_	_
-5	saeklon	saeklon	NOUN	_	_	3	obl	_	_
-6	Judy	Judy	PROPN	_	_	3	obl	_	_
+5	saeklon	saeklon	NOUN	_	_	3	adv	_	_
+6	Judy	Judy	PROPN	_	_	3	adv	_	_
 7	hem	hem	PRON	_	_	9	nsubj	_	_
 8	i	i	PART	_	_	9	aux	_	_
 9	kam	kam	VERB	_	_	3	obl	_	_
@@ -3922,7 +3922,7 @@
 8	smol	smol	ADJ	_	_	11	amod	_	_
 9	from	from	ADP	_	_	10	case	_	_
 10	hem	hem	PRON	_	_	7	obj	_	_
-11	i.	i.	NOUN	_	_	4	obl	_	_
+11	i.	i.	NOUN	_	_	4	adv	_	_
 12	hem	hem	PRON	_	_	14	nsubj	_	_
 13	i	i	PART	_	_	14	aux	_	_
 14	kam	kam	VERB	_	_	4	obl	_	_
@@ -3955,7 +3955,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.16
 # text = se ah no mebi hem i kam pas ating bae i go lo Fiji.
 1	se	se	SCONJ	_	_	8	mark	_	_
-2	ah	_	<hes>	_	_	12	adv	_	_
+2	ah	_	<hes>	_	_	12	dep	_	_
 3	no	no	PART	_	_	7	aux	_	_
 4	mebi	mebi	ADV	_	_	7	advmod	_	_
 5	hem	hem	PRON	_	_	12	nsubj	_	_
@@ -3972,14 +3972,14 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.17
 # text = ((E from)) taem woman blo mi i askem lo mi mi se no hem i pas aotsaed bae i go lo Fiji ya .
 1	taem	taem	NOUN	_	_	2	nmod	_	_
-2	woman	woman	NOUN	_	_	14	obl	_	_
+2	woman	woman	NOUN	_	_	14	adv	_	_
 3	blo	blo	ADP	_	_	6	mark	_	_
 4	mi	mi	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	askem	askem	VERB	_	_	14	advcl	_	_
 7	lo	lo	ADP	_	_	8	case	_	_
 8	mi	mi	PRON	_	_	6	obj	_	_
-9	mi	mi	PRON	_	_	14	obl	_	_
+9	mi	mi	PRON	_	_	14	adv	_	_
 10	se	se	SCONJ	_	_	14	adv	_	_
 11	no	no	PART	_	_	14	aux	_	_
 12	hem	hem	PRON	_	_	14	nsubj	_	_
@@ -4010,16 +4010,16 @@
 6	i	i	PART	_	_	7	aux	_	_
 7	stap	stap	AUX	_	_	8	aux	_	_
 8	kam	kam	VERB	_	_	2	advcl	_	_
-9	strong	strong	ADJ	_	_	2	obl	_	_
+9	strong	strong	ADJ	_	_	2	adv	_	_
 10	mo	mo	CCONJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.20
 # text = win hem i kam strong nao.
-1	win	win	NOUN	_	_	4	obl	_	_
+1	win	win	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	kam	kam	VERB	_	_	0	root	_	_
-5	strong	strong	ADJ	_	_	4	obl	_	_
+5	strong	strong	ADJ	_	_	4	adv	_	_
 6	nao	nao	ADV	_	_	4	advmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.21
@@ -4027,7 +4027,7 @@
 1	miron	miron	NOUN	_	_	3	nsubj	_	_
 2	i	i	PART	_	_	3	aux	_	_
 3	go	go	VERB	_	_	0	root	_	_
-4	aotsaed	aotsaed	NOUN	_	_	3	obl	_	_
+4	aotsaed	aotsaed	NOUN	_	_	3	adv	_	_
 5	mi	mi	PRON	_	_	6	nsubj	_	_
 6	karemhama	karemhama	VERB	_	_	3	advcl	_	_
 7	wetem	wetem	ADP	_	_	8	case	_	_
@@ -4052,7 +4052,7 @@
 4	strong	strong	ADJ	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	kam	kam	VERB	_	_	3	advcl	_	_
-7	strong	strong	ADJ	_	_	3	obl	_	_
+7	strong	strong	ADJ	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.24
 # text = mi talem se hei hem ya wan bigfala saeklon ya i no wan smol wan.
@@ -4060,7 +4060,7 @@
 2	talem	talem	VERB	_	_	0	root	_	_
 3	se	se	SCONJ	_	_	11	mark	_	_
 4	hei	hei	NOUN	_	_	2	obj	_	_
-5	hem	hem	PRON	_	_	2	obl	_	_
+5	hem	hem	PRON	_	_	2	adv	_	_
 6	ya	ya	INTJ	_	_	2	adv	_	_
 7	wan	wan	NUM	_	_	9	nummod	_	_
 8	bigfala	big	ADJ	_	_	9	amod	_	_
@@ -4069,8 +4069,8 @@
 11	i	i	PART	_	_	2	advcl	_	_
 12	no	no	PART	_	_	2	aux	_	_
 13	wan	wan	NUM	_	_	11	obj	_	_
-14	smol	smol	ADJ	_	_	2	obl	_	_
-15	wan	wan	NUM	_	_	2	obl	_	_
+14	smol	smol	ADJ	_	_	2	adv	_	_
+15	wan	wan	NUM	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.25
 # text = mi traem mi go satem do mi talem lo ol pikikinini blo mi.
@@ -4086,7 +4086,7 @@
 10	ol	ol	NUM	_	_	11	nummod	_	_
 11	pikikinini	pikikinini	NOUN	_	_	8	obj	_	_
 12	blo	blo	ADP	_	_	13	case	_	_
-13	mi	mi	PRON	_	_	2	obl	_	_
+13	mi	mi	PRON	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.26
 # text = insaed insaed insaed insaed win i stap kam strong nao.
@@ -4098,7 +4098,7 @@
 6	i	i	PART	_	_	7	aux	_	_
 7	stap	stap	AUX	_	_	8	aux	_	_
 8	kam	kam	VERB	_	_	0	root	_	_
-9	strong	strong	ADJ	_	_	8	obl	_	_
+9	strong	strong	ADJ	_	_	8	adv	_	_
 10	nao	nao	ADV	_	_	8	advmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.27
@@ -4149,8 +4149,8 @@
 # text = be laki saeklon Judy hem i no kam long taem hem i kam stap smol taem nomo afta i finis.
 1	be	be	CCONJ	_	_	8	adv	_	_
 2	laki	laki	NOUN	_	_	3	nmod	_	_
-3	saeklon	saeklon	NOUN	_	_	8	obl	_	_
-4	Judy	Judy	PROPN	_	_	8	obl	_	_
+3	saeklon	saeklon	NOUN	_	_	8	adv	_	_
+4	Judy	Judy	PROPN	_	_	8	adv	_	_
 5	hem	hem	PRON	_	_	8	nsubj	_	_
 6	i	i	PART	_	_	8	aux	_	_
 7	no	no	PART	_	_	8	aux	_	_
@@ -4195,15 +4195,15 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.33
 # text = mi se hei hem ya hem i strong wan ya.
-1	mi	mi	PRON	_	_	7	obl	_	_
+1	mi	mi	PRON	_	_	7	adv	_	_
 2	se	se	SCONJ	_	_	7	adv	_	_
-3	hei	hei	NOUN	_	_	7	obl	_	_
-4	hem	hem	PRON	_	_	7	obl	_	_
+3	hei	hei	NOUN	_	_	7	adv	_	_
+4	hem	hem	PRON	_	_	7	adv	_	_
 5	ya	ya	INTJ	_	_	7	adv	_	_
 6	hem	hem	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	0	root	_	_
 8	strong	strong	ADJ	_	_	7	obj	_	_
-9	wan	wan	NUM	_	_	7	obl	_	_
+9	wan	wan	NUM	_	_	7	adv	_	_
 10	ya	ya	INTJ	_	_	7	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.34
@@ -4217,17 +4217,17 @@
 # text = fulap <hes> samting oli flae olbaot .
 1	fulapsamting	fulapsamting	NOUN	_	_	2	nsubj	_	_
 2	oli	oli	PART	_	_	0	root	_	_
-3	flae	flae	NOUN	_	_	2	obl	_	_
+3	flae	flae	NOUN	_	_	2	adv	_	_
 4	olbaot	olbaot	ADV	_	_	1	advmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.36
 # text = mi se eh wan bigfala saeklon ya .
 1	mi	mi	PRON	_	_	0	root	_	_
 2	se	se	SCONJ	_	_	1	adv	_	_
-3	eh	eh	NOUN	_	_	1	obl	_	_
+3	eh	eh	NOUN	_	_	1	adv	_	_
 4	wan	wan	NUM	_	_	6	nummod	_	_
 5	bigfala	big	ADJ	_	_	6	amod	_	_
-6	saeklon	saeklon	NOUN	_	_	1	obl	_	_
+6	saeklon	saeklon	NOUN	_	_	1	adv	_	_
 7	ya	ya	INTJ	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.37
@@ -4261,7 +4261,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.39
 # text = <hes> gudfala samting from hem i blo i kam lo hem i kam lo saot.
 1	gudfala	gud	ADJ	_	_	2	amod	_	_
-2	samting	samting	NOUN	_	_	5	obl	_	_
+2	samting	samting	NOUN	_	_	5	adv	_	_
 3	from	from	ADP	_	_	4	case	_	_
 4	hem	hem	PRON	_	_	8	nsubj	_	_
 5	i	i	PART	_	_	0	root	_	_
@@ -4278,7 +4278,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.40
 # text = saot ist, so mifala i karem strong wins i kam lo saot ist ah mifala i ius blo karem saot isteli win evritaem so mi  mi no wari lem fro mifala i ius blo karem strong win i kam lo saot so.
 1	saot	saot	VERB	_	_	0	root	_	_
-2	ist	ist	NOUN	_	_	1	obl	_	_
+2	ist	ist	NOUN	_	_	1	adv	_	_
 3	,	_	PUNCT	_	_	1	adv	_	_
 4	so	so	CCONJ	_	_	1	adv	_	_
 5	mifala	mifala	PRON	_	_	7	nsubj	_	_
@@ -4291,7 +4291,7 @@
 12	lo	lo	ADP	_	_	14	case	_	_
 13	saot	saot	VERB	_	_	1	advcl	_	_
 14	ist	ist	NOUN	_	_	13	obl	_	_
-15	ah	_	<hes>	_	_	1	adv	_	_
+15	ah	_	<hes>	_	_	1	dep	_	_
 16	mifala	mifala	PRON	_	_	17	nsubj	_	_
 17	i	i	PART	_	_	1	advcl	_	_
 18	ius	ius	NOUN	_	_	21	nsubj	_	_
@@ -4327,7 +4327,7 @@
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	ting	ting	VERB	_	_	0	root	_	_
 4	se	se	SCONJ	_	_	8	mark	_	_
-5	oh	oh	NOUN	_	_	3	obl	_	_
+5	oh	oh	NOUN	_	_	3	adv	_	_
 6	hem	hem	PRON	_	_	8	nsubj	_	_
 7	ya	ya	INTJ	_	_	3	adv	_	_
 8	i	i	PART	_	_	3	advcl	_	_
@@ -4356,19 +4356,19 @@
 18	stap	stap	VERB	_	_	4	advcl	_	_
 19	gogo	gogo	AUX	_	_	24	aux	_	_
 20	smol	smol	ADJ	_	_	21	amod	_	_
-21	taem	taem	NOUN	_	_	4	obl	_	_
+21	taem	taem	NOUN	_	_	4	adv	_	_
 22	hem	hem	PRON	_	_	24	nsubj	_	_
 23	i	i	PART	_	_	24	aux	_	_
 24	finis	finis	VERB	_	_	4	advcl	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.43
 # text = taem mi lukluk i go aotsaed mi luk oh ples iu kwaet i no gat win.
-1	taem	taem	NOUN	_	_	3	obl	_	_
+1	taem	taem	NOUN	_	_	3	adv	_	_
 2	mi	mi	PRON	_	_	5	nsubj	_	_
 3	lukluk	lukluk	VERB	_	_	0	root	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	go	go	VERB	_	_	3	advcl	_	_
-6	aotsaed	aotsaed	NOUN	_	_	3	obl	_	_
+6	aotsaed	aotsaed	NOUN	_	_	3	adv	_	_
 7	mi	mi	PRON	_	_	8	nsubj	_	_
 8	luk	luk	VERB	_	_	3	advcl	_	_
 9	oh	oh	NOUN	_	_	11	nmod	_	_
@@ -4378,15 +4378,15 @@
 13	i	i	PART	_	_	15	aux	_	_
 14	no	no	PART	_	_	15	aux	_	_
 15	gat	gat	VERB	_	_	3	advcl	_	_
-16	win	win	NOUN	_	_	3	obl	_	_
+16	win	win	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.44
 # text = ah mi save se hem ya ae blem ya i stap wetem yumi naoia.
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	save	save	VERB	_	_	0	root	_	_
 4	se	se	SCONJ	_	_	11	mark	_	_
-5	hem	hem	PRON	_	_	3	obl	_	_
+5	hem	hem	PRON	_	_	3	adv	_	_
 6	ya	ya	INTJ	_	_	3	adv	_	_
 7	ae	ae	NOUN	_	_	8	nmod	_	_
 8	blem	blem	NOUN	_	_	11	nsubj	_	_
@@ -4417,7 +4417,7 @@
 # text = foti faef minutes  afta win i kam strong bakegen  from ae blo win hem i pas .
 1	foti	foti	NOUN	_	_	3	nmod	_	_
 2	faef	faef	NOUN	_	_	3	nmod	_	_
-3	minutes	minutes	NOUN	_	_	7	obl	_	_
+3	minutes	minutes	NOUN	_	_	7	adv	_	_
 4	afta	afta	ADP	_	_	5	case	_	_
 5	win	win	NOUN	_	_	7	nsubj	_	_
 6	i	i	PART	_	_	7	aux	_	_
@@ -4427,7 +4427,7 @@
 10	from	from	ADP	_	_	11	case	_	_
 11	ae	ae	NOUN	_	_	7	obl	_	_
 12	blo	blo	ADP	_	_	16	mark	_	_
-13	win	win	NOUN	_	_	7	obl	_	_
+13	win	win	NOUN	_	_	7	adv	_	_
 14	hem	hem	PRON	_	_	16	nsubj	_	_
 15	i	i	PART	_	_	16	aux	_	_
 16	pas	pas	VERB	_	_	7	advcl	_	_
@@ -4455,7 +4455,7 @@
 # text = lif ol branj blo ol tri .
 1	lif	lif	NOUN	_	_	0	root	_	_
 2	ol	ol	NUM	_	_	3	nummod	_	_
-3	branj	branj	NOUN	_	_	1	obl	_	_
+3	branj	branj	NOUN	_	_	1	adv	_	_
 4	blo	blo	ADP	_	_	6	case	_	_
 5	ol	ol	NUM	_	_	6	nummod	_	_
 6	tri	tri	NOUN	_	_	3	nmod	_	_
@@ -4486,25 +4486,25 @@
 2	mifala	mifala	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	go	go	VERB	_	_	0	root	_	_
-5	aotsaed	aotsaed	NOUN	_	_	4	obl	_	_
+5	aotsaed	aotsaed	NOUN	_	_	4	adv	_	_
 6	mi	mi	PRON	_	_	8	nsubj	_	_
 7	go	go	AUX	_	_	8	aux	_	_
 8	lukluk	lukluk	VERB	_	_	4	advcl	_	_
 9	oh	oh	NOUN	_	_	10	nmod	_	_
-10	man	man	NOUN	_	_	4	obl	_	_
+10	man	man	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.53
 # text = fulap samting oli damej .
 1	fulap	fulap	ADJ	_	_	2	amod	_	_
 2	samting	samting	NOUN	_	_	3	nsubj	_	_
 3	oli	oli	PART	_	_	0	root	_	_
-4	damej	damej	NOUN	_	_	3	obl	_	_
+4	damej	damej	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.54
 # text = lo smol taem ya nomo fulap samting oli damej finis .
 1	lo	lo	ADP	_	_	3	case	_	_
 2	smol	smol	ADJ	_	_	3	amod	_	_
-3	taem	taem	NOUN	_	_	8	obl	_	_
+3	taem	taem	NOUN	_	_	8	adv	_	_
 4	ya	ya	INTJ	_	_	8	adv	_	_
 5	nomo	nomo	ADV	_	_	10	advmod	_	_
 6	fulap	fulap	ADJ	_	_	7	amod	_	_
@@ -4525,7 +4525,7 @@
 8	mifala	mifala	PRON	_	_	10	nsubj	_	_
 9	i	i	PART	_	_	10	aux	_	_
 10	go	go	VERB	_	_	2	advcl	_	_
-11	aotsaed	aotsaed	NOUN	_	_	2	obl	_	_
+11	aotsaed	aotsaed	NOUN	_	_	2	adv	_	_
 12	mifala	mifala	PRON	_	_	15	nsubj	_	_
 13	i	i	PART	_	_	14	aux	_	_
 14	go	go	AUX	_	_	15	aux	_	_
@@ -4538,7 +4538,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.56
 # text = ten mifala i nogat paoa.
-1	ten	ten	NOUN	_	_	3	obl	_	_
+1	ten	ten	NOUN	_	_	3	adv	_	_
 2	mifala	mifala	PRON	_	_	3	nsubj	_	_
 3	i	i	PART	_	_	0	root	_	_
 4	nogat	nogat	INTJ	_	_	3	adv	_	_
@@ -4548,7 +4548,7 @@
 # text = i nogat ah wota .
 1	i	i	PART	_	_	0	root	_	_
 2	nogat	nogat	INTJ	_	_	1	adv	_	_
-3	ah	_	<hes>	_	_	1	adv	_	_
+3	ah	_	<hes>	_	_	1	dep	_	_
 4	wota	wota	NOUN	_	_	1	obj	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.58
@@ -4564,7 +4564,7 @@
 9	lo	lo	ADP	_	_	10	case	_	_
 10	wota	wota	NOUN	_	_	7	obj	_	_
 11	blo	blo	ADP	_	_	12	case	_	_
-12	ren	ren	NOUN	_	_	4	obl	_	_
+12	ren	ren	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.59
 # text = so mifala i yusum blo swim .
@@ -4612,17 +4612,17 @@
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	mas	mas	AUX	_	_	3	aux	_	_
 3	go	go	VERB	_	_	0	root	_	_
-4	lisen	lisen	NOUN	_	_	3	obl	_	_
+4	lisen	lisen	NOUN	_	_	3	adv	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	redio	redio	NOUN	_	_	4	nmod	_	_
 7	be	be	CCONJ	_	_	3	adv	_	_
-8	mi	mi	PRON	_	_	3	obl	_	_
+8	mi	mi	PRON	_	_	3	adv	_	_
 9	nogat	nogat	INTJ	_	_	3	adv	_	_
-10	redio	redio	NOUN	_	_	3	obl	_	_
+10	redio	redio	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.63
 # text = redio blo mi hem i nogud, mi go insaed lo rum .
-1	redio	redio	NOUN	_	_	9	obl	_	_
+1	redio	redio	NOUN	_	_	9	adv	_	_
 2	blo	blo	ADP	_	_	5	mark	_	_
 3	mi	mi	PRON	_	_	1	nmod	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
@@ -4638,7 +4638,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.64
 # text = mi ah karem ki blo trak .
 1	mi	mi	PRON	_	_	3	nsubj	_	_
-2	ah	_	<hes>	_	_	3	adv	_	_
+2	ah	_	<hes>	_	_	3	dep	_	_
 3	karem	karem	VERB	_	_	0	root	_	_
 4	ki	ki	NOUN	_	_	3	obj	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
@@ -4651,11 +4651,11 @@
 3	onem	onem	VERB	_	_	0	root	_	_
 4	trak	trak	NOUN	_	_	3	obj	_	_
 5	mi	mi	PRON	_	_	6	nmod:pos	_	_
-6	lisen	lisen	NOUN	_	_	3	obl	_	_
+6	lisen	lisen	NOUN	_	_	3	adv	_	_
 7	lo	lo	ADP	_	_	8	case	_	_
 8	redio	redio	NOUN	_	_	6	nmod	_	_
 9	blo	blo	ADP	_	_	10	case	_	_
-10	trak	trak	NOUN	_	_	3	obl	_	_
+10	trak	trak	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.66
 # text = blo harem wanem hem i situesen iino long taem .
@@ -4685,11 +4685,11 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.68
 # text = ah in tu deis taem  so mifala i i talem  se no yumi mas pripea from hem ya  so mi go mi karem ol longfala rob.
-1	ah	_	<hes>	_	_	10	adv	_	_
-2	in	in	NOUN	_	_	10	obl	_	_
+1	ah	_	<hes>	_	_	10	dep	_	_
+2	in	in	NOUN	_	_	10	adv	_	_
 3	tu	tu	NUM	_	_	5	nummod	_	_
 4	deis	deis	NOUN	_	_	5	nmod	_	_
-5	taem	taem	NOUN	_	_	10	obl	_	_
+5	taem	taem	NOUN	_	_	10	adv	_	_
 6	so	so	CCONJ	_	_	10	adv	_	_
 7	mifala	mifala	PRON	_	_	10	nsubj	_	_
 8	i	i	PART	_	_	10	aux	_	_
@@ -4699,7 +4699,7 @@
 12	no	no	PART	_	_	21	aux	_	_
 13	yumi	yumi	PRON	_	_	10	obj	_	_
 14	mas	mas	AUX	_	_	21	aux	_	_
-15	pripea	pripea	NOUN	_	_	10	obl	_	_
+15	pripea	pripea	NOUN	_	_	10	adv	_	_
 16	from	from	ADP	_	_	17	case	_	_
 17	hem	hem	PRON	_	_	15	nmod	_	_
 18	ya	ya	INTJ	_	_	10	adv	_	_
@@ -4748,11 +4748,11 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.72
 # text = mi wetem woman blo mi mitufala i draev raon lo taon blo .
-1	mi	mi	PRON	_	_	7	obl	_	_
+1	mi	mi	PRON	_	_	7	adv	_	_
 2	wetem	wetem	ADP	_	_	3	case	_	_
 3	woman	woman	NOUN	_	_	1	nmod	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
-5	mi	mi	PRON	_	_	7	obl	_	_
+5	mi	mi	PRON	_	_	7	adv	_	_
 6	mitufala	mitufala	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	0	root	_	_
 8	draev	draev	NOUN	_	_	7	obj	_	_
@@ -4787,7 +4787,7 @@
 # text = nogat wan hadwe hem i open .
 1	nogat	nogat	INTJ	_	_	5	adv	_	_
 2	wan	wan	NUM	_	_	3	nummod	_	_
-3	hadwe	hadwe	NOUN	_	_	5	obl	_	_
+3	hadwe	hadwe	NOUN	_	_	5	adv	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
 5	i	i	PART	_	_	0	root	_	_
 6	open	open	NOUN	_	_	5	obj	_	_
@@ -4802,7 +4802,7 @@
 6	lo	lo	ADP	_	_	7	case	_	_
 7	woman	woman	NOUN	_	_	5	obj	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
-9	mi	mi	PRON	_	_	3	obl	_	_
+9	mi	mi	PRON	_	_	3	adv	_	_
 10	se	se	SCONJ	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.77
@@ -4820,11 +4820,11 @@
 2	mi	mi	PRON	_	_	3	nmod:pos	_	_
 3	faen	faen	NOUN	_	_	4	nmod	_	_
 4	sam	sam	NOUN	_	_	0	root	_	_
-5	ah	_	<hes>	_	_	4	adv	_	_
-6	pis	pis	NOUN	_	_	4	obl	_	_
+5	ah	_	<hes>	_	_	4	dep	_	_
+6	pis	pis	NOUN	_	_	4	adv	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
 8	aean	aean	NOUN	_	_	6	nmod	_	_
-9	ah	_	<hes>	_	_	4	adv	_	_
+9	ah	_	<hes>	_	_	4	dep	_	_
 10	rufing	rufing	NOUN	_	_	13	nsubj	_	_
 11	we	we	SCONJ	_	_	4	adv	_	_
 12	i	i	PART	_	_	13	aux	_	_
@@ -4856,7 +4856,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.81
 # text = ah mifala i karem ol sola  laets putum redi i stap .
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	mifala	mifala	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	karem	karem	VERB	_	_	0	root	_	_
@@ -4920,7 +4920,7 @@
 1	wertem	wertem	VERB	_	_	0	root	_	_
 2	nius	nius	NOUN	_	_	1	obj	_	_
 3	blo	blo	ADP	_	_	7	case	_	_
-4	ah	_	<hes>	_	_	1	adv	_	_
+4	ah	_	<hes>	_	_	1	dep	_	_
 5	metio	metio	NOUN	_	_	7	nmod	_	_
 6	vanuatu	vanuatu	NOUN	_	_	7	nmod	_	_
 7	metio	metio	NOUN	_	_	2	nmod	_	_
@@ -4940,7 +4940,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.87
 # text = dijisel taoa hem i bin damej .
 1	dijisel	dijisel	NOUN	_	_	2	nmod	_	_
-2	taoa	taoa	NOUN	_	_	4	obl	_	_
+2	taoa	taoa	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	bin	bin	PART	_	_	1	aux	_	_
@@ -4961,7 +4961,7 @@
 4	stap	stap	VERB	_	_	0	root	_	_
 5	faef	faef	NOUN	_	_	7	nmod	_	_
 6	o	o	NOUN	_	_	7	nmod	_	_
-7	klok	klok	NOUN	_	_	4	obl	_	_
+7	klok	klok	NOUN	_	_	4	adv	_	_
 8	lo	lo	ADP	_	_	9	case	_	_
 9	aftenun	aftenun	NOUN	_	_	7	nmod	_	_
 
@@ -4971,14 +4971,14 @@
 2	i	i	PART	_	_	3	aux	_	_
 3	stap	stap	AUX	_	_	4	aux	_	_
 4	kam	kam	VERB	_	_	0	root	_	_
-5	strong	strong	ADJ	_	_	4	obl	_	_
+5	strong	strong	ADJ	_	_	4	adv	_	_
 6	nao	nao	ADV	_	_	4	advmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.91
 # text = faef o klok  naoia saeklon kevin nao i kam .
 1	faef	faef	NOUN	_	_	3	nmod	_	_
 2	o	o	NOUN	_	_	3	nmod	_	_
-3	klok	klok	NOUN	_	_	9	obl	_	_
+3	klok	klok	NOUN	_	_	9	adv	_	_
 4	naoia	naoia	ADV	_	_	9	advmod	_	_
 5	saeklon	saeklon	NOUN	_	_	6	nmod	_	_
 6	kevin	kevin	NOUN	_	_	9	nsubj	_	_
@@ -5020,7 +5020,7 @@
 11	ples	ples	NOUN	_	_	12	nsubj	_	_
 12	i	i	PART	_	_	2	advcl	_	_
 13	klia	klia	ADJ	_	_	12	obj	_	_
-14	gud	gud	ADJ	_	_	2	obl	_	_
+14	gud	gud	ADJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.95
 # text = taem kevin i kam kevin hem i jes  ah mekem wan ekstra klinap .
@@ -5028,11 +5028,11 @@
 2	kevin	kevin	NOUN	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	kam	kam	VERB	_	_	0	root	_	_
-5	kevin	kevin	NOUN	_	_	4	obl	_	_
+5	kevin	kevin	NOUN	_	_	4	adv	_	_
 6	hem	hem	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	4	advcl	_	_
 8	jes	jes	NOUN	_	_	10	nsubj	_	_
-9	ah	_	<hes>	_	_	4	adv	_	_
+9	ah	_	<hes>	_	_	4	dep	_	_
 10	mekem	mekem	VERB	_	_	4	advcl	_	_
 11	wan	wan	NUM	_	_	12	nummod	_	_
 12	ekstra	ekstra	NOUN	_	_	13	nsubj	_	_
@@ -5057,7 +5057,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.97
 # text = ah mifala i haed i stap insaed .
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	mifala	mifala	PRON	_	_	6	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	haed	haed	VERB	_	_	0	root	_	_
@@ -5068,7 +5068,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.98
 # text = ating kevin hem i kam kolosap mi stap kaontem mi stap lukluk taem mi ting se oh.
 1	ating	ating	ADV	_	_	5	advmod	_	_
-2	kevin	kevin	NOUN	_	_	6	obl	_	_
+2	kevin	kevin	NOUN	_	_	6	adv	_	_
 3	hem	hem	PRON	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	kam	kam	AUX	_	_	6	aux	_	_
@@ -5079,15 +5079,15 @@
 10	mi	mi	PRON	_	_	12	nsubj	_	_
 11	stap	stap	AUX	_	_	12	aux	_	_
 12	lukluk	lukluk	VERB	_	_	6	advcl	_	_
-13	taem	taem	NOUN	_	_	6	obl	_	_
+13	taem	taem	NOUN	_	_	6	adv	_	_
 14	mi	mi	PRON	_	_	15	nsubj	_	_
 15	ting	ting	VERB	_	_	6	advcl	_	_
 16	se	se	SCONJ	_	_	6	adv	_	_
-17	oh	oh	NOUN	_	_	6	obl	_	_
+17	oh	oh	NOUN	_	_	6	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.99
 # text = kevin hem i stap long taem mi ting bae hem i stap smol taem .
-1	kevin	kevin	NOUN	_	_	4	obl	_	_
+1	kevin	kevin	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	stap	stap	VERB	_	_	0	root	_	_
@@ -5100,7 +5100,7 @@
 11	i	i	PART	_	_	12	aux	_	_
 12	stap	stap	VERB	_	_	4	advcl	_	_
 13	smol	smol	ADJ	_	_	14	amod	_	_
-14	taem	taem	NOUN	_	_	4	obl	_	_
+14	taem	taem	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.100
 # text = mi stap ten o klok mi lukluk no win hem i kam mo strong .
@@ -5108,28 +5108,28 @@
 2	stap	stap	VERB	_	_	0	root	_	_
 3	ten	ten	NOUN	_	_	5	nmod	_	_
 4	o	o	NOUN	_	_	5	nmod	_	_
-5	klok	klok	NOUN	_	_	2	obl	_	_
+5	klok	klok	NOUN	_	_	2	adv	_	_
 6	mi	mi	PRON	_	_	7	nsubj	_	_
 7	lukluk	lukluk	VERB	_	_	2	advcl	_	_
 8	no	no	PART	_	_	12	aux	_	_
-9	win	win	NOUN	_	_	2	obl	_	_
+9	win	win	NOUN	_	_	2	adv	_	_
 10	hem	hem	PRON	_	_	12	nsubj	_	_
 11	i	i	PART	_	_	12	aux	_	_
 12	kam	kam	VERB	_	_	2	advcl	_	_
 13	mo	mo	AUX	_	_	12	aux	_	_
-14	strong	strong	ADJ	_	_	2	obl	_	_
+14	strong	strong	ADJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.101
 # text = ol pikinini oli fraet nao .
 1	ol	ol	NUM	_	_	2	nummod	_	_
 2	pikinini	pikinini	NOUN	_	_	3	nsubj	_	_
 3	oli	oli	PART	_	_	0	root	_	_
-4	fraet	fraet	ADJ	_	_	3	obl	_	_
+4	fraet	fraet	ADJ	_	_	3	adv	_	_
 5	nao	nao	ADV	_	_	1	advmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.102
 # text = mi se sapos yufala i sapos ruv hem i kamaot .
-1	mi	mi	PRON	_	_	10	obl	_	_
+1	mi	mi	PRON	_	_	10	adv	_	_
 2	se	se	SCONJ	_	_	5	mark	_	_
 3	sapos	sapos	ADV	_	_	10	advmod	_	_
 4	yufala	yufala	PRON	_	_	5	nsubj	_	_
@@ -5179,7 +5179,7 @@
 2	i	i	PART	_	_	7	aux	_	_
 3	no	no	PART	_	_	7	aux	_	_
 4	long	long	ADP	_	_	7	mark	_	_
-5	taem	taem	NOUN	_	_	13	obl	_	_
+5	taem	taem	NOUN	_	_	13	adv	_	_
 6	mi	mi	PRON	_	_	7	nsubj	_	_
 7	harem	harem	VERB	_	_	13	advcl	_	_
 8	ol	ol	NUM	_	_	9	nummod	_	_
@@ -5191,7 +5191,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.107
 # text = win hem i seksekem haos taem hem i sekem kapa blo haos .
-1	win	win	NOUN	_	_	4	obl	_	_
+1	win	win	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	seksekem	seksekem	VERB	_	_	0	root	_	_
@@ -5221,13 +5221,13 @@
 1	ol	ol	NUM	_	_	2	nummod	_	_
 2	pikinini	pikinini	NOUN	_	_	3	nsubj	_	_
 3	oli	oli	PART	_	_	0	root	_	_
-4	fraet	fraet	ADJ	_	_	3	obl	_	_
-5	mi	mi	PRON	_	_	3	obl	_	_
+4	fraet	fraet	ADJ	_	_	3	adv	_	_
+5	mi	mi	PRON	_	_	3	adv	_	_
 6	se	se	SCONJ	_	_	9	mark	_	_
 7	yufala	yufala	PRON	_	_	9	nsubj	_	_
 8	i	i	PART	_	_	9	aux	_	_
 9	stap	stap	VERB	_	_	3	advcl	_	_
-10	kwaet	kwaet	ADJ	_	_	3	obl	_	_
+10	kwaet	kwaet	ADJ	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.110
 # text = afta mifala i gat wan bigfala klas do lo  foret blo haos .
@@ -5238,15 +5238,15 @@
 5	wan	wan	NUM	_	_	8	nummod	_	_
 6	bigfala	big	ADJ	_	_	8	amod	_	_
 7	klas	klas	NOUN	_	_	8	nmod	_	_
-8	do	do	NOUN	_	_	4	obl	_	_
+8	do	do	NOUN	_	_	4	adv	_	_
 9	lo	lo	ADP	_	_	10	case	_	_
 10	foret	foret	NOUN	_	_	8	nmod	_	_
 11	blo	blo	ADP	_	_	12	case	_	_
-12	haos	haos	NOUN	_	_	4	obl	_	_
+12	haos	haos	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.111
 # text = win hem i bloemaot sata .
-1	win	win	NOUN	_	_	4	obl	_	_
+1	win	win	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	bloemaot	bloem	VERB	_	_	0	root	_	_
@@ -5255,7 +5255,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.112
 # text = klas do hem i swing open .
 1	klas	klas	NOUN	_	_	2	nmod	_	_
-2	do	do	NOUN	_	_	4	obl	_	_
+2	do	do	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	swing	swing	NOUN	_	_	6	nmod	_	_
@@ -5276,11 +5276,11 @@
 4	karem	karem	VERB	_	_	0	root	_	_
 5	matres	matres	NOUN	_	_	4	obj	_	_
 6	bigfala	big	ADJ	_	_	7	amod	_	_
-7	matres	matres	NOUN	_	_	4	obl	_	_
+7	matres	matres	NOUN	_	_	4	adv	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
 9	mi	mi	PRON	_	_	7	nmod	_	_
 10	wetem	wetem	ADP	_	_	11	case	_	_
-11	woman	woman	NOUN	_	_	4	obl	_	_
+11	woman	woman	NOUN	_	_	4	adv	_	_
 12	blo	blo	ADP	_	_	13	case	_	_
 13	mi	mi	PRON	_	_	11	nmod	_	_
 
@@ -5320,7 +5320,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.118
 # text = siling blo haos i brok  i foldaon lo insaed lo bedrum blo mi  wetem woman blo mi .
-1	siling	siling	NOUN	_	_	7	obl	_	_
+1	siling	siling	NOUN	_	_	7	adv	_	_
 2	blo	blo	ADP	_	_	5	mark	_	_
 3	haos	haos	NOUN	_	_	7	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
@@ -5332,11 +5332,11 @@
 10	lo	lo	ADP	_	_	11	case	_	_
 11	bedrum	bedrum	NOUN	_	_	7	obl	_	_
 12	blo	blo	ADP	_	_	13	case	_	_
-13	mi	mi	PRON	_	_	7	obl	_	_
+13	mi	mi	PRON	_	_	7	adv	_	_
 14	wetem	wetem	ADP	_	_	15	case	_	_
 15	woman	woman	NOUN	_	_	13	nmod	_	_
 16	blo	blo	ADP	_	_	17	case	_	_
-17	mi	mi	PRON	_	_	7	obl	_	_
+17	mi	mi	PRON	_	_	7	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.119
 # text = ren i kam insaed lif oli kam insae d. ol samting oli wet wet .
@@ -5348,12 +5348,12 @@
 6	oli	oli	PART	_	_	7	aux	_	_
 7	kam	kam	VERB	_	_	3	advcl	_	_
 8	insae	insae	NOUN	_	_	9	nmod	_	_
-9	d.	d.	NOUN	_	_	3	obl	_	_
+9	d.	d.	NOUN	_	_	3	adv	_	_
 10	ol	ol	NUM	_	_	11	nummod	_	_
 11	samting	samting	NOUN	_	_	12	nsubj	_	_
 12	oli	oli	PART	_	_	3	advcl	_	_
 13	wet	wet	NOUN	_	_	14	nmod	_	_
-14	wet	wet	NOUN	_	_	3	obl	_	_
+14	wet	wet	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.120
 # text = mi nomo save ron nao .
@@ -5370,7 +5370,7 @@
 3	lo	lo	ADP	_	_	4	case	_	_
 4	woman	woman	NOUN	_	_	2	obj	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
-6	mi	mi	PRON	_	_	2	obl	_	_
+6	mi	mi	PRON	_	_	2	adv	_	_
 7	se	se	SCONJ	_	_	10	mark	_	_
 8	yu	yu	PRON	_	_	10	nsubj	_	_
 9	no	no	PART	_	_	10	aux	_	_
@@ -5385,7 +5385,7 @@
 18	wetem	wetem	ADP	_	_	20	case	_	_
 19	ol	ol	NUM	_	_	20	nummod	_	_
 20	pikinini	pikinini	NOUN	_	_	16	nmod	_	_
-21	hem	hem	PRON	_	_	2	obl	_	_
+21	hem	hem	PRON	_	_	2	adv	_	_
 22	nao	nao	ADV	_	_	10	advmod	_	_
 23	hem	hem	PRON	_	_	24	nsubj	_	_
 24	i	i	PART	_	_	2	advcl	_	_
@@ -5399,7 +5399,7 @@
 4	gat	gat	VERB	_	_	0	root	_	_
 5	wan	wan	NUM	_	_	7	nummod	_	_
 6	smo	smo	NOUN	_	_	7	nmod	_	_
-7	spes	spes	NOUN	_	_	4	obl	_	_
+7	spes	spes	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.123
 # text = bigfala haos be i gat wan smol spes .
@@ -5410,12 +5410,12 @@
 5	gat	gat	VERB	_	_	0	root	_	_
 6	wan	wan	NUM	_	_	8	nummod	_	_
 7	smol	smol	ADJ	_	_	8	amod	_	_
-8	spes	spes	NOUN	_	_	5	obl	_	_
+8	spes	spes	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.124
 # text = we ah mi bin hem i olsem wan korido .
 1	we	we	SCONJ	_	_	3	adv	_	_
-2	ah	_	<hes>	_	_	3	adv	_	_
+2	ah	_	<hes>	_	_	3	dep	_	_
 3	mi	mi	PRON	_	_	0	root	_	_
 4	bin	bin	PART	_	_	1	aux	_	_
 5	hem	hem	PRON	_	_	6	nsubj	_	_
@@ -5452,7 +5452,7 @@
 # text = antap lo hem so ating hem i abaot .
 1	antap	antap	ADV	_	_	8	advmod	_	_
 2	lo	lo	ADP	_	_	3	case	_	_
-3	hem	hem	PRON	_	_	8	obl	_	_
+3	hem	hem	PRON	_	_	8	adv	_	_
 4	so	so	CCONJ	_	_	8	adv	_	_
 5	ating	ating	ADV	_	_	8	advmod	_	_
 6	hem	hem	PRON	_	_	8	nsubj	_	_
@@ -5461,7 +5461,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.128
 # text = ah tu mitas waet lo tufala saed .
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	tu	tu	NUM	_	_	4	nummod	_	_
 3	mitas	mitas	NOUN	_	_	4	nmod	_	_
 4	waet	waet	NOUN	_	_	0	root	_	_
@@ -5497,7 +5497,7 @@
 1	yufala	yufala	PRON	_	_	3	nsubj	_	_
 2	i	i	PART	_	_	3	aux	_	_
 3	haed	haed	VERB	_	_	0	root	_	_
-4	antanid	antanid	NOUN	_	_	3	obl	_	_
+4	antanid	antanid	NOUN	_	_	3	adv	_	_
 5	lo	lo	ADP	_	_	7	case	_	_
 6	smol	smol	ADJ	_	_	7	amod	_	_
 7	ples	ples	NOUN	_	_	4	nmod	_	_
@@ -5532,7 +5532,7 @@
 5	blo	blo	ADP	_	_	7	mark	_	_
 6	i	i	PART	_	_	7	aux	_	_
 7	go	go	VERB	_	_	4	advcl	_	_
-8	strong	strong	ADJ	_	_	4	obl	_	_
+8	strong	strong	ADJ	_	_	4	adv	_	_
 9	mo	mo	CCONJ	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.134
@@ -5544,7 +5544,7 @@
 5	lukluk	lukluk	VERB	_	_	2	advcl	_	_
 6	i	i	PART	_	_	7	aux	_	_
 7	go	go	VERB	_	_	2	advcl	_	_
-8	aotsaed	aotsaed	NOUN	_	_	2	obl	_	_
+8	aotsaed	aotsaed	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.135
 # text = mi openem wan smol ples lo windo .
@@ -5561,16 +5561,16 @@
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	luk	luk	VERB	_	_	0	root	_	_
 3	go	go	VERB	_	_	2	advcl	_	_
-4	aotsaed	aotsaed	NOUN	_	_	2	obl	_	_
+4	aotsaed	aotsaed	NOUN	_	_	2	adv	_	_
 5	mi	mi	PRON	_	_	7	nsubj	_	_
 6	no	no	PART	_	_	7	aux	_	_
 7	luk	luk	VERB	_	_	2	advcl	_	_
 8	wan	wan	NUM	_	_	9	nummod	_	_
-9	samting	samting	NOUN	_	_	2	obl	_	_
+9	samting	samting	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.137
 # text = evrisamting hem i smok .
-1	evrisamting	evrisamting	NOUN	_	_	3	obl	_	_
+1	evrisamting	evrisamting	NOUN	_	_	3	adv	_	_
 2	hem	hem	PRON	_	_	3	nsubj	_	_
 3	i	i	PART	_	_	0	root	_	_
 4	smok	smok	NOUN	_	_	3	obj	_	_
@@ -5587,7 +5587,7 @@
 2	no	no	PART	_	_	3	aux	_	_
 3	save	save	AUX	_	_	4	aux	_	_
 4	luk	luk	VERB	_	_	0	root	_	_
-5	haos	haos	NOUN	_	_	4	obl	_	_
+5	haos	haos	NOUN	_	_	4	adv	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
 7	neba	neba	NOUN	_	_	5	nmod	_	_
 
@@ -5597,9 +5597,9 @@
 2	no	no	PART	_	_	3	aux	_	_
 3	save	save	AUX	_	_	4	aux	_	_
 4	luk	luk	VERB	_	_	0	root	_	_
-5	ah	_	<hes>	_	_	4	adv	_	_
+5	ah	_	<hes>	_	_	4	dep	_	_
 6	ol	ol	NUM	_	_	7	nummod	_	_
-7	tri	tri	NOUN	_	_	4	obl	_	_
+7	tri	tri	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.141
 # text = hem i smok nomo .
@@ -5622,11 +5622,11 @@
 1	ol	ol	NUM	_	_	2	nummod	_	_
 2	samting	samting	NOUN	_	_	3	nsubj	_	_
 3	oli	oli	PART	_	_	0	root	_	_
-4	flae	flae	NOUN	_	_	3	obl	_	_
+4	flae	flae	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.144
 # text = ah wan bigfala pis blo timba wan fo bai fo .
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	wan	wan	NUM	_	_	4	nummod	_	_
 3	bigfala	big	ADJ	_	_	4	amod	_	_
 4	pis	pis	NOUN	_	_	0	root	_	_
@@ -5635,11 +5635,11 @@
 7	wan	wan	NUM	_	_	10	nummod	_	_
 8	fo	fo	NOUN	_	_	10	nmod	_	_
 9	bai	bai	NOUN	_	_	10	nmod	_	_
-10	fo	fo	NOUN	_	_	4	obl	_	_
+10	fo	fo	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.145
 # text = timba hem i flae kam hem i brokem .
-1	timba	timba	NOUN	_	_	3	obl	_	_
+1	timba	timba	NOUN	_	_	3	adv	_	_
 2	hem	hem	PRON	_	_	3	nsubj	_	_
 3	i	i	PART	_	_	0	root	_	_
 4	flae	flae	NOUN	_	_	5	nsubj	_	_
@@ -5655,7 +5655,7 @@
 3	lo	lo	ADP	_	_	4	case	_	_
 4	rum	rum	NOUN	_	_	2	nmod	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
-6	haos	haos	NOUN	_	_	2	obl	_	_
+6	haos	haos	NOUN	_	_	2	adv	_	_
 7	blo	blo	ADP	_	_	10	case	_	_
 8	wan	wan	NUM	_	_	10	nummod	_	_
 9	bed	bed	NOUN	_	_	10	nmod	_	_
@@ -5670,7 +5670,7 @@
 5	i	i	PART	_	_	6	aux	_	_
 6	go	go	VERB	_	_	4	advcl	_	_
 7	aotsaed	aotsaed	NOUN	_	_	8	nmod	_	_
-8	pis	pis	NOUN	_	_	4	obl	_	_
+8	pis	pis	NOUN	_	_	4	adv	_	_
 9	tin	tin	ADJ	_	_	11	nsubj	_	_
 10	ova	ova	ADP	_	_	4	adv	_	_
 11	lem	lem	VERB	_	_	4	advcl	_	_
@@ -5690,7 +5690,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.149
 # text = ol boe blo mi mi talem yufala i no fraet .
 1	ol	ol	NUM	_	_	2	nummod	_	_
-2	boe	boe	NOUN	_	_	8	obl	_	_
+2	boe	boe	NOUN	_	_	8	adv	_	_
 3	blo	blo	ADP	_	_	6	mark	_	_
 4	mi	mi	PRON	_	_	2	nmod	_	_
 5	mi	mi	PRON	_	_	6	nsubj	_	_
@@ -5729,7 +5729,7 @@
 2	woman	woman	NOUN	_	_	0	root	_	_
 3	blo	blo	ADP	_	_	4	case	_	_
 4	mi	mi	PRON	_	_	5	nmod:pos	_	_
-5	tu	tu	NUM	_	_	2	obl	_	_
+5	tu	tu	NUM	_	_	2	adv	_	_
 6	hem	hem	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	2	obl	_	_
 8	fraet	fraet	ADJ	_	_	7	obj	_	_
@@ -5754,7 +5754,7 @@
 12	talemse	talemse	VERB	_	_	2	advcl	_	_
 13	yu	yu	PRON	_	_	12	obj	_	_
 14	no	no	PART	_	_	12	aux	_	_
-15	fraet	fraet	ADJ	_	_	2	obl	_	_
+15	fraet	fraet	ADJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.154
 # text = evrisamting bae i oraet .
@@ -5785,11 +5785,11 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.156
 # text = ol ah klos blo mi  mi se.
 1	ol	ol	NUM	_	_	3	nummod	_	_
-2	ah	_	<hes>	_	_	3	adv	_	_
+2	ah	_	<hes>	_	_	3	dep	_	_
 3	klos	klos	NOUN	_	_	0	root	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
 5	mi	mi	PRON	_	_	3	nmod	_	_
-6	mi	mi	PRON	_	_	3	obl	_	_
+6	mi	mi	PRON	_	_	3	adv	_	_
 7	se	se	SCONJ	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.157
@@ -5855,7 +5855,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.164
 # text = twelef haoa mi wekap i stap.
 1	twelef	twelef	NUM	_	_	2	nummod	_	_
-2	haoa	haoa	NOUN	_	_	4	obl	_	_
+2	haoa	haoa	NOUN	_	_	4	adv	_	_
 3	mi	mi	PRON	_	_	6	nsubj	_	_
 4	wekap	wekap	VERB	_	_	0	root	_	_
 5	i	i	PART	_	_	6	aux	_	_
@@ -5885,7 +5885,7 @@
 5	wan	wan	NUM	_	_	6	nummod	_	_
 6	jea	jea	NOUN	_	_	3	obl	_	_
 7	lo	lo	ADP	_	_	8	case	_	_
-8	medel	medel	NOUN	_	_	3	obl	_	_
+8	medel	medel	NOUN	_	_	3	adv	_	_
 9	lo	lo	ADP	_	_	11	case	_	_
 10	siting	siting	NOUN	_	_	11	nmod	_	_
 11	rum	rum	NOUN	_	_	8	nmod	_	_
@@ -5927,7 +5927,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.170
 # text = from siling hem i kamaot .
 1	from	from	ADP	_	_	2	case	_	_
-2	siling	siling	NOUN	_	_	5	obl	_	_
+2	siling	siling	NOUN	_	_	5	adv	_	_
 3	hem	hem	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	kamaot	kam	VERB	_	_	0	root	_	_
@@ -5938,7 +5938,7 @@
 2	save	save	AUX	_	_	3	aux	_	_
 3	luk	luk	VERB	_	_	0	root	_	_
 4	ol	ol	NUM	_	_	5	nummod	_	_
-5	skru	skru	NOUN	_	_	3	obl	_	_
+5	skru	skru	NOUN	_	_	3	adv	_	_
 6	blo	blo	ADP	_	_	10	mark	_	_
 7	ruf	ruf	NOUN	_	_	5	nmod	_	_
 8	so	so	CCONJ	_	_	3	adv	_	_
@@ -5948,7 +5948,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.172
 # text = taem win hem i blo .
 1	taem	taem	NOUN	_	_	2	nmod	_	_
-2	win	win	NOUN	_	_	4	obl	_	_
+2	win	win	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	blo	blo	ADP	_	_	4	adv	_	_
@@ -5981,9 +5981,9 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.176
 # text = mi se ah win ya i strong ya .
-1	mi	mi	PRON	_	_	6	obl	_	_
+1	mi	mi	PRON	_	_	6	adv	_	_
 2	se	se	SCONJ	_	_	6	adv	_	_
-3	ah	_	<hes>	_	_	6	adv	_	_
+3	ah	_	<hes>	_	_	6	dep	_	_
 4	win	win	NOUN	_	_	6	nsubj	_	_
 5	ya	ya	INTJ	_	_	6	adv	_	_
 6	i	i	PART	_	_	0	root	_	_
@@ -6004,21 +6004,21 @@
 2	stap	stap	AUX	_	_	3	aux	_	_
 3	wajem	wajem	VERB	_	_	0	root	_	_
 4	after	after	NOUN	_	_	3	obj	_	_
-5	mi	mi	PRON	_	_	3	obl	_	_
+5	mi	mi	PRON	_	_	3	adv	_	_
 6	se	se	SCONJ	_	_	3	adv	_	_
-7	ah	_	<hes>	_	_	3	adv	_	_
+7	ah	_	<hes>	_	_	3	dep	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.179
 # text = mi boring nao mi faenem hem i mi les blo wet.
 1	mi	mi	PRON	_	_	2	nmod:pos	_	_
-2	boring	boring	NOUN	_	_	5	obl	_	_
+2	boring	boring	NOUN	_	_	5	adv	_	_
 3	nao	nao	ADV	_	_	5	advmod	_	_
 4	mi	mi	PRON	_	_	5	nsubj	_	_
 5	faenem	faenem	VERB	_	_	0	root	_	_
 6	hem	hem	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	5	advcl	_	_
 8	mi	mi	PRON	_	_	7	obj	_	_
-9	les	les	NOUN	_	_	5	obl	_	_
+9	les	les	NOUN	_	_	5	adv	_	_
 10	blo	blo	ADP	_	_	11	case	_	_
 11	wet	wet	NOUN	_	_	9	nmod	_	_
 
@@ -6036,7 +6036,7 @@
 1	mi	mi	PRON	_	_	3	nsubj	_	_
 2	stap	stap	AUX	_	_	3	aux	_	_
 3	dring	dring	VERB	_	_	0	root	_	_
-4	kofi	kofi	NOUN	_	_	3	obl	_	_
+4	kofi	kofi	NOUN	_	_	3	adv	_	_
 5	afta	afta	ADP	_	_	6	case	_	_
 6	mi	mi	PRON	_	_	8	nsubj	_	_
 7	stap	stap	AUX	_	_	8	aux	_	_
@@ -6060,7 +6060,7 @@
 6	i	i	PART	_	_	7	aux	_	_
 7	go	go	VERB	_	_	2	advcl	_	_
 8	daon	daon	ADV	_	_	7	advmod	_	_
-9	smol	smol	ADJ	_	_	2	obl	_	_
+9	smol	smol	ADJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.184
 # text = ating lo samwea lo tri o klok .
@@ -6079,7 +6079,7 @@
 3	stap	stap	AUX	_	_	4	aux	_	_
 4	go	go	VERB	_	_	0	root	_	_
 5	daon	daon	ADV	_	_	4	advmod	_	_
-6	smol	smol	ADJ	_	_	4	obl	_	_
+6	smol	smol	ADJ	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.186
 # text = afta mi openem do .
@@ -6117,7 +6117,7 @@
 4	mi	mi	PRON	_	_	6	nsubj	_	_
 5	luk	luk	VERB	_	_	2	advcl	_	_
 6	luk	luk	VERB	_	_	2	advcl	_	_
-7	aotsaed	aotsaed	NOUN	_	_	2	obl	_	_
+7	aotsaed	aotsaed	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.190
 # text = no win i stap kamdaon smol .
@@ -6126,7 +6126,7 @@
 3	i	i	PART	_	_	4	aux	_	_
 4	stap	stap	AUX	_	_	5	aux	_	_
 5	kamdaon	kamdaon	VERB	_	_	0	root	_	_
-6	smol	smol	ADJ	_	_	5	obl	_	_
+6	smol	smol	ADJ	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.191
 # text = afta mi wokbaot i go aotsaed .
@@ -6135,7 +6135,7 @@
 3	wokbaot	wokbaot	VERB	_	_	0	root	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	go	go	VERB	_	_	3	advcl	_	_
-6	aotsaed	aotsaed	NOUN	_	_	3	obl	_	_
+6	aotsaed	aotsaed	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.192
 # text = mi luk luk.
@@ -6170,7 +6170,7 @@
 8	yu	yu	PRON	_	_	10	nsubj	_	_
 9	save	save	AUX	_	_	10	aux	_	_
 10	luk	luk	VERB	_	_	1	advcl	_	_
-11	evriples	evriples	NOUN	_	_	1	obl	_	_
+11	evriples	evriples	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.196
 # text = mi luk i go daon lo haos blo ol neba .
@@ -6183,25 +6183,25 @@
 7	haos	haos	NOUN	_	_	4	obl	_	_
 8	blo	blo	ADP	_	_	10	case	_	_
 9	ol	ol	NUM	_	_	10	nummod	_	_
-10	neba	neba	NOUN	_	_	2	obl	_	_
+10	neba	neba	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.197
 # text = doti evri ples .
 1	doti	doti	NOUN	_	_	0	root	_	_
 2	evri	evri	NUM	_	_	3	nummod	_	_
-3	ples	ples	NOUN	_	_	1	obl	_	_
+3	ples	ples	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.198
 # text = ahm gras hem i fulap nomo lo doti ol .
 1	ahm	ahm	NOUN	_	_	2	nmod	_	_
-2	gras	gras	NOUN	_	_	4	obl	_	_
+2	gras	gras	NOUN	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	fulap	fulap	ADJ	_	_	8	amod	_	_
 6	nomo	nomo	ADV	_	_	1	advmod	_	_
 7	lo	lo	ADP	_	_	8	case	_	_
 8	doti	doti	NOUN	_	_	4	obj	_	_
-9	ol	ol	NUM	_	_	4	obl	_	_
+9	ol	ol	NUM	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.199
 # text = pis blo kapa ol pis blo ahm wud.
@@ -6209,7 +6209,7 @@
 2	blo	blo	ADP	_	_	3	case	_	_
 3	kapa	kapa	NOUN	_	_	1	nmod	_	_
 4	ol	ol	NUM	_	_	5	nummod	_	_
-5	pis	pis	NOUN	_	_	1	obl	_	_
+5	pis	pis	NOUN	_	_	1	adv	_	_
 6	blo	blo	ADP	_	_	8	case	_	_
 7	ahm	ahm	NOUN	_	_	8	nmod	_	_
 8	wud	wud	NOUN	_	_	5	nmod	_	_
@@ -6230,7 +6230,7 @@
 3	mi	mi	PRON	_	_	4	nsubj	_	_
 4	karem	karem	VERB	_	_	1	advcl	_	_
 5	wan	wan	NUM	_	_	7	nummod	_	_
-6	ah	_	<hes>	_	_	1	adv	_	_
+6	ah	_	<hes>	_	_	1	dep	_	_
 7	laet	laet	NOUN	_	_	4	obj	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.202
@@ -6239,11 +6239,11 @@
 2	saen	saen	NOUN	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	go	go	VERB	_	_	0	root	_	_
-5	dao	dao	NOUN	_	_	4	obl	_	_
+5	dao	dao	NOUN	_	_	4	adv	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
 7	haos	haos	NOUN	_	_	5	nmod	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
-9	brata	brata	NOUN	_	_	4	obl	_	_
+9	brata	brata	NOUN	_	_	4	adv	_	_
 10	blo	blo	ADP	_	_	11	case	_	_
 11	mi	mi	PRON	_	_	9	nmod	_	_
 
@@ -6272,10 +6272,10 @@
 6	tu	tu	NUM	_	_	10	nummod	_	_
 7	go	go	AUX	_	_	8	aux	_	_
 8	visitim	visitim	VERB	_	_	2	advcl	_	_
-9	ah	_	<hes>	_	_	2	adv	_	_
+9	ah	_	<hes>	_	_	2	dep	_	_
 10	dadi	dadi	NOUN	_	_	8	obj	_	_
 11	mo	mo	CCONJ	_	_	2	adv	_	_
-12	mami	mami	NOUN	_	_	2	obl	_	_
+12	mami	mami	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.205
 # text = ol perens blo mitufala .
@@ -6298,7 +6298,7 @@
 # text = blo luk a perens mifala i go jekem ol haos .
 1	blo	blo	ADP	_	_	2	mark	_	_
 2	luk	luk	VERB	_	_	8	advcl	_	_
-3	a	_	<hes>	_	_	8	adv	_	_
+3	a	_	<hes>	_	_	8	dep	_	_
 4	perens	perens	NOUN	_	_	2	obl	_	_
 5	mifala	mifala	PRON	_	_	8	nsubj	_	_
 6	i	i	PART	_	_	7	aux	_	_
@@ -6309,7 +6309,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.208
 # text = taem mifala i wokbaot tru lo vilij .
-1	taem	taem	NOUN	_	_	4	obl	_	_
+1	taem	taem	NOUN	_	_	4	adv	_	_
 2	mifala	mifala	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	wokbaot	wokbaot	VERB	_	_	0	root	_	_
@@ -6335,7 +6335,7 @@
 1	mi	mi	PRON	_	_	2	nsubj	_	_
 2	lukluk	lukluk	VERB	_	_	0	root	_	_
 3	ol	ol	NUM	_	_	4	nummod	_	_
-4	haos	haos	NOUN	_	_	2	obl	_	_
+4	haos	haos	NOUN	_	_	2	adv	_	_
 5	fulap	fulap	ADJ	_	_	6	amod	_	_
 6	haos	haos	NOUN	_	_	7	nsubj	_	_
 7	oli	oli	PART	_	_	2	advcl	_	_
@@ -6366,17 +6366,17 @@
 3	go	go	VERB	_	_	0	root	_	_
 4	daon	daon	ADV	_	_	3	advmod	_	_
 5	an	an	NOUN	_	_	6	nmod	_	_
-6	phew	phew	NOUN	_	_	3	obl	_	_
+6	phew	phew	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.214
 # text = tumas damej  afta mi stap tingabaot oh  mi ting se oli talem se .
 1	tumas	tumas	ADV	_	_	5	advmod	_	_
-2	damej	damej	NOUN	_	_	6	obl	_	_
+2	damej	damej	NOUN	_	_	6	adv	_	_
 3	afta	afta	ADP	_	_	4	case	_	_
 4	mi	mi	PRON	_	_	6	nsubj	_	_
 5	stap	stap	AUX	_	_	6	aux	_	_
 6	tingabaot	tingabaot	VERB	_	_	0	root	_	_
-7	oh	oh	NOUN	_	_	6	obl	_	_
+7	oh	oh	NOUN	_	_	6	adv	_	_
 8	mi	mi	PRON	_	_	12	nsubj	_	_
 9	ting	ting	VERB	_	_	6	advcl	_	_
 10	se	se	SCONJ	_	_	12	mark	_	_
@@ -6386,7 +6386,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.215
 # text = saeklon ya hem i wan katekori  tri be hem i wan katekori faef ya .
-1	saeklon	saeklon	NOUN	_	_	4	obl	_	_
+1	saeklon	saeklon	NOUN	_	_	4	adv	_	_
 2	ya	ya	INTJ	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -6407,14 +6407,14 @@
 2	i	i	PART	_	_	1	advcl	_	_
 3	semak	semak	ADJ	_	_	7	amod	_	_
 4	olsem	olsem	ADV	_	_	1	advmod	_	_
-5	ah	_	<hes>	_	_	1	adv	_	_
+5	ah	_	<hes>	_	_	1	dep	_	_
 6	saeklon	saeklon	NOUN	_	_	7	nmod	_	_
 7	pam	pam	NOUN	_	_	2	obj	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.217
 # text = from mi mi stap lo saeklon pam .
 1	from	from	ADP	_	_	2	case	_	_
-2	mi	mi	PRON	_	_	4	obl	_	_
+2	mi	mi	PRON	_	_	4	adv	_	_
 3	mi	mi	PRON	_	_	4	nsubj	_	_
 4	stap	stap	VERB	_	_	0	root	_	_
 5	lo	lo	ADP	_	_	7	case	_	_
@@ -6427,23 +6427,23 @@
 2	luk	luk	VERB	_	_	0	root	_	_
 3	hao	hao	INTJ	_	_	2	adv	_	_
 4	saeklon	saeklon	NOUN	_	_	5	nmod	_	_
-5	pam	pam	NOUN	_	_	2	obl	_	_
+5	pam	pam	NOUN	_	_	2	adv	_	_
 6	hem	hem	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	2	advcl	_	_
 8	veri	veri	NOUN	_	_	7	obj	_	_
-9	strong	strong	ADJ	_	_	2	obl	_	_
+9	strong	strong	ADJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.219
 # text = be ahm saeklon kevin  hem i bin kam taem hem i kasem mifala  hem i stap lo katekori fo .
 1	be	be	CCONJ	_	_	8	adv	_	_
 2	ahm	ahm	NOUN	_	_	4	nmod	_	_
 3	saeklon	saeklon	NOUN	_	_	4	nmod	_	_
-4	kevin	kevin	NOUN	_	_	8	obl	_	_
+4	kevin	kevin	NOUN	_	_	8	adv	_	_
 5	hem	hem	PRON	_	_	8	nsubj	_	_
 6	i	i	PART	_	_	8	aux	_	_
 7	bin	bin	AUX	_	_	8	aux	_	_
 8	kam	kam	VERB	_	_	0	root	_	_
-9	taem	taem	NOUN	_	_	8	obl	_	_
+9	taem	taem	NOUN	_	_	8	adv	_	_
 10	hem	hem	PRON	_	_	12	nsubj	_	_
 11	i	i	PART	_	_	12	aux	_	_
 12	kasem	kasem	VERB	_	_	8	advcl	_	_
@@ -6459,7 +6459,7 @@
 # text = so ating a fiu haoas afta we hem i aot hem i kam wan katekori faef .
 1	so	so	CCONJ	_	_	5	adv	_	_
 2	ating	ating	ADV	_	_	10	advmod	_	_
-3	a	_	<hes>	_	_	5	adv	_	_
+3	a	_	<hes>	_	_	5	dep	_	_
 4	fiu	fiu	NUM	_	_	5	nummod	_	_
 5	haoas	haoas	NOUN	_	_	0	root	_	_
 6	afta	afta	ADP	_	_	8	case	_	_
@@ -6472,7 +6472,7 @@
 13	kam	kam	VERB	_	_	5	obl	_	_
 14	wan	wan	NUM	_	_	16	nummod	_	_
 15	katekori	katekori	NOUN	_	_	16	nmod	_	_
-16	faef	faef	NOUN	_	_	5	obl	_	_
+16	faef	faef	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.221
 # text = be hem i aot finis .
@@ -6486,10 +6486,10 @@
 # text = so plante ahm  plante  nius o plante toktok oli  stap talem se hem i no kasem mifala.
 1	so	so	CCONJ	_	_	11	adv	_	_
 2	plante	plante	NUM	_	_	3	nummod	_	_
-3	ahm	ahm	NOUN	_	_	11	obl	_	_
+3	ahm	ahm	NOUN	_	_	11	adv	_	_
 4	plante	plante	NUM	_	_	6	nummod	_	_
 5	nius	nius	NOUN	_	_	6	nmod	_	_
-6	o	o	NOUN	_	_	11	obl	_	_
+6	o	o	NOUN	_	_	11	adv	_	_
 7	plante	plante	NUM	_	_	8	nummod	_	_
 8	toktok	toktok	NOUN	_	_	11	nsubj	_	_
 9	oli	oli	PART	_	_	10	aux	_	_
@@ -6559,7 +6559,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.226
 # text = mi yu lukluk i go yu save luk evri ples .
-1	mi	mi	PRON	_	_	3	obl	_	_
+1	mi	mi	PRON	_	_	3	adv	_	_
 2	yu	yu	PRON	_	_	5	nsubj	_	_
 3	lukluk	lukluk	VERB	_	_	0	root	_	_
 4	i	i	PART	_	_	5	aux	_	_
@@ -6568,7 +6568,7 @@
 7	save	save	AUX	_	_	8	aux	_	_
 8	luk	luk	VERB	_	_	3	advcl	_	_
 9	evri	evri	NUM	_	_	10	nummod	_	_
-10	ples	ples	NOUN	_	_	3	obl	_	_
+10	ples	ples	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.227
 # text = i no gat wan haos hem i haed .
@@ -6576,7 +6576,7 @@
 2	no	no	PART	_	_	3	aux	_	_
 3	gat	gat	VERB	_	_	0	root	_	_
 4	wan	wan	NUM	_	_	5	nummod	_	_
-5	haos	haos	NOUN	_	_	3	obl	_	_
+5	haos	haos	NOUN	_	_	3	adv	_	_
 6	hem	hem	PRON	_	_	8	nsubj	_	_
 7	i	i	PART	_	_	8	aux	_	_
 8	haed	haed	VERB	_	_	3	advcl	_	_
@@ -6586,10 +6586,10 @@
 1	mi	mi	PRON	_	_	2	nsubj	_	_
 2	luk	luk	VERB	_	_	0	root	_	_
 3	evri	evri	NUM	_	_	4	nummod	_	_
-4	ples	ples	NOUN	_	_	2	obl	_	_
+4	ples	ples	NOUN	_	_	2	adv	_	_
 5	mi	mi	PRON	_	_	6	nsubj	_	_
 6	luk	luk	VERB	_	_	2	advcl	_	_
-7	haos	haos	NOUN	_	_	2	obl	_	_
+7	haos	haos	NOUN	_	_	2	adv	_	_
 8	blo	blo	ADP	_	_	10	case	_	_
 9	ol	ol	NUM	_	_	10	nummod	_	_
 10	famli	famli	NOUN	_	_	7	nmod	_	_
@@ -6600,10 +6600,10 @@
 2	save	save	AUX	_	_	3	aux	_	_
 3	luk	luk	VERB	_	_	0	root	_	_
 4	ol	ol	NUM	_	_	5	nummod	_	_
-5	man	man	NOUN	_	_	3	obl	_	_
+5	man	man	NOUN	_	_	3	adv	_	_
 6	from	from	ADP	_	_	7	case	_	_
 7	mi	mi	PRON	_	_	8	nmod:pos	_	_
-8	liv	liv	NOUN	_	_	3	obl	_	_
+8	liv	liv	NOUN	_	_	3	adv	_	_
 9	antap	antap	ADV	_	_	3	advmod	_	_
 10	lo	lo	ADP	_	_	11	case	_	_
 11	hil	hil	NOUN	_	_	8	nmod	_	_
@@ -6620,7 +6620,7 @@
 8	mi	mi	PRON	_	_	9	nsubj	_	_
 9	luk	luk	VERB	_	_	4	advcl	_	_
 10	ol	ol	NUM	_	_	11	nummod	_	_
-11	famli	famli	NOUN	_	_	4	obl	_	_
+11	famli	famli	NOUN	_	_	4	adv	_	_
 12	ol	ol	NUM	_	_	17	nsubj	_	_
 13	stap	stap	AUX	_	_	14	aux	_	_
 14	wokbaot	wokbaot	VERB	_	_	4	advcl	_	_
@@ -6641,11 +6641,11 @@
 9	perens	perens	NOUN	_	_	6	obl	_	_
 10	blo	blo	ADP	_	_	11	case	_	_
 11	mitufala	mitufala	PRON	_	_	12	nmod:pos	_	_
-12	jek	jek	NOUN	_	_	4	obl	_	_
+12	jek	jek	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.232
 # text = o no evrisamting i oraet .
-1	o	o	NOUN	_	_	4	obl	_	_
+1	o	o	NOUN	_	_	4	adv	_	_
 2	no	no	PART	_	_	1	aux	_	_
 3	evrisamting	evrisamting	NOUN	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -6657,14 +6657,14 @@
 2	mifala	mifala	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	go	go	VERB	_	_	0	root	_	_
-5	bakl	bakl	NOUN	_	_	4	obl	_	_
+5	bakl	bakl	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.234
 # text = mifala i go bak .
 1	mifala	mifala	PRON	_	_	3	nsubj	_	_
 2	i	i	PART	_	_	3	aux	_	_
 3	go	go	VERB	_	_	0	root	_	_
-4	bak	bak	NOUN	_	_	3	obl	_	_
+4	bak	bak	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.235
 # text = stap smol .
@@ -6683,7 +6683,7 @@
 2	kam	kam	VERB	_	_	0	root	_	_
 3	afta	afta	ADP	_	_	4	case	_	_
 4	mi	mi	PRON	_	_	5	nmod:pos	_	_
-5	toktok	toktok	NOUN	_	_	2	obl	_	_
+5	toktok	toktok	NOUN	_	_	2	adv	_	_
 6	lo	lo	ADP	_	_	7	case	_	_
 7	olgeta	olgeta	PRON	_	_	5	nmod	_	_
 
@@ -6694,7 +6694,7 @@
 3	lo	lo	ADP	_	_	4	case	_	_
 4	olgeta	olgeta	PRON	_	_	2	nmod	_	_
 5	mi	mi	PRON	_	_	6	nmod:pos	_	_
-6	stori	stori	NOUN	_	_	2	obl	_	_
+6	stori	stori	NOUN	_	_	2	adv	_	_
 7	lo	lo	ADP	_	_	8	case	_	_
 8	olgeta	olgeta	PRON	_	_	6	nmod	_	_
 
@@ -6727,12 +6727,12 @@
 4	lo	lo	ADP	_	_	5	case	_	_
 5	woman	woman	NOUN	_	_	3	obj	_	_
 6	blo	blo	ADP	_	_	7	case	_	_
-7	mi	mi	PRON	_	_	3	obl	_	_
+7	mi	mi	PRON	_	_	3	adv	_	_
 8	se	se	SCONJ	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.243
 # text = hem ya hem i hem i nomol.
-1	hem	hem	PRON	_	_	4	obl	_	_
+1	hem	hem	PRON	_	_	4	adv	_	_
 2	ya	ya	INTJ	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -6757,9 +6757,9 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.246
 # text = taem olsem taem yumi harem nius blo saeklon .
-1	taem	taem	NOUN	_	_	5	obl	_	_
+1	taem	taem	NOUN	_	_	5	adv	_	_
 2	olsem	olsem	ADV	_	_	5	advmod	_	_
-3	taem	taem	NOUN	_	_	5	obl	_	_
+3	taem	taem	NOUN	_	_	5	adv	_	_
 4	yumi	yumi	PRON	_	_	5	nsubj	_	_
 5	harem	harem	VERB	_	_	0	root	_	_
 6	nius	nius	NOUN	_	_	5	obj	_	_
@@ -6770,7 +6770,7 @@
 # text = yumi mas pripea .
 1	yumi	yumi	PRON	_	_	0	root	_	_
 2	mas	mas	AUX	_	_	1	aux	_	_
-3	pripea	pripea	NOUN	_	_	1	obl	_	_
+3	pripea	pripea	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.248
 # text = be from nomo .
@@ -6796,10 +6796,10 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.250
 # text = ah ples we saeklon hem i stap lo hem  mekem se mifala i no  rili pripea from so mifala i fesem .
-1	ah	_	<hes>	_	_	2	adv	_	_
+1	ah	_	<hes>	_	_	2	dep	_	_
 2	ples	ples	NOUN	_	_	0	root	_	_
 3	we	we	SCONJ	_	_	2	adv	_	_
-4	saeklon	saeklon	NOUN	_	_	2	obl	_	_
+4	saeklon	saeklon	NOUN	_	_	2	adv	_	_
 5	hem	hem	PRON	_	_	7	nsubj	_	_
 6	i	i	PART	_	_	7	aux	_	_
 7	stap	stap	VERB	_	_	2	obl	_	_
@@ -6811,7 +6811,7 @@
 13	i	i	PART	_	_	21	aux	_	_
 14	no	no	PART	_	_	21	aux	_	_
 15	rili	rili	ADJ	_	_	16	amod	_	_
-16	pripea	pripea	NOUN	_	_	2	obl	_	_
+16	pripea	pripea	NOUN	_	_	2	adv	_	_
 17	from	from	ADP	_	_	19	case	_	_
 18	so	so	CCONJ	_	_	2	adv	_	_
 19	mifala	mifala	PRON	_	_	21	nsubj	_	_
@@ -6829,7 +6829,7 @@
 7	i	i	PART	_	_	8	aux	_	_
 8	gat	gat	VERB	_	_	0	root	_	_
 9	samples	samples	NOUN	_	_	10	nmod	_	_
-10	haos	haos	NOUN	_	_	8	obl	_	_
+10	haos	haos	NOUN	_	_	8	adv	_	_
 11	hem	hem	PRON	_	_	13	nsubj	_	_
 12	i	i	PART	_	_	13	aux	_	_
 13	foldaon	foldaon	VERB	_	_	8	advcl	_	_
@@ -6840,7 +6840,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.252
 # text = ah fulap man oli sori be fulap man oli  mas ron lo naet go lo haos blo wan narafala famli.
-1	ah	_	<hes>	_	_	5	adv	_	_
+1	ah	_	<hes>	_	_	5	dep	_	_
 2	fulap	fulap	ADJ	_	_	3	amod	_	_
 3	man	man	NOUN	_	_	5	nsubj	_	_
 4	oli	oli	PART	_	_	5	aux	_	_
@@ -6859,7 +6859,7 @@
 17	blo	blo	ADP	_	_	20	case	_	_
 18	wan	wan	NUM	_	_	20	nummod	_	_
 19	narafala	narafalaf	ADJ	_	_	20	amod	_	_
-20	famli	famli	NOUN	_	_	5	obl	_	_
+20	famli	famli	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.253
 # text = fulap famli oli nogat haos .
@@ -6867,7 +6867,7 @@
 2	famli	famli	NOUN	_	_	3	nsubj	_	_
 3	oli	oli	PART	_	_	0	root	_	_
 4	nogat	nogat	INTJ	_	_	3	adv	_	_
-5	haos	haos	NOUN	_	_	3	obl	_	_
+5	haos	haos	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.254
 # text = kasem naoia fulap famli oli nogat haos yet .
@@ -6878,20 +6878,20 @@
 5	oli	oli	PART	_	_	1	advcl	_	_
 6	nogat	nogat	INTJ	_	_	1	adv	_	_
 7	haos	haos	NOUN	_	_	8	nmod	_	_
-8	yet	yet	NOUN	_	_	1	obl	_	_
+8	yet	yet	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.255
 # text = oli mas liv wetem ol riletiv.
 1	oli	oli	PART	_	_	0	root	_	_
 2	mas	mas	AUX	_	_	1	aux	_	_
-3	liv	liv	NOUN	_	_	1	obl	_	_
+3	liv	liv	NOUN	_	_	1	adv	_	_
 4	wetem	wetem	ADP	_	_	6	case	_	_
 5	ol	ol	NUM	_	_	6	nummod	_	_
 6	riletiv	riletiv	NOUN	_	_	3	nmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.256
 # text = ah mifala tu  mifala i no .
-1	ah	_	<hes>	_	_	5	adv	_	_
+1	ah	_	<hes>	_	_	5	dep	_	_
 2	mifala	mifala	PRON	_	_	3	nmod:pos	_	_
 3	tu	tu	NUM	_	_	5	adv	_	_
 4	mifala	mifala	PRON	_	_	5	nsubj	_	_
@@ -6900,10 +6900,10 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.257
 # text = ah rikava yet gavman hem i stap givimaot ol saplae blo kakae i go lo  famli yet ah .
-1	ah	_	<hes>	_	_	8	adv	_	_
+1	ah	_	<hes>	_	_	8	dep	_	_
 2	rikava	rikava	NOUN	_	_	4	nmod	_	_
 3	yet	yet	NOUN	_	_	4	nmod	_	_
-4	gavman	gavman	NOUN	_	_	8	obl	_	_
+4	gavman	gavman	NOUN	_	_	8	adv	_	_
 5	hem	hem	PRON	_	_	10	nsubj	_	_
 6	i	i	PART	_	_	7	aux	_	_
 7	stap	stap	AUX	_	_	8	aux	_	_
@@ -6917,11 +6917,11 @@
 15	lo	lo	ADP	_	_	17	case	_	_
 16	famli	famli	NOUN	_	_	17	nmod	_	_
 17	yet	yet	NOUN	_	_	14	obl	_	_
-18	ah	_	<hes>	_	_	8	adv	_	_
+18	ah	_	<hes>	_	_	8	dep	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.258
 # text = ah fulap famli naoia oli mas traem blo oli faenem .
-1	ah	_	<hes>	_	_	7	adv	_	_
+1	ah	_	<hes>	_	_	7	dep	_	_
 2	fulap	fulap	ADJ	_	_	3	amod	_	_
 3	famli	famli	NOUN	_	_	10	nsubj	_	_
 4	naoia	naoia	ADV	_	_	7	advmod	_	_
@@ -6941,7 +6941,7 @@
 5	bildim	bildim	VERB	_	_	0	root	_	_
 6	bak	bak	NOUN	_	_	5	obj	_	_
 7	ol	ol	NUM	_	_	8	nummod	_	_
-8	haos	haos	NOUN	_	_	5	obl	_	_
+8	haos	haos	NOUN	_	_	5	adv	_	_
 9	blo	blo	ADP	_	_	10	case	_	_
 10	olgeta	olgeta	PRON	_	_	8	nmod	_	_
 
@@ -6950,12 +6950,12 @@
 1	so	so	CCONJ	_	_	3	adv	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	luk	luk	VERB	_	_	0	root	_	_
-4	ekspiriens	ekspiriens	NOUN	_	_	3	obl	_	_
+4	ekspiriens	ekspiriens	NOUN	_	_	3	adv	_	_
 5	blo	blo	ADP	_	_	14	mark	_	_
 6	mi	mi	PRON	_	_	4	nmod	_	_
 7	lo	lo	ADP	_	_	9	case	_	_
 8	tufala	tufala	NUM	_	_	9	nummod	_	_
-9	saeklon	saeklon	NOUN	_	_	3	obl	_	_
+9	saeklon	saeklon	NOUN	_	_	3	adv	_	_
 10	tu	tu	NUM	_	_	11	nummod	_	_
 11	saeklon	saeklon	NOUN	_	_	14	nsubj	_	_
 12	wantaem	wantaem	ADV	_	_	14	advmod	_	_
@@ -6965,7 +6965,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.261
 # text = ah sem wik .
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	sem	sem	ADJ	_	_	3	amod	_	_
 3	wik	wik	NOUN	_	_	0	root	_	_
 
@@ -6990,19 +6990,19 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.264
 # text = ah wan niufala eksperiens blo woman blo mi wetem ol pikinini blo mi.
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	wan	wan	NUM	_	_	4	nummod	_	_
 3	niufala	niu	ADJ	_	_	4	amod	_	_
 4	eksperiens	eksperiens	NOUN	_	_	0	root	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
 6	woman	woman	NOUN	_	_	4	nmod	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
-8	mi	mi	PRON	_	_	4	obl	_	_
+8	mi	mi	PRON	_	_	4	adv	_	_
 9	wetem	wetem	ADP	_	_	11	case	_	_
 10	ol	ol	NUM	_	_	11	nummod	_	_
 11	pikinini	pikinini	NOUN	_	_	8	nmod	_	_
 12	blo	blo	ADP	_	_	13	case	_	_
-13	mi	mi	PRON	_	_	4	obl	_	_
+13	mi	mi	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.265
 # text = kasem na tedei.
@@ -7014,7 +7014,7 @@
 # text = mi mas toktok long olgeta.
 1	mi	mi	PRON	_	_	0	root	_	_
 2	mas	mas	AUX	_	_	1	aux	_	_
-3	toktok	toktok	NOUN	_	_	1	obl	_	_
+3	toktok	toktok	NOUN	_	_	1	adv	_	_
 4	long	long	ADP	_	_	5	case	_	_
 5	olgeta	olgeta	PRON	_	_	3	nmod	_	_
 
@@ -7030,11 +7030,11 @@
 # text = sam taem ah oli stap gat ol .
 1	sam	sam	NOUN	_	_	2	nmod	_	_
 2	taem	taem	NOUN	_	_	6	nsubj	_	_
-3	ah	_	<hes>	_	_	6	adv	_	_
+3	ah	_	<hes>	_	_	6	dep	_	_
 4	oli	oli	PART	_	_	5	aux	_	_
 5	stap	stap	AUX	_	_	6	aux	_	_
 6	gat	gat	VERB	_	_	0	root	_	_
-7	ol	ol	NUM	_	_	6	obl	_	_
+7	ol	ol	NUM	_	_	6	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.269
 # text = wanem lo inglis oli kolem ol panic atak.
@@ -7049,8 +7049,8 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.270
 # text = ah woman blo mi hem i stap samtaem hem i stres.
-1	ah	_	<hes>	_	_	10	adv	_	_
-2	woman	woman	NOUN	_	_	10	obl	_	_
+1	ah	_	<hes>	_	_	10	dep	_	_
+2	woman	woman	NOUN	_	_	10	adv	_	_
 3	blo	blo	ADP	_	_	7	mark	_	_
 4	mi	mi	PRON	_	_	2	nmod	_	_
 5	hem	hem	PRON	_	_	7	nsubj	_	_
@@ -7070,7 +7070,7 @@
 5	wantem	wantem	VERB	_	_	0	root	_	_
 6	se	se	SCONJ	_	_	5	adv	_	_
 7	oh	oh	NOUN	_	_	5	obj	_	_
-8	yu	yu	PRON	_	_	5	obl	_	_
+8	yu	yu	PRON	_	_	5	adv	_	_
 9	mas	mas	AUX	_	_	9	aux	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.272
@@ -7081,7 +7081,7 @@
 4	mas	mas	AUX	_	_	5	aux	_	_
 5	fiksim	fiksim	VERB	_	_	1	advcl	_	_
 6	veranda	veranda	NOUN	_	_	5	obj	_	_
-7	yu	yu	PRON	_	_	1	obl	_	_
+7	yu	yu	PRON	_	_	1	adv	_	_
 8	mas	mas	AUX	_	_	8	aux	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.273
@@ -7090,9 +7090,9 @@
 2	afta	afta	ADP	_	_	4	case	_	_
 3	wn	wn	NOUN	_	_	4	nmod	_	_
 4	taem	taem	NOUN	_	_	1	obj	_	_
-5	mi	mi	PRON	_	_	1	obl	_	_
+5	mi	mi	PRON	_	_	1	adv	_	_
 6	mas	mas	AUX	_	_	11	aux	_	_
-7	akiu	akiu	NOUN	_	_	1	obl	_	_
+7	akiu	akiu	NOUN	_	_	1	adv	_	_
 8	wetem	wetem	ADP	_	_	9	case	_	_
 9	hem	hem	PRON	_	_	7	nmod	_	_
 10	mi	mi	PRON	_	_	11	nsubj	_	_
@@ -7111,7 +7111,7 @@
 9	mi	mi	PRON	_	_	10	nsubj	_	_
 10	gat	gat	VERB	_	_	0	root	_	_
 11	tu	tu	NUM	_	_	12	nummod	_	_
-12	hans	hans	NOUN	_	_	10	obl	_	_
+12	hans	hans	NOUN	_	_	10	adv	_	_
 13	nomo	nomo	ADV	_	_	10	advmod	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.275
@@ -7135,7 +7135,7 @@
 # text = yu n panic yu no wari .
 1	yu	yu	PRON	_	_	2	nmod:pos	_	_
 2	n	n	NOUN	_	_	3	nmod	_	_
-3	panic	panic	NOUN	_	_	6	obl	_	_
+3	panic	panic	NOUN	_	_	6	adv	_	_
 4	yu	yu	PRON	_	_	6	nsubj	_	_
 5	no	no	PART	_	_	6	aux	_	_
 6	wari	wari	VERB	_	_	0	root	_	_
@@ -7144,11 +7144,11 @@
 # text = bae evri samting hem i go oraet .
 1	bae	bae	ADV	_	_	6	advmod	_	_
 2	evri	evri	NUM	_	_	3	nummod	_	_
-3	samting	samting	NOUN	_	_	6	obl	_	_
+3	samting	samting	NOUN	_	_	6	adv	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	go	go	VERB	_	_	0	root	_	_
-7	oraet	oraet	ADJ	_	_	6	obl	_	_
+7	oraet	oraet	ADJ	_	_	6	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.279
 # text = so mi traem bes blo mi blo mekem se hem hem i hapi .
@@ -7168,7 +7168,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.280
 # text = taem hem i wantem kam lo taon blo kakae wan aes krim o. mitufala i livim evri wok .
-1	taem	taem	NOUN	_	_	5	obl	_	_
+1	taem	taem	NOUN	_	_	5	adv	_	_
 2	hem	hem	PRON	_	_	5	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	wantem	wantem	AUX	_	_	5	aux	_	_
@@ -7176,11 +7176,11 @@
 6	lo	lo	ADP	_	_	7	case	_	_
 7	taon	taon	NOUN	_	_	5	obl	_	_
 8	blo	blo	ADP	_	_	16	mark	_	_
-9	kakae	kakae	NOUN	_	_	5	obl	_	_
+9	kakae	kakae	NOUN	_	_	5	adv	_	_
 10	wan	wan	NUM	_	_	13	nummod	_	_
 11	aes	aes	NOUN	_	_	13	nmod	_	_
 12	krim	krim	NOUN	_	_	13	nmod	_	_
-13	o.	o.	NOUN	_	_	5	obl	_	_
+13	o.	o.	NOUN	_	_	5	adv	_	_
 14	mitufala	mitufala	PRON	_	_	16	nsubj	_	_
 15	i	i	PART	_	_	16	aux	_	_
 16	livim	livim	VERB	_	_	5	advcl	_	_
@@ -7208,11 +7208,11 @@
 2	oli	oli	PART	_	_	0	root	_	_
 3	kakae	kakae	NOUN	_	_	5	nmod	_	_
 4	aeskrim	aeskrim	NOUN	_	_	5	nmod	_	_
-5	o	o	NOUN	_	_	2	obl	_	_
+5	o	o	NOUN	_	_	2	adv	_	_
 6	mifala	mifala	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	2	advcl	_	_
 8	draev	draev	NOUN	_	_	7	obj	_	_
-9	raon	raon	ADJ	_	_	2	obl	_	_
+9	raon	raon	ADJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.283
 # text = lukluk ol ples jas blo mekem se tingitng blo olgeta i no .
@@ -7245,7 +7245,7 @@
 12	skul	skul	NOUN	_	_	13	nmod	_	_
 13	wok	wok	NOUN	_	_	9	nmod	_	_
 14	blo	blo	ADP	_	_	15	case	_	_
-15	olgeta	olgeta	PRON	_	_	4	obl	_	_
+15	olgeta	olgeta	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.285
 # text = oli no mekem gud lo skul ah .
@@ -7255,7 +7255,7 @@
 4	gud	gud	ADJ	_	_	6	amod	_	_
 5	lo	lo	ADP	_	_	6	case	_	_
 6	skul	skul	NOUN	_	_	3	obj	_	_
-7	ah	_	<hes>	_	_	3	adv	_	_
+7	ah	_	<hes>	_	_	3	dep	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.286
 # text = yestedei mi mas sidaon wetem olgeta faev boe.
@@ -7266,7 +7266,7 @@
 5	wetem	wetem	ADP	_	_	6	case	_	_
 6	olgeta	olgeta	PRON	_	_	7	nmod:pos	_	_
 7	faev	faev	NOUN	_	_	8	nmod	_	_
-8	boe	boe	NOUN	_	_	4	obl	_	_
+8	boe	boe	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.287
 # text = mi i stsidaon wetem olgeta afta .
@@ -7298,7 +7298,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.290
 # text = fiuja blo yufala bae hem i difren lo .
-1	fiuja	fiuja	NOUN	_	_	6	obl	_	_
+1	fiuja	fiuja	NOUN	_	_	6	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	yufala	yufala	PRON	_	_	1	nmod	_	_
 4	bae	bae	ADV	_	_	1	advmod	_	_
@@ -7321,13 +7321,13 @@
 4	se	se	SCONJ	_	_	3	adv	_	_
 5	hem	hem	PRON	_	_	6	nmod:pos	_	_
 6	wan	wan	NUM	_	_	8	nummod	_	_
-7	ah	_	<hes>	_	_	3	adv	_	_
-8	ifekt	ifekt	NOUN	_	_	3	obl	_	_
+7	ah	_	<hes>	_	_	3	dep	_	_
+8	ifekt	ifekt	NOUN	_	_	3	adv	_	_
 9	blo	blo	ADP	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.293
 # text = saeklon hem i kam hem i putum plante samting.
-1	saeklon	saeklon	NOUN	_	_	4	obl	_	_
+1	saeklon	saeklon	NOUN	_	_	4	adv	_	_
 2	hem	hem	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	kam	kam	VERB	_	_	0	root	_	_
@@ -7340,7 +7340,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.294
 # text = so mi mi mas klaem i go antap lo ruf .
 1	so	so	CCONJ	_	_	5	adv	_	_
-2	mi	mi	PRON	_	_	5	obl	_	_
+2	mi	mi	PRON	_	_	5	adv	_	_
 3	mi	mi	PRON	_	_	7	nsubj	_	_
 4	mas	mas	AUX	_	_	5	aux	_	_
 5	klaem	klaem	VERB	_	_	0	root	_	_
@@ -7352,7 +7352,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.295
 # text = antena blo tivi i flae mi faenem .
-1	antena	antena	NOUN	_	_	7	obl	_	_
+1	antena	antena	NOUN	_	_	7	adv	_	_
 2	blo	blo	ADP	_	_	4	mark	_	_
 3	tivi	tivi	NOUN	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	7	advcl	_	_
@@ -7373,12 +7373,12 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.297
 # text = antena blo waifai i lus  ah .
-1	antena	antena	NOUN	_	_	4	obl	_	_
+1	antena	antena	NOUN	_	_	4	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	waifai	waifai	NOUN	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
 5	lus	lus	ADJ	_	_	4	obj	_	_
-6	ah	_	<hes>	_	_	4	adv	_	_
+6	ah	_	<hes>	_	_	4	dep	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.298
 # text = be mi talem tank yu .
@@ -7386,7 +7386,7 @@
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	talem	talem	VERB	_	_	0	root	_	_
 4	tank	tank	NOUN	_	_	3	obj	_	_
-5	yu	yu	PRON	_	_	3	obl	_	_
+5	yu	yu	PRON	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.299
 # text = ating hem i . mifala i prea mifala i talem tank yu lo God from hem i protekrtem mifala from .
@@ -7401,7 +7401,7 @@
 9	i	i	PART	_	_	10	aux	_	_
 10	talem	talem	VERB	_	_	3	advcl	_	_
 11	tank	tank	NOUN	_	_	10	obj	_	_
-12	yu	yu	PRON	_	_	3	obl	_	_
+12	yu	yu	PRON	_	_	3	adv	_	_
 13	lo	lo	ADP	_	_	14	case	_	_
 14	God	God	PROPN	_	_	12	nmod	_	_
 15	from	from	ADP	_	_	16	case	_	_
@@ -7414,21 +7414,21 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.300
 # text = sapos saeklon hem i stap anata wan o tu haoa.
 1	sapos	sapos	ADV	_	_	5	advmod	_	_
-2	saeklon	saeklon	NOUN	_	_	5	obl	_	_
+2	saeklon	saeklon	NOUN	_	_	5	adv	_	_
 3	hem	hem	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	stap	stap	VERB	_	_	0	root	_	_
-6	anata	anata	NOUN	_	_	5	obl	_	_
+6	anata	anata	NOUN	_	_	5	adv	_	_
 7	wan	wan	NUM	_	_	8	nummod	_	_
-8	o	o	NOUN	_	_	5	obl	_	_
+8	o	o	NOUN	_	_	5	adv	_	_
 9	tu	tu	NUM	_	_	10	nummod	_	_
-10	haoa	haoa	NOUN	_	_	5	obl	_	_
+10	haoa	haoa	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.301
 # text = o bae haos blo mifala i flae from .
-1	o	o	NOUN	_	_	6	obl	_	_
+1	o	o	NOUN	_	_	6	adv	_	_
 2	bae	bae	ADV	_	_	1	advmod	_	_
-3	haos	haos	NOUN	_	_	6	obl	_	_
+3	haos	haos	NOUN	_	_	6	adv	_	_
 4	blo	blo	ADP	_	_	5	case	_	_
 5	mifala	mifala	PRON	_	_	6	nsubj	_	_
 6	i	i	PART	_	_	0	root	_	_
@@ -7460,7 +7460,7 @@
 4	saed	saed	NOUN	_	_	1	nmod	_	_
 5	lo	lo	ADP	_	_	7	case	_	_
 6	evri	evri	NUM	_	_	7	nummod	_	_
-7	daereksen	daereksen	NOUN	_	_	1	obl	_	_
+7	daereksen	daereksen	NOUN	_	_	1	adv	_	_
 8	we	we	SCONJ	_	_	1	adv	_	_
 9	win	win	NOUN	_	_	10	nsubj	_	_
 10	i	i	PART	_	_	1	obl	_	_
@@ -7468,7 +7468,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.305
 # text = mi mi stap tingting se mi stap wari taem mi stap wajem ruf mi oh mestem bae haos blo mi i flae ya .
-1	mi	mi	PRON	_	_	4	obl	_	_
+1	mi	mi	PRON	_	_	4	adv	_	_
 2	mi	mi	PRON	_	_	4	nsubj	_	_
 3	stap	stap	AUX	_	_	4	aux	_	_
 4	tingting	tingting	VERB	_	_	0	root	_	_
@@ -7476,7 +7476,7 @@
 6	mi	mi	PRON	_	_	8	nsubj	_	_
 7	stap	stap	AUX	_	_	8	aux	_	_
 8	wari	wari	VERB	_	_	4	advcl	_	_
-9	taem	taem	NOUN	_	_	4	obl	_	_
+9	taem	taem	NOUN	_	_	4	adv	_	_
 10	mi	mi	PRON	_	_	12	nsubj	_	_
 11	stap	stap	AUX	_	_	12	aux	_	_
 12	wajem	wajem	VERB	_	_	4	advcl	_	_
@@ -7520,10 +7520,10 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.309
 # text = taem mi kam bak mi go visitim perens blo mi mi kam bak raon abaot faev tu siks.
-1	taem	taem	NOUN	_	_	3	obl	_	_
+1	taem	taem	NOUN	_	_	3	adv	_	_
 2	mi	mi	PRON	_	_	3	nsubj	_	_
 3	kam	kam	VERB	_	_	0	root	_	_
-4	bak	bak	NOUN	_	_	3	obl	_	_
+4	bak	bak	NOUN	_	_	3	adv	_	_
 5	mi	mi	PRON	_	_	7	nsubj	_	_
 6	go	go	AUX	_	_	7	aux	_	_
 7	visitim	visitim	VERB	_	_	3	advcl	_	_
@@ -7535,9 +7535,9 @@
 13	bak	bak	NOUN	_	_	15	nsubj	_	_
 14	raon	raon	ADJ	_	_	16	amod	_	_
 15	abaot	abaot	VERB	_	_	3	advcl	_	_
-16	faev	faev	NOUN	_	_	3	obl	_	_
+16	faev	faev	NOUN	_	_	3	adv	_	_
 17	tu	tu	NUM	_	_	18	nummod	_	_
-18	siks	siks	NOUN	_	_	3	obl	_	_
+18	siks	siks	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.310
 # text = mi stat blo klinap nao .
@@ -7553,7 +7553,7 @@
 2	flo	flo	NOUN	_	_	3	nsubj	_	_
 3	tekemaot	tekem	VERB	_	_	1	advcl	_	_
 4	wota	wota	NOUN	_	_	3	obj	_	_
-5	ah	_	<hes>	_	_	1	adv	_	_
+5	ah	_	<hes>	_	_	1	dep	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.312
 # text = mi talem lo woman blo mi se .
@@ -7562,15 +7562,15 @@
 3	lo	lo	ADP	_	_	4	case	_	_
 4	woman	woman	NOUN	_	_	2	obj	_	_
 5	blo	blo	ADP	_	_	6	case	_	_
-6	mi	mi	PRON	_	_	2	obl	_	_
+6	mi	mi	PRON	_	_	2	adv	_	_
 7	se	se	SCONJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.313
 # text = yu spel yu yu no yu mekem brekfes blo ol pikinini .
 1	yu	yu	PRON	_	_	2	nmod:pos	_	_
-2	spel	spel	NOUN	_	_	7	obl	_	_
-3	yu	yu	PRON	_	_	7	obl	_	_
-4	yu	yu	PRON	_	_	7	obl	_	_
+2	spel	spel	NOUN	_	_	7	adv	_	_
+3	yu	yu	PRON	_	_	7	adv	_	_
+4	yu	yu	PRON	_	_	7	adv	_	_
 5	no	no	PART	_	_	7	aux	_	_
 6	yu	yu	PRON	_	_	7	nsubj	_	_
 7	mekem	mekem	VERB	_	_	0	root	_	_
@@ -7582,7 +7582,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.314
 # text = bae mi nomo mi klinap so mi klinap insaed lo haos .
 1	bae	bae	ADV	_	_	5	advmod	_	_
-2	mi	mi	PRON	_	_	5	obl	_	_
+2	mi	mi	PRON	_	_	5	adv	_	_
 3	nomo	nomo	ADV	_	_	5	advmod	_	_
 4	mi	mi	PRON	_	_	5	nsubj	_	_
 5	klinap	klin	VERB	_	_	0	root	_	_
@@ -7596,17 +7596,17 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.315
 # text = evri samting olgeta oli jes .
 1	evri	evri	NUM	_	_	2	nummod	_	_
-2	samting	samting	NOUN	_	_	4	obl	_	_
+2	samting	samting	NOUN	_	_	4	adv	_	_
 3	olgeta	olgeta	PRON	_	_	4	nsubj	_	_
 4	oli	oli	PART	_	_	0	root	_	_
-5	jes	jes	NOUN	_	_	4	obl	_	_
+5	jes	jes	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.316
 # text = ah wan ful dei mi talem se yufala i res .
-1	ah	_	<hes>	_	_	6	adv	_	_
+1	ah	_	<hes>	_	_	6	dep	_	_
 2	wan	wan	NUM	_	_	4	nummod	_	_
 3	ful	ful	NOUN	_	_	4	nmod	_	_
-4	dei	dei	NOUN	_	_	6	obl	_	_
+4	dei	dei	NOUN	_	_	6	adv	_	_
 5	mi	mi	PRON	_	_	6	nsubj	_	_
 6	talem	talem	VERB	_	_	0	root	_	_
 7	se	se	SCONJ	_	_	9	mark	_	_
@@ -7632,7 +7632,7 @@
 4	smol	smol	ADJ	_	_	5	amod	_	_
 5	msol	msol	NOUN	_	_	6	nsubj	_	_
 6	klinap	klin	VERB	_	_	2	advcl	_	_
-7	mi	mi	PRON	_	_	2	obl	_	_
+7	mi	mi	PRON	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.319
 # text = karemaot wota karem ol klos we i wetwet.
@@ -7676,7 +7676,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.323
 # text = so mifala i mas wet wet wet wet i no gat wasing masin .
 1	so	so	CCONJ	_	_	11	adv	_	_
-2	mifala	mifala	PRON	_	_	11	obl	_	_
+2	mifala	mifala	PRON	_	_	11	adv	_	_
 3	i	i	PART	_	_	11	aux	_	_
 4	mas	mas	AUX	_	_	11	aux	_	_
 5	wet	wet	NOUN	_	_	8	nmod	_	_
@@ -7687,7 +7687,7 @@
 10	no	no	PART	_	_	11	aux	_	_
 11	gat	gat	VERB	_	_	0	root	_	_
 12	wasing	wasing	NOUN	_	_	13	nmod	_	_
-13	masin	masin	NOUN	_	_	11	obl	_	_
+13	masin	masin	NOUN	_	_	11	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.324
 # text = wota i no gat ah .
@@ -7695,11 +7695,11 @@
 2	i	i	PART	_	_	4	aux	_	_
 3	no	no	PART	_	_	4	aux	_	_
 4	gat	gat	VERB	_	_	0	root	_	_
-5	ah	_	<hes>	_	_	4	adv	_	_
+5	ah	_	<hes>	_	_	4	dep	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.325
 # text = paoa blo elektisiti i no gat .
-1	paoa	paoa	NOUN	_	_	6	obl	_	_
+1	paoa	paoa	NOUN	_	_	6	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	elektisiti	elektisiti	NOUN	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	6	aux	_	_
@@ -7708,10 +7708,10 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.326
 # text = huu so hamas wik ating klosap wan manis i no gat paoa .
-1	huu	huu	NOUN	_	_	11	obl	_	_
+1	huu	huu	NOUN	_	_	11	adv	_	_
 2	so	so	CCONJ	_	_	11	adv	_	_
 3	hamas	hamas	INTJ	_	_	11	adv	_	_
-4	wik	wik	NOUN	_	_	11	obl	_	_
+4	wik	wik	NOUN	_	_	11	adv	_	_
 5	ating	ating	ADV	_	_	11	advmod	_	_
 6	klosap	klosap	ADP	_	_	8	case	_	_
 7	wan	wan	NUM	_	_	8	nummod	_	_
@@ -7719,7 +7719,7 @@
 9	i	i	PART	_	_	11	aux	_	_
 10	no	no	PART	_	_	11	aux	_	_
 11	gat	gat	VERB	_	_	0	root	_	_
-12	paoa	paoa	NOUN	_	_	11	obl	_	_
+12	paoa	paoa	NOUN	_	_	11	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.327
 # text = so mifala i mas lukluk raon oh mifala i gat wan smol jenereta .
@@ -7729,13 +7729,13 @@
 4	mas	mas	AUX	_	_	5	aux	_	_
 5	lukluk	lukluk	VERB	_	_	0	root	_	_
 6	raon	raon	ADJ	_	_	7	amod	_	_
-7	oh	oh	NOUN	_	_	5	obl	_	_
+7	oh	oh	NOUN	_	_	5	adv	_	_
 8	mifala	mifala	PRON	_	_	10	nsubj	_	_
 9	i	i	PART	_	_	10	aux	_	_
 10	gat	gat	VERB	_	_	5	advcl	_	_
 11	wan	wan	NUM	_	_	13	nummod	_	_
 12	smol	smol	ADJ	_	_	13	amod	_	_
-13	jenereta	jenereta	NOUN	_	_	5	obl	_	_
+13	jenereta	jenereta	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.328
 # text = so mifala i mas go fiksim be taem mifala i pulum hem i . on mifaenemaot se rekuleta blem hem i no wok gud  from ating i wetwet  ren i wasem .
@@ -7758,7 +7758,7 @@
 17	se	se	SCONJ	_	_	27	mark	_	_
 18	rekuleta	rekuleta	NOUN	_	_	19	nmod	_	_
 19	blem	blem	NOUN	_	_	16	obj	_	_
-20	hem	hem	PRON	_	_	6	obl	_	_
+20	hem	hem	PRON	_	_	6	adv	_	_
 21	i	i	PART	_	_	31	aux	_	_
 22	no	no	PART	_	_	31	aux	_	_
 23	wok	wok	NOUN	_	_	27	nsubj	_	_
@@ -7773,7 +7773,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.329
 # text = ah afta mifala i putum ol fon lo jaj.
-1	ah	_	<hes>	_	_	5	adv	_	_
+1	ah	_	<hes>	_	_	5	dep	_	_
 2	afta	afta	ADP	_	_	3	case	_	_
 3	mifala	mifala	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
@@ -7811,8 +7811,8 @@
 2	i	i	PART	_	_	4	aux	_	_
 3	no	no	PART	_	_	4	aux	_	_
 4	gat	gat	VERB	_	_	0	root	_	_
-5	inaf	inaf	NOUN	_	_	4	obl	_	_
-6	ah	_	<hes>	_	_	4	adv	_	_
+5	inaf	inaf	NOUN	_	_	4	adv	_	_
+6	ah	_	<hes>	_	_	4	dep	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.334
 # text = paoa blo jaj so mifala i mas .
@@ -7820,7 +7820,7 @@
 2	blo	blo	ADP	_	_	3	case	_	_
 3	jaj	jaj	NOUN	_	_	1	nmod	_	_
 4	so	so	CCONJ	_	_	1	adv	_	_
-5	mifala	mifala	PRON	_	_	1	obl	_	_
+5	mifala	mifala	PRON	_	_	1	adv	_	_
 6	i	i	PART	_	_	7	aux	_	_
 7	mas	mas	AUX	_	_	7	aux	_	_
 
@@ -7854,12 +7854,12 @@
 5	fon	fon	NOUN	_	_	6	nmod	_	_
 6	e	e	NOUN	_	_	3	nmod	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
-8	trak	trak	NOUN	_	_	1	obl	_	_
+8	trak	trak	NOUN	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.338
 # text = wan ah putum i go insaed lo trak .
 1	wan	wan	NUM	_	_	8	nummod	_	_
-2	ah	_	<hes>	_	_	3	adv	_	_
+2	ah	_	<hes>	_	_	3	dep	_	_
 3	putum	putum	VERB	_	_	0	root	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	go	go	VERB	_	_	3	advcl	_	_
@@ -7885,7 +7885,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.340
 # text = woman blo mi i jajem fon blem .
-1	woman	woman	NOUN	_	_	5	obl	_	_
+1	woman	woman	NOUN	_	_	5	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	mi	mi	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
@@ -7895,12 +7895,12 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.341
 # text = ah afta .
-1	ah	_	<hes>	_	_	1	adv	_	_
+1	ah	_	<hes>	_	_	1	dep	_	_
 2	afta	afta	ADP	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.342
 # text = a wael i  no jaja kasem wmas kaem an haned pesen .
-1	a	_	<hes>	_	_	6	adv	_	_
+1	a	_	<hes>	_	_	6	dep	_	_
 2	wael	wael	ADJ	_	_	5	amod	_	_
 3	i	i	PART	_	_	6	aux	_	_
 4	no	no	PART	_	_	6	aux	_	_
@@ -7917,14 +7917,14 @@
 1	mas	mas	AUX	_	_	2	aux	_	_
 2	kasem	kasem	VERB	_	_	0	root	_	_
 3	twenti	twenti	NOUN	_	_	2	obj	_	_
-4	teti	teti	NUM	_	_	2	obl	_	_
+4	teti	teti	NUM	_	_	2	adv	_	_
 5	olsem	olsem	ADV	_	_	2	advmod	_	_
 6	afta	afta	ADP	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.344
 # text = wet inaf blo mifala i kolem ol famli be netwok ino gat mifala i no save .
 1	wet	wet	NOUN	_	_	2	nmod	_	_
-2	inaf	inaf	NOUN	_	_	12	obl	_	_
+2	inaf	inaf	NOUN	_	_	12	adv	_	_
 3	blo	blo	ADP	_	_	6	mark	_	_
 4	mifala	mifala	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
@@ -7951,15 +7951,15 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.346
 # text = santo o lo aelan mifala i  jes ah stap kwaet be .
 1	santo	santo	NOUN	_	_	2	nmod	_	_
-2	o	o	NOUN	_	_	6	obl	_	_
+2	o	o	NOUN	_	_	6	adv	_	_
 3	lo	lo	ADP	_	_	4	case	_	_
 4	aelan	aelan	NOUN	_	_	2	nmod	_	_
 5	mifala	mifala	PRON	_	_	6	nsubj	_	_
 6	i	i	PART	_	_	0	root	_	_
 7	jes	jes	NOUN	_	_	9	nsubj	_	_
-8	ah	_	<hes>	_	_	6	adv	_	_
+8	ah	_	<hes>	_	_	6	dep	_	_
 9	stap	stap	VERB	_	_	6	advcl	_	_
-10	kwaet	kwaet	ADJ	_	_	6	obl	_	_
+10	kwaet	kwaet	ADJ	_	_	6	adv	_	_
 11	be	be	CCONJ	_	_	6	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.347
@@ -7971,7 +7971,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.348
 # text = brans blo wud i fulap .
-1	brans	brans	NOUN	_	_	4	obl	_	_
+1	brans	brans	NOUN	_	_	4	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	wud	wud	NOUN	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -7985,13 +7985,13 @@
 4	res	res	NOUN	_	_	3	obj	_	_
 5	wan	wan	NUM	_	_	7	nummod	_	_
 6	ful	ful	NOUN	_	_	7	nmod	_	_
-7	dei	dei	NOUN	_	_	3	obl	_	_
+7	dei	dei	NOUN	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.350
 # text = lo sandei sande nogat man i go lo jej.
 1	lo	lo	ADP	_	_	3	case	_	_
 2	sandei	sandei	NOUN	_	_	3	nmod	_	_
-3	sande	sande	NOUN	_	_	7	obl	_	_
+3	sande	sande	NOUN	_	_	7	adv	_	_
 4	nogat	nogat	INTJ	_	_	7	adv	_	_
 5	man	man	NOUN	_	_	7	nsubj	_	_
 6	i	i	PART	_	_	7	aux	_	_
@@ -8016,7 +8016,7 @@
 # text = lo haos man mi sori lo sam famli from oli nogat ah haos  afta rispon blo gavman tu hem i slo tumas .
 1	lo	lo	ADP	_	_	3	case	_	_
 2	haos	haos	NOUN	_	_	3	nmod	_	_
-3	man	man	NOUN	_	_	5	obl	_	_
+3	man	man	NOUN	_	_	5	adv	_	_
 4	mi	mi	PRON	_	_	5	nsubj	_	_
 5	sori	sori	VERB	_	_	0	root	_	_
 6	lo	lo	ADP	_	_	8	case	_	_
@@ -8025,13 +8025,13 @@
 9	from	from	ADP	_	_	13	case	_	_
 10	oli	oli	PART	_	_	5	advcl	_	_
 11	nogat	nogat	INTJ	_	_	5	adv	_	_
-12	ah	_	<hes>	_	_	5	adv	_	_
+12	ah	_	<hes>	_	_	5	dep	_	_
 13	haos	haos	NOUN	_	_	10	obl	_	_
 14	afta	afta	ADP	_	_	15	case	_	_
-15	rispon	rispon	NOUN	_	_	5	obl	_	_
+15	rispon	rispon	NOUN	_	_	5	adv	_	_
 16	blo	blo	ADP	_	_	20	mark	_	_
 17	gavman	gavman	NOUN	_	_	15	nmod	_	_
-18	tu	tu	NUM	_	_	5	obl	_	_
+18	tu	tu	NUM	_	_	5	adv	_	_
 19	hem	hem	PRON	_	_	20	nsubj	_	_
 20	i	i	PART	_	_	5	advcl	_	_
 21	slo	slo	ADJ	_	_	20	obj	_	_
@@ -8039,17 +8039,17 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.353
 # text = hem i no hem i no  hem i no kwik ah  afta i mekem se plante man oli plante pipol oli no oli nogat kakae .
-1	hem	hem	PRON	_	_	14	obl	_	_
+1	hem	hem	PRON	_	_	14	adv	_	_
 2	i	i	PART	_	_	14	aux	_	_
 3	no	no	PART	_	_	14	aux	_	_
-4	hem	hem	PRON	_	_	14	obl	_	_
+4	hem	hem	PRON	_	_	14	adv	_	_
 5	i	i	PART	_	_	14	aux	_	_
 6	no	no	PART	_	_	14	aux	_	_
 7	hem	hem	PRON	_	_	14	nsubj	_	_
 8	i	i	PART	_	_	14	aux	_	_
 9	no	no	PART	_	_	14	aux	_	_
 10	kwik	kwik	ADV	_	_	14	advmod	_	_
-11	ah	_	<hes>	_	_	14	adv	_	_
+11	ah	_	<hes>	_	_	14	dep	_	_
 12	afta	afta	ADP	_	_	17	case	_	_
 13	i	i	PART	_	_	14	aux	_	_
 14	mekem	mekem	VERB	_	_	0	root	_	_
@@ -8063,11 +8063,11 @@
 22	no	no	PART	_	_	14	aux	_	_
 23	oli	oli	PART	_	_	14	advcl	_	_
 24	nogat	nogat	INTJ	_	_	14	adv	_	_
-25	kakae	kakae	NOUN	_	_	14	obl	_	_
+25	kakae	kakae	NOUN	_	_	14	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.354
 # text = ah aelan kakae i no gat .
-1	ah	_	<hes>	_	_	6	adv	_	_
+1	ah	_	<hes>	_	_	6	dep	_	_
 2	aelan	aelan	NOUN	_	_	3	nmod	_	_
 3	kakae	kakae	NOUN	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	6	aux	_	_
@@ -8112,7 +8112,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.358
 # text = ah yes hem i hem i had lelepet .
-1	ah	_	<hes>	_	_	4	adv	_	_
+1	ah	_	<hes>	_	_	4	dep	_	_
 2	yes	yes	INTJ	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -8136,7 +8136,7 @@
 # text = lo sam famli hem i had .
 1	lo	lo	ADP	_	_	3	case	_	_
 2	sam	sam	NOUN	_	_	3	nmod	_	_
-3	famli	famli	NOUN	_	_	5	obl	_	_
+3	famli	famli	NOUN	_	_	5	adv	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
 5	i	i	PART	_	_	0	root	_	_
 6	had	had	ADJ	_	_	5	obj	_	_
@@ -8147,7 +8147,7 @@
 2	mifala	mifala	PRON	_	_	4	nsubj	_	_
 3	i	i	PART	_	_	4	aux	_	_
 4	stap	stap	VERB	_	_	0	root	_	_
-5	ah	_	<hes>	_	_	4	adv	_	_
+5	ah	_	<hes>	_	_	4	dep	_	_
 6	mifala	mifala	PRON	_	_	9	nsubj	_	_
 7	i	i	PART	_	_	8	aux	_	_
 8	klinap	klin	VERB	_	_	4	advcl	_	_
@@ -8201,7 +8201,7 @@
 25	vanuatu	vanuatu	NOUN	_	_	26	nmod	_	_
 26	espesli	espesli	NOUN	_	_	23	nmod	_	_
 27	lo	lo	ADP	_	_	28	case	_	_
-28	efate	efate	NOUN	_	_	4	obl	_	_
+28	efate	efate	NOUN	_	_	4	adv	_	_
 29	wetem	wetem	ADP	_	_	33	case	_	_
 30	lo	lo	ADP	_	_	33	case	_	_
 31	tafea	tafea	NOUN	_	_	33	nmod	_	_
@@ -8218,13 +8218,13 @@
 42	oli	oli	PART	_	_	43	aux	_	_
 43	stap	stap	VERB	_	_	4	advcl	_	_
 44	rikava	rikava	NOUN	_	_	45	nmod	_	_
-45	yet	yet	NOUN	_	_	4	obl	_	_
+45	yet	yet	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.365
 # text = oli stap rikava afta gavman hem i mekem i tink ah gavman hem i putum stej of imejensi .
 1	oli	oli	PART	_	_	2	aux	_	_
 2	stap	stap	VERB	_	_	0	root	_	_
-3	rikava	rikava	NOUN	_	_	2	obl	_	_
+3	rikava	rikava	NOUN	_	_	2	adv	_	_
 4	afta	afta	ADP	_	_	5	case	_	_
 5	gavman	gavman	NOUN	_	_	3	nmod	_	_
 6	hem	hem	PRON	_	_	9	nsubj	_	_
@@ -8232,8 +8232,8 @@
 8	mekem	mekem	VERB	_	_	2	advcl	_	_
 9	i	i	PART	_	_	2	advcl	_	_
 10	tink	tink	NOUN	_	_	9	obj	_	_
-11	ah	_	<hes>	_	_	2	adv	_	_
-12	gavman	gavman	NOUN	_	_	2	obl	_	_
+11	ah	_	<hes>	_	_	2	dep	_	_
+12	gavman	gavman	NOUN	_	_	2	adv	_	_
 13	hem	hem	PRON	_	_	15	nsubj	_	_
 14	i	i	PART	_	_	15	aux	_	_
 15	putum	putum	VERB	_	_	2	advcl	_	_
@@ -8255,7 +8255,7 @@
 3	man	man	NOUN	_	_	5	nsubj	_	_
 4	oli	oli	PART	_	_	5	aux	_	_
 5	stil	stil	VERB	_	_	0	root	_	_
-6	rikava	rikava	NOUN	_	_	5	obl	_	_
+6	rikava	rikava	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.368
 # text = so mi stap toktok wetem woman blo mi mi se mi talem lem mi se  fulap samting yu no mas  hariap from se evriman i gat wan imosenel  jalens we hem i fesem tru lo saeklon iven .
@@ -8266,8 +8266,8 @@
 5	wetem	wetem	ADP	_	_	6	case	_	_
 6	woman	woman	NOUN	_	_	4	nmod	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
-8	mi	mi	PRON	_	_	4	obl	_	_
-9	mi	mi	PRON	_	_	4	obl	_	_
+8	mi	mi	PRON	_	_	4	adv	_	_
+9	mi	mi	PRON	_	_	4	adv	_	_
 10	se	se	SCONJ	_	_	4	adv	_	_
 11	mi	mi	PRON	_	_	13	nsubj	_	_
 12	talem	talem	VERB	_	_	4	obl	_	_
@@ -8275,7 +8275,7 @@
 14	mi	mi	PRON	_	_	13	obj	_	_
 15	se	se	SCONJ	_	_	4	adv	_	_
 16	fulap	fulap	ADJ	_	_	17	amod	_	_
-17	samting	samting	NOUN	_	_	4	obl	_	_
+17	samting	samting	NOUN	_	_	4	adv	_	_
 18	yu	yu	PRON	_	_	26	nsubj	_	_
 19	no	no	PART	_	_	21	aux	_	_
 20	mas	mas	AUX	_	_	21	aux	_	_
@@ -8299,15 +8299,15 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.369
 # text = mi from se yu luk se mi mi stron mi  sta wokbaot  mi talem lem sapos mi no strong bae yu  no srong sapos yu no strong  bae ol boe oli evrwan  i foldaon so mi mas mekem tingitng blo mi i strong .
-1	mi	mi	PRON	_	_	12	obl	_	_
+1	mi	mi	PRON	_	_	12	adv	_	_
 2	from	from	ADP	_	_	4	case	_	_
 3	se	se	SCONJ	_	_	5	mark	_	_
 4	yu	yu	PRON	_	_	5	nsubj	_	_
 5	luk	luk	VERB	_	_	12	advcl	_	_
 6	se	se	SCONJ	_	_	12	adv	_	_
-7	mi	mi	PRON	_	_	12	obl	_	_
+7	mi	mi	PRON	_	_	12	adv	_	_
 8	mi	mi	PRON	_	_	9	nmod:pos	_	_
-9	stron	stron	NOUN	_	_	12	obl	_	_
+9	stron	stron	NOUN	_	_	12	adv	_	_
 10	mi	mi	PRON	_	_	11	nmod:pos	_	_
 11	sta	sta	NOUN	_	_	12	nsubj	_	_
 12	wokbaot	wokbaot	VERB	_	_	0	root	_	_
@@ -8319,11 +8319,11 @@
 18	no	no	PART	_	_	34	aux	_	_
 19	strong	strong	ADJ	_	_	23	amod	_	_
 20	bae	bae	ADV	_	_	15	advmod	_	_
-21	yu	yu	PRON	_	_	12	obl	_	_
+21	yu	yu	PRON	_	_	12	adv	_	_
 22	no	no	PART	_	_	34	aux	_	_
-23	srong	srong	NOUN	_	_	12	obl	_	_
+23	srong	srong	NOUN	_	_	12	adv	_	_
 24	sapos	sapos	ADV	_	_	15	advmod	_	_
-25	yu	yu	PRON	_	_	12	obl	_	_
+25	yu	yu	PRON	_	_	12	adv	_	_
 26	no	no	PART	_	_	34	aux	_	_
 27	strong	strong	ADJ	_	_	30	amod	_	_
 28	bae	bae	ADV	_	_	34	advmod	_	_
@@ -8346,7 +8346,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.370
 # text = lo foret blo olgeta blo mekem se  oh dadi i hapi .
 1	lo	lo	ADP	_	_	2	case	_	_
-2	foret	foret	NOUN	_	_	10	obl	_	_
+2	foret	foret	NOUN	_	_	10	adv	_	_
 3	blo	blo	ADP	_	_	4	case	_	_
 4	olgeta	olgeta	PRON	_	_	6	nsubj	_	_
 5	blo	blo	ADP	_	_	6	mark	_	_
@@ -8363,12 +8363,12 @@
 2	insaed	insaed	ADP	_	_	5	case	_	_
 3	lo	lo	ADP	_	_	5	case	_	_
 4	dadi	dadi	NOUN	_	_	5	nmod	_	_
-5	dadi	dadi	NOUN	_	_	8	obl	_	_
+5	dadi	dadi	NOUN	_	_	8	adv	_	_
 6	hem	hem	PRON	_	_	8	nsubj	_	_
 7	i	i	PART	_	_	8	aux	_	_
 8	wari	wari	VERB	_	_	0	root	_	_
 9	se	se	SCONJ	_	_	13	mark	_	_
-10	oh	oh	NOUN	_	_	8	obl	_	_
+10	oh	oh	NOUN	_	_	8	adv	_	_
 11	bae	bae	ADV	_	_	13	advmod	_	_
 12	mi	mi	PRON	_	_	13	nsubj	_	_
 13	fiksim	fiksim	VERB	_	_	8	advcl	_	_
@@ -8378,7 +8378,7 @@
 17	bae	bae	ADV	_	_	13	advmod	_	_
 18	mi	mi	PRON	_	_	21	nsubj	_	_
 19	mas	mas	AUX	_	_	21	aux	_	_
-20	ah	_	<hes>	_	_	8	adv	_	_
+20	ah	_	<hes>	_	_	8	dep	_	_
 21	faenem	faenem	VERB	_	_	8	advcl	_	_
 22	wan	wan	NUM	_	_	23	nummod	_	_
 23	wok	wok	NOUN	_	_	21	obj	_	_
@@ -8430,9 +8430,9 @@
 2	oli	oli	PART	_	_	0	root	_	_
 3	nogat	nogat	INTJ	_	_	2	adv	_	_
 4	inaf	inaf	NOUN	_	_	5	nmod	_	_
-5	kakae	kakae	NOUN	_	_	2	obl	_	_
+5	kakae	kakae	NOUN	_	_	2	adv	_	_
 6	be	be	CCONJ	_	_	2	adv	_	_
-7	even	even	NOUN	_	_	2	obl	_	_
+7	even	even	NOUN	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.374
 # text = yu wokbaot yu luk ol famli  oli stap hapi .
@@ -8444,7 +8444,7 @@
 6	famli	famli	NOUN	_	_	8	nsubj	_	_
 7	oli	oli	PART	_	_	8	aux	_	_
 8	stap	stap	VERB	_	_	2	advcl	_	_
-9	hapi	hapi	ADJ	_	_	2	obl	_	_
+9	hapi	hapi	ADJ	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.375
 # text = oli stil gat smol .
@@ -8457,7 +8457,7 @@
 # text = oli save liv wetem .
 1	oli	oli	PART	_	_	2	aux	_	_
 2	save	save	VERB	_	_	0	root	_	_
-3	liv	liv	NOUN	_	_	2	obl	_	_
+3	liv	liv	NOUN	_	_	2	adv	_	_
 4	wetem	wetem	ADP	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.377
@@ -8471,25 +8471,25 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.378
 # text = gavman blo ostrelia he, i kam help .
-1	gavman	gavman	NOUN	_	_	7	obl	_	_
+1	gavman	gavman	NOUN	_	_	7	adv	_	_
 2	blo	blo	ADP	_	_	4	case	_	_
 3	ostrelia	ostrelia	NOUN	_	_	4	nmod	_	_
 4	he	he	NOUN	_	_	7	nsubj	_	_
 5	,	_	PUNCT	_	_	7	adv	_	_
 6	i	i	PART	_	_	7	aux	_	_
 7	kam	kam	VERB	_	_	0	root	_	_
-8	help	help	NOUN	_	_	7	obl	_	_
+8	help	help	NOUN	_	_	7	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.379
 # text = gavman blo niu silan hem i kam gavman blo franis hem i kam .
-1	gavman	gavman	NOUN	_	_	13	obl	_	_
+1	gavman	gavman	NOUN	_	_	13	adv	_	_
 2	blo	blo	ADP	_	_	7	mark	_	_
 3	niu	niu	ADJ	_	_	4	amod	_	_
 4	silan	silan	NOUN	_	_	1	nmod	_	_
 5	hem	hem	PRON	_	_	7	nsubj	_	_
 6	i	i	PART	_	_	7	aux	_	_
 7	kam	kam	VERB	_	_	13	advcl	_	_
-8	gavman	gavman	NOUN	_	_	13	obl	_	_
+8	gavman	gavman	NOUN	_	_	13	adv	_	_
 9	blo	blo	ADP	_	_	10	case	_	_
 10	franis	franis	NOUN	_	_	8	nmod	_	_
 11	hem	hem	PRON	_	_	13	nsubj	_	_
@@ -8498,7 +8498,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.380
 # text = gavman blo inglan hem i kam .
-1	gavman	gavman	NOUN	_	_	6	obl	_	_
+1	gavman	gavman	NOUN	_	_	6	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	inglan	inglan	NOUN	_	_	1	nmod	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
@@ -8507,7 +8507,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.381
 # text = gavman blo jaena hem i kam .
-1	gavman	gavman	NOUN	_	_	6	obl	_	_
+1	gavman	gavman	NOUN	_	_	6	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	jaena	jaena	NOUN	_	_	1	nmod	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
@@ -8517,14 +8517,14 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.382
 # text = fulap ah kaontri oli help  rasia ah  saot koria .
 1	fulap	fulap	ADJ	_	_	3	amod	_	_
-2	ah	_	<hes>	_	_	4	adv	_	_
+2	ah	_	<hes>	_	_	4	dep	_	_
 3	kaontri	kaontri	NOUN	_	_	4	nsubj	_	_
 4	oli	oli	PART	_	_	0	root	_	_
 5	help	help	NOUN	_	_	6	nmod	_	_
 6	rasia	rasia	NOUN	_	_	8	nsubj	_	_
-7	ah	_	<hes>	_	_	4	adv	_	_
+7	ah	_	<hes>	_	_	4	dep	_	_
 8	saot	saot	VERB	_	_	4	advcl	_	_
-9	koria	koria	NOUN	_	_	4	obl	_	_
+9	koria	koria	NOUN	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.383
 # text = so fulap gavman oli givhan blo  ah sp  mekem se evri man i gat kakae .
@@ -8534,7 +8534,7 @@
 4	oli	oli	PART	_	_	5	aux	_	_
 5	givhan	givhan	VERB	_	_	0	root	_	_
 6	blo	blo	ADP	_	_	9	mark	_	_
-7	ah	_	<hes>	_	_	5	adv	_	_
+7	ah	_	<hes>	_	_	5	dep	_	_
 8	sp	sp	NOUN	_	_	9	nsubj	_	_
 9	mekem	mekem	VERB	_	_	5	advcl	_	_
 10	se	se	SCONJ	_	_	5	adv	_	_
@@ -8542,7 +8542,7 @@
 12	man	man	NOUN	_	_	14	nsubj	_	_
 13	i	i	PART	_	_	14	aux	_	_
 14	gat	gat	VERB	_	_	5	advcl	_	_
-15	kakae	kakae	NOUN	_	_	5	obl	_	_
+15	kakae	kakae	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.384
 # text = so ating kolosap wan ful mains ol ah ami blo ostrelia we oli  kam lo wosip .
@@ -8553,8 +8553,8 @@
 5	ful	ful	NOUN	_	_	6	nmod	_	_
 6	mains	mains	NOUN	_	_	0	root	_	_
 7	ol	ol	NUM	_	_	9	nummod	_	_
-8	ah	_	<hes>	_	_	6	adv	_	_
-9	ami	ami	NOUN	_	_	6	obl	_	_
+8	ah	_	<hes>	_	_	6	dep	_	_
+9	ami	ami	NOUN	_	_	6	adv	_	_
 10	blo	blo	ADP	_	_	11	case	_	_
 11	ostrelia	ostrelia	NOUN	_	_	14	nsubj	_	_
 12	we	we	SCONJ	_	_	6	adv	_	_
@@ -8570,7 +8570,7 @@
 3	blo	blo	ADP	_	_	4	mark	_	_
 4	pasem	pasem	VERB	_	_	1	advcl	_	_
 5	kakae	kakae	NOUN	_	_	4	obj	_	_
-6	raon	raon	ADJ	_	_	1	obl	_	_
+6	raon	raon	ADJ	_	_	1	adv	_	_
 7	lo	lo	ADP	_	_	1	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.386
@@ -8631,7 +8631,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.392
 # text = ah plante pipol oli stap komperem wetem saeklon pam .
-1	ah	_	<hes>	_	_	6	adv	_	_
+1	ah	_	<hes>	_	_	6	dep	_	_
 2	plante	plante	NUM	_	_	3	nummod	_	_
 3	pipol	pipol	NOUN	_	_	6	nsubj	_	_
 4	oli	oli	PART	_	_	5	aux	_	_
@@ -8650,14 +8650,14 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.394
 # text = saeklon pam hem i kam hem i. hem idistoi ya hem i spolem gud fulap ples .
 1	saeklon	saeklon	NOUN	_	_	2	nmod	_	_
-2	pam	pam	NOUN	_	_	5	obl	_	_
+2	pam	pam	NOUN	_	_	5	adv	_	_
 3	hem	hem	PRON	_	_	5	nsubj	_	_
 4	i	i	PART	_	_	5	aux	_	_
 5	kam	kam	VERB	_	_	0	root	_	_
 6	hem	hem	PRON	_	_	7	nmod:pos	_	_
-7	i.	i.	NOUN	_	_	5	obl	_	_
+7	i.	i.	NOUN	_	_	5	adv	_	_
 8	hem	hem	PRON	_	_	9	nmod:pos	_	_
-9	idistoi	idistoi	NOUN	_	_	5	obl	_	_
+9	idistoi	idistoi	NOUN	_	_	5	adv	_	_
 10	ya	ya	INTJ	_	_	5	adv	_	_
 11	hem	hem	PRON	_	_	13	nsubj	_	_
 12	i	i	PART	_	_	13	aux	_	_
@@ -8692,7 +8692,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.397
 # text = ah i had ya .
-1	ah	_	<hes>	_	_	2	adv	_	_
+1	ah	_	<hes>	_	_	2	dep	_	_
 2	i	i	PART	_	_	0	root	_	_
 3	had	had	ADJ	_	_	2	adv	_	_
 4	ya	ya	INTJ	_	_	2	adv	_	_
@@ -8729,7 +8729,7 @@
 # text = plante sik  ah  fulap man oli mas  kam blo kakae be  naoia i gat ol ren tu i stap kam .
 1	plante	plante	NUM	_	_	5	nummod	_	_
 2	sik	sik	ADJ	_	_	5	amod	_	_
-3	ah	_	<hes>	_	_	8	adv	_	_
+3	ah	_	<hes>	_	_	8	dep	_	_
 4	fulap	fulap	ADJ	_	_	5	amod	_	_
 5	man	man	NOUN	_	_	8	nsubj	_	_
 6	oli	oli	PART	_	_	8	aux	_	_
@@ -8742,7 +8742,7 @@
 13	i	i	PART	_	_	14	aux	_	_
 14	gat	gat	VERB	_	_	8	advcl	_	_
 15	ol	ol	NUM	_	_	16	nummod	_	_
-16	ren	ren	NOUN	_	_	8	obl	_	_
+16	ren	ren	NOUN	_	_	8	adv	_	_
 17	tu	tu	NUM	_	_	20	nsubj	_	_
 18	i	i	PART	_	_	19	aux	_	_
 19	stap	stap	AUX	_	_	20	aux	_	_
@@ -8779,7 +8779,7 @@
 1	be	be	CCONJ	_	_	11	adv	_	_
 2	yes	yes	INTJ	_	_	11	adv	_	_
 3	olsem	olsem	ADV	_	_	10	advmod	_	_
-4	ifekt	ifekt	NOUN	_	_	11	obl	_	_
+4	ifekt	ifekt	NOUN	_	_	11	adv	_	_
 5	blo	blo	ADP	_	_	7	case	_	_
 6	tufala	tufala	NUM	_	_	7	nummod	_	_
 7	saeklon	saeklon	NOUN	_	_	11	nsubj	_	_
@@ -8808,7 +8808,7 @@
 6	lem	lem	VERB	_	_	1	obl	_	_
 7	mi	mi	PRON	_	_	8	nsubj	_	_
 8	luk	luk	VERB	_	_	1	obl	_	_
-9	oh	oh	NOUN	_	_	1	obl	_	_
+9	oh	oh	NOUN	_	_	1	adv	_	_
 10	fulap	fulap	ADJ	_	_	11	amod	_	_
 11	man	man	NOUN	_	_	14	nsubj	_	_
 12	oli	oli	PART	_	_	13	aux	_	_
@@ -8819,7 +8819,7 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.408
 # text = ribild gavman hem i mas mekem se  ol man oli save pem ol samting lo ol stoa blo mekem haos blo olgeta .
 1	ribild	ribild	NOUN	_	_	2	nmod	_	_
-2	gavman	gavman	NOUN	_	_	6	obl	_	_
+2	gavman	gavman	NOUN	_	_	6	adv	_	_
 3	hem	hem	PRON	_	_	6	nsubj	_	_
 4	i	i	PART	_	_	6	aux	_	_
 5	mas	mas	AUX	_	_	6	aux	_	_
@@ -8839,7 +8839,7 @@
 19	mekem	mekem	VERB	_	_	6	advcl	_	_
 20	haos	haos	NOUN	_	_	19	obj	_	_
 21	blo	blo	ADP	_	_	22	case	_	_
-22	olgeta	olgeta	PRON	_	_	6	obl	_	_
+22	olgeta	olgeta	PRON	_	_	6	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.409
 # text = so hem i gud gavman hem i help bigwan.
@@ -8851,7 +8851,7 @@
 6	hem	hem	PRON	_	_	7	nsubj	_	_
 7	i	i	PART	_	_	3	advcl	_	_
 8	help	help	NOUN	_	_	7	obj	_	_
-9	bigwan	bigwan	ADJ	_	_	3	obl	_	_
+9	bigwan	bigwan	ADJ	_	_	3	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.410
 # text = yes so plante plante plante eksperiens lo tufala saeklon ya  .
@@ -8868,7 +8868,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.411
 # text = ah i gat plante storian wetem .
-1	ah	_	<hes>	_	_	3	adv	_	_
+1	ah	_	<hes>	_	_	3	dep	_	_
 2	i	i	PART	_	_	3	aux	_	_
 3	gat	gat	VERB	_	_	0	root	_	_
 4	plante	plante	NUM	_	_	3	adv	_	_
@@ -8883,7 +8883,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.413
 # text = hem ya nao hem i eksperiens blo mi lo tufala saeklon .
-1	hem	hem	PRON	_	_	5	obl	_	_
+1	hem	hem	PRON	_	_	5	adv	_	_
 2	ya	ya	INTJ	_	_	5	adv	_	_
 3	nao	nao	ADV	_	_	1	advmod	_	_
 4	hem	hem	PRON	_	_	5	nsubj	_	_
@@ -8893,17 +8893,17 @@
 8	mi	mi	PRON	_	_	6	nmod	_	_
 9	lo	lo	ADP	_	_	11	case	_	_
 10	tufala	tufala	NUM	_	_	11	nummod	_	_
-11	saeklon	saeklon	NOUN	_	_	5	obl	_	_
+11	saeklon	saeklon	NOUN	_	_	5	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.414
 # text = mi mi bin fraet se bae haos blo mi i brok be .
-1	mi	mi	PRON	_	_	11	obl	_	_
-2	mi	mi	PRON	_	_	11	obl	_	_
+1	mi	mi	PRON	_	_	11	adv	_	_
+2	mi	mi	PRON	_	_	11	adv	_	_
 3	bin	bin	PART	_	_	11	aux	_	_
 4	fraet	fraet	ADJ	_	_	7	amod	_	_
 5	se	se	SCONJ	_	_	11	adv	_	_
 6	bae	bae	ADV	_	_	11	advmod	_	_
-7	haos	haos	NOUN	_	_	11	obl	_	_
+7	haos	haos	NOUN	_	_	11	adv	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
 9	mi	mi	PRON	_	_	11	nsubj	_	_
 10	i	i	PART	_	_	11	aux	_	_
@@ -8912,7 +8912,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.415
 # text = haos blo mi istap yet .
-1	haos	haos	NOUN	_	_	4	obl	_	_
+1	haos	haos	NOUN	_	_	4	adv	_	_
 2	blo	blo	ADP	_	_	3	case	_	_
 3	mi	mi	PRON	_	_	4	nsubj	_	_
 4	istap	istap	VERB	_	_	0	root	_	_
@@ -8926,12 +8926,12 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.417
 # text = mi mi mi ating wan samting mi rili enjoiem .
-1	mi	mi	PRON	_	_	9	obl	_	_
-2	mi	mi	PRON	_	_	9	obl	_	_
-3	mi	mi	PRON	_	_	9	obl	_	_
+1	mi	mi	PRON	_	_	9	adv	_	_
+2	mi	mi	PRON	_	_	9	adv	_	_
+3	mi	mi	PRON	_	_	9	adv	_	_
 4	ating	ating	ADV	_	_	9	advmod	_	_
 5	wan	wan	NUM	_	_	6	nummod	_	_
-6	samting	samting	NOUN	_	_	9	obl	_	_
+6	samting	samting	NOUN	_	_	9	adv	_	_
 7	mi	mi	PRON	_	_	8	nmod:pos	_	_
 8	rili	rili	ADJ	_	_	9	nsubj	_	_
 9	enjoiem	enjoiem	VERB	_	_	0	root	_	_
@@ -8940,18 +8940,18 @@
 # text = from taem win hem i stap blo mi mii .
 1	from	from	ADP	_	_	3	case	_	_
 2	taem	taem	NOUN	_	_	3	nmod	_	_
-3	win	win	NOUN	_	_	6	obl	_	_
+3	win	win	NOUN	_	_	6	adv	_	_
 4	hem	hem	PRON	_	_	6	nsubj	_	_
 5	i	i	PART	_	_	6	aux	_	_
 6	stap	stap	VERB	_	_	0	root	_	_
 7	blo	blo	ADP	_	_	8	case	_	_
 8	mi	mi	PRON	_	_	9	nmod:pos	_	_
-9	mii	mii	NOUN	_	_	6	obl	_	_
+9	mii	mii	NOUN	_	_	6	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.419
 # text = go aotsaed mi singsinaot .
 1	go	go	VERB	_	_	0	root	_	_
-2	aotsaed	aotsaed	NOUN	_	_	1	obl	_	_
+2	aotsaed	aotsaed	NOUN	_	_	1	adv	_	_
 3	mi	mi	PRON	_	_	4	nsubj	_	_
 4	singsinaot	singsinaot	VERB	_	_	1	advcl	_	_
 
@@ -8964,13 +8964,13 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.421
 # text = mi jes mi gat fan be mi mi .
 1	mi	mi	PRON	_	_	2	nmod:pos	_	_
-2	jes	jes	NOUN	_	_	4	obl	_	_
+2	jes	jes	NOUN	_	_	4	adv	_	_
 3	mi	mi	PRON	_	_	4	nsubj	_	_
 4	gat	gat	VERB	_	_	0	root	_	_
-5	fan	fan	NOUN	_	_	4	obl	_	_
+5	fan	fan	NOUN	_	_	4	adv	_	_
 6	be	be	CCONJ	_	_	4	adv	_	_
-7	mi	mi	PRON	_	_	4	obl	_	_
-8	mi	mi	PRON	_	_	4	obl	_	_
+7	mi	mi	PRON	_	_	4	adv	_	_
+8	mi	mi	PRON	_	_	4	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.422
 # text = mas mekem blo mekem se ol boe blo mi .
@@ -8982,7 +8982,7 @@
 6	ol	ol	NUM	_	_	7	nummod	_	_
 7	boe	boe	NOUN	_	_	4	obj	_	_
 8	blo	blo	ADP	_	_	9	case	_	_
-9	mi	mi	PRON	_	_	2	obl	_	_
+9	mi	mi	PRON	_	_	2	adv	_	_
 
 # sent_id = BIS_20230404_1_cyclones.eaf.423
 # text = oli no fraet .
@@ -9016,7 +9016,7 @@
 
 # sent_id = BIS_20230404_1_cyclones.eaf.426
 # text = samting ya hem i wan denjares samting ya .
-1	samting	samting	NOUN	_	_	4	obl	_	_
+1	samting	samting	NOUN	_	_	4	adv	_	_
 2	ya	ya	INTJ	_	_	4	adv	_	_
 3	hem	hem	PRON	_	_	4	nsubj	_	_
 4	i	i	PART	_	_	0	root	_	_
@@ -9043,6 +9043,6 @@
 # sent_id = BIS_20230404_1_cyclones.eaf.429
 # text = tank yu tumas .
 1	tank	tank	NOUN	_	_	0	root	_	_
-2	yu	yu	PRON	_	_	1	obl	_	_
+2	yu	yu	PRON	_	_	1	adv	_	_
 3	tumas	tumas	ADV	_	_	1	advmod	_	_
 
